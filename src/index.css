@@ -1,0 +1,36 @@
+@import "tailwindcss";
+@theme {
+  --font-sans: "Inter Tight", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Inter Tight", ui-sans-serif, sans-serif;
+  --color-ink: #111111;
+  --color-soft: #f3efe8;
+  --color-band: #f5f4f1;
+  --color-line: #e6e4df;
+  --color-meta: #555555;
+  --color-accent: #b5583a;
+  --color-accent-dark: #9a4529;
+  --color-forest: #1f3a2e;
+  --color-forest-2: #2b4a3c;
+  --color-sand: #efe7da;
+  --color-sage: #dde4d8;
+  --color-cream: #f8f5ef;
+  --color-sun: #111111;
+  --color-star: #111111;
+}
+html { scroll-behavior: smooth; }
+body { @apply bg-white text-ink font-sans antialiased; font-size: 15px; letter-spacing: -0.005em; }
+.pw { margin-inline: auto; padding-inline: 16px; width: 100%; }
+@media (min-width: 1280px) { .pw { padding-inline: 50px; } }
+@media (min-width: 1536px) { .pw { padding-inline: max(135px, calc(50vw - 960px)); } }
+.font-display { font-weight: 600; letter-spacing: -0.025em; }
+.no-scrollbar::-webkit-scrollbar { display: none; } .no-scrollbar { scrollbar-width: none; }
+.clamp1 { display: -webkit-box; -webkit-line-clamp: 1; -webkit-box-orient: vertical; overflow: hidden; }
+@keyframes fadeUp { from { opacity: 0; transform: translateY(6px) } to { opacity: 1; transform: none } }
+.fade-up { animation: fadeUp .45s ease both; }
+::selection { background: #e7c9b9; }
+.ulink { background: linear-gradient(currentColor,currentColor) 0 100% / 0 1px no-repeat; transition: background-size .3s; }
+.ulink:hover { background-size: 100% 1px; }
+@keyframes marquee { to { transform: translateX(-50%); } }
+.marquee-track { animation: marquee 60s linear infinite; }
+.marquee:hover .marquee-track { animation-play-state: paused; }
+@media (prefers-reduced-motion: reduce) { .marquee-track { animation: none; } .marquee { overflow-x: auto; } }

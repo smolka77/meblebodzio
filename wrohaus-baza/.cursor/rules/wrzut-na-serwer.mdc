@@ -1,0 +1,44 @@
+---
+description: Przy „wrzucamy to na serwer” odpal gotową paczkę wrzuc-na-vps.cmd — bez ręcznego deployu.
+alwaysApply: true
+---
+
+# Wrzut na VPS
+
+Gdy user pisze **wrzucamy to na serwer**, **wrzuć na VPS**, **wrzuc na serwer**, **deploy** na produkcję — użyj gotowej paczki. Nie składaj własnego scp/ssh.
+
+## Co odpalić
+
+Pełny wrzut (paczka + reset + build + start):
+
+```bat
+cd /d C:\Users\48661\sofelio
+wrzuc-na-vps.cmd
+```
+
+Paczka już na VPS, a start się urwał / 502:
+
+```bat
+cd /d C:\Users\48661\sofelio
+dokoncz-na-vps.cmd
+```
+
+Hasło **root** wpisuje user (przy wpisywaniu nic nie widać). Czekaj 2–4 min.
+
+## Sukces
+
+Na końcu musi być:
+
+- `OK: aplikacja dziala na porcie 3000`
+- `GOTOWE`
+
+Jeśli skrypt kończy się zaraz po `pm2 stop` / `pm2 delete` — **nie wstalo**. Odpal `dokoncz-na-vps.cmd`.
+
+## Twarde zasady (już wyklikane)
+
+- VPS: `root@185.235.69.239`, app: `/var/www/sofelio`, PM2: `sofelio`, port `3000`
+- **Nie** używaj `pkill -f 'next start'` w komendzie SSH — zabija sesję
+- **Nie** ustawiaj `NODE_ENV=production` przed `npm ci` — pomija Tailwinda
+- Build: `npm ci --include=dev`, potem `NODE_ENV=production npm run build`
+- `data/` na serwerze zostaje (zamówienia); kod nadpisuje tar
+- Logika serwera: `deploy/install.sh`

@@ -1,0 +1,89 @@
+@import "tailwindcss";
+
+:root {
+  --bg: #ffffff;
+  --paper: #ffffff;
+  --ink: #1a1a1a;
+  --gray-1: #333333;
+  --gray-2: #4d4d4d;
+  --gray-3: #666666;
+  --green: #39ff14;
+  --line: #e6e6e6;
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-paper: var(--paper);
+  --color-ink: var(--ink);
+  --color-gray-1: var(--gray-1);
+  --color-gray-2: var(--gray-2);
+  --color-gray-3: var(--gray-3);
+  --color-green: var(--green);
+  --color-line: var(--line);
+  --font-sans: var(--font-space), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-plex), ui-monospace, monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+}
+
+::selection {
+  background: var(--green);
+  color: var(--ink);
+}
+
+.font-mono {
+  font-family: var(--font-mono);
+}
+
+.grid-mod {
+  background-image:
+    linear-gradient(to right, rgb(26 26 26 / 0.06) 1px, transparent 1px),
+    linear-gradient(to bottom, rgb(26 26 26 / 0.06) 1px, transparent 1px);
+  background-size: 80px 80px;
+}
+
+.scan {
+  pointer-events: none;
+  position: absolute;
+  inset: 0;
+  background: repeating-linear-gradient(
+    to bottom,
+    transparent 0 3px,
+    rgb(26 26 26 / 0.035) 3px 4px
+  );
+}
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: -24;
+  }
+}
+
+.dash-move {
+  stroke-dasharray: 4 8;
+  animation: dash 8s linear infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .dash-move {
+    animation: none;
+  }
+}

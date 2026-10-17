@@ -68,3 +68,7 @@ data/store/chats.json
 data/store/contact-messages.json
 data/store/newsletter.json
 data/store/fabric-sample-requests.json
+
+# reference copy of the Wrohaus shop
+/wrohaus-baza/node_modules
+/wrohaus-baza/.next

@@ -1,0 +1,56 @@
+SOFELIO — wrzucenie na VPS przez CMD (Windows)
+==============================================
+
+Adres:      185.235.69.239
+Port SSH:   22
+Uzytkownik: root
+Haslo:      to z panelu VPS (to samo, ktore dziala przy ssh)
+
+Skrypt kasuje stary proces i kod w /var/www/sofelio, wgrywa aktualna
+paczke, buduje Next.js i odpala sklep. Zamowienia i dane sklepu
+(data/) zostaja na serwerze.
+
+
+KROK 1 — CMD
+------------
+Win + R, wpisz cmd, Enter.
+
+  cd /d C:\Users\48661\sofelio
+
+
+KROK 2 — wrzut + reset + start
+------------------------------
+  wrzuc-na-vps.cmd
+
+Haslo root wpiszesz dwa razy (wysylka, potem instalacja).
+Przy wpisywaniu nic nie widac — to normalne. Enter.
+
+Build na serwerze trwa 2–4 minuty. Nie zamykaj okna.
+Musisz zobaczyc na koncu: GOTOWE oraz "OK: aplikacja dziala na porcie 3000".
+Jesli skrypt skonczy sie zaraz po PM2 stop/delete — to NIE wstalo.
+
+Gdy paczka juz poszla, a start sie urwal (502):
+  dokoncz-na-vps.cmd
+
+
+KROK 3 — sprawdz
+----------------
+Strona:     http://sofelio.pl
+            http://185.235.69.239
+Panel:      http://sofelio.pl/admin/login
+
+Serwis wlacza sie sam po restarcie VPS (PM2).
+
+
+Gdyby krok 4 w skrypcie padl
+-----------------------------
+  ssh -p 22 root@185.235.69.239
+
+Na serwerze:
+
+  pm2 stop sofelio 2>/dev/null
+  pm2 delete sofelio 2>/dev/null
+  tar -xzf /root/sofelio.tar.gz -C /var/www/sofelio
+  sed -i 's/\r$//' /var/www/sofelio/deploy/*.sh /var/www/sofelio/deploy/*.conf
+  chmod +x /var/www/sofelio/deploy/install.sh
+  bash /var/www/sofelio/deploy/install.sh

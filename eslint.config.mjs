@@ -14,6 +14,7 @@ const eslintConfig = defineConfig([
     "next-env.d.ts",
     "xtechart/**",
     "design-demo/**",
+    "wrohaus-baza/**",
   ]),
 ]);
 

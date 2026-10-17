@@ -1,0 +1,2219 @@
+[
+  {
+    "id": "1",
+    "name": "Sofa Milano",
+    "slug": "sofa-milano",
+    "category": "sofy",
+    "price": 4999,
+    "image": "/katalog/sofa-milano.jpg",
+    "description": "Elegancka sofa w stylu skandynawskim z miękką tapicerką boucle.",
+    "inStock": true,
+    "featured": true,
+    "isNew": true,
+    "colors": [
+      {
+        "id": "cream",
+        "name": "Kremowy",
+        "hex": "#F5F0EB"
+      },
+      {
+        "id": "sand",
+        "name": "Piaskowy",
+        "hex": "#D4C9B8"
+      },
+      {
+        "id": "taupe",
+        "name": "Taupe",
+        "hex": "#9A8B7A"
+      },
+      {
+        "id": "graphite",
+        "name": "Grafitowy",
+        "hex": "#4A4A48"
+      }
+    ],
+    "details": {
+      "productCode": "SF-MI-220",
+      "longDescription": "Sofa Milano to kwintesencja skandynawskiego minimalizmu w wydaniu Wrohaus. Miękka tapicerka boucle w ciepłym odcieniu ecru, niskie nóżki i proste linie tworzą mebel, który pasuje do nowoczesnych i klasycznych wnętrz. Trzyosobowa forma zapewnia komfort codziennego wypoczynku, a solidna konstrukcja gwarantuje trwałość na lata.",
+      "highlights": [
+        {
+          "title": "Tapicerka boucle premium",
+          "description": "Charakterystyczna faktura boucle dodaje wnętrzu przytulności i jest wyjątkowo odporna na codzienne użytkowanie."
+        },
+        {
+          "title": "Kompaktowa elegancja",
+          "description": "Szerokość 220 cm pozwala ustawić sofę nawet w mniejszych salonach, bez utraty miejsca siedzącego dla trzech osób."
+        },
+        {
+          "title": "Stabilna konstrukcja",
+          "description": "Rama z drewna bukowego i wzmocnione połączenia eliminują skrzypienie i zapewniają stabilność przez lata."
+        }
+      ],
+      "specs": [
+        {
+          "label": "Wypełnienie siedziska",
+          "value": "Pianka HR T30 + warstwa włókien silikonowych — miękki, ale sprężysty komfort."
+        },
+        {
+          "label": "Tkanina",
+          "value": "Boucle Luna 12 (ecru) — 100% poliester, odporność na tarcie 50 000 cykli Martindale."
+        },
+        {
+          "label": "Nóżki",
+          "value": "Drewno dębowe, wysokość 15 cm — regulacja stabilizująca w zestawie."
+        },
+        {
+          "label": "Poduszki",
+          "value": "2 duże + 2 małe w zestawie, wypełnienie pierze syntetyczne."
+        }
+      ],
+      "dimensions": [
+        {
+          "label": "Szerokość",
+          "value": "220 cm"
+        },
+        {
+          "label": "Wysokość",
+          "value": "82 cm"
+        },
+        {
+          "label": "Głębokość",
+          "value": "95 cm"
+        },
+        {
+          "label": "Wysokość siedziska",
+          "value": "42 cm"
+        },
+        {
+          "label": "Głębokość siedziska",
+          "value": "54 cm"
+        }
+      ],
+      "faq": [
+        {
+          "question": "Czy poduszki można prać?",
+          "answer": "Poszewki posiadają zamek błyskawiczny i można je prać w pralce w 30°C na delikatnym programie."
+        },
+        {
+          "question": "Czy sofa wymaga montażu?",
+          "answer": "Nóżki montuje się samodzielnie w kilka minut. Reszta mebla jest dostarczana w całości."
+        }
+      ],
+      "disclaimer": "Kolory na zdjęciach poglądowych mogą delikatnie odbiegać od rzeczywistych ze względu na ustawienia ekranu."
+    },
+    "rating": 4.6,
+    "reviewCount": 52,
+    "images": [
+      "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=1400&q=80"
+    ]
+  },
+  {
+    "id": "2",
+    "name": "Narożnik Oslo",
+    "slug": "naroznik-oslo",
+    "category": "narozniki",
+    "kind": "Narożnik L-kształtny",
+    "price": 7299,
+    "originalPrice": 8499,
+    "image": "/katalog/naroznik-oslo.jpg",
+    "description": "Przestronny narożnik L z funkcją spania i pojemnikiem na pościel.",
+    "inStock": true,
+    "featured": true,
+    "colors": [
+      {
+        "id": "cream",
+        "name": "Kremowy",
+        "hex": "#F5F0EB"
+      },
+      {
+        "id": "sand",
+        "name": "Piaskowy",
+        "hex": "#D4C9B8"
+      },
+      {
+        "id": "taupe",
+        "name": "Taupe",
+        "hex": "#9A8B7A"
+      },
+      {
+        "id": "graphite",
+        "name": "Grafitowy",
+        "hex": "#4A4A48"
+      }
+    ],
+    "details": {
+      "productCode": "SF-NO-238",
+      "longDescription": "Zorganizuj stylową i przytulną strefę relaksu w salonie z narożnikiem Oslo. To przestronne rozwiązanie łączące organiczny, zaokrąglony design Wrohaus z maksymalną funkcjonalnością na co dzień. System rozkładania i pojemnik na pościel sprawiają, że Oslo to idealny wybór dla osób, które cenią komfort wypoczynku i praktyczne rozwiązania — bez rezygnacji z eleganckiej estetyki wnętrza.",
+      "highlights": [
+        {
+          "title": "Funkcja spania i pojemnik",
+          "description": "System DL pozwala szybko zamienić narożnik w wygodne łóżko, a wbudowany schowek pomieści zapasową pościel, oszczędzając miejsce w szafach."
+        },
+        {
+          "title": "Welur Easy Clean",
+          "description": "Łatwoczyszcząca tkanina welurowa ułatwia utrzymanie jasnego odcienia w czystości — wystarczy odrobina wody i miękka ściereczka."
+        },
+        {
+          "title": "Ergonomiczne siedzisko",
+          "description": "Sprężyny Bonell i pianka T30 zapewniają trwałe podparcie kręgosłupa i komfort użytkowania przez lata, bez odkształceń."
+        },
+        {
+          "title": "Zaokrąglone boki",
+          "description": "Obły kształt nadaje bryle lekkości wizualnej i chroni przed uderzeniami o ostre krawędzie w wąskich przejściach."
+        }
+      ],
+      "specs": [
+        {
+          "label": "Wypełnienie siedziska",
+          "value": "Sprężyny Bonell i pianka T30 — trwałość, brak odkształceń i wygodne podparcie kręgosłupa."
+        },
+        {
+          "label": "Kształt i układ",
+          "value": "L-kształtny, wariant lewostronny — dopasuj mebel do geometrii pomieszczenia."
+        },
+        {
+          "label": "System rozkładania",
+          "value": "Automat DL — intuicyjne rozkładanie bez ryzyka zarysowania podłogi."
+        },
+        {
+          "label": "Tkanina",
+          "value": "Castel 04 (kremowy) — miękki welur o wysokiej odporności na tarcie i mechacenie. Technologia Easy Clean."
+        },
+        {
+          "label": "Konstrukcja",
+          "value": "Rama drewniana lite drewno bukowe, połączenia wzmocnione kołkami i wkrętami."
+        }
+      ],
+      "dimensions": [
+        {
+          "label": "Szerokość",
+          "value": "268 cm"
+        },
+        {
+          "label": "Wysokość",
+          "value": "88 cm"
+        },
+        {
+          "label": "Głębokość",
+          "value": "168 cm"
+        },
+        {
+          "label": "Wysokość siedziska",
+          "value": "44 cm"
+        },
+        {
+          "label": "Głębokość siedziska",
+          "value": "58 cm"
+        },
+        {
+          "label": "Powierzchnia spania",
+          "value": "140 × 200 cm"
+        },
+        {
+          "label": "Wysokość nóżek",
+          "value": "3 cm"
+        }
+      ],
+      "faq": [
+        {
+          "question": "Ile osób pomieści narożnik Oslo?",
+          "answer": "Narożnik Oslo komfortowo mieści 5–6 osób w pozycji siedzącej. Po rozkładaniu powierzchnia spania 140×200 cm zapewnia wygodny sen dla dwóch osób."
+        },
+        {
+          "question": "Jak czyścić tkaninę welurową?",
+          "answer": "Regularnie odkurzaj miękką końcówką. Plamy blotuj odrobiną wody z łagodnym detergentem. Unikaj szorowania i agresywnych środków chemicznych."
+        },
+        {
+          "question": "Czy ten model nadaje się do codziennego spania?",
+          "answer": "Tak — mechanizm DL i materac piankowy T30 zostały zaprojektowane do regularnego użytkowania jako łóżko gościnne lub codzienne."
+        }
+      ],
+      "disclaimer": "Wymiary mogą nieznacznie różnić się w zależności od ułożenia tkaniny. Kolory na zdjęciach poglądowych mogą delikatnie odbiegać od rzeczywistych ze względu na ustawienia ekranu."
+    },
+    "rating": 4.7,
+    "reviewCount": 29,
+    "images": [
+      "https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?w=1400&q=80"
+    ]
+  },
+  {
+    "id": "3",
+    "name": "Fotel Nordic",
+    "slug": "fotel-nordic",
+    "category": "fotele",
+    "price": 2199,
+    "image": "/katalog/fotel-nordic.jpg",
+    "description": "Minimalistyczny fotel z drewnianymi nogami i welurową tapicerką.",
+    "inStock": true,
+    "featured": true,
+    "colors": [
+      {
+        "id": "cream",
+        "name": "Kremowy",
+        "hex": "#F5F0EB"
+      },
+      {
+        "id": "olive",
+        "name": "Oliwkowy",
+        "hex": "#6B705C"
+      },
+      {
+        "id": "terracotta",
+        "name": "Terakota",
+        "hex": "#C17B5C"
+      },
+      {
+        "id": "navy",
+        "name": "Granatowy",
+        "hex": "#2C3E50"
+      }
+    ],
+    "details": {
+      "productCode": "SF-FN-78",
+      "longDescription": "Fotel Nordic łączy skandynawską prostotę z wyjątkowym komfortem siedzenia. Smukłe drewniane nogi z dębu, welurowa tapicerka w odcieniu piaskowym i ergonomicznie profilowane oparcie sprawiają, że to idealny towarzysz do czytania, pracy przy laptopie lub relaksu przy kawie.",
+      "highlights": [
+        {
+          "title": "Ergonomiczne oparcie",
+          "description": "Kąt oparcia 105° i głębokie siedzisko zapewniają naturalną pozycję ciała podczas długiego siedzenia."
+        },
+        {
+          "title": "Nogi z litego dębu",
+          "description": "Olejowane nogi z drewna dębowego nadają meblowi ciepła i podkreślają naturalny charakter wnętrza."
+        },
+        {
+          "title": "Kompaktowy gabaryt",
+          "description": "Szerokość 78 cm — fotel mieści się nawet w wąskim kącie salonu lub sypialni."
+        }
+      ],
+      "specs": [
+        {
+          "label": "Wypełnienie",
+          "value": "Pianka T25 + sprężyny faliste w siedzisku."
+        },
+        {
+          "label": "Tkanina",
+          "value": "Welur Soft 18 (piaskowy) — odporność na tarcie 45 000 cykli."
+        },
+        {
+          "label": "Nóżki",
+          "value": "Lite drewno dębowe, olejowane, wysokość 22 cm."
+        },
+        {
+          "label": "Maksymalne obciążenie",
+          "value": "130 kg"
+        }
+      ],
+      "dimensions": [
+        {
+          "label": "Szerokość",
+          "value": "78 cm"
+        },
+        {
+          "label": "Wysokość",
+          "value": "78 cm"
+        },
+        {
+          "label": "Głębokość",
+          "value": "82 cm"
+        },
+        {
+          "label": "Wysokość siedziska",
+          "value": "42 cm"
+        }
+      ],
+      "faq": [
+        {
+          "question": "Czy fotel nadaje się do codziennego użytkowania?",
+          "answer": "Tak — konstrukcja i tkanina zostały zaprojektowane do intensywnego, codziennego użytkowania domowego."
+        }
+      ],
+      "disclaimer": "Kolory na zdjęciach poglądowych mogą delikatnie odbiegać od rzeczywistych."
+    },
+    "rating": 4.8,
+    "reviewCount": 10,
+    "images": [
+      "https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?w=1400&q=80"
+    ]
+  },
+  {
+    "id": "4",
+    "name": "Sofa Linen",
+    "slug": "sofa-linen",
+    "category": "sofy",
+    "price": 3899,
+    "image": "/katalog/sofa-linen.jpg",
+    "description": "Klasyczna sofa trzyosobowa w lnianym odcieniu ecru.",
+    "inStock": true,
+    "colors": [
+      {
+        "id": "linen",
+        "name": "Lniany ecru",
+        "hex": "#E8E0D4"
+      },
+      {
+        "id": "sand",
+        "name": "Piaskowy",
+        "hex": "#D4C9B8"
+      },
+      {
+        "id": "stone",
+        "name": "Kamienny",
+        "hex": "#B8B0A3"
+      }
+    ],
+    "details": {
+      "productCode": "SF-SL-200",
+      "longDescription": "Sofa Linen to klasyka w nowoczesnym wydaniu — trzyosobowa forma, lniana tapicerka w odcieniu naturalnego ecru i niskie drewniane nóżki. Idealna dla wnętrz w stylu japandi, boho i ciepłego minimalizmu.",
+      "highlights": [
+        {
+          "title": "Naturalna tkanina",
+          "description": "Mieszanka leniu i bawełny — przewiewna, przyjemna w dotyku i z czasem pięknieje."
+        },
+        {
+          "title": "Uniwersalny design",
+          "description": "Prosta bryła pasuje do wnętrz klasycznych i nowoczesnych bez dominacji przestrzeni."
+        }
+      ],
+      "specs": [
+        {
+          "label": "Tkanina",
+          "value": "Linen Natural 01 — 70% len, 30% bawełna."
+        },
+        {
+          "label": "Wypełnienie",
+          "value": "Pianka T30 + włókna silikonowe."
+        },
+        {
+          "label": "Nóżki",
+          "value": "Drewno jesionowe, wys. 12 cm."
+        }
+      ],
+      "dimensions": [
+        {
+          "label": "Szerokość",
+          "value": "200 cm"
+        },
+        {
+          "label": "Wysokość",
+          "value": "80 cm"
+        },
+        {
+          "label": "Głębokość",
+          "value": "90 cm"
+        },
+        {
+          "label": "Wysokość siedziska",
+          "value": "40 cm"
+        }
+      ],
+      "faq": [
+        {
+          "question": "Czy len jest trudny w pielęgnacji?",
+          "answer": "Len wymaga regularnego odkurzania. Poszewki można prać w 30°C. Z czasem pojawiają się naturalne zagniecenia — to cecha materiału."
+        }
+      ]
+    },
+    "rating": 4.9,
+    "reviewCount": 75,
+    "images": [
+      "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?w=1400&q=80"
+    ]
+  },
+  {
+    "id": "5",
+    "name": "Narożnik Cloud",
+    "slug": "naroznik-cloud",
+    "category": "narozniki",
+    "kind": "Narożnik L-kształtny",
+    "price": 8999,
+    "image": "/katalog/naroznik-cloud.jpg",
+    "description": "Modułowy narożnik z głębokimi siedziskami i miękkimi poduszkami.",
+    "inStock": true,
+    "isNew": true,
+    "colors": [
+      {
+        "id": "cream",
+        "name": "Kremowy",
+        "hex": "#F5F0EB"
+      },
+      {
+        "id": "sand",
+        "name": "Piaskowy",
+        "hex": "#D4C9B8"
+      },
+      {
+        "id": "taupe",
+        "name": "Taupe",
+        "hex": "#9A8B7A"
+      },
+      {
+        "id": "graphite",
+        "name": "Grafitowy",
+        "hex": "#4A4A48"
+      }
+    ],
+    "details": {
+      "productCode": "SF-NC-310",
+      "longDescription": "Narożnik Cloud to modułowa odpowiedź na potrzeby dużych salonów i rodzin, które cenią przestrzeń. Głębokie, miękkie siedziska i puszyste poduszki tworzą strefę wypoczynku klasy premium — jak chmura, która otula po ciężkim dniu.",
+      "highlights": [
+        {
+          "title": "Modułowa konstrukcja",
+          "description": "Sekcje łączy się według potrzeb — możesz rozbudować narożnik o dodatkowy moduł w przyszłości."
+        },
+        {
+          "title": "Ultra głębokie siedzisko",
+          "description": "Głębokość siedziska 62 cm pozwala wygodnie oprzeć nogi i w pełni się zrelaksować."
+        },
+        {
+          "title": "Premium wypełnienie",
+          "description": "Pianka visco + sprężyny kieszeniowe — dopasowują się do kształtu ciała i redukują punkty nacisku."
+        }
+      ],
+      "specs": [
+        {
+          "label": "Wypełnienie",
+          "value": "Sprężyny kieszeniowe + pianka visco T40 + warstwa memory."
+        },
+        {
+          "label": "Tkanina",
+          "value": "Boucle Cloud 02 (jasny beż) — 55 000 cykli Martindale."
+        },
+        {
+          "label": "Moduły",
+          "value": "Narożnik + sofa 3-osobowa + puf (w zestawie)."
+        }
+      ],
+      "dimensions": [
+        {
+          "label": "Szerokość",
+          "value": "310 cm"
+        },
+        {
+          "label": "Wysokość",
+          "value": "85 cm"
+        },
+        {
+          "label": "Głębokość",
+          "value": "175 cm"
+        },
+        {
+          "label": "Głębokość siedziska",
+          "value": "62 cm"
+        },
+        {
+          "label": "Powierzchnia spania",
+          "value": "160 × 200 cm"
+        }
+      ],
+      "faq": [
+        {
+          "question": "Czy można dokupić dodatkowe moduły?",
+          "answer": "Tak — oferujemy rozbudowę o moduł 1-osobowy i puf. Skontaktuj się z doradcą w celu wyceny."
+        }
+      ]
+    },
+    "rating": 4.6,
+    "reviewCount": 56,
+    "images": [
+      "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=1400&q=80"
+    ]
+  },
+  {
+    "id": "6",
+    "name": "Fotel Wing",
+    "slug": "fotel-wing",
+    "category": "fotele",
+    "price": 2799,
+    "image": "/katalog/fotel-wing.jpg",
+    "description": "Fotel uszaty w stylu mid-century z aksamitną tapicerką.",
+    "inStock": false,
+    "colors": [
+      {
+        "id": "forest",
+        "name": "Butelkowa zieleń",
+        "hex": "#2D4A3E"
+      },
+      {
+        "id": "burgundy",
+        "name": "Bordowy",
+        "hex": "#6B2C3E"
+      },
+      {
+        "id": "midnight",
+        "name": "Granatowy",
+        "hex": "#1E2A3A"
+      },
+      {
+        "id": "camel",
+        "name": "Wielbłądzi",
+        "hex": "#C19A6B"
+      }
+    ],
+    "details": {
+      "productCode": "SF-FW-85",
+      "longDescription": "Fotel Wing to hołd dla designu lat 50. — charakterystyczne uszy oparcia, aksamitna tapicerka w głębokim odcieniu zieleni i smukła sylwetka. Statement piece, który nadaje wnętrzu charakteru i elegancji.",
+      "highlights": [
+        {
+          "title": "Design mid-century",
+          "description": "Ikoniczna forma wingback — ponadczasowa i rozpoznawalna na pierwszy rzut oka."
+        },
+        {
+          "title": "Aksamit premium",
+          "description": "Gęsty aksamit o rubowym wykończeniu — miły w dotyku i odporny na ścieranie."
+        }
+      ],
+      "specs": [
+        {
+          "label": "Tkanina",
+          "value": "Velvet Royal 33 (butelkowa zieleń) — 40 000 cykli Martindale."
+        },
+        {
+          "label": "Wypełnienie",
+          "value": "Pianka T30 + sprężyny faliste."
+        },
+        {
+          "label": "Nóżki",
+          "value": "Metal czarny mat, wys. 25 cm."
+        }
+      ],
+      "dimensions": [
+        {
+          "label": "Szerokość",
+          "value": "85 cm"
+        },
+        {
+          "label": "Wysokość",
+          "value": "102 cm"
+        },
+        {
+          "label": "Głębokość",
+          "value": "88 cm"
+        }
+      ],
+      "faq": [
+        {
+          "question": "Kiedy będzie dostępny?",
+          "answer": "Produkt chwilowo wyprzedany. Zapisz się na powiadomienie przez formularz kontaktowy."
+        }
+      ]
+    },
+    "rating": 4.7,
+    "reviewCount": 33,
+    "images": [
+      "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=1400&q=80"
+    ]
+  },
+  {
+    "id": "7",
+    "name": "Sofa Aura",
+    "slug": "sofa-aura",
+    "category": "sofy",
+    "price": 5599,
+    "image": "/katalog/sofa-aura.jpg",
+    "description": "Sofa z zaokrąglonymi bokami i premium tapicerką.",
+    "inStock": true,
+    "featured": true,
+    "colors": [
+      {
+        "id": "cream",
+        "name": "Kremowy",
+        "hex": "#F5F0EB"
+      },
+      {
+        "id": "sand",
+        "name": "Piaskowy",
+        "hex": "#D4C9B8"
+      },
+      {
+        "id": "taupe",
+        "name": "Taupe",
+        "hex": "#9A8B7A"
+      },
+      {
+        "id": "graphite",
+        "name": "Grafitowy",
+        "hex": "#4A4A48"
+      }
+    ],
+    "details": {
+      "productCode": "SF-AU-240",
+      "longDescription": "Sofa Aura wyróżnia się zaokrąglonymi bokami i miękką, niemal organiczną sylwetką. Tapicerka premium w odcieniu kości słoniowej i niskie siedzisko tworzą mebel, który zaprasza do wypoczynku od pierwszego spojrzenia.",
+      "highlights": [
+        {
+          "title": "Organiczna forma",
+          "description": "Zaokrąglone boki i oparcie — bezpieczne dla dzieci i wizualnie lekkie."
+        },
+        {
+          "title": "Tapicerka premium",
+          "description": "Tkanina Luna 08 z powłoką Easy Clean — idealna do domów z dziećmi i zwierzętami."
+        }
+      ],
+      "specs": [
+        {
+          "label": "Wypełnienie",
+          "value": "Sprężyny Bonell + pianka HR T35."
+        },
+        {
+          "label": "Tkanina",
+          "value": "Luna 08 (kość słoniowa) — Easy Clean, 48 000 cykli."
+        }
+      ],
+      "dimensions": [
+        {
+          "label": "Szerokość",
+          "value": "240 cm"
+        },
+        {
+          "label": "Wysokość",
+          "value": "78 cm"
+        },
+        {
+          "label": "Głębokość",
+          "value": "100 cm"
+        },
+        {
+          "label": "Wysokość siedziska",
+          "value": "38 cm"
+        }
+      ],
+      "faq": [
+        {
+          "question": "Czy sofa Aura jest niska?",
+          "answer": "Tak — niskie siedzisko (38 cm) to świadomy wybór designerski. Jeśli preferujesz wyższe siedzisko, polecamy poduszki dekoracyjne lub model Milano."
+        }
+      ]
+    },
+    "rating": 4.8,
+    "reviewCount": 14,
+    "images": [
+      "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=1400&q=80"
+    ]
+  },
+  {
+    "id": "8",
+    "name": "Kolekcja Terra",
+    "slug": "kolekcja-terra",
+    "category": "kolekcje",
+    "price": 12499,
+    "image": "/katalog/kolekcja-terra.jpg",
+    "description": "Kompletna kolekcja salonowa: sofa, fotel i stolik kawowy.",
+    "inStock": true,
+    "isNew": true,
+    "colors": [
+      {
+        "id": "sand",
+        "name": "Piaskowy",
+        "hex": "#D4C9B8"
+      },
+      {
+        "id": "cream",
+        "name": "Kremowy",
+        "hex": "#F5F0EB"
+      },
+      {
+        "id": "warm-grey",
+        "name": "Ciepły szary",
+        "hex": "#A89F94"
+      }
+    ],
+    "details": {
+      "productCode": "SF-KT-SET",
+      "longDescription": "Kolekcja Terra to kompletny zestaw salonowy Wrohaus: sofa trzyosobowa, fotel i stolik kawowy w spójnej estetyce ciepłego minimalizmu. Wszystkie elementy łączy ta sama paleta materiałów — naturalne drewno dębowe i tapicerka lniana w odcieniu piaskowym.",
+      "highlights": [
+        {
+          "title": "Spójny design",
+          "description": "Każdy element kolekcji projektowany był razem — gwarantuje harmonijny wygląd całego salonu."
+        },
+        {
+          "title": "Komplet w jednym",
+          "description": "Oszczędzasz czas na dobieraniu mebli — zestaw jest gotowy do aranżacji od razu po dostawie."
+        },
+        {
+          "title": "Stolik z litego dębu",
+          "description": "Stolik kawowy z blatem dębowym i stalową ramą — trwały i ponadczasowy."
+        },
+        {
+          "title": "Ciepły minimalizm",
+          "description": "Lniana tapicerka w odcieniu piaskowym i olejowany dąb tworzą spokojną, ponadczasową bazę do każdego salonu."
+        }
+      ],
+      "specs": [
+        {
+          "label": "Zawartość zestawu",
+          "value": "Sofa Terra 220 cm + Fotel Terra + Stolik kawowy dąb."
+        },
+        {
+          "label": "Tapicerka",
+          "value": "Linen Sand 03 — we wszystkich elementach tapicerowanych."
+        },
+        {
+          "label": "Stolik — blat",
+          "value": "Lite drewno dębowe olejowane, średnica 90 cm."
+        }
+      ],
+      "dimensions": [
+        {
+          "label": "Sofa — szerokość",
+          "value": "220 cm"
+        },
+        {
+          "label": "Fotel — szerokość",
+          "value": "80 cm"
+        },
+        {
+          "label": "Stolik — średnica",
+          "value": "90 cm"
+        },
+        {
+          "label": "Stolik — wysokość",
+          "value": "42 cm"
+        }
+      ],
+      "faq": [
+        {
+          "question": "Czy mogę kupić elementy osobno?",
+          "answer": "Tak — każdy element kolekcji Terra dostępny jest indywidualnie. Zestaw jest tańszy o 15% w stosunku do zakupu osobno."
+        }
+      ]
+    },
+    "rating": 4.9,
+    "reviewCount": 63,
+    "images": [
+      "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=1400&q=80"
+    ]
+  },
+  {
+    "id": "9",
+    "name": "Sofa Bergen",
+    "slug": "sofa-bergen",
+    "category": "sofy",
+    "price": 4599,
+    "originalPrice": 5299,
+    "image": "/katalog/sofa-bergen.jpg",
+    "description": "Kompaktowa sofa dwuosobowa z wysokim oparciem i drewnianymi nóżkami.",
+    "inStock": true,
+    "readyToShip": true,
+    "colors": [
+      {
+        "id": "cream",
+        "name": "Kremowy",
+        "hex": "#F5F0EB"
+      },
+      {
+        "id": "sand",
+        "name": "Piaskowy",
+        "hex": "#D4C9B8"
+      },
+      {
+        "id": "taupe",
+        "name": "Taupe",
+        "hex": "#9A8B7A"
+      },
+      {
+        "id": "graphite",
+        "name": "Grafitowy",
+        "hex": "#4A4A48"
+      }
+    ],
+    "rating": 4.6,
+    "reviewCount": 44,
+    "images": [
+      "https://images.unsplash.com/photo-1484101403633-562f891dc89a?w=1400&q=80"
+    ]
+  },
+  {
+    "id": "10",
+    "name": "Sofa Como",
+    "slug": "sofa-como",
+    "category": "sofy",
+    "price": 6199,
+    "image": "/katalog/sofa-como.jpg",
+    "description": "Głęboka sofa trzyosobowa z miękkimi poduszkami i szerokimi podłokietnikami.",
+    "inStock": true,
+    "featured": true,
+    "colors": [
+      {
+        "id": "cream",
+        "name": "Kremowy",
+        "hex": "#F5F0EB"
+      },
+      {
+        "id": "sand",
+        "name": "Piaskowy",
+        "hex": "#D4C9B8"
+      },
+      {
+        "id": "taupe",
+        "name": "Taupe",
+        "hex": "#9A8B7A"
+      },
+      {
+        "id": "graphite",
+        "name": "Grafitowy",
+        "hex": "#4A4A48"
+      }
+    ],
+    "rating": 4.6,
+    "reviewCount": 60,
+    "images": [
+      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1400&q=80"
+    ]
+  },
+  {
+    "id": "11",
+    "name": "Sofa Velvet",
+    "slug": "sofa-velvet",
+    "category": "sofy",
+    "price": 4299,
+    "image": "/katalog/sofa-velvet.jpg",
+    "description": "Welurowa sofa o zaokrąglonej bryle — miękki akcent do salonu.",
+    "inStock": true,
+    "isNew": true,
+    "colors": [
+      {
+        "id": "cream",
+        "name": "Kremowy",
+        "hex": "#F5F0EB"
+      },
+      {
+        "id": "olive",
+        "name": "Oliwkowy",
+        "hex": "#6B705C"
+      },
+      {
+        "id": "terracotta",
+        "name": "Terakota",
+        "hex": "#C17B5C"
+      },
+      {
+        "id": "navy",
+        "name": "Granatowy",
+        "hex": "#2C3E50"
+      }
+    ],
+    "rating": 4.9,
+    "reviewCount": 79,
+    "images": [
+      "https://images.unsplash.com/photo-1600121848594-d8644e57abab?w=1400&q=80"
+    ]
+  },
+  {
+    "id": "12",
+    "name": "Sofa Loft",
+    "slug": "sofa-loft",
+    "category": "sofy",
+    "price": 3499,
+    "originalPrice": 3999,
+    "image": "/katalog/sofa-loft.jpg",
+    "description": "Prosta sofa w industrialnym duchu, idealna do mniejszych wnętrz.",
+    "inStock": true,
+    "readyToShip": true,
+    "colors": [
+      {
+        "id": "cream",
+        "name": "Kremowy",
+        "hex": "#F5F0EB"
+      },
+      {
+        "id": "sand",
+        "name": "Piaskowy",
+        "hex": "#D4C9B8"
+      },
+      {
+        "id": "taupe",
+        "name": "Taupe",
+        "hex": "#9A8B7A"
+      },
+      {
+        "id": "graphite",
+        "name": "Grafitowy",
+        "hex": "#4A4A48"
+      }
+    ],
+    "rating": 4.8,
+    "reviewCount": 18,
+    "images": [
+      "https://images.unsplash.com/photo-1684165610413-2401399e0e59?w=1400&q=80"
+    ]
+  },
+  {
+    "id": "13",
+    "name": "Narożnik Stockholm",
+    "slug": "naroznik-stockholm",
+    "category": "narozniki",
+    "kind": "Narożnik L-kształtny",
+    "price": 7999,
+    "originalPrice": 9499,
+    "image": "/katalog/naroznik-stockholm.jpg",
+    "description": "Narożnik z szerokim szezlongiem i funkcją relaksu.",
+    "inStock": true,
+    "featured": true,
+    "colors": [
+      {
+        "id": "cream",
+        "name": "Kremowy",
+        "hex": "#F5F0EB"
+      },
+      {
+        "id": "sand",
+        "name": "Piaskowy",
+        "hex": "#D4C9B8"
+      },
+      {
+        "id": "taupe",
+        "name": "Taupe",
+        "hex": "#9A8B7A"
+      },
+      {
+        "id": "graphite",
+        "name": "Grafitowy",
+        "hex": "#4A4A48"
+      }
+    ],
+    "rating": 4.7,
+    "reviewCount": 37,
+    "images": [
+      "https://images.unsplash.com/photo-1615876234886-fd9a39fda97f?w=1400&q=80"
+    ]
+  },
+  {
+    "id": "14",
+    "name": "Narożnik Porto",
+    "slug": "naroznik-porto",
+    "category": "narozniki",
+    "kind": "Narożnik U-kształtny",
+    "price": 10299,
+    "image": "/katalog/naroznik-porto.jpg",
+    "description": "Duży narożnik U z głębokim siedziskiem — do przestronnych salonów.",
+    "inStock": true,
+    "readyToShip": true,
+    "colors": [
+      {
+        "id": "cream",
+        "name": "Kremowy",
+        "hex": "#F5F0EB"
+      },
+      {
+        "id": "sand",
+        "name": "Piaskowy",
+        "hex": "#D4C9B8"
+      },
+      {
+        "id": "taupe",
+        "name": "Taupe",
+        "hex": "#9A8B7A"
+      },
+      {
+        "id": "graphite",
+        "name": "Grafitowy",
+        "hex": "#4A4A48"
+      }
+    ],
+    "rating": 4.6,
+    "reviewCount": 64,
+    "images": [
+      "https://images.unsplash.com/photo-1759722668253-1767030ad9b2?w=1400&q=80"
+    ]
+  },
+  {
+    "id": "15",
+    "name": "Narożnik Luna",
+    "slug": "naroznik-luna",
+    "category": "narozniki",
+    "kind": "Narożnik L-kształtny",
+    "price": 8499,
+    "image": "/katalog/naroznik-luna.jpg",
+    "description": "Lekki narożnik z obłymi bokami i miękkim boucle.",
+    "inStock": true,
+    "isNew": true,
+    "colors": [
+      {
+        "id": "cream",
+        "name": "Kremowy",
+        "hex": "#F5F0EB"
+      },
+      {
+        "id": "olive",
+        "name": "Oliwkowy",
+        "hex": "#6B705C"
+      },
+      {
+        "id": "terracotta",
+        "name": "Terakota",
+        "hex": "#C17B5C"
+      },
+      {
+        "id": "navy",
+        "name": "Granatowy",
+        "hex": "#2C3E50"
+      }
+    ],
+    "rating": 4.9,
+    "reviewCount": 83,
+    "images": [
+      "https://images.unsplash.com/photo-1768511731493-d3c2aa483bb5?w=1400&q=80"
+    ]
+  },
+  {
+    "id": "16",
+    "name": "Fotel Kyoto",
+    "slug": "fotel-kyoto",
+    "category": "fotele",
+    "price": 1899,
+    "image": "/katalog/fotel-kyoto.jpg",
+    "description": "Niski fotel wypoczynkowy z drewna i tkaniny — spokojna forma.",
+    "inStock": true,
+    "readyToShip": true,
+    "colors": [
+      {
+        "id": "cream",
+        "name": "Kremowy",
+        "hex": "#F5F0EB"
+      },
+      {
+        "id": "sand",
+        "name": "Piaskowy",
+        "hex": "#D4C9B8"
+      },
+      {
+        "id": "taupe",
+        "name": "Taupe",
+        "hex": "#9A8B7A"
+      },
+      {
+        "id": "graphite",
+        "name": "Grafitowy",
+        "hex": "#4A4A48"
+      }
+    ],
+    "rating": 4.8,
+    "reviewCount": 22,
+    "images": [
+      "https://images.unsplash.com/photo-1506439773649-6e0eb8cfb237?w=1400&q=80"
+    ]
+  },
+  {
+    "id": "17",
+    "name": "Fotel Boucle",
+    "slug": "fotel-boucle",
+    "category": "fotele",
+    "price": 2499,
+    "image": "/katalog/fotel-boucle.jpg",
+    "description": "Okrągły fotel w tkaninie boucle — miękki punkt relaksu.",
+    "inStock": true,
+    "isNew": true,
+    "colors": [
+      {
+        "id": "cream",
+        "name": "Kremowy",
+        "hex": "#F5F0EB"
+      },
+      {
+        "id": "sand",
+        "name": "Piaskowy",
+        "hex": "#D4C9B8"
+      },
+      {
+        "id": "taupe",
+        "name": "Taupe",
+        "hex": "#9A8B7A"
+      },
+      {
+        "id": "graphite",
+        "name": "Grafitowy",
+        "hex": "#4A4A48"
+      }
+    ],
+    "rating": 4.7,
+    "reviewCount": 41,
+    "images": [
+      "https://images.unsplash.com/photo-1686510347470-0e36eb055a30?w=1400&q=80"
+    ]
+  },
+  {
+    "id": "18",
+    "name": "Fotel Lounge",
+    "slug": "fotel-lounge",
+    "category": "fotele",
+    "price": 3099,
+    "originalPrice": 3599,
+    "image": "/katalog/fotel-lounge.jpg",
+    "description": "Głęboki fotel lounge z podnóżkiem w zestawie.",
+    "inStock": true,
+    "colors": [
+      {
+        "id": "cream",
+        "name": "Kremowy",
+        "hex": "#F5F0EB"
+      },
+      {
+        "id": "olive",
+        "name": "Oliwkowy",
+        "hex": "#6B705C"
+      },
+      {
+        "id": "terracotta",
+        "name": "Terakota",
+        "hex": "#C17B5C"
+      },
+      {
+        "id": "navy",
+        "name": "Granatowy",
+        "hex": "#2C3E50"
+      }
+    ],
+    "rating": 4.6,
+    "reviewCount": 68,
+    "images": [
+      "https://images.unsplash.com/photo-1592078615290-033ee584e267?w=1400&q=80"
+    ]
+  },
+  {
+    "id": "19",
+    "name": "Fotel Harbor",
+    "slug": "fotel-harbor",
+    "category": "fotele",
+    "price": 2299,
+    "image": "/katalog/fotel-harbor.jpg",
+    "description": "Fotel z wysokim oparciem i podłokietnikami — do czytania.",
+    "inStock": true,
+    "readyToShip": true,
+    "colors": [
+      {
+        "id": "cream",
+        "name": "Kremowy",
+        "hex": "#F5F0EB"
+      },
+      {
+        "id": "sand",
+        "name": "Piaskowy",
+        "hex": "#D4C9B8"
+      },
+      {
+        "id": "taupe",
+        "name": "Taupe",
+        "hex": "#9A8B7A"
+      },
+      {
+        "id": "graphite",
+        "name": "Grafitowy",
+        "hex": "#4A4A48"
+      }
+    ],
+    "rating": 4.9,
+    "reviewCount": 87,
+    "images": [
+      "https://images.unsplash.com/photo-1567016432779-094069958ea5?w=1400&q=80"
+    ]
+  },
+  {
+    "id": "20",
+    "name": "Kolekcja Aurora",
+    "slug": "kolekcja-aurora",
+    "category": "kolekcje",
+    "price": 14999,
+    "image": "/katalog/kolekcja-aurora.jpg",
+    "description": "Sofa, dwa fotele i pufa w spójnej, jasnej palecie.",
+    "inStock": true,
+    "featured": true,
+    "colors": [
+      {
+        "id": "cream",
+        "name": "Kremowy",
+        "hex": "#F5F0EB"
+      },
+      {
+        "id": "sand",
+        "name": "Piaskowy",
+        "hex": "#D4C9B8"
+      },
+      {
+        "id": "taupe",
+        "name": "Taupe",
+        "hex": "#9A8B7A"
+      },
+      {
+        "id": "graphite",
+        "name": "Grafitowy",
+        "hex": "#4A4A48"
+      }
+    ],
+    "rating": 4.9,
+    "reviewCount": 71,
+    "images": [
+      "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?w=1400&q=80"
+    ]
+  },
+  {
+    "id": "21",
+    "name": "Kolekcja Nest",
+    "slug": "kolekcja-nest",
+    "category": "kolekcje",
+    "price": 11299,
+    "originalPrice": 12999,
+    "image": "/katalog/kolekcja-nest.jpg",
+    "description": "Modułowy zestaw salonowy do swobodnej aranżacji.",
+    "inStock": true,
+    "isNew": true,
+    "colors": [
+      {
+        "id": "cream",
+        "name": "Kremowy",
+        "hex": "#F5F0EB"
+      },
+      {
+        "id": "sand",
+        "name": "Piaskowy",
+        "hex": "#D4C9B8"
+      },
+      {
+        "id": "taupe",
+        "name": "Taupe",
+        "hex": "#9A8B7A"
+      },
+      {
+        "id": "graphite",
+        "name": "Grafitowy",
+        "hex": "#4A4A48"
+      }
+    ],
+    "rating": 4.6,
+    "reviewCount": 52,
+    "images": [
+      "https://images.unsplash.com/photo-1600121848594-d8644e57abab?w=1400&q=80"
+    ]
+  },
+  {
+    "id": "22",
+    "name": "Sofa Capri",
+    "slug": "sofa-capri",
+    "category": "sofy",
+    "price": 5299,
+    "originalPrice": 5999,
+    "image": "/katalog/sofa-capri.jpg",
+    "description": "Sofa z cienkimi metalowymi nogami i gładką tapicerką.",
+    "inStock": true,
+    "colors": [
+      {
+        "id": "cream",
+        "name": "Kremowy",
+        "hex": "#F5F0EB"
+      },
+      {
+        "id": "olive",
+        "name": "Oliwkowy",
+        "hex": "#6B705C"
+      },
+      {
+        "id": "terracotta",
+        "name": "Terakota",
+        "hex": "#C17B5C"
+      },
+      {
+        "id": "navy",
+        "name": "Granatowy",
+        "hex": "#2C3E50"
+      }
+    ],
+    "rating": 4.7,
+    "reviewCount": 29,
+    "images": [
+      "https://images.unsplash.com/photo-1484101403633-562f891dc89a?w=1400&q=80"
+    ]
+  },
+  {
+    "id": "23",
+    "name": "Narożnik Amber",
+    "slug": "naroznik-amber",
+    "category": "narozniki",
+    "kind": "Narożnik L-kształtny",
+    "price": 6799,
+    "image": "/katalog/naroznik-amber.jpg",
+    "description": "Praktyczny narożnik z pojemnikiem, w ciepłym odcieniu tkaniny.",
+    "inStock": true,
+    "readyToShip": true,
+    "colors": [
+      {
+        "id": "cream",
+        "name": "Kremowy",
+        "hex": "#F5F0EB"
+      },
+      {
+        "id": "sand",
+        "name": "Piaskowy",
+        "hex": "#D4C9B8"
+      },
+      {
+        "id": "taupe",
+        "name": "Taupe",
+        "hex": "#9A8B7A"
+      },
+      {
+        "id": "graphite",
+        "name": "Grafitowy",
+        "hex": "#4A4A48"
+      }
+    ],
+    "rating": 4.8,
+    "reviewCount": 10,
+    "images": [
+      "https://images.unsplash.com/photo-1759722665935-0967b4e0da93?w=1400&q=80"
+    ]
+  },
+  {
+    "id": "24",
+    "name": "Fotel Soft",
+    "slug": "fotel-soft",
+    "category": "fotele",
+    "price": 1699,
+    "originalPrice": 1999,
+    "image": "/katalog/fotel-soft.jpg",
+    "description": "Lekki fotel tapicerowany — do sypialni, gabinetu albo salonu.",
+    "inStock": true,
+    "isNew": true,
+    "colors": [
+      {
+        "id": "cream",
+        "name": "Kremowy",
+        "hex": "#F5F0EB"
+      },
+      {
+        "id": "sand",
+        "name": "Piaskowy",
+        "hex": "#D4C9B8"
+      },
+      {
+        "id": "taupe",
+        "name": "Taupe",
+        "hex": "#9A8B7A"
+      },
+      {
+        "id": "graphite",
+        "name": "Grafitowy",
+        "hex": "#4A4A48"
+      }
+    ],
+    "rating": 4.9,
+    "reviewCount": 75,
+    "images": [
+      "https://images.unsplash.com/photo-1506439773649-6e0eb8cfb237?w=1400&q=80"
+    ]
+  },
+  {
+    "id": "25",
+    "name": "Lampa Arc",
+    "slug": "lampa-arc",
+    "category": "oswietlenie",
+    "price": 899,
+    "image": "/katalog/lampa-arc.jpg",
+    "description": "Lampa podłogowa z łukowym ramieniem — ciepłe światło do salonu.",
+    "inStock": true,
+    "isNew": true,
+    "colors": [
+      {
+        "id": "cream",
+        "name": "Kremowy",
+        "hex": "#F5F0EB"
+      },
+      {
+        "id": "sand",
+        "name": "Piaskowy",
+        "hex": "#D4C9B8"
+      },
+      {
+        "id": "taupe",
+        "name": "Taupe",
+        "hex": "#9A8B7A"
+      },
+      {
+        "id": "graphite",
+        "name": "Grafitowy",
+        "hex": "#4A4A48"
+      }
+    ],
+    "rating": 4.6,
+    "reviewCount": 56,
+    "images": [
+      "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=1400&q=80"
+    ]
+  },
+  {
+    "id": "26",
+    "name": "Lampa Halo",
+    "slug": "lampa-halo",
+    "category": "oswietlenie",
+    "price": 549,
+    "originalPrice": 699,
+    "image": "/katalog/lampa-halo.jpg",
+    "description": "Lampa stołowa z abażurem — na komodę, stolik nocny albo biurko.",
+    "inStock": true,
+    "readyToShip": true,
+    "colors": [
+      {
+        "id": "cream",
+        "name": "Kremowy",
+        "hex": "#F5F0EB"
+      },
+      {
+        "id": "sand",
+        "name": "Piaskowy",
+        "hex": "#D4C9B8"
+      },
+      {
+        "id": "taupe",
+        "name": "Taupe",
+        "hex": "#9A8B7A"
+      },
+      {
+        "id": "graphite",
+        "name": "Grafitowy",
+        "hex": "#4A4A48"
+      }
+    ],
+    "rating": 4.7,
+    "reviewCount": 33,
+    "images": [
+      "https://images.unsplash.com/photo-1517991104123-1d56a6e81ed9?w=1400&q=80"
+    ]
+  },
+  {
+    "id": "27",
+    "name": "Szafka RTV Frame",
+    "slug": "szafka-rtv-frame",
+    "category": "szafki-rtv",
+    "price": 1899,
+    "image": "/katalog/szafka-rtv-frame.jpg",
+    "description": "Niska szafka RTV z otwartymi niszami i szufladami na kable.",
+    "inStock": true,
+    "featured": true,
+    "colors": [
+      {
+        "id": "cream",
+        "name": "Kremowy",
+        "hex": "#F5F0EB"
+      },
+      {
+        "id": "sand",
+        "name": "Piaskowy",
+        "hex": "#D4C9B8"
+      },
+      {
+        "id": "taupe",
+        "name": "Taupe",
+        "hex": "#9A8B7A"
+      },
+      {
+        "id": "graphite",
+        "name": "Grafitowy",
+        "hex": "#4A4A48"
+      }
+    ],
+    "rating": 4.8,
+    "reviewCount": 14,
+    "images": [
+      "https://images.unsplash.com/photo-1493809842364-78817add7ffb?w=1400&q=80"
+    ]
+  },
+  {
+    "id": "28",
+    "name": "Szafka RTV Line",
+    "slug": "szafka-rtv-line",
+    "category": "szafki-rtv",
+    "price": 2199,
+    "originalPrice": 2499,
+    "image": "/katalog/szafka-rtv-line.jpg",
+    "description": "Szafka RTV na drewnianych nogach — pod telewizor 55–75\".",
+    "inStock": true,
+    "colors": [
+      {
+        "id": "cream",
+        "name": "Kremowy",
+        "hex": "#F5F0EB"
+      },
+      {
+        "id": "sand",
+        "name": "Piaskowy",
+        "hex": "#D4C9B8"
+      },
+      {
+        "id": "taupe",
+        "name": "Taupe",
+        "hex": "#9A8B7A"
+      },
+      {
+        "id": "graphite",
+        "name": "Grafitowy",
+        "hex": "#4A4A48"
+      }
+    ],
+    "furnitureLineId": "sorela",
+    "rating": 4.9,
+    "reviewCount": 63,
+    "images": [
+      "https://images.unsplash.com/photo-1616137466211-f939a420be84?w=1400&q=80"
+    ]
+  },
+  {
+    "id": "41",
+    "name": "Szafka Oak",
+    "slug": "szafka-oak",
+    "category": "szafki",
+    "price": 1599,
+    "image": "/katalog/szafka-oak.jpg",
+    "description": "Szafka z dębowym fornirem — do salonu, sypialni albo przedpokoju.",
+    "inStock": true,
+    "isNew": true,
+    "colors": [
+      {
+        "id": "cream",
+        "name": "Kremowy",
+        "hex": "#F5F0EB"
+      },
+      {
+        "id": "sand",
+        "name": "Piaskowy",
+        "hex": "#D4C9B8"
+      },
+      {
+        "id": "taupe",
+        "name": "Taupe",
+        "hex": "#9A8B7A"
+      },
+      {
+        "id": "graphite",
+        "name": "Grafitowy",
+        "hex": "#4A4A48"
+      }
+    ],
+    "rating": 4.8,
+    "reviewCount": 78,
+    "images": [
+      "https://images.unsplash.com/photo-1558997519-83ea9252edf8?w=1400&q=80"
+    ]
+  },
+  {
+    "id": "42",
+    "name": "Szafka Cube",
+    "slug": "szafka-cube",
+    "category": "szafki",
+    "price": 1299,
+    "originalPrice": 1499,
+    "image": "/katalog/szafka-cube.jpg",
+    "description": "Modułowa szafka z otwartymi półkami i zamykaną wnęką.",
+    "inStock": true,
+    "readyToShip": true,
+    "colors": [
+      {
+        "id": "cream",
+        "name": "Kremowy",
+        "hex": "#F5F0EB"
+      },
+      {
+        "id": "sand",
+        "name": "Piaskowy",
+        "hex": "#D4C9B8"
+      },
+      {
+        "id": "taupe",
+        "name": "Taupe",
+        "hex": "#9A8B7A"
+      },
+      {
+        "id": "graphite",
+        "name": "Grafitowy",
+        "hex": "#4A4A48"
+      }
+    ],
+    "rating": 4.9,
+    "reviewCount": 59,
+    "images": [
+      "https://images.unsplash.com/photo-1513694203232-719a280e022f?w=1400&q=80"
+    ]
+  },
+  {
+    "id": "29",
+    "name": "Komoda Grove",
+    "slug": "komoda-grove",
+    "category": "komody",
+    "price": 2499,
+    "image": "/katalog/komoda-grove.jpg",
+    "description": "Komoda z sześcioma szufladami — do sypialni albo przedpokoju.",
+    "inStock": true,
+    "colors": [
+      {
+        "id": "cream",
+        "name": "Kremowy",
+        "hex": "#F5F0EB"
+      },
+      {
+        "id": "sand",
+        "name": "Piaskowy",
+        "hex": "#D4C9B8"
+      },
+      {
+        "id": "taupe",
+        "name": "Taupe",
+        "hex": "#9A8B7A"
+      },
+      {
+        "id": "graphite",
+        "name": "Grafitowy",
+        "hex": "#4A4A48"
+      }
+    ],
+    "rating": 4.6,
+    "reviewCount": 44,
+    "images": [
+      "https://images.unsplash.com/photo-1558997519-83ea9252edf8?w=1400&q=80"
+    ]
+  },
+  {
+    "id": "30",
+    "name": "Komoda Mira",
+    "slug": "komoda-mira",
+    "category": "komody",
+    "price": 1799,
+    "isNew": true,
+    "image": "/katalog/komoda-mira.jpg",
+    "description": "Niska komoda z frontami bez uchwytów — spokojna bryła do salonu.",
+    "inStock": true,
+    "colors": [
+      {
+        "id": "cream",
+        "name": "Kremowy",
+        "hex": "#F5F0EB"
+      },
+      {
+        "id": "sand",
+        "name": "Piaskowy",
+        "hex": "#D4C9B8"
+      },
+      {
+        "id": "taupe",
+        "name": "Taupe",
+        "hex": "#9A8B7A"
+      },
+      {
+        "id": "graphite",
+        "name": "Grafitowy",
+        "hex": "#4A4A48"
+      }
+    ],
+    "rating": 4.8,
+    "reviewCount": 62,
+    "images": [
+      "https://images.unsplash.com/photo-1513694203232-719a280e022f?w=1400&q=80"
+    ]
+  },
+  {
+    "id": "31",
+    "name": "Stolik Kawowy Pebble",
+    "slug": "stolik-kawowy-pebble",
+    "category": "stoliki",
+    "price": 1299,
+    "image": "/katalog/stolik-kawowy-pebble.jpg",
+    "description": "Owalny stolik kawowy z drewnianym blatem i metalową podstawą.",
+    "inStock": true,
+    "featured": true,
+    "colors": [
+      {
+        "id": "cream",
+        "name": "Kremowy",
+        "hex": "#F5F0EB"
+      },
+      {
+        "id": "sand",
+        "name": "Piaskowy",
+        "hex": "#D4C9B8"
+      },
+      {
+        "id": "taupe",
+        "name": "Taupe",
+        "hex": "#9A8B7A"
+      },
+      {
+        "id": "graphite",
+        "name": "Grafitowy",
+        "hex": "#4A4A48"
+      }
+    ],
+    "rating": 4.7,
+    "reviewCount": 81,
+    "images": [
+      "https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?w=1400&q=80"
+    ]
+  },
+  {
+    "id": "32",
+    "name": "Stolik Boczny Nook",
+    "slug": "stolik-boczny-nook",
+    "category": "stoliki",
+    "price": 699,
+    "originalPrice": 849,
+    "image": "/katalog/stolik-boczny-nook.jpg",
+    "description": "Mały stolik przy sofie — na lampę, książkę i kawę.",
+    "inStock": true,
+    "readyToShip": true,
+    "colors": [
+      {
+        "id": "cream",
+        "name": "Kremowy",
+        "hex": "#F5F0EB"
+      },
+      {
+        "id": "sand",
+        "name": "Piaskowy",
+        "hex": "#D4C9B8"
+      },
+      {
+        "id": "taupe",
+        "name": "Taupe",
+        "hex": "#9A8B7A"
+      },
+      {
+        "id": "graphite",
+        "name": "Grafitowy",
+        "hex": "#4A4A48"
+      }
+    ],
+    "rating": 4.6,
+    "reviewCount": 24,
+    "images": [
+      "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?w=1400&q=80"
+    ]
+  },
+  {
+    "id": "33",
+    "name": "Materac Cloud Sleep",
+    "slug": "materac-cloud-sleep",
+    "category": "materace",
+    "price": 2199,
+    "image": "/katalog/materac-cloud-sleep.jpg",
+    "description": "Materac kieszeniowy 160×200 — sprężyny i warstwa pianki.",
+    "inStock": true,
+    "colors": [
+      {
+        "id": "white",
+        "name": "Pokrowiec ecru",
+        "hex": "#F5F0EB"
+      }
+    ],
+    "sizes": [
+      {
+        "id": "90x200",
+        "label": "90×200",
+        "surcharge": 0
+      },
+      {
+        "id": "120x200",
+        "label": "120×200",
+        "surcharge": 200
+      },
+      {
+        "id": "140x200",
+        "label": "140×200",
+        "surcharge": 400
+      },
+      {
+        "id": "160x200",
+        "label": "160×200",
+        "surcharge": 600
+      },
+      {
+        "id": "180x200",
+        "label": "180×200",
+        "surcharge": 800
+      }
+    ],
+    "rating": 4.9,
+    "reviewCount": 43,
+    "images": [
+      "https://images.unsplash.com/photo-1631049035182-249067d7618e?w=1400&q=80"
+    ]
+  },
+  {
+    "id": "34",
+    "name": "Materac Dual Comfort",
+    "slug": "materac-dual-comfort",
+    "category": "materace",
+    "price": 1899,
+    "originalPrice": 2299,
+    "image": "/katalog/materac-dual-comfort.jpg",
+    "description": "Materac dwustronny — lato/zima, twardość H3.",
+    "inStock": true,
+    "colors": [
+      {
+        "id": "white",
+        "name": "Pokrowiec ecru",
+        "hex": "#F5F0EB"
+      }
+    ],
+    "sizes": [
+      {
+        "id": "90x200",
+        "label": "90×200",
+        "surcharge": 0
+      },
+      {
+        "id": "140x200",
+        "label": "140×200",
+        "surcharge": 300
+      },
+      {
+        "id": "160x200",
+        "label": "160×200",
+        "surcharge": 500
+      },
+      {
+        "id": "180x200",
+        "label": "180×200",
+        "surcharge": 700
+      }
+    ],
+    "rating": 4.8,
+    "reviewCount": 58,
+    "images": [
+      "https://images.unsplash.com/photo-1554995207-c18c203602cb?w=1400&q=80"
+    ]
+  },
+  {
+    "id": "35",
+    "name": "Łóżko Loft",
+    "slug": "lozko-loft",
+    "category": "lozka",
+    "suggestedMattressId": "33",
+    "price": 3499,
+    "image": "/katalog/lozko-loft.jpg",
+    "description": "Łóżko tapicerowane 160×200 z wezgłowiem i pojemnikiem.",
+    "inStock": true,
+    "featured": true,
+    "colors": [
+      {
+        "id": "cream",
+        "name": "Kremowy",
+        "hex": "#F5F0EB"
+      },
+      {
+        "id": "sand",
+        "name": "Piaskowy",
+        "hex": "#D4C9B8"
+      },
+      {
+        "id": "taupe",
+        "name": "Taupe",
+        "hex": "#9A8B7A"
+      },
+      {
+        "id": "graphite",
+        "name": "Grafitowy",
+        "hex": "#4A4A48"
+      }
+    ],
+    "sizes": [
+      {
+        "id": "140x200",
+        "label": "140×200",
+        "surcharge": 0
+      },
+      {
+        "id": "160x200",
+        "label": "160×200",
+        "surcharge": 400
+      },
+      {
+        "id": "180x200",
+        "label": "180×200",
+        "surcharge": 800
+      }
+    ],
+    "rating": 4.7,
+    "reviewCount": 77,
+    "images": [
+      "https://images.unsplash.com/photo-1556228453-efd6c1ff04f6?w=1400&q=80"
+    ]
+  },
+  {
+    "id": "36",
+    "name": "Łóżko Linen",
+    "slug": "lozko-linen",
+    "category": "lozka",
+    "price": 2899,
+    "isNew": true,
+    "image": "/katalog/lozko-linen.jpg",
+    "description": "Łóżko z drewnianą ramą i tapicerowanym wezgłowiem.",
+    "inStock": true,
+    "colors": [
+      {
+        "id": "cream",
+        "name": "Kremowy",
+        "hex": "#F5F0EB"
+      },
+      {
+        "id": "sand",
+        "name": "Piaskowy",
+        "hex": "#D4C9B8"
+      },
+      {
+        "id": "taupe",
+        "name": "Taupe",
+        "hex": "#9A8B7A"
+      },
+      {
+        "id": "graphite",
+        "name": "Grafitowy",
+        "hex": "#4A4A48"
+      }
+    ],
+    "sizes": [
+      {
+        "id": "140x200",
+        "label": "140×200",
+        "surcharge": 0
+      },
+      {
+        "id": "160x200",
+        "label": "160×200",
+        "surcharge": 350
+      },
+      {
+        "id": "180x200",
+        "label": "180×200",
+        "surcharge": 700
+      }
+    ],
+    "rating": 4.6,
+    "reviewCount": 20,
+    "images": [
+      "https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?w=1400&q=80"
+    ]
+  },
+  {
+    "id": "37",
+    "name": "Łóżko Mini Nest",
+    "slug": "lozko-mini-nest",
+    "category": "meble-dzieciece",
+    "price": 1599,
+    "image": "/katalog/lozko-mini-nest.jpg",
+    "description": "Łóżko dziecięce 90×200 z barierka i szufladą na pościel.",
+    "inStock": true,
+    "isNew": true,
+    "colors": [
+      {
+        "id": "cream",
+        "name": "Kremowy",
+        "hex": "#F5F0EB"
+      },
+      {
+        "id": "sand",
+        "name": "Piaskowy",
+        "hex": "#D4C9B8"
+      },
+      {
+        "id": "taupe",
+        "name": "Taupe",
+        "hex": "#9A8B7A"
+      },
+      {
+        "id": "graphite",
+        "name": "Grafitowy",
+        "hex": "#4A4A48"
+      }
+    ],
+    "rating": 4.9,
+    "reviewCount": 39,
+    "images": [
+      "https://images.unsplash.com/photo-1771862956412-6ce9a725eb22?w=1400&q=80"
+    ]
+  },
+  {
+    "id": "38",
+    "name": "Komoda Play",
+    "slug": "komoda-play",
+    "category": "meble-dzieciece",
+    "price": 1199,
+    "image": "/katalog/komoda-play.jpg",
+    "description": "Niska komoda do pokoju dziecka — zaokrąglone krawędzie.",
+    "inStock": true,
+    "colors": [
+      {
+        "id": "cream",
+        "name": "Kremowy",
+        "hex": "#F5F0EB"
+      },
+      {
+        "id": "sand",
+        "name": "Piaskowy",
+        "hex": "#D4C9B8"
+      },
+      {
+        "id": "taupe",
+        "name": "Taupe",
+        "hex": "#9A8B7A"
+      },
+      {
+        "id": "graphite",
+        "name": "Grafitowy",
+        "hex": "#4A4A48"
+      }
+    ],
+    "rating": 4.8,
+    "reviewCount": 54,
+    "images": [
+      "https://images.unsplash.com/photo-1778075642254-5418a12335cb?w=1400&q=80"
+    ]
+  },
+  {
+    "id": "39",
+    "name": "Legowisko Nest",
+    "slug": "legowisko-nest",
+    "category": "akcesoria-dla-zwierzat",
+    "price": 349,
+    "image": "/katalog/legowisko-nest.jpg",
+    "description": "Miękkie legowisko dla psa lub kota — zdejmowany pokrowiec.",
+    "inStock": true,
+    "readyToShip": true,
+    "colors": [
+      {
+        "id": "cream",
+        "name": "Kremowy",
+        "hex": "#F5F0EB"
+      },
+      {
+        "id": "sand",
+        "name": "Piaskowy",
+        "hex": "#D4C9B8"
+      },
+      {
+        "id": "taupe",
+        "name": "Taupe",
+        "hex": "#9A8B7A"
+      },
+      {
+        "id": "graphite",
+        "name": "Grafitowy",
+        "hex": "#4A4A48"
+      }
+    ],
+    "rating": 4.7,
+    "reviewCount": 73,
+    "images": [
+      "https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?w=1400&q=80"
+    ]
+  },
+  {
+    "id": "40",
+    "name": "Drapak Grove",
+    "slug": "drapak-grove",
+    "category": "akcesoria-dla-zwierzat",
+    "price": 429,
+    "originalPrice": 499,
+    "image": "/katalog/drapak-grove.jpg",
+    "description": "Drapak z siedziskiem — do salonu, nie do schowania w korytarzu.",
+    "inStock": true,
+    "colors": [
+      {
+        "id": "cream",
+        "name": "Kremowy",
+        "hex": "#F5F0EB"
+      },
+      {
+        "id": "sand",
+        "name": "Piaskowy",
+        "hex": "#D4C9B8"
+      },
+      {
+        "id": "taupe",
+        "name": "Taupe",
+        "hex": "#9A8B7A"
+      },
+      {
+        "id": "graphite",
+        "name": "Grafitowy",
+        "hex": "#4A4A48"
+      }
+    ],
+    "rating": 4.7,
+    "reviewCount": 17,
+    "images": [
+      "https://images.unsplash.com/photo-1574158622682-e40e69881006?w=1400&q=80"
+    ]
+  },
+  {
+    "id": "43",
+    "name": "Szafa Haven",
+    "slug": "szafa-haven",
+    "category": "szafy",
+    "price": 4299,
+    "image": "/katalog/szafa-haven.jpg",
+    "description": "Szafa dwudrzwiowa z półkami i drążkiem — do sypialni albo garderoby.",
+    "inStock": true,
+    "featured": true,
+    "colors": [
+      {
+        "id": "cream",
+        "name": "Kremowy",
+        "hex": "#F5F0EB"
+      },
+      {
+        "id": "sand",
+        "name": "Piaskowy",
+        "hex": "#D4C9B8"
+      },
+      {
+        "id": "taupe",
+        "name": "Taupe",
+        "hex": "#9A8B7A"
+      },
+      {
+        "id": "graphite",
+        "name": "Grafitowy",
+        "hex": "#4A4A48"
+      }
+    ],
+    "rating": 4.6,
+    "reviewCount": 40,
+    "images": [
+      "https://images.unsplash.com/photo-1615876234886-fd9a39fda97f?w=1400&q=80"
+    ]
+  },
+  {
+    "id": "44",
+    "name": "Szafa Line",
+    "slug": "szafa-line",
+    "category": "szafy",
+    "price": 3799,
+    "originalPrice": 4299,
+    "image": "/katalog/szafa-line.jpg",
+    "description": "Szafa z lustrzanym frontem — optycznie powiększa sypialnię.",
+    "inStock": true,
+    "isNew": true,
+    "colors": [
+      {
+        "id": "cream",
+        "name": "Kremowy",
+        "hex": "#F5F0EB"
+      },
+      {
+        "id": "sand",
+        "name": "Piaskowy",
+        "hex": "#D4C9B8"
+      },
+      {
+        "id": "taupe",
+        "name": "Taupe",
+        "hex": "#9A8B7A"
+      },
+      {
+        "id": "graphite",
+        "name": "Grafitowy",
+        "hex": "#4A4A48"
+      }
+    ],
+    "furnitureLineId": "sorela",
+    "rating": 4.7,
+    "reviewCount": 13,
+    "images": [
+      "https://images.unsplash.com/photo-1595428774223-ef52624120d2?w=1400&q=80"
+    ]
+  }
+]

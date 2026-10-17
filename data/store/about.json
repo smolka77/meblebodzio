@@ -1,0 +1,91 @@
+{
+  "archived": false,
+  "metaTitle": "Polska manufaktura mebli",
+  "metaDescription": "Wrohaus to meble i wyposażenie domu z Kątów Wrocławskich. Salon, sypialnia, szafy i materace — rzemiosło, które zostaje na lata.",
+  "hero": {
+    "eyebrow": "Nasza historia",
+    "title": "Rzemiosło spotyka nowoczesny design",
+    "description": "Wrohaus to polska marka mebli tapicerowanych, która od 2018 roku tworzy sofy, narożniki i fotele łączące komfort z ponadczasową estetyką.",
+    "image": "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=1920&q=85"
+  },
+  "story": {
+    "image": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=900&q=85",
+    "imageAlt": "Wnętrze Wrohaus w Kątach Wrocławskich",
+    "kicker": "Kim jesteśmy",
+    "title": "Meble, które stają się sercem domu",
+    "paragraph1": "Wierzymy, że dom to przestrzeń, w której design spotyka się z codziennym komfortem. Dlatego projektujemy meble, które są piękne, funkcjonalne i stworzone, by służyć przez lata — nie sezony.",
+    "paragraph2": "Nasz zespół projektantów, tapicerów i stolarzy pracuje ramię w ramię, tworząc kolekcje inspirowane skandynawskim minimalizmem i ciepłem polskiego rzemiosła."
+  },
+  "stats": [
+    {
+      "value": "8+",
+      "label": "Lat na rynku"
+    },
+    {
+      "value": "48",
+      "label": "Modeli w ofercie"
+    },
+    {
+      "value": "5000+",
+      "label": "Zadowolonych klientów"
+    }
+  ],
+  "values": {
+    "kicker": "Wartości",
+    "title": "Co nas wyróżnia",
+    "items": [
+      {
+        "number": "01",
+        "title": "Polska produkcja",
+        "text": "Każdy mebel powstaje w naszej manufakturze w Kątach Wrocławskich. Kontrolujemy jakość na każdym etapie — od ramy po ostatni szew."
+      },
+      {
+        "number": "02",
+        "title": "Materiały premium",
+        "text": "Współpracujemy z europejskimi dostawcami tkanin i pianki. Wybieramy tylko certyfikowane, trwałe i przyjazne środowisku materiały."
+      },
+      {
+        "number": "03",
+        "title": "Design ponadczasowy",
+        "text": "Tworzymy meble, które nie poddają się trendom. Minimalistyczna forma, miękkie linie i neutralna paleta barw — na lata."
+      },
+      {
+        "number": "04",
+        "title": "Komfort bez kompromisów",
+        "text": "Ergonomia to dla nas priorytet. Testujemy każdy model setki godzin, zanim trafi do oferty."
+      }
+    ]
+  },
+  "timeline": {
+    "kicker": "Historia",
+    "title": "Nasza droga",
+    "items": [
+      {
+        "year": "2018",
+        "event": "Założenie marki Wrohaus i pierwsza kolekcja sof"
+      },
+      {
+        "year": "2020",
+        "event": "Rozszerzenie działalności na Dolnym Śląsku"
+      },
+      {
+        "year": "2022",
+        "event": "Rozszerzenie oferty o narożniki modułowe"
+      },
+      {
+        "year": "2024",
+        "event": "5000+ zrealizowanych projektów w całej Polsce"
+      },
+      {
+        "year": "2026",
+        "event": "Nowa linia eko-tapicerki i ekspansja online"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Umebluj swój dom z nami",
+    "text": "Odkryj kolekcję sof, narożników i foteli stworzoną z myślą o komforcie i ponadczasowym designie. Znajdź meble idealne dla Twojego wnętrza.",
+    "buttonLabel": "Przeglądaj sklep",
+    "buttonHref": "/kategoria/sofy"
+  }
+}

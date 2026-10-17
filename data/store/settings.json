@@ -1,0 +1,32 @@
+{
+  "shopName": "Wrohaus",
+  "contactEmail": "kontakt@wrohaus.pl",
+  "phone": "",
+  "deliveryFee": 249,
+  "freeShippingThreshold": 0,
+  "bankAccountName": "Wrohaus Anna Mikołowska",
+  "bankAccountNumber": "",
+  "bankName": "",
+  "returnsDays": 14,
+  "notifyNewOrders": true,
+  "notifyLowStock": true,
+  "notifyWeeklyReport": false,
+  "instagramUrl": "",
+  "socialLinks": [],
+  "adminEmail": "admin@wrohaus.pl",
+  "adminUsername": "frog",
+  "adminPassword": "",
+  "adminAuthVersion": 3,
+  "visibleProductCategories": [
+    "sofy",
+    "narozniki",
+    "fotele",
+    "kolekcje",
+    "szafy",
+    "szafki",
+    "szafki-rtv",
+    "komody",
+    "materace",
+    "lozka"
+  ]
+}

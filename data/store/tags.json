@@ -1,0 +1,88 @@
+{
+  "tags": [
+    {
+      "id": "status-new",
+      "group": "status",
+      "name": "Nowość",
+      "hint": "Produkty oznaczone jako nowe — karta i strona produktu",
+      "backgroundColor": "#5F6B54",
+      "textColor": "#F8F7F4",
+      "uppercase": true
+    },
+    {
+      "id": "status-ready",
+      "group": "status",
+      "name": "Od ręki",
+      "hint": "Gotowe do szybkiej wysyłki",
+      "backgroundColor": "#6E8578",
+      "textColor": "#F8F7F4",
+      "uppercase": true
+    },
+    {
+      "id": "status-24h",
+      "group": "status",
+      "name": "Wysyłka 24H",
+      "hint": "Produkt gotowy do wysłania w 24 godziny — kafelek i karta produktu",
+      "backgroundColor": "#111111",
+      "textColor": "#F8F7F4",
+      "borderColor": "#C4512F",
+      "uppercase": true
+    },
+    {
+      "id": "status-bestseller",
+      "group": "status",
+      "name": "Bestseller",
+      "hint": "Najchętniej kupowane modele — kafelek i karta produktu",
+      "backgroundColor": "#C9A227",
+      "textColor": "#111111",
+      "uppercase": true
+    },
+    {
+      "id": "status-sale",
+      "group": "status",
+      "name": "Promocja",
+      "hint": "Rabat procentowy na karcie i stronie produktu",
+      "backgroundColor": "#C4512F",
+      "textColor": "#F8F7F4",
+      "uppercase": false
+    },
+    {
+      "id": "status-sold-out",
+      "group": "status",
+      "name": "Wyprzedane",
+      "hint": "Brak na stanie — karta produktu",
+      "backgroundColor": "#B8B0A3",
+      "textColor": "#111111",
+      "uppercase": true
+    },
+    {
+      "id": "line-smart",
+      "group": "line",
+      "name": "Smart",
+      "hint": "Linia produktowa Smart",
+      "backgroundColor": "#EDE7DF",
+      "textColor": "#111111",
+      "borderColor": "#D8D0C4",
+      "uppercase": true
+    },
+    {
+      "id": "line-comfort",
+      "group": "line",
+      "name": "Comfort",
+      "hint": "Linia produktowa Comfort",
+      "backgroundColor": "#7A6B55",
+      "textColor": "#F8F7F4",
+      "uppercase": true
+    },
+    {
+      "id": "line-premium",
+      "group": "line",
+      "name": "Premium",
+      "hint": "Linia produktowa Premium",
+      "backgroundColor": "#111111",
+      "textColor": "#F8F7F4",
+      "borderColor": "#C4512F",
+      "uppercase": true
+    }
+  ]
+}

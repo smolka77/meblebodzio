@@ -1,2 +1,0 @@
-# meblebodzio
-Sklep z meblami

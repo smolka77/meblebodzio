@@ -1,0 +1,186 @@
+{
+  "hero": {
+    "image": "/hero-home.png",
+    "eyebrow": "Polska produkcja · Premium",
+    "title": "Komfort w najlepszym wydaniu.",
+    "buttonLabel": "Przeglądaj produkty",
+    "buttonHref": "#produkty"
+  },
+  "heroSlides": [
+    {
+      "image": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=800&q=80",
+      "eyebrow": "Kolekcja",
+      "title": "Skandynawski minimalizm",
+      "buttonLabel": "Zobacz kolekcję",
+      "buttonHref": "/kategoria/kolekcje"
+    },
+    {
+      "image": "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=800&q=80",
+      "eyebrow": "Kolekcja",
+      "title": "Nowoczesna elegancja",
+      "buttonLabel": "Zobacz kolekcję",
+      "buttonHref": "/kategoria/kolekcje"
+    }
+  ],
+  "bestsellers": {
+    "eyebrow": "Bestsellery",
+    "title": "Tu są nasze bestsellery",
+    "intro": "Modele, po które wracacie najczęściej."
+  },
+  "look": {
+    "image": "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=1200&q=85",
+    "eyebrow": "Aranżacje",
+    "title": "Zainspiruj się",
+    "intro": "Salon ułożony z mebli Wrohaus — ta sama tkanina, te same wymiary, bez zgadywania z katalogu. Najedź na biały znacznik na zdjęciu albo na model na liście: zobaczysz nazwę i cenę. Kliknij, żeby przejść prosto do produktu.",
+    "intro2": "To gotowa aranżacja, nie moodboard. Każdy mebel z tej sceny jest w sklepie i możesz zamówić go w tej samej konfiguracji.",
+    "listLabel": "Na tym zdjęciu możesz zobaczyć:",
+    "ctaLabel": "Zobacz meble z aranżacji",
+    "ctaHref": "/produkty",
+    "hotspots": [
+      {
+        "id": "look-fotel-nordic",
+        "productSlug": "fotel-nordic",
+        "x": 19,
+        "y": 50
+      },
+      {
+        "id": "look-naroznik-oslo",
+        "productSlug": "naroznik-oslo",
+        "x": 62,
+        "y": 44
+      },
+      {
+        "id": "look-fotel-boucle",
+        "productSlug": "fotel-boucle",
+        "x": 31,
+        "y": 76
+      }
+    ]
+  },
+  "categories": {
+    "eyebrow": "Kategorie",
+    "title": "Zacznij od kategorii",
+    "intro": "Sofy, narożniki, fotele, kolekcje i reszta oferty — wybierz kategorię i znajdź model do swojego wnętrza.",
+    "cards": [
+      {
+        "label": "Sofy",
+        "description": "",
+        "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=900&q=85",
+        "href": "/kategoria/sofy"
+      },
+      {
+        "label": "Narożniki",
+        "description": "",
+        "image": "https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?w=900&q=85",
+        "href": "/kategoria/narozniki"
+      },
+      {
+        "label": "Szafy",
+        "description": "",
+        "image": "https://images.unsplash.com/photo-1615876234886-fd9a39fda97f?w=900&q=85",
+        "href": "/kategoria/szafy"
+      },
+      {
+        "label": "Promocje",
+        "description": "",
+        "image": "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=800&q=80",
+        "href": "/promocje"
+      },
+      {
+        "label": "Meble od ręki",
+        "description": "",
+        "image": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=800&q=80",
+        "href": "/meble-od-reki"
+      },
+      {
+        "label": "Próbki tkanin",
+        "description": "",
+        "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80",
+        "href": "/probki-tkanin"
+      }
+    ]
+  },
+  "collections": {
+    "eyebrow": "Kolekcje",
+    "title": "Odkryj nasze kolekcje",
+    "intro": "",
+    "cards": [
+      {
+        "label": "Smart",
+        "description": "Dobry design i funkcjonalność w najlepszej cenie.",
+        "image": "/linie/smart.jpg",
+        "href": "/linia/smart"
+      },
+      {
+        "label": "Comfort",
+        "description": "Najlepszy balans wygody, jakości i ceny.",
+        "image": "/linie/comfort.jpg",
+        "href": "/linia/comfort"
+      },
+      {
+        "label": "Premium",
+        "description": "Designerskie modele i wyższy standard wykończenia.",
+        "image": "/linie/premium.jpg",
+        "href": "/linia/premium"
+      }
+    ]
+  },
+  "benefits": {
+    "eyebrow": "Bez zgadywania",
+    "title": "Dlaczego Wrohaus",
+    "workshop": {
+      "image": "/brand/manufaktura.jpg",
+      "alt": "Manufaktura Wrohaus w Kątach Wrocławskich",
+      "kicker": "Polska manufaktura",
+      "title": "Kąty Wrocławskie. Od ramy po ostatni szew.",
+      "body": "Każdy mebel powstaje u nas. Kontrolujemy jakość sami — bez sezonowych kompromisów. 2 lata gwarancji.",
+      "href": "/o-nas"
+    },
+    "returns": {
+      "highlight": "14",
+      "title": "dni na zwrot",
+      "body": "Kupujesz spokojnie. Jeśli model nie siądzie we wnętrzu, odsyłasz bez zbędnych formalności.",
+      "linkLabel": "Zasady zwrotu",
+      "linkHref": "/dostawa"
+    },
+    "shipping": {
+      "highlight": "od 249 zł",
+      "title": "Wysyłamy z Polski",
+      "body": "1–10 dni roboczych. Sofy i narożniki zwykle jadą w całości. Szafy i meble skrzyniowe mogą być w paczkach do samodzielnego montażu — to jest na karcie produktu.",
+      "linkLabel": "Dostawa i terminy",
+      "linkHref": "/dostawa"
+    }
+  },
+  "reviews": {
+    "eyebrow": "Wasze opinie",
+    "title": "Ludzie, którzy już siedzą na Wrohaus",
+    "rating": "4,9 / 5",
+    "meta": "— oceny z zamówień sofy, narożników i foteli",
+    "items": [
+      {
+        "id": "review-marta",
+        "name": "Marta W.",
+        "city": "Kraków",
+        "product": "Sofa Milano",
+        "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=800&q=80",
+        "text": "Siedzi się miękko, a tkanina w salonie wygląda drożej niż na zdjęciach. Dostawa w terminie, karton bez obtarć."
+      },
+      {
+        "id": "review-piotr",
+        "name": "Piotr L.",
+        "city": "Warszawa",
+        "product": "Narożnik Oslo",
+        "image": "https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?w=800&q=80",
+        "text": "Wzięliśmy Oslo zamiast gotowca z marketu. Po jednym wieczorze wiadomo, po co się dopłaca za siedzisko i ramę."
+      },
+      {
+        "id": "review-anna",
+        "name": "Anna i Tomek",
+        "city": "Wrocław",
+        "product": "Fotel Nordic",
+        "image": "https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?w=800&q=80",
+        "text": "Najpierw próbki tkanin, potem fotel. Kolor wyszedł 1:1. Wreszcie sklep, przy którym nie zgadujesz z monitora."
+      }
+    ]
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "methodsSection": {
+    "kicker": "Opcje dostawy",
+    "title": "Wybierz formę dostawy"
+  },
+  "methods": [
+    {
+      "id": "standard",
+      "title": "Dostawa standardowa",
+      "priceLabel": "od 249 zł",
+      "description": "Dostawa pod wskazany adres. Cena obejmuje transport do miejsca uzgodnionego z kurierem — zwykle wejście do budynku (pierwsze drzwi). Wniesienie na piętro i ustawienie w mieszkaniu nie są wliczone. Kurier kontaktuje się telefonicznie w celu ustalenia terminu.",
+      "features": [
+        "1–10 dni roboczych",
+        "Bez wniesienia do mieszkania",
+        "Tracking przesyłki online",
+        "Powiadomienie SMS"
+      ],
+      "icon": "package",
+      "highlight": false,
+      "sortOrder": 0,
+      "archived": false
+    },
+    {
+      "id": "premium",
+      "title": "Premium z wniesieniem",
+      "priceLabel": "od 399 zł",
+      "description": "Pełna obsługa — wniesienie, rozpakowanie i ustawienie mebli we wskazanym pomieszczeniu.",
+      "features": [
+        "Wniesienie do wybranego pokoju",
+        "Rozpakowanie i ustawienie",
+        "Odbiór opakowań"
+      ],
+      "icon": "home",
+      "highlight": true,
+      "sortOrder": 1,
+      "archived": true
+    },
+    {
+      "id": "pickup",
+      "title": "Odbiór z magazynu",
+      "priceLabel": "Bezpłatnie",
+      "description": "Odbierz zamówienie z magazynu Wrohaus po wcześniejszym umówieniu. Magazyn: Pn–Pt: 6:00–14:00. Biuro i e-mail: Pn–Pt: 9:00–19:00.",
+      "features": [
+        "Bez kosztów dostawy",
+        "Inspekcja przed odbiorem",
+        "Pomoc przy załadunku"
+      ],
+      "icon": "map-pin",
+      "highlight": false,
+      "sortOrder": 2,
+      "archived": false
+    }
+  ],
+  "stepsSection": {
+    "kicker": "Proces",
+    "title": "Od zamówienia do Twojego domu"
+  },
+  "steps": [
+    {
+      "id": "step-1",
+      "step": "01",
+      "title": "Potwierdzenie zamówienia",
+      "text": "Otrzymujesz e-mail z numerem zamówienia i szacowanym terminem produkcji.",
+      "sortOrder": 0
+    },
+    {
+      "id": "step-2",
+      "step": "02",
+      "title": "Produkcja",
+      "text": "Twój mebel powstaje w manufakturze Wrohaus — do 2 tygodni.",
+      "sortOrder": 1
+    },
+    {
+      "id": "step-3",
+      "step": "03",
+      "title": "Przygotowanie do wysyłki",
+      "text": "Produkt pakujemy z dbałością o każdy detal i przekazujemy kurierowi.",
+      "sortOrder": 2
+    },
+    {
+      "id": "step-4",
+      "step": "04",
+      "title": "Dostawa",
+      "text": "Kurier kontaktuje się 24–48 h przed dostawą, aby ustalić dogodny termin. Zostawia mebel przy wejściu — bez wniesienia do mieszkania.",
+      "sortOrder": 3
+    }
+  ]
+}

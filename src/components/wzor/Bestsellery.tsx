@@ -38,7 +38,7 @@ export function Bestsellery({ products }: { products: Product[] }) {
         <div>
           <p className="text-[14px] font-medium text-meta">Najchętniej wybierane</p>
           <h2 className="font-display mt-1.5 text-[28px] leading-tight sm:text-[36px]">
-            Tu są nasze bestsellery
+            Bestsellery
           </h2>
         </div>
         <Link

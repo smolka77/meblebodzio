@@ -8,7 +8,7 @@ import { jsonLdOkuszki, stronaMeta } from "@/lib/seo";
 import * as I from "@/components/wzor/ikony";
 
 export const metadata = stronaMeta({
-  title: "Doradca zakupowy - dobierz meble",
+  title: "Doradca zakupowy -- dobierz meble",
   description:
     "Odpowiedz na pięć pytań o pomieszczenie, styl i budżet - dobierzemy meble i podpowiemy, czym je uzupełnić.",
   path: "/doradca",

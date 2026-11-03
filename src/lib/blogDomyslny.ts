@@ -26,7 +26,7 @@ export function getDefaultBlogPosts(): BlogPost[] {
     {
       id: "blog-2",
       slug: "trendy-wnetrzarskie-2026",
-      title: "Trendy wnętrzarskie 2026 - ciepły minimalizm",
+      title: "Trendy wnętrzarskie 2026 -- ciepły minimalizm",
       excerpt:
         "Beże, naturalne materiały i miękkie formy dominują w nadchodzącym sezonie. Zobacz, jak je wprowadzić.",
       category: "Inspiracje",
@@ -43,7 +43,7 @@ export function getDefaultBlogPosts(): BlogPost[] {
     {
       id: "blog-3",
       slug: "pielegnacja-mebli-tapicerowanych",
-      title: "Pielęgnacja mebli tapicerowanych - praktyczny poradnik",
+      title: "Pielęgnacja mebli tapicerowanych -- praktyczny poradnik",
       excerpt:
         "Jak dbać o tapicerkę, aby zachowała świeży wygląd przez lata? Sprawdzone metody od ekspertów Wrohaus.",
       category: "Poradnik",
@@ -60,7 +60,7 @@ export function getDefaultBlogPosts(): BlogPost[] {
     {
       id: "blog-4",
       slug: "naroznik-czy-sofa",
-      title: "Narożnik czy sofa - co wybrać do Twojego salonu?",
+      title: "Narożnik czy sofa -- co wybrać do Twojego salonu?",
       excerpt:
         "Porównujemy oba rozwiązania pod kątem funkcjonalności, przestrzeni i stylu życia.",
       category: "Poradnik",
@@ -94,7 +94,7 @@ export function getDefaultBlogPosts(): BlogPost[] {
     {
       id: "blog-6",
       slug: "aranzacje-male-salon",
-      title: "Mały salon - 5 trików aranżacyjnych",
+      title: "Mały salon -- 5 trików aranżacyjnych",
       excerpt:
         "Jak optycznie powiększyć przestrzeń i wybrać meble, które nie przytłoczą wnętrza?",
       category: "Inspiracje",

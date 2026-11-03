@@ -15,7 +15,7 @@ export function LegalDocument({
     <section className="py-20">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="grid grid-cols-1 gap-16 lg:grid-cols-[240px_1fr]">
-          <aside className="lg:sticky lg:top-40 lg:self-start">
+          <aside className="lg:sticky lg:top-48 lg:self-start">
             <p className="section-kicker tracking-[0.12em] uppercase">
               Spis treści
             </p>

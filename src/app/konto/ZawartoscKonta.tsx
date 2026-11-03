@@ -336,7 +336,7 @@ export default function AccountPageContent() {
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             {user ? (
               <div className="grid gap-8 lg:grid-cols-[minmax(0,280px)_minmax(0,1fr)_minmax(0,300px)] lg:gap-10">
-                <aside className="space-y-4 lg:sticky lg:top-40 lg:self-start">
+                <aside className="space-y-4 lg:sticky lg:top-48 lg:self-start">
                   <div className="rounded-2xl bg-white p-6 shadow-[0_8px_24px_-16px_rgba(17,17,17,0.18)]">
                     <div className="flex items-center gap-4">
                       <span className="flex h-14 w-14 shrink-0 items-center justify-center rounded-full bg-charcoal font-serif text-lg text-cream">

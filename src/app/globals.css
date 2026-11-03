@@ -16,7 +16,7 @@
   --color-line-premium-soft: #f6f0e3;
   --background: var(--color-cream);
   --foreground: var(--color-charcoal);
-  --site-header-height: 11rem;
+  --site-header-height: 11.75rem;
 }
 
 @media (min-width: 1024px) {

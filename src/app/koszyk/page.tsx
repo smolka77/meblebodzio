@@ -278,13 +278,13 @@ function CartSummaryPanel({
               value={couponInput}
               onChange={(e) => onCouponInputChange(e.target.value.toUpperCase())}
               placeholder={t("cart.couponPh")}
-              className="min-h-[46px] flex-1 rounded-xl border border-taupe/30 bg-cream/20 px-4 font-serif text-base font-medium tracking-[0.1em] text-charcoal uppercase placeholder:font-sans placeholder:normal-case placeholder:tracking-normal placeholder:text-sand/80 focus:border-charcoal focus:bg-white focus:outline-none"
+              className="min-h-[46px] min-w-0 flex-1 rounded-xl border border-taupe/30 bg-cream/20 px-4 font-serif text-base font-medium tracking-[0.1em] text-charcoal uppercase placeholder:font-sans placeholder:normal-case placeholder:tracking-normal placeholder:text-sand/80 focus:border-charcoal focus:bg-white focus:outline-none"
             />
             <button
               type="button"
               onClick={onApplyCoupon}
               disabled={applyingCoupon || !couponInput.trim()}
-              className="min-h-[46px] shrink-0 rounded-xl border border-charcoal px-5 font-serif text-sm font-semibold tracking-wide text-charcoal transition-colors hover:bg-charcoal hover:text-cream disabled:opacity-50"
+              className="min-h-[46px] shrink-0 whitespace-nowrap rounded-xl border border-charcoal px-4 font-serif text-sm font-semibold tracking-wide text-charcoal transition-colors hover:bg-charcoal hover:text-cream disabled:opacity-50"
             >
               {applyingCoupon ? "…" : t("cart.apply")}
             </button>

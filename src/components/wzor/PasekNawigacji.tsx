@@ -231,30 +231,30 @@ export function ShopNav({
         onMouseLeave={scheduleClose}
         onMouseEnter={cancelClose}
       >
-        <div className="pw flex h-[45px] items-center">
+        <div className="pw flex h-[56px] items-center">
           {nav.map((item) =>
             item.type === "link" ? (
               <Link
                 key={item.label}
                 href={item.href}
-                className="inline-flex h-8 items-center gap-1.5 whitespace-nowrap px-2.5 text-[14px] font-bold text-black xl:px-3.5 xl:text-[15px]"
+                className="inline-flex h-10 items-center gap-1.5 whitespace-nowrap px-2 text-[16px] font-bold text-black min-[1100px]:px-3 xl:px-3.5 xl:text-[17px]"
               >
-                {item.highlight ? <Star className="h-3.5 w-3.5" /> : null}
-                {item.sparkle ? <Sparkle className="h-4 w-4 text-accent" /> : null}
+                {item.highlight ? <Star className="h-4 w-4" /> : null}
+                {item.sparkle ? <Sparkle className="h-[18px] w-[18px] text-accent" /> : null}
                 {item.label}
               </Link>
             ) : (
               <button
                 key={item.label}
                 type="button"
-                className="inline-flex h-8 items-center whitespace-nowrap px-2.5 text-[14px] font-bold text-black xl:px-3.5 xl:text-[15px]"
+                className="inline-flex h-10 items-center whitespace-nowrap px-2 text-[16px] font-bold text-black min-[1100px]:px-3 xl:px-3.5 xl:text-[17px]"
                 aria-expanded={menu === item.label}
                 onMouseEnter={() => openMenu(item.label)}
                 onFocus={() => openMenu(item.label)}
               >
                 <span className="inline-flex items-center gap-1">
                   {item.label}
-                  <Caret className="h-3.5 w-3.5" />
+                  <Caret className="h-4 w-4" />
                 </span>
               </button>
             )

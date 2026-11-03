@@ -191,7 +191,7 @@ export function ProductDetail({
   const needsColor = (product.colors ?? []).length > 0 && !selectedColor;
 
   return (
-    <div ref={detailRef} className="lg:sticky lg:top-40">
+    <div ref={detailRef} className="lg:sticky lg:top-48">
       {showTags && (
         <div className="mb-3 flex flex-nowrap items-center gap-2 overflow-x-auto [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
           {product.shipping24h && (

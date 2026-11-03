@@ -94,14 +94,18 @@ export function Footer(_props?: { hideAbout?: boolean }) {
           <div className="text-[28px] leading-none font-semibold tracking-[-0.04em]">sklep</div>
           <p className="mt-3 text-white/70">Meble projektowane we Wrocławiu i produkowane w Polsce. Dostarczamy z wniesieniem w całym kraju.</p>
           <div className="mt-5 flex items-center gap-5 text-white">
-            <svg aria-label="Instagram" role="img" viewBox="0 0 24 24" className="h-7 w-7" fill="none" stroke="currentColor" strokeWidth="1.8">
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="transition hover:opacity-70">
+            <svg aria-hidden viewBox="0 0 24 24" className="h-7 w-7" fill="none" stroke="currentColor" strokeWidth="1.8">
               <rect x="3" y="3" width="18" height="18" rx="5" />
               <circle cx="12" cy="12" r="4.2" />
               <circle cx="17.4" cy="6.6" r="1.1" fill="currentColor" stroke="none" />
             </svg>
-            <svg aria-label="Facebook" role="img" viewBox="0 0 24 24" className="h-7 w-7" fill="currentColor">
+            </a>
+            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook" className="transition hover:opacity-70">
+            <svg aria-hidden viewBox="0 0 24 24" className="h-7 w-7" fill="currentColor">
               <path d="M13.5 22v-8.2h2.8l.5-3.3h-3.3V8.4c0-1 .4-1.7 1.8-1.7H17V3.8c-.3 0-1.3-.2-2.5-.2-2.6 0-4.3 1.6-4.3 4.4v2.5H7.4v3.3h2.8V22h3.3Z" />
             </svg>
+            </a>
           </div>
         </div>
         {cols.map(([title, links], i) => (
@@ -119,7 +123,7 @@ export function Footer(_props?: { hideAbout?: boolean }) {
         <div className="flex flex-wrap items-center gap-2">
           <span className="mr-1 text-white/60">Płatności:</span>
           {["BLIK", "Visa", "Mastercard", "Przelewy24", "PayPo", "Raty 0%"].map((x) => (
-            <span key={x} className="rounded bg-white px-2 py-1 font-semibold text-forest">{x}</span>
+            <span key={x} className="px-1.5 py-1 font-semibold text-white">{x}</span>
           ))}
         </div>
         <div className="flex flex-wrap items-center gap-2">

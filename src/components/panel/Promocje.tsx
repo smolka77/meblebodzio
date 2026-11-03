@@ -172,7 +172,7 @@ export function AdminPromotions() {
         <div className="mb-6 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
           <p className="max-w-xl text-sm leading-relaxed text-sand">
             Dodajesz akcję (np. wyprzedaż wiosenna) i odhaczasz meble ze sklepu, które
-            pod nią wchodzą. Widać je na stronie Promocje. Kody z koszyka są osobno — w{" "}
+            pod nią wchodzą. Widać je na stronie Promocje. Kody z koszyka są osobno - w{" "}
             <Link href="/admin/kupony" className="underline underline-offset-2">
               Kodach rabatowych
             </Link>

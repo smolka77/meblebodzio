@@ -167,7 +167,7 @@ export function AdminFaq() {
       <AdminHeader title="FAQ" />
       <div className="admin-page">
         <p className="mb-5 max-w-2xl text-sm leading-relaxed text-sand">
-          To FAQ ze strony /faq — nie pytania przy konkretnym meblu. Edytuj treść,
+          To FAQ ze strony /faq - nie pytania przy konkretnym meblu. Edytuj treść,
           przenieś pytanie do innej kategorii albo zmień nazwę działu.
         </p>
         <div className="mb-6 flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">

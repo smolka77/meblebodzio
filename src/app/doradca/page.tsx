@@ -8,9 +8,9 @@ import { jsonLdOkuszki, stronaMeta } from "@/lib/seo";
 import * as I from "@/components/wzor/ikony";
 
 export const metadata = stronaMeta({
-  title: "Doradca zakupowy — dobierz meble",
+  title: "Doradca zakupowy - dobierz meble",
   description:
-    "Odpowiedz na pięć pytań o pomieszczenie, styl i budżet — dobierzemy meble i podpowiemy, czym je uzupełnić.",
+    "Odpowiedz na pięć pytań o pomieszczenie, styl i budżet - dobierzemy meble i podpowiemy, czym je uzupełnić.",
   path: "/doradca",
 });
 
@@ -46,7 +46,7 @@ export default async function AdvisorPage() {
             </h1>
             <p className="mt-4 text-[16px] leading-relaxed text-meta">
               Pięć krótkich pytań. Na końcu dostaniesz listę modeli z uzasadnieniem i podpowiedź,
-              czym je uzupełnić. Nic nie zapisujemy — to działa w Twojej przeglądarce.
+              czym je uzupełnić. Nic nie zapisujemy - to działa w Twojej przeglądarce.
             </p>
           </div>
           <div className="mt-10 max-w-5xl">

@@ -74,7 +74,7 @@ export async function submitFabricSampleRequest(input: {
 
   const requests = await getFabricSampleRequests();
   await writeStore(FILE, [entry, ...requests]);
-  return { ok: true, message: "Dziękujemy — wysyłamy próbki na podany adres." };
+  return { ok: true, message: "Dziękujemy - wysyłamy próbki na podany adres." };
 }
 
 export async function markFabricSampleRead(id: string): Promise<boolean> {

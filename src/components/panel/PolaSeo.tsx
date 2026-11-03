@@ -55,7 +55,7 @@ export function SeoFields({
   keywords,
   onKeywords,
   keywordsPlaceholder,
-  hint = "Puste pola = sklep sam złoży tytuł i opis. Nie wklejaj kodu HTML — tylko zwykły tekst.",
+  hint = "Puste pola = sklep sam złoży tytuł i opis. Nie wklejaj kodu HTML - tylko zwykły tekst.",
 }: SeoFieldsProps) {
   const inputClass =
     "mt-1.5 w-full rounded-lg border border-taupe/30 px-3 py-2.5 text-sm focus:border-charcoal focus:outline-none";
@@ -103,7 +103,7 @@ export function SeoFields({
             className={inputClass}
           />
           <p className="mt-1 text-[11px] leading-relaxed text-sand">
-            Po przecinku, np. meble, sofy, Wrohaus. Google prawie ich nie używa — ważniejsze są
+            Po przecinku, np. meble, sofy, Wrohaus. Google prawie ich nie używa - ważniejsze są
             tytuł i opis.
           </p>
         </div>

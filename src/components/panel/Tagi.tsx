@@ -20,11 +20,11 @@ const inputClass =
 const groupMeta: Record<ProductTagGroup, { title: string; description: string }> = {
   status: {
     title: "Statusy produktu",
-    description: "Nowość, od ręki, promocja i wyprzedane — na kartach i stronie produktu.",
+    description: "Nowość, od ręki, promocja i wyprzedane - na kartach i stronie produktu.",
   },
   line: {
     title: "Linie produktowe",
-    description: "Smart, Comfort, Premium — obok nazwy produktu w katalogu i na stronie szczegółów.",
+    description: "Smart, Comfort, Premium - obok nazwy produktu w katalogu i na stronie szczegółów.",
   },
 };
 

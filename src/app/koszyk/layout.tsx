@@ -4,7 +4,7 @@ import { stronaMeta } from "@/lib/seo";
 
 export const metadata = stronaMeta({
   title: "Koszyk",
-  description: "Twój koszyk Wrohaus — dokończ zamówienie mebli i wyposażenia domu.",
+  description: "Twój koszyk Wrohaus - dokończ zamówienie mebli i wyposażenia domu.",
   path: "/koszyk",
   noIndex: true,
 });

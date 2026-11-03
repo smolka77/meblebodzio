@@ -170,7 +170,7 @@ export function AdminDashboard() {
         <div className="mt-8">
           <h3 className="text-sm font-medium text-charcoal">Szybki dostęp</h3>
           <p className="mt-1 text-sm text-sand">
-            Nowe rzeczy z panelu są tu, reszta w menu po lewej — w działach.
+            Nowe rzeczy z panelu są tu, reszta w menu po lewej - w działach.
           </p>
           <div className="mt-4 grid grid-cols-1 gap-3 sm:grid-cols-2 xl:grid-cols-3">
             {[
@@ -317,7 +317,7 @@ export function AdminDashboard() {
           <div className="divide-y divide-taupe/10 md:hidden">
             {orders.length === 0 ? (
               <p className="px-4 py-8 text-center text-sm text-sand">
-                Brak zamówień — pierwsze pojawi się po złożeniu zamówienia w sklepie.
+                Brak zamówień - pierwsze pojawi się po złożeniu zamówienia w sklepie.
               </p>
             ) : (
               orders.map((order) => (
@@ -376,7 +376,7 @@ export function AdminDashboard() {
                 {orders.length === 0 ? (
                   <tr>
                     <td colSpan={6} className="px-6 py-8 text-center text-sand">
-                      Brak zamówień — pierwsze pojawi się po złożeniu zamówienia w sklepie.
+                      Brak zamówień - pierwsze pojawi się po złożeniu zamówienia w sklepie.
                     </td>
                   </tr>
                 ) : (

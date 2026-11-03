@@ -95,14 +95,14 @@ body {
   padding-bottom: env(safe-area-inset-bottom, 0px);
 }
 
-/* Menu mobilne — chwilowo ukryj pływak czatu (tylko telefon) */
+/* Menu mobilne - chwilowo ukryj pływak czatu (tylko telefon) */
 @media (max-width: 1023px) {
   body.mobile-menu-open [data-chat-fab] {
     display: none;
   }
 }
 
-/* Czat — ukryj przy najechaniu na stopkę (desktop / touch z hover) */
+/* Czat - ukryj przy najechaniu na stopkę (desktop / touch z hover) */
 @media (hover: hover) {
   body:has(#site-footer:hover) [data-chat-fab] {
     pointer-events: none;
@@ -111,7 +111,7 @@ body {
   }
 }
 
-/* Stopka — safe area + stały odstęp (safe-bottom nie może być razem z pb-* na tym samym elemencie) */
+/* Stopka - safe area + stały odstęp (safe-bottom nie może być razem z pb-* na tym samym elemencie) */
 .site-footer-inner {
   padding-bottom: max(1.75rem, calc(env(safe-area-inset-bottom, 0px) + 1rem));
 }
@@ -160,7 +160,7 @@ body {
   margin-right: auto;
 }
 
-/* Consistent section rhythm — tighter on mobile */
+/* Consistent section rhythm - tighter on mobile */
 .section-y {
   padding-top: 4rem;
   padding-bottom: 4rem;

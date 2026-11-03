@@ -15,7 +15,7 @@ export function isLocalUpload(src: string): boolean {
   );
 }
 
-/** next/image rzuca 500 przy obcym hoście — wtedy bez optymalizacji. */
+/** next/image rzuca 500 przy obcym hoście - wtedy bez optymalizacji. */
 export function shouldUnoptimizeImage(src?: string | null): boolean {
   if (!src?.trim()) return true;
   if (isLocalUpload(src)) return true;
@@ -69,7 +69,7 @@ export function mediaSrcSet(src: string): string | undefined {
   return MEDIA_WIDTHS.map((width) => `${sizedMediaUrl(clean, width)} ${width}w`).join(", ");
 }
 
-/** Snapshot plików z inputa — czyści wartość, żeby dało się wgrać ten sam plik ponownie. */
+/** Snapshot plików z inputa - czyści wartość, żeby dało się wgrać ten sam plik ponownie. */
 export function takeInputFiles(input: HTMLInputElement): File[] {
   const files = Array.from(input.files ?? []);
   input.value = "";

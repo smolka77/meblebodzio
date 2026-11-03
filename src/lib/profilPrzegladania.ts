@@ -5,7 +5,7 @@ import { productScore } from "@/lib/opinie";
 
 /**
  * Profil zainteresowań trzymany wyłącznie w przeglądarce (localStorage) i tylko za zgodą
- * na pliki analityczne — na jego podstawie sklep podpowiada „Wybrane dla Ciebie”.
+ * na pliki analityczne - na jego podstawie sklep podpowiada „Wybrane dla Ciebie”.
  */
 
 const KEY = "wnetrza-profil";
@@ -42,7 +42,7 @@ function writeProfile(profile: BrowsingProfile) {
     localStorage.setItem(KEY, JSON.stringify(profile));
     window.dispatchEvent(new Event(PROFILE_EVENT));
   } catch {
-    /* pamięć przeglądarki pełna lub wyłączona — profil jest tylko dodatkiem */
+    /* pamięć przeglądarki pełna lub wyłączona - profil jest tylko dodatkiem */
   }
 }
 
@@ -73,7 +73,7 @@ export function profileHasSignal(profile: BrowsingProfile): boolean {
   return profile.recent.length > 0;
 }
 
-/** Produkty dopasowane do profilu — bez tych, które klient już oglądał. */
+/** Produkty dopasowane do profilu - bez tych, które klient już oglądał. */
 export function recommendForProfile(
   products: Product[],
   profile: BrowsingProfile,

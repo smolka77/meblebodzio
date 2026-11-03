@@ -89,7 +89,7 @@ async function writeAuthEnv(env: AuthEnv): Promise<void> {
     "ADMIN_SESSION_SECRET",
   ];
   const lines = [
-    "# Wrohaus admin gate — hashes only. Never commit.",
+    "# Wrohaus admin gate - hashes only. Never commit.",
     ...keys.filter((key) => env[key]).map((key) => `${key}=${env[key]}`),
   ];
   const tmp = `${AUTH_ENV_FILE}.tmp`;
@@ -97,7 +97,7 @@ async function writeAuthEnv(env: AuthEnv): Promise<void> {
   await fs.rename(tmp, AUTH_ENV_FILE);
 }
 
-/** Jedyna ścieżka zapisu hasła — hash liczony z plaintextu w tym samym momencie. */
+/** Jedyna ścieżka zapisu hasła - hash liczony z plaintextu w tym samym momencie. */
 export async function setAdminPassword(password: string): Promise<void> {
   if (!password) throw new Error("Puste hasło.");
   const env = await loadAuthEnv();

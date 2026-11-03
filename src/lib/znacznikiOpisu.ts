@@ -50,7 +50,7 @@ export const DESCRIPTION_SNIPPETS = [
   {
     id: "fabric",
     label: "O tkaninie",
-    text: "Tapicerka została dobrana pod kątem codziennego użytkowania — miękka w dotyku, odporna na mechacenie i łatwa w pielęgnacji. Kolor na ekranie może nieznacznie różnić się od rzeczywistego.",
+    text: "Tapicerka została dobrana pod kątem codziennego użytkowania - miękka w dotyku, odporna na mechacenie i łatwa w pielęgnacji. Kolor na ekranie może nieznacznie różnić się od rzeczywistego.",
   },
   {
     id: "comfort",

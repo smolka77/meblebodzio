@@ -1,4 +1,4 @@
-/** Dane firmy — jedno źródło prawdy dla sklepu i dokumentów prawnych. */
+/** Dane firmy - jedno źródło prawdy dla sklepu i dokumentów prawnych. */
 export const company = {
   brandName: "Wrohaus",
   legalName: "Wrohaus Anna Mikołowska",
@@ -14,14 +14,14 @@ export const company = {
   fullAddress: "ul. Bazyliowa 16/10, 55-080 Kąty Wrocławskie",
   email: "kontakt@wrohaus.pl",
   emailDisplay: "kontakt@wrohaus.pl",
-  /** Uzupełnij w panelu admina (Ustawienia) — wyświetlane w stopce i regulaminie. */
+  /** Uzupełnij w panelu admina (Ustawienia) - wyświetlane w stopce i regulaminie. */
   phone: "",
   phoneDisplay: "",
   domain: "wrohaus.pl",
   openingHoursDays: "Pn–Pt",
   openingHoursShort: "Pn–Pt: 9:00–19:00",
   openingHoursDetail: "od poniedziałku do piątku, w godzinach 9:00–19:00",
-  /** Magazyn — odbiór osobisty (inne godziny niż biuro). */
+  /** Magazyn - odbiór osobisty (inne godziny niż biuro). */
   pickupHoursShort: "Pn–Pt: 6:00–14:00",
   pickupHoursDetail: "od poniedziałku do piątku, w godzinach 6:00–14:00",
   /** Adres do zwrotów (PayU wymaga go w polityce zwrotów). */

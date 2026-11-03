@@ -38,7 +38,7 @@ export function HomePromoStrip({
         >
           <Image
             src={product.image}
-            alt={`${collapseRepeatedProductName(product.name)} — widok z przodu`}
+            alt={`${collapseRepeatedProductName(product.name)} - widok z przodu`}
             fill
             className="object-cover"
             sizes="(max-width: 768px) 100vw, 240px"

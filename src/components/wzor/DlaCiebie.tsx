@@ -16,7 +16,7 @@ import {
 import { formatPrice } from "@/lib/dane";
 import * as I from "./ikony";
 
-/** „Wybrane dla Ciebie” — pojawia się dopiero, gdy klient coś obejrzy (i zgodzi się na pliki analityczne). */
+/** „Wybrane dla Ciebie” - pojawia się dopiero, gdy klient coś obejrzy (i zgodzi się na pliki analityczne). */
 export function DlaCiebie({ products }: { products: Product[] }) {
   const [profile, setProfile] = useState<BrowsingProfile>(EMPTY_PROFILE);
 

@@ -40,7 +40,7 @@ export function AdminCustomers() {
         <div className="space-y-3 md:hidden">
           {customers.length === 0 ? (
             <p className="rounded-xl border border-taupe/30 bg-white px-4 py-8 text-center text-sm text-sand">
-              Brak klientów — pojawią się po rejestracji lub złożeniu zamówienia.
+              Brak klientów - pojawią się po rejestracji lub złożeniu zamówienia.
             </p>
           ) : (
             customers.map((customer) => (
@@ -97,7 +97,7 @@ export function AdminCustomers() {
               {customers.length === 0 ? (
                 <tr>
                   <td colSpan={5} className="px-6 py-8 text-center text-sand">
-                    Brak klientów — pojawią się po rejestracji lub złożeniu zamówienia.
+                    Brak klientów - pojawią się po rejestracji lub złożeniu zamówienia.
                   </td>
                 </tr>
               ) : (

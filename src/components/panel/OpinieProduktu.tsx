@@ -46,7 +46,7 @@ export function ProductReviewsField({
     <section className="rounded-2xl border border-taupe/25 bg-white p-4 sm:p-5">
       <p className={panelLabelClass}>Opinie przy ogłoszeniu</p>
       <p className={`mt-1 max-w-xl ${panelHintClass}`}>
-        Pokazują się na stronie produktu. Ocenę klikasz gwiazdkami — średnia
+        Pokazują się na stronie produktu. Ocenę klikasz gwiazdkami - średnia
         wychodzi pod ID na ogłoszeniu. Wystarczy imię albo treść, żeby opinia
         zapisała się w sklepie.
       </p>

@@ -1,6 +1,6 @@
 import type { BlogPost } from "@/lib/typy";
 
-/** Domyślne artykuły — seed przy pierwszym uruchomieniu. */
+/** Domyślne artykuły - seed przy pierwszym uruchomieniu. */
 export function getDefaultBlogPosts(): BlogPost[] {
   return [
     {
@@ -8,7 +8,7 @@ export function getDefaultBlogPosts(): BlogPost[] {
       slug: "jak-wybrac-sofe-do-salonu",
       title: "Jak wybrać idealną sofę do salonu?",
       excerpt:
-        "Pięć kluczowych kryteriów, które pomogą Ci podjąć decyzję — od wymiarów po wybór tapicerki.",
+        "Pięć kluczowych kryteriów, które pomogą Ci podjąć decyzję - od wymiarów po wybór tapicerki.",
       category: "Poradnik",
       date: "2026-07-28",
       readTime: "6 min",
@@ -16,17 +16,17 @@ export function getDefaultBlogPosts(): BlogPost[] {
         "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=1200&q=85",
       featured: true,
       content: [
-        "Sofa to serce każdego salonu — to ona definiuje atmosferę wnętrza i codzienny komfort domowników. Wybór idealnego modelu wymaga przemyślenia kilku kluczowych aspektów.",
-        "Po pierwsze — wymiary. Zmierz przestrzeń z zapasem 80–100 cm na przejście. Pamiętaj o szerokości drzwi i korytarzy, przez które mebel musi przejść.",
-        "Po drugie — styl. W salonie w stylu skandynawskim sprawdzą się miękkie formy i neutralne tkaniny boucle. W nowoczesnych wnętrzach postaw na proste linie i głębokie siedzisko.",
-        "Po trzecie — tapicerka. Tkaniny o wysokiej odporności na ścieranie (powyżej 40 000 cykli Martindale) idealnie sprawdzą się w domach z dziećmi i zwierzętami.",
-        "Na koniec — ergonomia. Jeśli masz możliwość, przetestuj sofę na miejscu lub skorzystaj z próbek tkanin: usiądź, oprzyj się, sprawdź głębokość siedziska. Mebel powinien wspierać kręgosłup w naturalnej pozycji.",
+        "Sofa to serce każdego salonu - to ona definiuje atmosferę wnętrza i codzienny komfort domowników. Wybór idealnego modelu wymaga przemyślenia kilku kluczowych aspektów.",
+        "Po pierwsze - wymiary. Zmierz przestrzeń z zapasem 80–100 cm na przejście. Pamiętaj o szerokości drzwi i korytarzy, przez które mebel musi przejść.",
+        "Po drugie - styl. W salonie w stylu skandynawskim sprawdzą się miękkie formy i neutralne tkaniny boucle. W nowoczesnych wnętrzach postaw na proste linie i głębokie siedzisko.",
+        "Po trzecie - tapicerka. Tkaniny o wysokiej odporności na ścieranie (powyżej 40 000 cykli Martindale) idealnie sprawdzą się w domach z dziećmi i zwierzętami.",
+        "Na koniec - ergonomia. Jeśli masz możliwość, przetestuj sofę na miejscu lub skorzystaj z próbek tkanin: usiądź, oprzyj się, sprawdź głębokość siedziska. Mebel powinien wspierać kręgosłup w naturalnej pozycji.",
       ],
     },
     {
       id: "blog-2",
       slug: "trendy-wnetrzarskie-2026",
-      title: "Trendy wnętrzarskie 2026 — ciepły minimalizm",
+      title: "Trendy wnętrzarskie 2026 - ciepły minimalizm",
       excerpt:
         "Beże, naturalne materiały i miękkie formy dominują w nadchodzącym sezonie. Zobacz, jak je wprowadzić.",
       category: "Inspiracje",
@@ -36,14 +36,14 @@ export function getDefaultBlogPosts(): BlogPost[] {
         "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=1200&q=85",
       content: [
         "Rok 2026 w wnętrzach to powrót do ciepła i autentyczności. Zimne biele ustępują miejsca kremom, piaskowym beżom i złamanym bielom.",
-        "Boucle, len i welur to tkaniny sezonu — ich faktura dodaje wnętrzu głębi bez nadmiaru dekoracji. Meble tapicerowane stają się głównym elementem dekoracyjnym.",
-        "Formy są zaokrąglone i organiczne. Ostre krawędzie zastępują miękkie linie — narożniki, oparcia i podłokietniki tworzą spójną, przyjazną całość.",
+        "Boucle, len i welur to tkaniny sezonu - ich faktura dodaje wnętrzu głębi bez nadmiaru dekoracji. Meble tapicerowane stają się głównym elementem dekoracyjnym.",
+        "Formy są zaokrąglone i organiczne. Ostre krawędzie zastępują miękkie linie - narożniki, oparcia i podłokietniki tworzą spójną, przyjazną całość.",
       ],
     },
     {
       id: "blog-3",
       slug: "pielegnacja-mebli-tapicerowanych",
-      title: "Pielęgnacja mebli tapicerowanych — praktyczny poradnik",
+      title: "Pielęgnacja mebli tapicerowanych - praktyczny poradnik",
       excerpt:
         "Jak dbać o tapicerkę, aby zachowała świeży wygląd przez lata? Sprawdzone metody od ekspertów Wrohaus.",
       category: "Poradnik",
@@ -53,14 +53,14 @@ export function getDefaultBlogPosts(): BlogPost[] {
         "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=1200&q=85",
       content: [
         "Regularna pielęgnacja to klucz do długowieczności mebli tapicerowanych. Zacznij od cotygodniowego odkurzania miękką końcówką.",
-        "Plamy usuwaj natychmiast — delikatnie blotuj, nie pocieraj. Do tkanin z kodem W używaj letniej wody z łagodnym detergentem.",
+        "Plamy usuwaj natychmiast - delikatnie blotuj, nie pocieraj. Do tkanin z kodem W używaj letniej wody z łagodnym detergentem.",
         "Rotuj poduszki co kilka tygodni, aby równomiernie rozłożyć obciążenie. Unikaj bezpośredniego nasłonecznienia, które może wyblaknąć tkaninę.",
       ],
     },
     {
       id: "blog-4",
       slug: "naroznik-czy-sofa",
-      title: "Narożnik czy sofa — co wybrać do Twojego salonu?",
+      title: "Narożnik czy sofa - co wybrać do Twojego salonu?",
       excerpt:
         "Porównujemy oba rozwiązania pod kątem funkcjonalności, przestrzeni i stylu życia.",
       category: "Poradnik",
@@ -71,7 +71,7 @@ export function getDefaultBlogPosts(): BlogPost[] {
       content: [
         "Wybór między sofą a narożnikiem zależy przede wszystkim od układu pomieszczenia i liczby domowników.",
         "Sofa sprawdzi się w mniejszych salonach i przy ścianach bez narożnika. Narożnik natomiast maksymalizuje liczbę miejsc siedzących i tworzy przytulną strefę wypoczynku.",
-        "Jeśli lubisz wieczorne seanse filmowe i gościnność — narożnik z funkcją spania to inwestycja w komfort na lata.",
+        "Jeśli lubisz wieczorne seanse filmowe i gościnność - narożnik z funkcją spania to inwestycja w komfort na lata.",
       ],
     },
     {
@@ -86,15 +86,15 @@ export function getDefaultBlogPosts(): BlogPost[] {
       image:
         "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=1200&q=85",
       content: [
-        "W 2026 roku wprowadziliśmy linię tkanin ECO — wytwarzanych w 70% z recyklingowanych włókien PET.",
+        "W 2026 roku wprowadziliśmy linię tkanin ECO - wytwarzanych w 70% z recyklingowanych włókien PET.",
         "Tkaniny zachowują tę samą odporność na ścieranie i łatwość pielęgnacji co nasze klasyczne kolekcje, a ich produkcja zużywa o 40% mniej wody.",
-        "Dostępne w 12 odcieniach neutralnej palety — idealnie komponują się z filozofią ciepłego minimalizmu Wrohaus.",
+        "Dostępne w 12 odcieniach neutralnej palety - idealnie komponują się z filozofią ciepłego minimalizmu Wrohaus.",
       ],
     },
     {
       id: "blog-6",
       slug: "aranzacje-male-salon",
-      title: "Mały salon — 5 trików aranżacyjnych",
+      title: "Mały salon - 5 trików aranżacyjnych",
       excerpt:
         "Jak optycznie powiększyć przestrzeń i wybrać meble, które nie przytłoczą wnętrza?",
       category: "Inspiracje",
@@ -103,7 +103,7 @@ export function getDefaultBlogPosts(): BlogPost[] {
       image:
         "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=1200&q=85",
       content: [
-        "Mały salon wymaga przemyślanych decyzji. Wybieraj meble na podwyższonej nóżce — optycznie odsłaniają podłogę i dodają lekkości.",
+        "Mały salon wymaga przemyślanych decyzji. Wybieraj meble na podwyższonej nóżce - optycznie odsłaniają podłogę i dodają lekkości.",
         "Jasne tkaniny i niskie oparcia sprawiają, że pomieszczenie wydaje się wyższe. Unikaj masywnych, ciemnych brył.",
         "Lustro naprzeciw okna i jednolita paleta barw to proste triki, które realnie powiększają wnętrze.",
       ],
@@ -113,17 +113,17 @@ export function getDefaultBlogPosts(): BlogPost[] {
       slug: "jak-wybrac-materac",
       title: "Jak wybrać materac do pozycji, w której śpisz",
       excerpt:
-        "Twardość, rozmiar i rodzaj wypełnienia — krótki przewodnik, który pomoże dobrać materac do pozycji snu i wagi ciała.",
+        "Twardość, rozmiar i rodzaj wypełnienia - krótki przewodnik, który pomoże dobrać materac do pozycji snu i wagi ciała.",
       category: "Poradnik",
       date: "2026-09-02",
       readTime: "6 min",
       image: "/wzor/bedroom2.jpg",
       content: [
         "Dobry materac to połowa udanej nocy. Zanim porównasz modele, ustal trzy rzeczy: w jakiej pozycji śpisz, ile ważysz i czy dzielisz łóżko z partnerem.",
-        "Śpisz na boku? Wybierz materac średnio miękki lub średnio twardy, który pozwoli ramieniu i biodru zapaść się w piankę, a kręgosłup zachowa prostą linię. Na plecach najlepiej sprawdza się średnia twardość z wyraźnym podparciem odcinka lędźwiowego. Na brzuchu — raczej twardszy materac, żeby biodra nie zapadały się zbyt głęboko.",
+        "Śpisz na boku? Wybierz materac średnio miękki lub średnio twardy, który pozwoli ramieniu i biodru zapaść się w piankę, a kręgosłup zachowa prostą linię. Na plecach najlepiej sprawdza się średnia twardość z wyraźnym podparciem odcinka lędźwiowego. Na brzuchu - raczej twardszy materac, żeby biodra nie zapadały się zbyt głęboko.",
         "Waga ma znaczenie. Osoby lżejsze zwykle potrzebują miększego materaca, bo twardy nie zdąży się dopasować. Osoby cięższe powinny wybierać modele wyższe i twardsze, z pianką o większej gęstości lub sprężynami kieszeniowymi.",
         "Para o różnych potrzebach? Rozważ materac dwustronny z miększą i twardszą stroną albo dwa osobne materace w jednej ramie. Sprężyny kieszeniowe ograniczają przenoszenie ruchu, więc partner nie poczuje, że się obracasz.",
-        "Na koniec rozmiar: materac powinien być co najmniej 20 cm dłuższy od Twojego wzrostu. Przed zakupem sprawdź wymiary ramy łóżka — na karcie łóżka dobierzesz materac w tym samym rozmiarze.",
+        "Na koniec rozmiar: materac powinien być co najmniej 20 cm dłuższy od Twojego wzrostu. Przed zakupem sprawdź wymiary ramy łóżka - na karcie łóżka dobierzesz materac w tym samym rozmiarze.",
       ],
     },
   ];

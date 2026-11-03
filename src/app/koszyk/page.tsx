@@ -231,7 +231,7 @@ function CartSummaryPanel({
           </li>
           <li className="flex items-center gap-2">
             <I.Return className="h-3.5 w-3.5 shrink-0" />
-            {storePolicies.returnsLabel} — zgodnie z polityką zwrotów
+            {storePolicies.returnsLabel} - zgodnie z polityką zwrotów
           </li>
           <li className="flex items-center gap-2">
             <I.Truck className="h-3.5 w-3.5 shrink-0" />
@@ -338,7 +338,7 @@ export default function CartPage() {
   } = useShop();
   const authSectionRef = useRef<HTMLElement>(null);
 
-  // Link z „Kup cały zestaw” niesie kod rabatowy — naliczamy go raz, gdy koszyk ma już wartość.
+  // Link z „Kup cały zestaw” niesie kod rabatowy - naliczamy go raz, gdy koszyk ma już wartość.
   const couponParam = searchParams.get("kupon");
   const couponTried = useRef(false);
   useEffect(() => {
@@ -428,7 +428,7 @@ export default function CartPage() {
     };
   }, [cartTotal, discountAmount, checkoutSettings, shipping.deliveryMethod]);
 
-  /** Adres, dostawa i dane kupującego — wspólne dla przejścia do płatności i samej płatności. */
+  /** Adres, dostawa i dane kupującego - wspólne dla przejścia do płatności i samej płatności. */
   function detailsReady(): boolean {
     const fieldErrors = validateCheckoutShipping(shipping);
     if (Object.keys(fieldErrors).length > 0) {
@@ -637,7 +637,7 @@ export default function CartPage() {
                             src={item.image}
                             alt={
                               colorLabel
-                                ? `${item.name} — ${colorLabel}`
+                                ? `${item.name} - ${colorLabel}`
                                 : item.name
                             }
                             fill
@@ -854,7 +854,7 @@ export default function CartPage() {
                 </section>
 
                 <section className="space-y-5">
-                  <SectionHeading title="Płatność" hint="BLIK, karta, Apple Pay lub przelew — płacisz w bezpiecznej bramce PayU." />
+                  <SectionHeading title="Płatność" hint="BLIK, karta, Apple Pay lub przelew - płacisz w bezpiecznej bramce PayU." />
                   <CartPaymentMethodPicker
                     value={payMethod}
                     onChange={(next) => {

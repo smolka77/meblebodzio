@@ -11,11 +11,11 @@ type Background =
   | { kind: "photo"; url: string; width: number; height: number };
 
 interface Placement {
-  /** Środek mebla — % szerokości sceny. */
+  /** Środek mebla - % szerokości sceny. */
   x: number;
-  /** Dolna krawędź mebla — % wysokości sceny. */
+  /** Dolna krawędź mebla - % wysokości sceny. */
   y: number;
-  /** Szerokość mebla — % szerokości sceny. */
+  /** Szerokość mebla - % szerokości sceny. */
   w: number;
 }
 
@@ -44,7 +44,7 @@ export function PodgladWPokoju({
 }: {
   name: string;
   slug: string;
-  /** Adresy zdjęć mebla do wycięcia — pierwszy, który da się wyciąć, wygrywa. */
+  /** Adresy zdjęć mebla do wycięcia - pierwszy, który da się wyciąć, wygrywa. */
   sources: string[];
   widthCm?: number;
   onClose: () => void;
@@ -296,7 +296,7 @@ export function PodgladWPokoju({
             </h3>
             <ol className="mt-5 space-y-2 text-left text-[15px] text-white/80">
               <li>1. Zrób zdjęcie miejsca, w którym ma stanąć mebel (albo wgraj gotowe).</li>
-              <li>2. Przeciągnij mebel i dopasuj rozmiar — palcami lub suwakiem.</li>
+              <li>2. Przeciągnij mebel i dopasuj rozmiar - palcami lub suwakiem.</li>
               <li>3. Zapisz zdjęcie i pokaż domownikom.</li>
             </ol>
             <div className="mt-8 flex w-full flex-col gap-3 sm:flex-row">
@@ -329,7 +329,7 @@ export function PodgladWPokoju({
             ) : null}
             {error ? <p className="mt-4 text-[13.5px] text-amber-300">{error}</p> : null}
             <p className="mt-6 text-[12.5px] leading-relaxed text-white/50">
-              Zdjęcie zostaje na Twoim urządzeniu — nie wysyłamy go na serwer. Podgląd jest
+              Zdjęcie zostaje na Twoim urządzeniu - nie wysyłamy go na serwer. Podgląd jest
               orientacyjny: proporcje zależą od perspektywy zdjęcia.
             </p>
           </div>
@@ -425,7 +425,7 @@ export function PodgladWPokoju({
             </div>
             <p className="max-w-[720px] text-center text-[12.5px] text-white/50">
               Przeciągnij mebel w miejsce docelowe. Aby dopasować skalę, porównaj podaną szerokość
-              z czymś, co znasz — np. drzwiami (ok. 90 cm).
+              z czymś, co znasz - np. drzwiami (ok. 90 cm).
             </p>
             <div className="flex flex-wrap justify-center gap-3">
               <button

@@ -1,7 +1,7 @@
 import type { Product } from "@/lib/typy";
 import { ProductCard } from "@/components/sklep/KartaProduktu";
 
-/** „Skompletuj wnętrze” — podpowiedzi uzupełniające mebel z karty (inne kategorie, podobny styl). */
+/** „Skompletuj wnętrze” - podpowiedzi uzupełniające mebel z karty (inne kategorie, podobny styl). */
 export function CompleteInterior({ products }: { products: Product[] }) {
   if (products.length === 0) return null;
   return (

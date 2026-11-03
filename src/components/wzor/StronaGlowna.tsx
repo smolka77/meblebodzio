@@ -12,7 +12,7 @@ import { PoradnikiBlog } from "./PoradnikiBlog";
 import { SekcjaInspiracji } from "./SekcjaInspiracji";
 import { SekcjaKolekcji } from "./SekcjaKolekcji";
 
-/** Aranżacje w poziomym kadrze — na stronie głównej każda ma znaczniki przy meblach. */
+/** Aranżacje w poziomym kadrze - na stronie głównej każda ma znaczniki przy meblach. */
 const HOME_LOOKS = LOOKS.filter((look) => look.ratio >= 1.2);
 
 export function HomeView({

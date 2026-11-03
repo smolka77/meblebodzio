@@ -13,12 +13,12 @@ export const FABRIC_ROLES: {
   {
     id: "pokrowiec",
     label: "Pokrowiec materaca",
-    hint: "Do ogłoszeń materacy — nie pokażemy jej w katalogu próbek.",
+    hint: "Do ogłoszeń materacy - nie pokażemy jej w katalogu próbek.",
   },
   {
     id: "plyta",
     label: "Kolor mebla (szafa / płyta)",
-    hint: "Do szaf, komód i szafek — nie pokażemy jej w katalogu próbek.",
+    hint: "Do szaf, komód i szafek - nie pokażemy jej w katalogu próbek.",
   },
 ];
 

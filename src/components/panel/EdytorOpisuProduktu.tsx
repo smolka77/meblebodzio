@@ -481,7 +481,7 @@ export function ProductDescriptionEditor({
               <input
                 value={templateLabel}
                 onChange={(e) => setTemplateLabel(e.target.value)}
-                placeholder="np. Sofa welurowa — pełny opis"
+                placeholder="np. Sofa welurowa - pełny opis"
                 className={inputClass}
               />
             </div>
@@ -585,7 +585,7 @@ export function ProductDescriptionEditor({
       <SectionCard
         step={1}
         title="Opis produktu"
-        hint={`Maksymalnie ${template.descriptionGuide.length} krótkie akapity — oddziel je pustą linią. Użyj znaczników zamiast wpisywać daty ręcznie.`}
+        hint={`Maksymalnie ${template.descriptionGuide.length} krótkie akapity - oddziel je pustą linią. Użyj znaczników zamiast wpisywać daty ręcznie.`}
       >
         <ol className="grid gap-2 sm:grid-cols-2">
           {template.descriptionGuide.map((guide, index) => (
@@ -645,7 +645,7 @@ export function ProductDescriptionEditor({
       <SectionCard
         step={2}
         title="Najważniejsze cechy / atuty"
-        hint="Zaznacz cechy, które produkt faktycznie ma — na stronie pokazują się jako krótkie chipy pod opisem. Niezaznaczone nie są wyświetlane (nie pokazujemy „NIE”)."
+        hint="Zaznacz cechy, które produkt faktycznie ma - na stronie pokazują się jako krótkie chipy pod opisem. Niezaznaczone nie są wyświetlane (nie pokazujemy „NIE”)."
       >
         <div className="space-y-4">
           {template.featureGroups.map((group) => (
@@ -725,7 +725,7 @@ export function ProductDescriptionEditor({
       <SectionCard
         step={3}
         title="Trzy główne wyróżniki"
-        hint="Zaznacz te, które ten model naprawdę ma. Niezaznaczone nie pojawią się na stronie — treść z szablonu możesz potem dopasować."
+        hint="Zaznacz te, które ten model naprawdę ma. Niezaznaczone nie pojawią się na stronie - treść z szablonu możesz potem dopasować."
       >
         <ChipRow label="Wyróżniki z szablonu">
           {template.highlights.map((preset) => {
@@ -856,7 +856,7 @@ export function ProductDescriptionEditor({
         </button>
         {details.highlights.filter((item) => item.title.trim()).length > 3 && (
           <p className="text-xs font-medium text-terracotta">
-            Wytyczne przewidują trzy wyróżniki — na stronie pokażemy wszystkie, ale rozważ skrócenie listy.
+            Wytyczne przewidują trzy wyróżniki - na stronie pokażemy wszystkie, ale rozważ skrócenie listy.
           </p>
         )}
       </SectionCard>
@@ -867,7 +867,7 @@ export function ProductDescriptionEditor({
         hint={
           template.category === "lozka"
             ? "Wklej planszę z wymiarami albo wybierz gotową. Na stronie produktu kafelek pokaże zdjęcie."
-            : "Wpisz liczbę — jednostka dopisze się sama (cm przy wymiarach, kg przy wadze). Puste wiersze nie pojawią się na stronie."
+            : "Wpisz liczbę - jednostka dopisze się sama (cm przy wymiarach, kg przy wadze). Puste wiersze nie pojawią się na stronie."
         }
       >
         {template.category === "lozka" ? (
@@ -910,7 +910,7 @@ export function ProductDescriptionEditor({
       <SectionCard
         step={5}
         title="Specyfikacja techniczna"
-        hint="Zaznacz to, co dotyczy modelu — na ogłoszeniu widać tylko zaznaczone. Inną wartość dopiszesz ręcznie na dole."
+        hint="Zaznacz to, co dotyczy modelu - na ogłoszeniu widać tylko zaznaczone. Inną wartość dopiszesz ręcznie na dole."
       >
         <ChipRow label="Dodaj pole">
           {[...template.specs, ...SPEC_PRESETS.map((preset) => ({ label: preset.label }))]
@@ -1091,7 +1091,7 @@ export function ProductDescriptionEditor({
                   updateFaq(next);
                 }}
                 className={`${inputClass} mt-2`}
-                placeholder="Odpowiedź — możesz wstawić {{dostawa}}, {{zwrot}} itd."
+                placeholder="Odpowiedź - możesz wstawić {{dostawa}}, {{zwrot}} itd."
               />
               <div className="mt-2 flex flex-wrap gap-1.5">
                 {DESCRIPTION_MARKERS.map((marker) => (

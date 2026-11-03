@@ -33,7 +33,7 @@ function ReviewCard({
         <div className="relative aspect-[16/10] bg-cream-light">
           <Image
             src={review.image}
-            alt={`${review.product || review.name} — ${review.name}`}
+            alt={`${review.product || review.name} - ${review.name}`}
             fill
             className="object-cover"
             sizes={sizes}

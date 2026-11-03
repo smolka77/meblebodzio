@@ -4,13 +4,13 @@ import {
   POLAND_OUTLINE_TRANSFORM,
 } from "./konturPolski";
 
-/** Obrys mapy Polski — Wikimedia Commons, domena publiczna. */
+/** Obrys mapy Polski - Wikimedia Commons, domena publiczna. */
 export function PolandMapIcon({
   className,
   strokeWidth = 1.2,
   ...props
 }: SVGProps<SVGSVGElement> & { strokeWidth?: number }) {
-  // viewBox 600×600 — skaluj grubość jak w Lucide (viewBox 24)
+  // viewBox 600×600 - skaluj grubość jak w Lucide (viewBox 24)
   const scaledStroke = strokeWidth <= 2 ? strokeWidth * 17 : strokeWidth;
 
   return (

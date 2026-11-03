@@ -180,7 +180,7 @@ export function ShopListing({
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [base, filters, sort, lineFilter]);
 
-  /** Liczniki przy opcjach liczone z pominięciem własnej grupy — widać, ile wyników da zaznaczenie. */
+  /** Liczniki przy opcjach liczone z pominięciem własnej grupy - widać, ile wyników da zaznaczenie. */
   const countFor = (key: MultiKey, matcher: (p: Product) => boolean) =>
     base.filter((p) => lineOk(p) && passes(p, filters, key) && matcher(p)).length;
 
@@ -249,7 +249,7 @@ export function ShopListing({
     setLineFilter("");
   };
 
-  // Adres odzwierciedla filtry — link do wyników da się wysłać dalej.
+  // Adres odzwierciedla filtry - link do wyników da się wysłać dalej.
   useEffect(() => {
     const params = new URLSearchParams(window.location.search);
     for (const key of ["typ", "pokoj", "styl", "kolor", "material"] as MultiKey[]) {

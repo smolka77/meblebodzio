@@ -27,7 +27,7 @@ export default function ReturnsPolicyPage() {
           </P>
           <P>
             Ustawowy termin odstąpienia wynosi {storePolicies.statutoryReturnsDays}{" "}
-            dni. Sprzedawca dobrowolnie wydłuża go do {storePolicies.returnsDays} dni —
+            dni. Sprzedawca dobrowolnie wydłuża go do {storePolicies.returnsDays} dni -
             to dodatkowa korzyść ponad wymóg ustawy. Zwrot płatności i odesłanie
             rzeczy po odstąpieniu następują w ustawowych terminach ({storePolicies.refundDays}{" "}
             dni).
@@ -35,7 +35,7 @@ export default function ReturnsPolicyPage() {
           <P>
             Termin liczy się od dnia, w którym Klient lub wskazana przez niego osoba
             trzecia inna niż przewoźnik weszła w posiadanie rzeczy. Przy wielu
-            rzeczach dostarczanych osobno — od objęcia w posiadanie ostatniej rzeczy.
+            rzeczach dostarczanych osobno - od objęcia w posiadanie ostatniej rzeczy.
           </P>
         </>
       ),
@@ -59,7 +59,7 @@ export default function ReturnsPolicyPage() {
             <Link href="/formularz-odstapienia" className="underline underline-offset-2">
               wzoru formularza odstąpienia
             </Link>
-            . Formularz nie jest obowiązkowy — wystarczy jednoznaczne oświadczenie
+            . Formularz nie jest obowiązkowy - wystarczy jednoznaczne oświadczenie
             (e-mail lub list).
           </P>
           <P>
@@ -77,7 +77,7 @@ export default function ReturnsPolicyPage() {
         <>
           <P>
             Możesz rozpakować i sprawdzić mebel w zakresie niezbędnym do stwierdzenia
-            jego charakteru, cech i funkcjonowania — tak jak w sklepie stacjonarnym.
+            jego charakteru, cech i funkcjonowania - tak jak w sklepie stacjonarnym.
             Nie wymagamy oryginalnego opakowania jako warunku odstąpienia.
           </P>
           <P>
@@ -118,7 +118,7 @@ export default function ReturnsPolicyPage() {
             Zwrotu wszystkich otrzymanych płatności dokonujemy niezwłocznie, nie
             później niż w ciągu {storePolicies.refundDays} dni od dnia otrzymania oświadczenia o odstąpieniu.
             Możemy wstrzymać się ze zwrotem do chwili otrzymania rzeczy lub dowodu jej
-            odesłania — w zależności od tego, które zdarzenie nastąpi wcześniej.
+            odesłania - w zależności od tego, które zdarzenie nastąpi wcześniej.
           </P>
           <P>
             Zwrot następuje tym samym sposobem płatności, którego użyto w pierwotnej

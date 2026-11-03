@@ -128,7 +128,7 @@ export default async function ContactPage() {
                   <Link
                     key={item.text}
                     href={item.href}
-                    className="block text-sm text-charcoal/80 transition-colors hover:text-charcoal before:mr-3 before:text-sand before:content-['—']"
+                    className="block text-sm text-charcoal/80 transition-colors hover:text-charcoal before:mr-3 before:text-sand before:content-['-']"
                   >
                     {item.text}
                   </Link>

@@ -96,7 +96,7 @@ export async function saveSmsToken(token: string): Promise<void> {
   }
   await fs.mkdir(path.dirname(SMS_ENV_FILE), { recursive: true, mode: 0o700 });
   const lines = [
-    "# Token OAuth SMSAPI.pl — nie commituj.",
+    "# Token OAuth SMSAPI.pl - nie commituj.",
     `SMSAPI_TOKEN=${trimmed}`,
     `SMS_NOTIFY_TO=${DEFAULT_TO}`,
   ];
@@ -197,12 +197,12 @@ async function sendSmsMessage(
     : await notifyNumber();
 
   if (!to) {
-    console.warn("[sms] niepoprawny numer — powiadomienie nie wyszło", logId);
+    console.warn("[sms] niepoprawny numer - powiadomienie nie wyszło", logId);
     return false;
   }
 
   if (!token) {
-    console.warn("[sms] Brak SMSAPI_TOKEN — powiadomienie nie wyszło", logId);
+    console.warn("[sms] Brak SMSAPI_TOKEN - powiadomienie nie wyszło", logId);
     if (process.env.NODE_ENV === "development") {
       console.info(`Do: ${to}`);
       console.info(message);
@@ -258,7 +258,7 @@ export async function sendPaidOrderSms(order: StoreOrder): Promise<boolean> {
 
 export async function sendCustomerPaidSms(order: StoreOrder): Promise<boolean> {
   if (!order.phone?.trim()) {
-    console.warn("[sms] brak telefonu klienta — SMS nie wyszedł", order.id);
+    console.warn("[sms] brak telefonu klienta - SMS nie wyszedł", order.id);
     return false;
   }
   return sendSmsMessage(

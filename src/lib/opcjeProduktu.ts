@@ -139,7 +139,7 @@ export function selectedOptionLabels(items: SelectedProductOption[] | undefined)
   return (items ?? []).map((item) => item.value.label);
 }
 
-/** Najniższa możliwa dopłata za warianty — do ceny „od”. */
+/** Najniższa możliwa dopłata za warianty - do ceny „od”. */
 export function minOptionsSurcharge(product: Pick<Product, "options">): number {
   return productOptions(product).reduce(
     (sum, option) => sum + Math.min(...option.values.map((value) => value.surcharge)),
@@ -163,7 +163,7 @@ function foldOptionLabel(label: string): string {
     .trim();
 }
 
-/** Lewy / Left / Links — albo Prawy / Right / Rechts. */
+/** Lewy / Left / Links - albo Prawy / Right / Rechts. */
 export function optionValueSide(label: string): "left" | "right" | null {
   const text = foldOptionLabel(label);
   if (

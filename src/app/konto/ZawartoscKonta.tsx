@@ -135,7 +135,7 @@ function GuestBenefits() {
     {
       icon: ShieldCheck,
       title: "Bezpieczne konto",
-      text: "Sesja serwerowa i szyfrowane dane — bez przechowywania konta w przeglądarce.",
+      text: "Sesja serwerowa i szyfrowane dane - bez przechowywania konta w przeglądarce.",
     },
   ];
 
@@ -326,7 +326,7 @@ export default function AccountPageContent() {
               {user
                 ? "Zarządzaj danymi, sprawdzaj zamówienia i zapisane konfiguracje tapicerki."
                 : returnTo === "/koszyk"
-                  ? "Zaloguj się lub załóż konto — potem wrócisz do koszyka i dokończysz płatność PayU."
+                  ? "Zaloguj się lub załóż konto - potem wrócisz do koszyka i dokończysz płatność PayU."
                   : "Zaloguj się lub załóż konto, aby śledzić zamówienia i zapisywać konfiguracje."}
             </p>
           </div>

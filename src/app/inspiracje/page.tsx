@@ -131,7 +131,7 @@ export default async function InspirationsPage({
                 Nie znalazłeś swojego stylu?
               </h2>
               <p className="mt-2 max-w-lg text-[15px] text-ink/80">
-                Doradca dobierze meble do pomieszczenia, stylu i budżetu — w około minutę.
+                Doradca dobierze meble do pomieszczenia, stylu i budżetu - w około minutę.
               </p>
             </div>
             <Link

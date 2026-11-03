@@ -120,7 +120,7 @@ export function AdminNewsletter() {
           ))}
           {subscribers.length === 0 && (
             <p className="rounded-xl border border-taupe/30 bg-white px-4 py-8 text-center text-sm text-sand">
-              Brak subskrybentów — zachęć klientów do zapisu na stronie głównej.
+              Brak subskrybentów - zachęć klientów do zapisu na stronie głównej.
             </p>
           )}
         </div>
@@ -183,7 +183,7 @@ export function AdminNewsletter() {
               {subscribers.length === 0 && (
                 <tr>
                   <td colSpan={4} className="px-6 py-8 text-center text-sand">
-                    Brak subskrybentów — zachęć klientów do zapisu na stronie głównej.
+                    Brak subskrybentów - zachęć klientów do zapisu na stronie głównej.
                   </td>
                 </tr>
               )}

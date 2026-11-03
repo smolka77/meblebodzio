@@ -112,7 +112,7 @@ export function ProductColorPhotosField({
       <p className={`mt-1 max-w-2xl ${panelHintClass}`}>
         {coverMode
           ? `Do ${COLOR_PHOTO_LIMIT} zdjęć na każdy pokrowiec. Kliknij kafelek, wgraj plik albo wklej (Ctrl+V). Klient po kliknięciu kafelka widzi materac w tym pokrowcu.`
-          : `Do ${COLOR_PHOTO_LIMIT} zdjęć na każdy kolor / odcień tkaniny. Kliknij kafelek, wgraj plik albo wklej (Ctrl+V). Na ogłoszeniu najpierw widać zdjęcia poglądowe — te kadry wchodzą dopiero po kliknięciu tkaniny.`}
+          : `Do ${COLOR_PHOTO_LIMIT} zdjęć na każdy kolor / odcień tkaniny. Kliknij kafelek, wgraj plik albo wklej (Ctrl+V). Na ogłoszeniu najpierw widać zdjęcia poglądowe - te kadry wchodzą dopiero po kliknięciu tkaniny.`}
       </p>
 
       <ul className="mt-4 space-y-4">

@@ -1,4 +1,4 @@
-/** Wymiary w ogłoszeniu — domyślna jednostka to centymetry, waga to kilogramy. */
+/** Wymiary w ogłoszeniu - domyślna jednostka to centymetry, waga to kilogramy. */
 
 const HAS_UNIT =
   /(?:\bcm\b|\bmm\b|\bm\b|\bkg\b|\bg\b|°\s*c|\b%|\bszt\.?)/i;

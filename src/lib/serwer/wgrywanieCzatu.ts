@@ -1,7 +1,7 @@
 import fs from "fs/promises";
 import path from "path";
 
-/** Trwały katalog uploadów (obok data/store) — działa na VPS po deployu. */
+/** Trwały katalog uploadów (obok data/store) - działa na VPS po deployu. */
 export function getChatUploadDir() {
   return path.join(process.cwd(), "data", "uploads", "chat");
 }

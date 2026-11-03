@@ -173,6 +173,6 @@ export function productMatchesCornerShape(
 
   if (shape === "u") return isU;
   if (isU) return false;
-  // Bez jawnego U narożnik idzie do L — typowy kształt, dopóki w karcie nie ma rodzaju U.
+  // Bez jawnego U narożnik idzie do L - typowy kształt, dopóki w karcie nie ma rodzaju U.
   return true;
 }

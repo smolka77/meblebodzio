@@ -47,7 +47,7 @@ const claimSteps = [
   {
     step: "03",
     title: "Rozwiązanie",
-    text: "Naprawa, wymiana elementu lub — w uzasadnionych przypadkach — wymiana produktu albo zwrot środków.",
+    text: "Naprawa, wymiana elementu lub - w uzasadnionych przypadkach - wymiana produktu albo zwrot środków.",
   },
 ];
 

@@ -39,7 +39,7 @@ export default async function DeliveryPage() {
     <PageShell
       eyebrow="Pomoc"
       title="Dostawa i zwroty"
-      description={`Dbamy o to, aby Twój mebel dotarł bezpiecznie i w dogodnym terminie.${free ? ` ${free}.` : ""} Masz też ${storePolicies.returnsLabel.toLowerCase()} — bez zbędnych formalności.`}
+      description={`Dbamy o to, aby Twój mebel dotarł bezpiecznie i w dogodnym terminie.${free ? ` ${free}.` : ""} Masz też ${storePolicies.returnsLabel.toLowerCase()} - bez zbędnych formalności.`}
       heroImage="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1920&q=85"
       path="/dostawa"
     >
@@ -92,7 +92,7 @@ export default async function DeliveryPage() {
                       className={`flex gap-2 text-sm ${opt.highlight ? "text-cream/80" : "text-charcoal/80"}`}
                     >
                       <span className={opt.highlight ? "text-cream/50" : "text-sand"}>
-                        —
+                        -
                       </span>
                       {feature}
                     </li>
@@ -141,7 +141,7 @@ export default async function DeliveryPage() {
               <p className="mt-4 text-sm leading-[1.9] text-charcoal/80">
                 Konsument ma {storePolicies.returnsDays} dni na odstąpienie od umowy
                 bez podawania przyczyny. Nie wymagamy oryginalnego opakowania.
-                Adres zwrotu: {company.returnsAddress}. Zwrot środków — na ten sam
+                Adres zwrotu: {company.returnsAddress}. Zwrot środków - na ten sam
                 instrument płatniczy (PayU), w ciągu {storePolicies.refundDays} dni od otrzymania
                 oświadczenia o odstąpieniu.
               </p>
@@ -185,7 +185,7 @@ export default async function DeliveryPage() {
                 {
                   icon: Truck,
                   title: "Co obejmuje cena dostawy",
-                  text: "Transport do umówionego miejsca na poziomie wejścia (zwykle drzwi budynku). Wniesienie na piętro i ustawienie w mieszkaniu nie są w cenie. Sofy i narożniki zwykle jadą w całości; szafy i meble skrzyniowe mogą być do samodzielnego montażu — to jest na karcie produktu.",
+                  text: "Transport do umówionego miejsca na poziomie wejścia (zwykle drzwi budynku). Wniesienie na piętro i ustawienie w mieszkaniu nie są w cenie. Sofy i narożniki zwykle jadą w całości; szafy i meble skrzyniowe mogą być do samodzielnego montażu - to jest na karcie produktu.",
                 },
               ].map(({ icon: Icon, title, text }) => (
                 <div

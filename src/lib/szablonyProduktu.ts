@@ -11,12 +11,12 @@ import { newOption } from "@/lib/opcjeProduktu";
 import { FAQ_PRESETS } from "@/lib/szablonyOpisu";
 import { storePolicies } from "@/lib/zasadySklepu";
 
-/** Wiersz „Gwarancja” w nowych kartach produktu — wartość z polityki sklepu. */
+/** Wiersz „Gwarancja” w nowych kartach produktu - wartość z polityki sklepu. */
 const WARRANTY_HINT = `np. ${storePolicies.warrantyYearsText}`;
 const WARRANTY_DEFAULT = storePolicies.warrantyYearsText;
 
 /**
- * Szablony kart produktu — jeden na grupę mebli (wg wytycznych Wrohaus).
+ * Szablony kart produktu - jeden na grupę mebli (wg wytycznych Wrohaus).
  *
  * Szablon decyduje o tym, jakie pola pokazuje formularz w panelu
  * (rodzaj, rozmiary, warianty, tkaniny, wymiary, specyfikacja, atuty,
@@ -26,11 +26,11 @@ const WARRANTY_DEFAULT = storePolicies.warrantyYearsText;
 
 export interface TemplateField {
   label: string;
-  /** Podstawowe pole — podpowiadane jako pierwsze. */
+  /** Podstawowe pole - podpowiadane jako pierwsze. */
   required?: boolean;
   /** Przykładowa wartość / podpowiedź. */
   hint?: string;
-  /** Jednostka w panelu — waga to kg, reszta cm. */
+  /** Jednostka w panelu - waga to kg, reszta cm. */
   unit?: "cm" | "kg";
   /**
    * Gotowa wartość na ogłoszeniu. W panelu to checkbox:
@@ -58,7 +58,7 @@ export interface ProductTemplate {
   hint: string;
   namePlaceholder: string;
   codePlaceholder: string;
-  /** Rodzaj w obrębie kategorii — select w panelu. */
+  /** Rodzaj w obrębie kategorii - select w panelu. */
   kinds: string[];
   /** Czy klient wybiera tkaninę i kolor tkaniny. */
   fabrics: boolean;
@@ -72,9 +72,9 @@ export interface ProductTemplate {
   optionSuggestions: TemplateOptionPreset[];
   /** Wskazówki do akapitów opisu (max 2–4 akapity). */
   descriptionGuide: string[];
-  /** Najważniejsze cechy / atuty — checkboxy pogrupowane. */
+  /** Najważniejsze cechy / atuty - checkboxy pogrupowane. */
   featureGroups: TemplateFeatureGroup[];
-  /** Trzy główne wyróżniki — domyślna treść do edycji. */
+  /** Trzy główne wyróżniki - domyślna treść do edycji. */
   highlights: ProductHighlight[];
   dimensions: TemplateField[];
   specs: TemplateField[];
@@ -114,9 +114,9 @@ const spec = (label: string, hint?: string, defaultValue?: string): TemplateFiel
   ...(defaultValue ? { defaultValue } : {}),
 });
 
-/** Cecha Tak/Nie — w panelu checkbox, na stronie tylko gdy zaznaczona. */
+/** Cecha Tak/Nie - w panelu checkbox, na stronie tylko gdy zaznaczona. */
 const flag = (label: string): TemplateField =>
-  spec(label, "Zaznacz, jeśli dotyczy — puste nie pokazujemy", "Tak");
+  spec(label, "Zaznacz, jeśli dotyczy - puste nie pokazujemy", "Tak");
 
 const UPHOLSTERY_FEATURES: TemplateFeatureGroup[] = [
   {
@@ -159,7 +159,7 @@ const UPHOLSTERY_DIMENSIONS: TemplateField[] = [
   dim("Głębokość", true, "np. 172 cm"),
   dim("Wysokość siedziska", false, "np. 42 cm"),
   dim("Głębokość siedziska", false, "np. 68 cm"),
-  dim("Powierzchnia spania", false, "np. 150 × 215 cm — tylko z funkcją spania"),
+  dim("Powierzchnia spania", false, "np. 150 × 215 cm - tylko z funkcją spania"),
   dim("Wysokość nóżek", false, "np. 2,5 cm"),
   dim("Szerokość siedziska"),
   dim("Szerokość podłokietnika"),
@@ -172,13 +172,13 @@ const UPHOLSTERY_SPECS: TemplateField[] = [
   spec("Tkanina", "np. Tkanina do wyboru"),
   spec("Wypełnienie siedziska", "np. Pianka T30, sprężyna falista"),
   spec("Konstrukcja", "np. Stelaż drewniany"),
-  spec("System rozkładania", "DL / Delfin / Puma / Belgijski — puste = brak funkcji spania"),
+  spec("System rozkładania", "DL / Delfin / Puma / Belgijski - puste = brak funkcji spania"),
   spec("Nóżki", "np. Tworzywo / metal / drewno"),
   spec("Montaż", "np. Do samodzielnego montażu"),
   spec("Gwarancja", WARRANTY_HINT),
 ];
 
-const COLOR_OPTION_HINT = "Wybarwienie płyty — jeden produkt z wariantami zamiast osobnych.";
+const COLOR_OPTION_HINT = "Wybarwienie płyty - jeden produkt z wariantami zamiast osobnych.";
 const LED_OPTION: TemplateOptionPreset = {
   name: "Oświetlenie LED",
   values: ["Bez LED", "Z LED"],
@@ -206,7 +206,7 @@ export const PRODUCT_TEMPLATES: ProductTemplate[] = [
       {
         name: "Strona narożnika",
         values: ["Lewy", "Prawy"],
-        hint: "Wariant zakupowy — klient wybiera przed tkaniną. Usuń, jeśli model ma jedną stronę.",
+        hint: "Wariant zakupowy - klient wybiera przed tkaniną. Usuń, jeśli model ma jedną stronę.",
       },
     ],
     optionSuggestions: [],
@@ -277,7 +277,7 @@ export const PRODUCT_TEMPLATES: ProductTemplate[] = [
     descriptionGuide: [
       "Wygląd i charakter: bryła, styl, zastosowanie we wnętrzu.",
       "Komfort: wypełnienie, sprężyny, pianka, poduchy.",
-      "Funkcjonalność: funkcja spania, pojemnik na pościel, sposób rozkładania — jeśli dotyczy.",
+      "Funkcjonalność: funkcja spania, pojemnik na pościel, sposób rozkładania - jeśli dotyczy.",
       "Personalizacja: tapicerowany tył, wolnostojąca, wybór tkaniny i koloru.",
     ],
     featureGroups: UPHOLSTERY_FEATURES,
@@ -323,7 +323,7 @@ export const PRODUCT_TEMPLATES: ProductTemplate[] = [
     fabrics: true,
     sizes: {
       label: "Rozmiar powierzchni spania",
-      hint: "To rozmiar materaca. Planszę z wymiarami wklejasz w zakładce Opis — kafelek na stronie pokaże zdjęcie, nie tabelę.",
+      hint: "To rozmiar materaca. Planszę z wymiarami wklejasz w zakładce Opis - kafelek na stronie pokaże zdjęcie, nie tabelę.",
       presets: ["90×200", "100×200", "120×200", "140×200", "160×200", "180×200", "200×200"],
     },
     options: [],
@@ -332,7 +332,7 @@ export const PRODUCT_TEMPLATES: ProductTemplate[] = [
         name: "Materac",
         values: ["Bez materaca"],
         afterColor: true,
-        hint: "Dodaj modele materaca z dopłatą — wybrany materac zwiększa cenę.",
+        hint: "Dodaj modele materaca z dopłatą - wybrany materac zwiększa cenę.",
       },
     ],
     descriptionGuide: [
@@ -427,7 +427,7 @@ export const PRODUCT_TEMPLATES: ProductTemplate[] = [
     fabrics: true,
     sizes: {
       label: "Rozmiar powierzchni spania",
-      hint: "To rozmiar materaca. Planszę z wymiarami wklejasz w zakładce Opis — kafelek na stronie pokaże zdjęcie, nie tabelę.",
+      hint: "To rozmiar materaca. Planszę z wymiarami wklejasz w zakładce Opis - kafelek na stronie pokaże zdjęcie, nie tabelę.",
       presets: [
         "80×200",
         "90×200",
@@ -666,10 +666,10 @@ export const PRODUCT_TEMPLATES: ProductTemplate[] = [
     ],
     specs: [
       spec("Rodzaj materaca", "np. Kieszeniowy / Pocket"),
-      spec("Twardość — strona A", "H1 miękka / H2 średnio-twarda / H3 twarda / H4 / H5"),
-      spec("Twardość — strona B", "puste = materac jednostronny"),
+      spec("Twardość - strona A", "H1 miękka / H2 średnio-twarda / H3 twarda / H4 / H5"),
+      spec("Twardość - strona B", "puste = materac jednostronny"),
       spec("Liczba stref", "np. 7"),
-      spec("Liczba sprężyn", "szt./m² — tylko materace sprężynowe"),
+      spec("Liczba sprężyn", "szt./m² - tylko materace sprężynowe"),
       spec("Rodzaj sprężyn", "Pocket / Multipocket / Luxpocket / Bonell"),
       spec("Materiały", "np. Sprężyny pocket + pianka memory + kokos"),
       spec("Pokrowiec", "nazwa pokrowca"),
@@ -692,7 +692,7 @@ export const PRODUCT_TEMPLATES: ProductTemplate[] = [
     id: "szafa",
     label: "Szafa",
     category: "szafy",
-    hint: "Jeden formularz dla wszystkich szaf: rozmiar, typ drzwi, lustro, kolor, LED — wszystko opcjonalne.",
+    hint: "Jeden formularz dla wszystkich szaf: rozmiar, typ drzwi, lustro, kolor, LED - wszystko opcjonalne.",
     namePlaceholder: "np. Szafa Arti 150",
     codePlaceholder: "np. SF-SZF-ARTI150",
     kinds: ["Szafa przesuwna", "Szafa uchylna", "Szafa narożna", "Szafa garderobiana", "Inna"],
@@ -799,7 +799,7 @@ export const PRODUCT_TEMPLATES: ProductTemplate[] = [
     specs: [
       spec("Typ drzwi", "przesuwne / uchylne / składane"),
       spec("Liczba drzwi", "np. 2"),
-      spec("Lustro", "np. Tak, 1 lustro na drzwiach środkowych — puste = brak"),
+      spec("Lustro", "np. Tak, 1 lustro na drzwiach środkowych - puste = brak"),
       spec("Grubość lustra"),
       spec("Materiał korpusu", "np. Płyta laminowana"),
       spec("Materiał frontów", "np. Płyta laminowana + lustro"),
@@ -823,7 +823,7 @@ export const PRODUCT_TEMPLATES: ProductTemplate[] = [
       {
         question: "Czy szafa jest dostarczana w paczkach do samodzielnego montażu?",
         answer:
-          "Tak — szafa jest pakowana w paczki płaskie z instrukcją montażu. Na życzenie wycenimy montaż na miejscu.",
+          "Tak - szafa jest pakowana w paczki płaskie z instrukcją montażu. Na życzenie wycenimy montaż na miejscu.",
       },
     ]),
   },
@@ -831,14 +831,14 @@ export const PRODUCT_TEMPLATES: ProductTemplate[] = [
     id: "komoda",
     label: "Komoda / witryna",
     category: "komody",
-    hint: "Wspólny formularz dla komód i witryn: przeszklenie, LED, szuflady, nóżki — pokazujemy tylko to, co dotyczy modelu.",
+    hint: "Wspólny formularz dla komód i witryn: przeszklenie, LED, szuflady, nóżki - pokazujemy tylko to, co dotyczy modelu.",
     namePlaceholder: "np. Komoda Epiro / Witryna Sento",
     codePlaceholder: "np. SF-KOM-EPIRO",
     kinds: ["Komoda", "Witryna", "Komoda z przeszkleniem", "Witryna przeszklona", "Inny"],
     fabrics: true,
     sizes: {
       label: "Wariant / rozmiar",
-      hint: "Jeśli model występuje w kilku szerokościach — jeden produkt z wariantami.",
+      hint: "Jeśli model występuje w kilku szerokościach - jeden produkt z wariantami.",
       presets: ["120 cm", "150 cm", "180 cm", "200 cm"],
     },
     options: [],
@@ -959,10 +959,10 @@ export const PRODUCT_TEMPLATES: ProductTemplate[] = [
       spec("Liczba szklanych półek"),
       spec("Liczba otwartych wnęk"),
       spec("Liczba zamykanych schowków"),
-      spec("Rodzaj szkła", "hartowane / antisol / przezroczyste / przyciemniane — tylko przeszklenie"),
+      spec("Rodzaj szkła", "hartowane / antisol / przezroczyste / przyciemniane - tylko przeszklenie"),
       spec("Grubość szkła", "mm"),
       spec("System otwierania", "push-to-open / uchwyty / wpuszczane / frezowane / bezuchwytowe"),
-      spec("Prowadnice szuflad", "pełny wysuw / cichy domyk / kulkowe — tylko z szufladami"),
+      spec("Prowadnice szuflad", "pełny wysuw / cichy domyk / kulkowe - tylko z szufladami"),
       spec("Zawiasy / zamykanie", "cichy domyk / amortyzacja / standardowe"),
       spec("Oświetlenie LED", "LED w zestawie / opcjonalne, punkty, barwa światła"),
       spec("Nóżki / stopki", "metalowe / drewniane / tworzywo"),
@@ -980,7 +980,7 @@ export const PRODUCT_TEMPLATES: ProductTemplate[] = [
     id: "szafka-rtv",
     label: "Szafka RTV",
     category: "szafki-rtv",
-    hint: "Rozmiar, kolor, LED — opcjonalne. Otwór na przewody, wnęki, szuflady, nóżki.",
+    hint: "Rozmiar, kolor, LED - opcjonalne. Otwór na przewody, wnęki, szuflady, nóżki.",
     namePlaceholder: "np. Szafka RTV Nordic 180",
     codePlaceholder: "np. SF-RTV-NOR180",
     kinds: ["Szafka RTV stojąca", "Szafka RTV wisząca", "Szafka RTV z LED", "Inna"],
@@ -1205,7 +1205,7 @@ export const PRODUCT_TEMPLATES: ProductTemplate[] = [
       spec("Liczba półek", "np. 1 otwarta półka"),
       spec("System otwierania", "np. Push-to-open"),
       spec("Prowadnice", "np. Cichy domyk"),
-      spec("Uchwyty", "np. Brak — system bezuchwytowy"),
+      spec("Uchwyty", "np. Brak - system bezuchwytowy"),
       spec("Nóżki / stopki", "np. Regulowane stopki"),
       spec("Montaż", "np. Do samodzielnego montażu"),
       spec("Gwarancja", WARRANTY_HINT),
@@ -1217,7 +1217,7 @@ export const PRODUCT_TEMPLATES: ProductTemplate[] = [
     id: "ogolny",
     label: "Inny produkt",
     category: "fotele",
-    hint: "Uniwersalna karta — fotele, stoliki, oświetlenie, akcesoria. Sam dobierasz pola.",
+    hint: "Uniwersalna karta - fotele, stoliki, oświetlenie, akcesoria. Sam dobierasz pola.",
     namePlaceholder: "np. Fotel Nube",
     codePlaceholder: "np. SF-FOT-NUBE",
     kinds: [],
@@ -1347,7 +1347,7 @@ export function optionFromPreset(preset: TemplateOptionPreset): ProductOption {
   return preset.afterColor ? { ...option, afterColor: true } : option;
 }
 
-/** Wszystkie propozycje atutów z szablonu — płaska lista. */
+/** Wszystkie propozycje atutów z szablonu - płaska lista. */
 export function templateFeatureList(template: ProductTemplate): string[] {
   const seen = new Set<string>();
   const out: string[] = [];
@@ -1363,7 +1363,7 @@ export function templateFeatureList(template: ProductTemplate): string[] {
 
 /**
  * Struktura „Opis i spec.” wg szablonu: puste wiersze wymiarów i specyfikacji
- * z etykietami, nota techniczna, FAQ. Trzy wyróżniki zostają odznaczone —
+ * z etykietami, nota techniczna, FAQ. Trzy wyróżniki zostają odznaczone -
  * admin zaznacza je w panelu, jeśli pasują do modelu.
  */
 export function seedDetailsFromTemplate(
@@ -1398,7 +1398,7 @@ const HIDDEN_VALUES = new Set([
   "n/d",
   "n/a",
   "-",
-  "—",
+  "-",
   "–",
 ]);
 

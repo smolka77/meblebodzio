@@ -18,11 +18,11 @@ export const HIGHLIGHT_ICONS: {
 export const LIST_LINE_PREFIXES = [
   { id: "bullet", label: "• Kropka", prefix: "• " },
   { id: "check", label: "✓ Ptaszek", prefix: "✓ " },
-  { id: "dash", label: "— Kreska", prefix: "— " },
+  { id: "dash", label: "- Kreska", prefix: "- " },
   { id: "star", label: "★ Gwiazdka", prefix: "★ " },
 ] as const;
 
-export const LIST_LINE_RE = /^[•✓—★☆]\s+/;
+export const LIST_LINE_RE = /^[•✓\-★☆]\s+/;
 const LIST_PLACEHOLDER_RE = /^(Tekst punktu)+/i;
 
 export function stripListPlaceholder(text: string): string {
@@ -78,7 +78,7 @@ export function HighlightBullet({
   }
 }
 
-/** Ikona w osi pierwszej linii tytułu — nie „lata” nad tekstem. */
+/** Ikona w osi pierwszej linii tytułu - nie „lata” nad tekstem. */
 export function HighlightTitleRow({
   icon,
   title,
@@ -112,7 +112,7 @@ function ListLineBullet({ symbol }: { symbol: string }) {
       <Star className="h-[1em] w-[1em] shrink-0 translate-y-[0.08em]" strokeWidth={2} />
     );
   }
-  if (symbol === "—") {
+  if (symbol === "-") {
     return <Minus className="h-[1em] w-[1em] shrink-0" strokeWidth={2.25} />;
   }
   return <span className="h-[0.35em] w-[0.35em] shrink-0 rounded-full bg-charcoal" />;

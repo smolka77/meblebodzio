@@ -76,7 +76,7 @@ export function HomeInspirationLook({
           <div className="absolute inset-0 bg-cream-light">
             <Image
               src={content.image || LOOK_IMAGE_FALLBACK}
-              alt={`${content.title} — aranżacja salonu Wrohaus`}
+              alt={`${content.title} - aranżacja salonu Wrohaus`}
               fill
               className="object-cover object-center"
               sizes="(max-width: 1024px) 100vw, 50vw"

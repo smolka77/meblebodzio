@@ -53,7 +53,7 @@ export const DEFAULT_DELIVERY: DeliveryContent = {
       title: "Dostawa standardowa",
       priceLabel: storePolicies.standardDeliveryPriceLabel,
       description:
-        "Dostawa pod wskazany adres. Cena obejmuje transport do miejsca uzgodnionego z kurierem — zwykle wejście do budynku (pierwsze drzwi). Wniesienie na piętro i ustawienie w mieszkaniu nie są wliczone. Kurier kontaktuje się telefonicznie w celu ustalenia terminu.",
+        "Dostawa pod wskazany adres. Cena obejmuje transport do miejsca uzgodnionego z kurierem - zwykle wejście do budynku (pierwsze drzwi). Wniesienie na piętro i ustawienie w mieszkaniu nie są wliczone. Kurier kontaktuje się telefonicznie w celu ustalenia terminu.",
       features: [
         storePolicies.deliveryTimeLabel,
         "Bez wniesienia do mieszkania",
@@ -69,7 +69,7 @@ export const DEFAULT_DELIVERY: DeliveryContent = {
       title: "Premium z wniesieniem",
       priceLabel: "od 399 zł",
       description:
-        "Pełna obsługa — wniesienie, rozpakowanie i ustawienie mebli we wskazanym pomieszczeniu.",
+        "Pełna obsługa - wniesienie, rozpakowanie i ustawienie mebli we wskazanym pomieszczeniu.",
       features: [
         "Wniesienie do wybranego pokoju",
         "Rozpakowanie i ustawienie",
@@ -107,7 +107,7 @@ export const DEFAULT_DELIVERY: DeliveryContent = {
       id: "step-2",
       step: "02",
       title: "Produkcja",
-      text: `Twój mebel powstaje w manufakturze Wrohaus — ${storePolicies.productionTimeLabel}.`,
+      text: `Twój mebel powstaje w manufakturze Wrohaus - ${storePolicies.productionTimeLabel}.`,
       sortOrder: 1,
     },
     {
@@ -121,7 +121,7 @@ export const DEFAULT_DELIVERY: DeliveryContent = {
       id: "step-4",
       step: "04",
       title: "Dostawa",
-      text: "Kurier kontaktuje się 24–48 h przed dostawą, aby ustalić dogodny termin. Zostawia mebel przy wejściu — bez wniesienia do mieszkania.",
+      text: "Kurier kontaktuje się 24–48 h przed dostawą, aby ustalić dogodny termin. Zostawia mebel przy wejściu - bez wniesienia do mieszkania.",
       sortOrder: 3,
     },
   ],
@@ -232,7 +232,7 @@ export function activeDeliveryMethods(methods: DeliveryMethod[]): DeliveryMethod
 
 const HIDDEN_CHECKOUT_DELIVERY_IDS = new Set(["premium"]);
 
-/** Metody dostawy w koszyku — bez „Premium z wniesieniem”. */
+/** Metody dostawy w koszyku - bez „Premium z wniesieniem”. */
 export function checkoutDeliveryMethods(methods: DeliveryMethod[]): DeliveryMethod[] {
   return activeDeliveryMethods(methods).filter(
     (method) => !HIDDEN_CHECKOUT_DELIVERY_IDS.has(method.id)

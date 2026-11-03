@@ -1,4 +1,4 @@
-/** Plansze wymiarów łóżka — wklejasz własną albo wybierasz gotową. */
+/** Plansze wymiarów łóżka - wklejasz własną albo wybierasz gotową. */
 
 export const BED_DIMENSION_CHARTS = [
   { id: "adele", label: "Adele", src: "/wymiary-lozek/adele.jpg" },

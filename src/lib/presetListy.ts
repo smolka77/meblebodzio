@@ -16,7 +16,7 @@ function list(value: string | string[] | undefined): string[] {
     .slice(0, 12);
 }
 
-/** Filtry z adresu (`?styl=loft,skandynawski&typ=sofy`) — nieznane wartości są pomijane. */
+/** Filtry z adresu (`?styl=loft,skandynawski&typ=sofy`) - nieznane wartości są pomijane. */
 export function parseListingPreset(
   query: Record<string, string | string[] | undefined>
 ): ListingFilterPreset {

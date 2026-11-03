@@ -119,7 +119,7 @@ export function productDimsCm(product: Pick<Product, "details">): ProductDimsCm 
   return dimsFromRows(product.details?.dimensions);
 }
 
-/** Wysokość siedziska (cm) — do linii pomocniczej na rysunku technicznym. */
+/** Wysokość siedziska (cm) - do linii pomocniczej na rysunku technicznym. */
 export function seatHeightCm(rows: DimRow[] | undefined): number | undefined {
   for (const row of rows ?? []) {
     if (/wysoko[sś][cć] siedzisk/i.test(row.label)) return firstNumber(row.value);
@@ -160,7 +160,7 @@ export function productAvailability(product: Product): ProductAvailability {
   };
 }
 
-/* ───── Montaż i wniesienie — domyślne informacje wg kategorii ───── */
+/* ───── Montaż i wniesienie - domyślne informacje wg kategorii ───── */
 
 export interface AssemblyInfo {
   title: string;
@@ -179,7 +179,7 @@ export function assemblyInfo(product: Pick<Product, "category" | "packageCount">
     case "kolekcje":
       return {
         title: "Gotowy do użycia",
-        text: `Tapicerowane meble przyjeżdżają złożone — wystarczy zdjąć opakowanie i dokręcić nóżki.${parcels}`,
+        text: `Tapicerowane meble przyjeżdżają złożone - wystarczy zdjąć opakowanie i dokręcić nóżki.${parcels}`,
       };
     case "materace":
       return {

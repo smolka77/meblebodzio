@@ -101,7 +101,7 @@ export function AdminSocialMedia() {
             <div className="mt-6 space-y-4">
               {socialLinks.length === 0 ? (
                 <p className="rounded-lg border border-dashed border-taupe/30 px-4 py-8 text-center text-sm text-sand">
-                  Brak linków — dodaj pierwszy profil social media.
+                  Brak linków - dodaj pierwszy profil social media.
                 </p>
               ) : (
                 socialLinks.map((link, index) => (

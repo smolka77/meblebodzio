@@ -1,4 +1,4 @@
-/** Dane PayU S.A. — obowiązkowe na stronie sklepu (wymogi PayU + PSD2/RODO). */
+/** Dane PayU S.A. - obowiązkowe na stronie sklepu (wymogi PayU + PSD2/RODO). */
 export const payu = {
   legalName: "PayU S.A.",
   address: "ul. Grunwaldzka 186, 60-166 Poznań",
@@ -6,7 +6,7 @@ export const payu = {
   nip: "7792308495",
   shareCapital: "7 789 000 zł",
   court:
-    "Sąd Rejonowy Poznań — Nowe Miasto i Wilda w Poznaniu, VIII Wydział Gospodarczy Krajowego Rejestru Sądowego",
+    "Sąd Rejonowy Poznań - Nowe Miasto i Wilda w Poznaniu, VIII Wydział Gospodarczy Krajowego Rejestru Sądowego",
   privacyUrl: "https://poland.payu.com/privacy-portal/privacy-statement/",
   termsUrl: "https://poland.payu.com/dokumenty-prawne-do-pobrania/",
   paymentTermsUrl:

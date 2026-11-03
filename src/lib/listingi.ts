@@ -23,13 +23,13 @@ export const extraListingHrefs: Record<ExtraListingId, string> = {
 
 export const extraListingIntros: Record<ExtraListingId, string> = {
   promocje:
-    "Wybrane modele w obniżonych cenach. Produkty objęte promocją powstają na zamówienie — produkcja trwa do 2 tygodni.",
+    "Wybrane modele w obniżonych cenach. Produkty objęte promocją powstają na zamówienie - produkcja trwa do 2 tygodni.",
   "meble-od-reki":
-    "Modele gotowe w magazynie — bez oczekiwania na produkcję. Wysyłka od razu.",
+    "Modele gotowe w magazynie - bez oczekiwania na produkcję. Wysyłka od razu.",
   "meble-do-7-dni":
-    "Meble z krótkim terminem — produkcja i wysyłka tak, aby trafiły do Ciebie w ciągu 7 dni.",
+    "Meble z krótkim terminem - produkcja i wysyłka tak, aby trafiły do Ciebie w ciągu 7 dni.",
   "probki-tkanin":
-    "Najpierw wybierz rodzaj tkaniny, potem odcień — wyślemy próbki na Twój adres.",
+    "Najpierw wybierz rodzaj tkaniny, potem odcień - wyślemy próbki na Twój adres.",
 };
 
 export function isSevenDayListing(product: { shipsIn7Days?: boolean }): boolean {

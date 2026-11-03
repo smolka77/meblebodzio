@@ -39,7 +39,7 @@ async function jakoDataUri(url: string): Promise<string | null> {
   }
 }
 
-/** Pierwsze zdjęcie (nie wideo) produktu — okładka albo galeria. */
+/** Pierwsze zdjęcie (nie wideo) produktu - okładka albo galeria. */
 export function urlZdjeciaProduktu(product: {
   image: string;
   images?: string[];

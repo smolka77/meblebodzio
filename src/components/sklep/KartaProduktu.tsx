@@ -38,7 +38,7 @@ function CardPhotoStack({
     <>
       <StoreImage
         src={image}
-        alt={`${name} — widok z przodu`}
+        alt={`${name} - widok z przodu`}
         fill
         fit="cover"
         className={
@@ -51,7 +51,7 @@ function CardPhotoStack({
       {hoverPreview && arrangement ? (
         <StoreImage
           src={arrangement}
-          alt={`${name} — aranżacja`}
+          alt={`${name} - aranżacja`}
           fill
           fit="cover"
           className="pointer-events-none opacity-0 transition-opacity duration-500 group-hover:opacity-100"
@@ -69,7 +69,7 @@ export function ProductCard({
 }: {
   product: Product;
   variant?: "editorial" | "shop";
-  /** Przycisk pod ceną, np. „Zobacz warianty” — w sekcjach sprzedażowych. */
+  /** Przycisk pod ceną, np. „Zobacz warianty” - w sekcjach sprzedażowych. */
   cta?: string;
 }) {
   const onSale = hasSalePrice(product);

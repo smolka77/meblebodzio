@@ -4,7 +4,7 @@ import type { ProductOption, ProductOptionValue } from "@/lib/typy";
 import { formatPrice } from "@/lib/dane";
 import { useLanguage } from "@/kontekst/KontekstJezyka";
 
-/** Wariant zakupowy (strona narożnika, typ drzwi, lustro, LED, materac…) — kafelki wyboru. */
+/** Wariant zakupowy (strona narożnika, typ drzwi, lustro, LED, materac…) - kafelki wyboru. */
 export function OptionSelector({
   option,
   selected,

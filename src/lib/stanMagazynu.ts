@@ -18,7 +18,7 @@ export function sanitizeStockQty(value: unknown): number | undefined {
   return qty;
 }
 
-/** Ilość na magazynie — tylko dla mebli od ręki. */
+/** Ilość na magazynie - tylko dla mebli od ręki. */
 export function warehouseQty(
   product: Pick<Product, "readyToShip" | "stockQty"> | undefined
 ): number | undefined {

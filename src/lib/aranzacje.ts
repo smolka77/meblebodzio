@@ -1,6 +1,6 @@
 import type { Product, ProductRoom, ProductStyle } from "@/lib/typy";
 
-/** Rabat na cały zestaw z aranżacji — liczony kuponem ZESTAW10 w koszyku. */
+/** Rabat na cały zestaw z aranżacji - liczony kuponem ZESTAW10 w koszyku. */
 export const SET_DISCOUNT_PERCENT = 10;
 export const SET_COUPON_CODE = "ZESTAW10";
 
@@ -21,7 +21,7 @@ export interface Look {
   short: string;
   intro: string;
   image: string;
-  /** Szerokość / wysokość zdjęcia — kadr bez przycinania, żeby znaczniki trafiały w meble. */
+  /** Szerokość / wysokość zdjęcia - kadr bez przycinania, żeby znaczniki trafiały w meble. */
   ratio: number;
   room: ProductRoom;
   styles: ProductStyle[];
@@ -53,7 +53,7 @@ export const LOOKS: Look[] = [
     slug: "salon-skandynawski",
     tab: "Skandynawski",
     title: "Jasny salon w stylu skandynawskim",
-    short: "Len, boucle i jasne drewno — naturalna paleta, która uspokaja.",
+    short: "Len, boucle i jasne drewno - naturalna paleta, która uspokaja.",
     intro:
       "Kremowa sofa na drewnianych nóżkach, miękki fotel w tkaninie boucle i lekkie dodatki. Tak wygląda skandynawski spokój w praktyce.",
     image: "/wzor/living-cream.jpg",

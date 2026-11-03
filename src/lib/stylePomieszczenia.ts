@@ -32,7 +32,7 @@ export const PRODUCT_STYLES: StyleInfo[] = [
   {
     id: "loft",
     label: "Loft",
-    blurb: "Skóra, ciemny grafit i czarny metal — industrialny charakter.",
+    blurb: "Skóra, ciemny grafit i czarny metal - industrialny charakter.",
     image: "/wzor/sofa-leather.jpg",
   },
   {
@@ -130,7 +130,7 @@ export function productRooms(
   ).map((room) => room.id);
 }
 
-/** Pomieszczenia, w których jest przynajmniej jeden produkt — puste kategorie nie trafiają do menu. */
+/** Pomieszczenia, w których jest przynajmniej jeden produkt - puste kategorie nie trafiają do menu. */
 export function roomsWithProducts(products: Product[]): RoomInfo[] {
   return PRODUCT_ROOMS.filter((room) =>
     products.some((product) => productRooms(product).includes(room.id))
@@ -143,7 +143,7 @@ export function stylesWithProducts(products: Product[]): StyleInfo[] {
   );
 }
 
-/** Kategorie, które uzupełniają dany mebel w aranżacji — do „Skompletuj wnętrze”. */
+/** Kategorie, które uzupełniają dany mebel w aranżacji - do „Skompletuj wnętrze”. */
 export const COMPLEMENTARY_CATEGORIES: Partial<
   Record<ProductCategory, ProductCategory[]>
 > = {

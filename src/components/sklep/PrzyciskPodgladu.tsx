@@ -12,7 +12,7 @@ const PodgladWPokoju = dynamic(
   { ssr: false }
 );
 
-/** Przycisk „Zobacz w swoim pokoju” — otwiera podgląd na zdjęciu pokoju klienta. */
+/** Przycisk „Zobacz w swoim pokoju” - otwiera podgląd na zdjęciu pokoju klienta. */
 export function PreviewInRoomButton({
   product,
   color,

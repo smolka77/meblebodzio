@@ -69,9 +69,9 @@ export function AdminAbout() {
       <div className="admin-page">
         <form onSubmit={handleSave} className="mx-auto max-w-3xl space-y-6 sm:space-y-8">
           <p className="text-sm text-sand">
-            Cała treść zakładki „O nas”. Zapis po polsku — angielski, niemiecki i
+            Cała treść zakładki „O nas”. Zapis po polsku - angielski, niemiecki i
             ukraiński tłumaczą się automatycznie z aktualnego tekstu. Dane
-            sprzedawcy (NIP, siedziba, e-mail) zostają z ustawień firmy — tu ich
+            sprzedawcy (NIP, siedziba, e-mail) zostają z ustawień firmy - tu ich
             nie zmieniasz.
           </p>
 
@@ -96,7 +96,7 @@ export function AdminAbout() {
                 Zarchiwizuj stronę „O nas”
                 <span className="mt-0.5 block text-xs text-sand">
                   Strona znika ze sklepu (stopka i link z manufaktury). Treść
-                  zostaje — możesz ją później odarchiwizować.
+                  zostaje - możesz ją później odarchiwizować.
                 </span>
               </span>
             </label>
@@ -111,7 +111,7 @@ export function AdminAbout() {
               onDescription={(metaDescription) =>
                 setContent({ ...content, metaDescription })
               }
-              hint="Tytuł i opis strony „O nas” w Google. Puste pola nie są tu dozwolone — te teksty zawsze idą do wyszukiwarki."
+              hint="Tytuł i opis strony „O nas” w Google. Puste pola nie są tu dozwolone - te teksty zawsze idą do wyszukiwarki."
             />
           </section>
 

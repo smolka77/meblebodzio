@@ -170,7 +170,7 @@ export function DoradcaZakupowy({ products }: { products: Product[] }) {
               Czym uzupełnić {top?.name}?
             </h3>
             <p className="mt-1.5 text-[14.5px] text-meta">
-              Podobny styl, inne kategorie — gotowy pomysł na kompletne wnętrze.
+              Podobny styl, inne kategorie - gotowy pomysł na kompletne wnętrze.
             </p>
             <div className="mt-6 grid grid-cols-2 gap-x-3 gap-y-10 sm:gap-x-6 lg:grid-cols-3">
               {extras.map((product) => (
@@ -243,7 +243,7 @@ export function DoradcaZakupowy({ products }: { products: Product[] }) {
           {step === 1 && (
             <>
               <h2 className="font-display text-[28px] leading-tight sm:text-[38px]">Czego szukasz?</h2>
-              <p className="mt-2 text-[15px] text-meta">Zaznacz jeden lub kilka rodzajów — albo pomiń, jeśli chcesz zobaczyć wszystko.</p>
+              <p className="mt-2 text-[15px] text-meta">Zaznacz jeden lub kilka rodzajów - albo pomiń, jeśli chcesz zobaczyć wszystko.</p>
               <ul className="mt-7 grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4">
                 {typeOptions.map((slug) => (
                   <li key={slug}>
@@ -280,7 +280,7 @@ export function DoradcaZakupowy({ products }: { products: Product[] }) {
                 ))}
                 <li>
                   <Option selected={!style} onClick={() => setStyle(undefined)} className="flex h-full min-h-[120px] w-full flex-col justify-center p-5">
-                    <span className="block text-[17px] font-semibold">Nie wiem — pokaż różne</span>
+                    <span className="block text-[17px] font-semibold">Nie wiem - pokaż różne</span>
                     <span className="mt-0.5 block text-[13px] text-meta">Pominiemy styl przy dopasowaniu.</span>
                   </Option>
                 </li>
@@ -307,7 +307,7 @@ export function DoradcaZakupowy({ products }: { products: Product[] }) {
           {step === 4 && (
             <>
               <h2 className="font-display text-[28px] leading-tight sm:text-[38px]">Na co zwrócić uwagę?</h2>
-              <p className="mt-2 text-[15px] text-meta">Opcjonalnie — podbijemy modele, które to spełniają.</p>
+              <p className="mt-2 text-[15px] text-meta">Opcjonalnie - podbijemy modele, które to spełniają.</p>
               <ul className="mt-7 grid gap-3 sm:grid-cols-3">
                 {PREFS.map((item) => (
                   <li key={item.id}>

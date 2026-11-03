@@ -484,7 +484,7 @@ export function jsonLdKontakt(opts?: { phone?: string }) {
   return {
     "@context": "https://schema.org",
     "@type": "ContactPage",
-    name: "Kontakt — Wrohaus",
+    name: "Kontakt - Wrohaus",
     url: absUrl("/kontakt"),
     mainEntity: {
       "@id": `${siteOrigin}/#store`,

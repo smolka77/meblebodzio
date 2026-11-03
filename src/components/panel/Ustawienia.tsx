@@ -140,7 +140,7 @@ export function AdminSettings() {
               {
                 href: "/admin/promocje",
                 label: "Promocje",
-                hint: "Akcje i lista mebli — nie kody rabatowe",
+                hint: "Akcje i lista mebli - nie kody rabatowe",
               },
               {
                 href: "/admin/dostawa",
@@ -276,7 +276,7 @@ export function AdminSettings() {
                 <p className="mt-1.5 text-xs leading-relaxed text-sand">
                   Próg liczy się od wartości koszyka po rabacie i obowiązuje w koszyku oraz przy
                   składaniu zamówienia. Pasek u góry, strona dostawy, regulamin i karta produktu
-                  pokazują go automatycznie — po zmianie sprawdź jeszcze odpowiedź o dostawie w FAQ.
+                  pokazują go automatycznie - po zmianie sprawdź jeszcze odpowiedź o dostawie w FAQ.
                 </p>
               </div>
               <div>
@@ -395,7 +395,7 @@ export function AdminSettings() {
                           }`}
                         >
                           {count === 0
-                            ? "pusta — wyłącz na czas PayU"
+                            ? "pusta - wyłącz na czas PayU"
                             : `${count} ${
                                 count === 1
                                   ? "produkt"
@@ -526,7 +526,7 @@ function SmsNotifyPanel({ inputClass }: { inputClass: string }) {
               e.preventDefault();
               if (token.trim().length >= 16) void saveToken();
             }}
-            placeholder={configured ? "Token zapisany — wklej nowy, żeby podmienić" : "Wklej token OAuth"}
+            placeholder={configured ? "Token zapisany - wklej nowy, żeby podmienić" : "Wklej token OAuth"}
             className={inputClass}
           />
         </div>
@@ -549,7 +549,7 @@ function SmsNotifyPanel({ inputClass }: { inputClass: string }) {
           </button>
         </div>
         {configured ? (
-          <p className="text-xs text-charcoal">Token jest zapisany — powiadomienia są włączone.</p>
+          <p className="text-xs text-charcoal">Token jest zapisany - powiadomienia są włączone.</p>
         ) : (
           <p className="text-xs text-terracotta">
             Bez tokenu zamówienie się zapisze, ale SMS nie wyjdzie.
@@ -651,7 +651,7 @@ function MailNotifyPanel({ inputClass }: { inputClass: string }) {
       <ol className="mt-3 list-decimal space-y-2 pl-5 text-sm leading-relaxed text-sand">
         <li>
           Niżej w sekcji <span className="text-charcoal">Sklep</span> wpisz{" "}
-          <span className="text-charcoal">E-mail administratora</span> — na niego
+          <span className="text-charcoal">E-mail administratora</span> - na niego
           idzie test.
         </li>
         <li>
@@ -666,7 +666,7 @@ function MailNotifyPanel({ inputClass }: { inputClass: string }) {
           (nie zwykłe hasło do Gmaila).
         </li>
         <li>
-          Zapisz SMTP, potem wyślij testowy e-mail. Jak dojdzie — po opłaceniu
+          Zapisz SMTP, potem wyślij testowy e-mail. Jak dojdzie - po opłaceniu
           zamówienia klient dostaje potwierdzenie automatycznie.
         </li>
       </ol>
@@ -748,7 +748,7 @@ function MailNotifyPanel({ inputClass }: { inputClass: string }) {
           </button>
         </div>
         {configured ? (
-          <p className="text-xs text-charcoal">SMTP jest zapisane — potwierdzenia mailowe są włączone.</p>
+          <p className="text-xs text-charcoal">SMTP jest zapisane - potwierdzenia mailowe są włączone.</p>
         ) : (
           <p className="text-xs text-terracotta">
             Bez SMTP zamówienie się zapisze, ale mail do klienta nie wyjdzie.

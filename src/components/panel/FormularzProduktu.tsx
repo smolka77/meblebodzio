@@ -605,7 +605,7 @@ export function ProductFormModal({
             <form onSubmit={handleSubmit} className="min-h-0 flex-1 overflow-y-auto overscroll-contain p-4 sm:p-6">
               {copiedFromName ? (
                 <div className="mb-4 rounded-xl border border-taupe/30 bg-cream-light px-4 py-3 text-sm text-charcoal">
-                  Kopia „{copiedFromName}”. Opis, tkaniny i warianty zostają — zmień nazwę,
+                  Kopia „{copiedFromName}”. Opis, tkaniny i warianty zostają - zmień nazwę,
                   cenę albo zdjęcia i zapisz szkic albo od razu opublikuj.
                 </div>
               ) : null}
@@ -680,7 +680,7 @@ export function ProductFormModal({
                       </p>
                     )}
                     <p className={`mt-1 ${panelMetaClass}`}>
-                      Meble od ręki i do 7 dni nie są kategorią — zostaje Narożniki / Sofy itd.,
+                      Meble od ręki i do 7 dni nie są kategorią - zostaje Narożniki / Sofy itd.,
                       a niżej zaznaczasz listing.
                     </p>
                   </div>
@@ -708,7 +708,7 @@ export function ProductFormModal({
                           }}
                           className={inputClass}
                         >
-                          <option value="">— nie pokazuj —</option>
+                          <option value="">- nie pokazuj -</option>
                           {template.kinds.map((kind) => (
                             <option key={kind} value={kind}>
                               {kind}
@@ -954,7 +954,7 @@ export function ProductFormModal({
                         </div>
                         ) : (
                           <p className={`mt-4 ${fieldHintClass}`}>
-                            Wpisz netto i marżę — pojawi się sugerowana cena brutto.
+                            Wpisz netto i marżę - pojawi się sugerowana cena brutto.
                           </p>
                         )}
                     </div>
@@ -1014,7 +1014,7 @@ export function ProductFormModal({
                   </div>
 
                   <div className="sm:col-span-2">
-                    <label className={fieldLabelClass}>Cena promocyjna — cena przed obniżką</label>
+                    <label className={fieldLabelClass}>Cena promocyjna - cena przed obniżką</label>
                     <input
                       type="number"
                       min={0}
@@ -1025,7 +1025,7 @@ export function ProductFormModal({
                           originalPrice: e.target.value ? Number(e.target.value) : undefined,
                         })
                       }
-                      placeholder="Opcjonalnie — wpisz starą cenę; cena finalna wyżej staje się promocyjną"
+                      placeholder="Opcjonalnie - wpisz starą cenę; cena finalna wyżej staje się promocyjną"
                       className={inputClass}
                     />
                     {promoActive && form.originalPrice && (
@@ -1045,7 +1045,7 @@ export function ProductFormModal({
                         : "Pojawi się sama po pierwszej obniżce ceny"}
                     </p>
                     <p className={`mt-1 ${panelHintClass}`}>
-                      Liczona automatycznie z historii ceny na stronie — nie wpisujesz jej ręcznie.
+                      Liczona automatycznie z historii ceny na stronie - nie wpisujesz jej ręcznie.
                       Na ogłoszeniu widać ją przy promocji albo gdy aktualna cena jest niższa niż
                       ta z 30 dni.
                     </p>
@@ -1067,7 +1067,7 @@ export function ProductFormModal({
                         template.covers
                           ? "Pierwsze zdjęcie = główne, drugie = aranżacja (hover na karcie). Materac w konkretnym pokrowcu dodasz w zakładce „Pokrowce”."
                           : showColorsTab
-                            ? "Pierwsze zdjęcie = główne, drugie = aranżacja (hover na karcie). Zdjęcia mebla w konkretnej tkaninie dodajesz przy kolorach — klient zobaczy je dopiero po kliknięciu kafelka."
+                            ? "Pierwsze zdjęcie = główne, drugie = aranżacja (hover na karcie). Zdjęcia mebla w konkretnej tkaninie dodajesz przy kolorach - klient zobaczy je dopiero po kliknięciu kafelka."
                             : undefined
                       }
                       previewContext={{

@@ -186,7 +186,7 @@ export async function getCategoryPageModel(slug: string): Promise<{
       name: custom.name,
       description:
         custom.description.trim() ||
-        `${custom.name} z oferty Wrohaus — polska produkcja.`,
+        `${custom.name} z oferty Wrohaus - polska produkcja.`,
       builtin: false,
     };
   }

@@ -118,7 +118,7 @@ export async function ensureFurnitureLinesSeeded() {
       slug: "sorela",
       name: "Sorela",
       description:
-        "Kolekcja Sorela — zaokrąglone korpusy, spokojne fronty i kuliste nóżki.",
+        "Kolekcja Sorela - zaokrąglone korpusy, spokojne fronty i kuliste nóżki.",
       image: SORELA_HERO,
       createdAt: new Date().toISOString(),
     };

@@ -12,7 +12,7 @@ import {
   panelMetaClass,
 } from "@/components/panel/typografiaPanelu";
 
-/** Input pliku na kafelku — bez display:none, więc wgrywanie działa i nie scrolluje panelu. */
+/** Input pliku na kafelku - bez display:none, więc wgrywanie działa i nie scrolluje panelu. */
 export function OverlayFileInput({
   onFiles,
   className,

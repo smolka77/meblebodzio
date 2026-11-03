@@ -69,12 +69,12 @@ export default async function TermsPage() {
       content: (
         <Ul
           items={[
-            "Konsument — osoba fizyczna zawierająca umowę niezwiązaną bezpośrednio z jej działalnością gospodarczą lub zawodową.",
-            "Przedsiębiorca na prawach konsumenta — osoba fizyczna zawierająca umowę bezpośrednio związaną z jej działalnością gospodarczą, gdy z treści umowy wynika, że nie ma ona dla niej charakteru zawodowego.",
-            `Sprzedawca — ${company.legalName}, NIP ${company.nip}, REGON ${company.regon}, ${company.fullAddress}.`,
-            "Klient — Konsument, Przedsiębiorca na prawach konsumenta albo inny przedsiębiorca korzystający ze Sklepu.",
-            "Produkt — meble tapicerowane, materace, szafy i pozostałe towary z oferty Sklepu, wraz z opisem, ceną i zdjęciem na karcie produktu.",
-            "PayU — PayU S.A. z siedzibą w Poznaniu, operator płatności internetowych.",
+            "Konsument - osoba fizyczna zawierająca umowę niezwiązaną bezpośrednio z jej działalnością gospodarczą lub zawodową.",
+            "Przedsiębiorca na prawach konsumenta - osoba fizyczna zawierająca umowę bezpośrednio związaną z jej działalnością gospodarczą, gdy z treści umowy wynika, że nie ma ona dla niej charakteru zawodowego.",
+            `Sprzedawca - ${company.legalName}, NIP ${company.nip}, REGON ${company.regon}, ${company.fullAddress}.`,
+            "Klient - Konsument, Przedsiębiorca na prawach konsumenta albo inny przedsiębiorca korzystający ze Sklepu.",
+            "Produkt - meble tapicerowane, materace, szafy i pozostałe towary z oferty Sklepu, wraz z opisem, ceną i zdjęciem na karcie produktu.",
+            "PayU - PayU S.A. z siedzibą w Poznaniu, operator płatności internetowych.",
           ]}
         />
       ),
@@ -107,7 +107,7 @@ export default async function TermsPage() {
           </P>
           <P>
             Sprzedawca może odmówić realizacji przy błędnych danych, braku
-            płatności albo braku dostępności Produktu — w takim wypadku
+            płatności albo braku dostępności Produktu - w takim wypadku
             niezwłocznie informuje Klienta i zwraca otrzymane środki tą samą
             metodą płatności.
           </P>
@@ -130,7 +130,7 @@ export default async function TermsPage() {
               "BLIK",
               "Szybki przelew (Pay-by-link)",
               "Karta płatnicza (Visa, Mastercard)",
-              "Raty PayU / odroczona płatność — jeśli udostępnione przy kasie",
+              "Raty PayU / odroczona płatność - jeśli udostępnione przy kasie",
             ]}
           />
           <P>
@@ -138,7 +138,7 @@ export default async function TermsPage() {
             KRS {payu.krs}, NIP {payu.nip}, kapitał zakładowy {payu.shareCapital}{" "}
             (wpłacony w całości). Środki są pobierane w chwili złożenia
             zlecenia płatniczego (przy płatności natychmiastowej) albo zgodnie z
-            harmonogramem rat. PayU nie przechowuje danych kart w Sklepie —
+            harmonogramem rat. PayU nie przechowuje danych kart w Sklepie -
             Sklep nie zapisuje pełnego numeru karty.
           </P>
           <P>{payu.paymentOrderNotice}</P>
@@ -177,7 +177,7 @@ export default async function TermsPage() {
                 bezpłatna.{" "}
               </>
             ) : null}
-            {storePolicies.pickupTitle} — bezpłatnie, po umówieniu terminu.
+            {storePolicies.pickupTitle} - bezpłatnie, po umówieniu terminu.
           </P>
           <P>
             Ograniczenia: Sklep nie prowadzi sprzedaży poza Polską. Przy
@@ -197,7 +197,7 @@ export default async function TermsPage() {
             Konsument i Przedsiębiorca na prawach konsumenta mogą odstąpić od
             umowy zawartej na odległość w terminie {storePolicies.returnsDays} dni
             bez podania przyczyny. Termin liczy się od objęcia Produktu w
-            posiadanie (przy kilku przesyłkach — od objęcia ostatniej). Ustawowy
+            posiadanie (przy kilku przesyłkach - od objęcia ostatniej). Ustawowy
             termin odstąpienia wynosi {storePolicies.statutoryReturnsDays} dni;
             Sprzedawca dobrowolnie wydłuża go do {storePolicies.returnsDays} dni.
           </P>
@@ -219,7 +219,7 @@ export default async function TermsPage() {
             niemających prefabrykowanego charakteru, wyprodukowanych według
             specyfikacji Klienta lub służących zaspokojeniu jego
             zindywidualizowanych potrzeb (art. 38 pkt 3 ustawy o prawach
-            konsumenta) — np. meble na wymiar. O wyłączeniu Klient jest
+            konsumenta) - np. meble na wymiar. O wyłączeniu Klient jest
             informowany przed złożeniem zamówienia.
           </P>
         </>
@@ -271,7 +271,7 @@ export default async function TermsPage() {
               Polityka prywatności
             </a>
             . W zakresie płatności administratorem jest również {payu.legalName}{" "}
-            —{" "}
+            -{" "}
             <a
               href={payu.privacyUrl}
               className="underline underline-offset-2"

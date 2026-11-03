@@ -215,7 +215,7 @@ function ColorStep({
           <div className="relative aspect-[4/5] sm:aspect-[16/10]">
             <FabricMedia
               fabric={focus}
-              alt={`${group.material} — ${fabricColorLabel(focus, group.material)}`}
+              alt={`${group.material} - ${fabricColorLabel(focus, group.material)}`}
               sizes="(max-width: 768px) 100vw, 672px"
             />
             <FabricWatermarkBadge src={focus.watermark} size="lg" />
@@ -515,7 +515,7 @@ export function FabricSamplesClient({ fabrics }: { fabrics: Fabric[] }) {
                 role="alert"
                 className="rounded-xl border border-amber-200 bg-amber-50 px-4 py-3 text-sm leading-relaxed text-amber-950"
               >
-                Najpierw wybierz rodzaj tkaniny i kolor po lewej stronie — kliknij odcień,
+                Najpierw wybierz rodzaj tkaniny i kolor po lewej stronie - kliknij odcień,
                 aby dodać próbkę do zamówienia.
               </p>
             )}

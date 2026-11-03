@@ -290,7 +290,7 @@ export function ProductFabricColorsField({
             <p className={`mt-1 max-w-xl ${panelHintClass}`}>
               {fabricRoleForCategory(category) === "plyta"
                 ? "Zaznacz kolory płyty z katalogu (Tkaniny i próbki → Kolor mebla). Nie trafią do katalogu próbek tkanin."
-                : "Zaznacz tkaniny z katalogu. Przy każdej możesz ustawić dopłatę do ceny tego mebla. Potem przypisz zdjęcie mebla w kolorze — klient zobaczy je po kliknięciu próbki."}
+                : "Zaznacz tkaniny z katalogu. Przy każdej możesz ustawić dopłatę do ceny tego mebla. Potem przypisz zdjęcie mebla w kolorze - klient zobaczy je po kliknięciu próbki."}
             </p>
           </div>
           <Link
@@ -316,7 +316,7 @@ export function ProductFabricColorsField({
               Bez wyboru tkaniny
             </span>
             <span className={`mt-0.5 block ${panelMetaClass}`}>
-              Zaznacz, jeśli produkt nie ma tapicerki — na stronie nie pokażemy
+              Zaznacz, jeśli produkt nie ma tapicerki - na stronie nie pokażemy
               kolorów. Pasuje do materacy, szaf, lampek.
             </span>
           </span>
@@ -339,7 +339,7 @@ export function ProductFabricColorsField({
                 Produkt bez wyboru tkaniny
               </p>
               <p className={`mt-1 ${panelMetaClass}`}>
-                Na stronie nie będzie kolorów — klient od razu doda produkt do koszyka.
+                Na stronie nie będzie kolorów - klient od razu doda produkt do koszyka.
               </p>
             </div>
           ) : colors.length === 0 ? (
@@ -382,7 +382,7 @@ export function ProductFabricColorsField({
         <div className="rounded-xl border border-amber-200 bg-amber-50/80 px-4 py-3">
           <p className="text-sm font-semibold text-charcoal">Stare kolory bez tkaniny z katalogu</p>
           <p className={`mt-1 ${panelMetaClass}`}>
-            Usuń je i wybierz tkaniny z katalogu poniżej — tak działa nowy sposób przypisywania.
+            Usuń je i wybierz tkaniny z katalogu poniżej - tak działa nowy sposób przypisywania.
           </p>
           <ul className="mt-3 flex flex-wrap gap-2">
             {legacyColors.map((color) => (
@@ -412,7 +412,7 @@ export function ProductFabricColorsField({
             <p className={panelLabelClass}>Katalog tkanin</p>
             <p className={panelMetaClass}>
               Kliknij kafelek, żeby dodać lub usunąć tę tkaninę. Przy kilku odcieniach
-              odhaczasz konkretny kolor — reszta zostaje na ogłoszeniu.
+              odhaczasz konkretny kolor - reszta zostaje na ogłoszeniu.
             </p>
           </div>
           <div className="relative w-full sm:max-w-xs">
@@ -431,7 +431,7 @@ export function ProductFabricColorsField({
           <div className="rounded-2xl border border-taupe/25 bg-white px-5 py-10 text-center">
             <p className="text-sm font-semibold text-charcoal">Katalog tkanin jest pusty</p>
             <p className={`mt-2 ${panelHintClass}`}>
-              Najpierw dodaj tkaniny w panelu — potem wróć tutaj i je zaznacz.
+              Najpierw dodaj tkaniny w panelu - potem wróć tutaj i je zaznacz.
             </p>
             <Link
               href="/admin/tkaniny"

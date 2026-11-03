@@ -2,7 +2,7 @@ import type { ProductCategory } from "@/lib/typy";
 import { storePolicies } from "@/lib/zasadySklepu";
 
 /**
- * Treści strony głównej w jednym miejscu — komponenty tylko je układają.
+ * Treści strony głównej w jednym miejscu - komponenty tylko je układają.
  * Opinie, zdjęcia klientów i liczby (2 300+, 14 manufaktur…) to treści demonstracyjne:
  * przed startem sprzedaży podmień je na własne, zweryfikowane dane.
  */
@@ -131,7 +131,7 @@ export const COLLECTION_SLUGS = [
     slug: "kolekcja-nest",
     name: "Nest",
     tagline: "Boucle i domowy komfort",
-    description: "Narożnik, fotel i puf w miękkiej tkaninie boucle — gniazdo na wieczory.",
+    description: "Narożnik, fotel i puf w miękkiej tkaninie boucle - gniazdo na wieczory.",
     image: "/katalog/kolekcja-nest.jpg",
   },
 ];
@@ -172,7 +172,7 @@ export interface UgcEntry {
   productSlug: string;
 }
 
-/** „Wasze wnętrza” — klikalny feed zdjęć klientów (shoppable). */
+/** „Wasze wnętrza” - klikalny feed zdjęć klientów (shoppable). */
 export const UGC: UgcEntry[] = [
   { image: "/wzor/j7.jpg", author: "Anna", city: "Wrocław", productSlug: "sofa-bergen" },
   { image: "/wzor/j5.jpg", author: "Kasia", city: "Kraków", productSlug: "lozko-loft" },
@@ -200,7 +200,7 @@ export const WHY_US = {
 
 export type WhyIcon = (typeof WHY_US.items)[number]["icon"];
 
-/** Poradniki na stronie głównej — slugi artykułów z bloga; brakujące uzupełniamy najnowszymi. */
+/** Poradniki na stronie głównej - slugi artykułów z bloga; brakujące uzupełniamy najnowszymi. */
 export const GUIDE_SLUGS = [
   "jak-wybrac-materac",
   "trendy-wnetrzarskie-2026",
@@ -210,6 +210,6 @@ export const GUIDE_SLUGS = [
 export const ADVISOR_BAND = {
   eyebrow: "Doradca zakupowy",
   title: "Nie wiesz, od czego zacząć?",
-  text: "Odpowiedz na kilka pytań — o pomieszczeniu, stylu i budżecie. Dobierzemy meble i podpowiemy, czym je uzupełnić.",
+  text: "Odpowiedz na kilka pytań - o pomieszczeniu, stylu i budżecie. Dobierzemy meble i podpowiemy, czym je uzupełnić.",
   cta: { label: "Dobierz meble", href: "/doradca" },
 };

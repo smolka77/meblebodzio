@@ -30,7 +30,7 @@ export const HIGHLIGHT_PRESETS: ProductHighlight[] = [
   {
     title: "Tkanina Easy Clean",
     description:
-      "Miękka tapicerka o podwyższonej odporności na plamy — wystarczy woda i delikatne detergenty.",
+      "Miękka tapicerka o podwyższonej odporności na plamy - wystarczy woda i delikatne detergenty.",
     icon: "check",
   },
   {
@@ -72,12 +72,12 @@ export const FAQ_PRESETS: ProductFaq[] = [
   {
     question: "Jak dbać o tapicerkę?",
     answer:
-      "Regularnie odkurzaj miękką końcówką. Plamy usuń odrobiną wody z łagodnym detergentem — unikaj szorowania.",
+      "Regularnie odkurzaj miękką końcówką. Plamy usuń odrobiną wody z łagodnym detergentem - unikaj szorowania.",
   },
   {
     question: "Czy mogę zwrócić produkt?",
     answer:
-      "Tak — masz {{zwrot}} na odstąpienie od umowy bez podawania przyczyny (zgodnie z regulaminem sklepu).",
+      "Tak - masz {{zwrot}} na odstąpienie od umowy bez podawania przyczyny (zgodnie z regulaminem sklepu).",
   },
 ];
 
@@ -135,7 +135,7 @@ export const DESCRIPTION_TEMPLATES: DescriptionTemplate[] = [
   {
     id: "pusty",
     label: "Pusta struktura",
-    hint: "Same sekcje i wiersze do wypełnienia — bez gotowego tekstu",
+    hint: "Same sekcje i wiersze do wypełnienia - bez gotowego tekstu",
     details: {
       longDescription: "",
       highlights: [{ title: "", description: "" }],

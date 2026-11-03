@@ -17,7 +17,7 @@ export async function POST(request: Request) {
   const coupon = await createCoupon(body);
   if (!coupon) {
     return NextResponse.json(
-      { error: "Nie udało się utworzyć kodu — sprawdź dane i unikalność kodu" },
+      { error: "Nie udało się utworzyć kodu - sprawdź dane i unikalność kodu" },
       { status: 400 }
     );
   }

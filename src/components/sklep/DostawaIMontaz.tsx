@@ -15,7 +15,7 @@ export function DeliveryAssemblyPanel({
   costLabel: string;
   express: boolean;
   assembly: AssemblyInfo;
-  /** „Darmowa dostawa od 999 zł” — null, gdy darmowa dostawa jest wyłączona. */
+  /** „Darmowa dostawa od 999 zł” - null, gdy darmowa dostawa jest wyłączona. */
   freeShipping?: string | null;
 }) {
   const rows = [

@@ -40,7 +40,7 @@ export function ProductRichContent({
   );
   const features = (details?.features ?? []).map((f) => f.trim()).filter(Boolean);
   const layers = (details?.layers ?? []).filter((layer) => layer.name?.trim());
-  // Puste wiersze z szablonu (lub „—”, „brak”, „nie dotyczy”) nie trafiają na stronę.
+  // Puste wiersze z szablonu (lub „-”, „brak”, „nie dotyczy”) nie trafiają na stronę.
   const specs = (details?.specs ?? []).filter(
     (item) => item.label?.trim() && isVisibleSpecValue(item.value)
   );
@@ -185,7 +185,7 @@ export function ProductRichContent({
             <div className="mt-4 rounded-xl bg-cream/50 px-2 py-4 sm:px-6">
               <TechnicalDrawing dims={dims} seat={seatHeightCm(dimensions)} />
               <p className="mt-2 text-center text-[12.5px] text-charcoal/60">
-                Wymiary gabarytowe w jednej skali. Rysunek poglądowy — tolerancja ±2 cm.
+                Wymiary gabarytowe w jednej skali. Rysunek poglądowy - tolerancja ±2 cm.
               </p>
             </div>
           ) : null}

@@ -196,7 +196,7 @@ export function expandFabricAsSampleItems(fabric: Fabric): Fabric[] {
       fabric,
       shade,
       `${fabric.id}${SHADE_SEP}${shade.id}`,
-      shade.name.trim() ? `${fabric.name} — ${shade.name}` : fabric.name
+      shade.name.trim() ? `${fabric.name} - ${shade.name}` : fabric.name
     )
   );
 }
@@ -220,7 +220,7 @@ export function resolveSampleFabricSelection(
     }
     const shadeId = raw.slice(parentId.length + SHADE_SEP.length);
     const shade = fabricShades(fabric).find((s) => s.id === shadeId);
-    names.push(shade?.name ? `${fabric.name} — ${shade.name}` : fabric.name);
+    names.push(shade?.name ? `${fabric.name} - ${shade.name}` : fabric.name);
   }
 
   return { ids, names };

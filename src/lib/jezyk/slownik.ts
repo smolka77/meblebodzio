@@ -16,7 +16,7 @@ export const pl = {
   "header.closeMenu": "Zamknij menu",
   "header.menu": "Menu",
   "header.close": "Zamknij",
-  "header.home": "Wrohaus — strona główna",
+  "header.home": "Wrohaus - strona główna",
   "header.upholstery": "Meble tapicerowane",
   "header.myAccount": "Moje konto",
   "header.closeSearch": "Zamknij wyszukiwanie",
@@ -41,20 +41,20 @@ export const pl = {
   "cat.meble-dzieciece": "Meble dziecięce",
   "cat.akcesoria-dla-zwierzat": "Akcesoria dla zwierząt",
 
-  "intro.sofy": "Od klasycznych po modułowe — sofy do salonu, które siedzą się na lata.",
+  "intro.sofy": "Od klasycznych po modułowe - sofy do salonu, które siedzą się na lata.",
   "intro.narozniki": "Przestronne narożniki z funkcją spania, pojemnikiem i głębokim siedziskiem.",
-  "intro.fotele": "Fotele do czytania, salonu i gabinetu — welur, boucle i len.",
-  "intro.kolekcje": "Zestawy salonowe w jednej palecie — sofa, fotel i dodatki.",
-  "intro.oswietlenie": "Lampy podłogowe, stołowe i wiszące — ciepłe światło do salonu i sypialni.",
-  "intro.szafy": "Szafy do sypialni i przedpokoju — półki, drążek i spokojne fronty.",
-  "intro.szafki": "Szafki nocne do sypialni — szuflady, półka i spokojne fronty.",
-  "intro.szafki-rtv": "Szafki RTV na telewizor, kable i sprzęt — niska bryła pod ścianą.",
-  "intro.komody": "Komody do sypialni i salonu — szuflady, spokojne fronty, drewno i lakier.",
-  "intro.stoliki": "Stoliki kawowe i boczne — przy sofie, fotelu albo łóżku.",
-  "intro.materace": "Materace dopasowane do naszych łóżek — sprężyny, pianka, pokrowce.",
-  "intro.lozka": "Łóżka tapicerowane i drewniane — rama, wezgłowie, spokojna linia.",
-  "intro.meble-dzieciece": "Meble do pokoju dziecka — bezpieczne, trwałe, do dorastania.",
-  "intro.akcesoria-dla-zwierzat": "Legowiska i dodatki — ten sam standard tkanin co w salonie.",
+  "intro.fotele": "Fotele do czytania, salonu i gabinetu - welur, boucle i len.",
+  "intro.kolekcje": "Zestawy salonowe w jednej palecie - sofa, fotel i dodatki.",
+  "intro.oswietlenie": "Lampy podłogowe, stołowe i wiszące - ciepłe światło do salonu i sypialni.",
+  "intro.szafy": "Szafy do sypialni i przedpokoju - półki, drążek i spokojne fronty.",
+  "intro.szafki": "Szafki nocne do sypialni - szuflady, półka i spokojne fronty.",
+  "intro.szafki-rtv": "Szafki RTV na telewizor, kable i sprzęt - niska bryła pod ścianą.",
+  "intro.komody": "Komody do sypialni i salonu - szuflady, spokojne fronty, drewno i lakier.",
+  "intro.stoliki": "Stoliki kawowe i boczne - przy sofie, fotelu albo łóżku.",
+  "intro.materace": "Materace dopasowane do naszych łóżek - sprężyny, pianka, pokrowce.",
+  "intro.lozka": "Łóżka tapicerowane i drewniane - rama, wezgłowie, spokojna linia.",
+  "intro.meble-dzieciece": "Meble do pokoju dziecka - bezpieczne, trwałe, do dorastania.",
+  "intro.akcesoria-dla-zwierzat": "Legowiska i dodatki - ten sam standard tkanin co w salonie.",
 
   "nav.sale": "Promocje",
   "nav.ready": "Dostępne od ręki",
@@ -70,9 +70,9 @@ export const pl = {
   "nav.lines": "Linie",
   "nav.linesAll": "Wszystkie linie",
   "listing.cornerLDesc":
-    "Narożniki L-kształtne — przestronne układy do salonu, z funkcją spania i pojemnikiem.",
+    "Narożniki L-kształtne - przestronne układy do salonu, z funkcją spania i pojemnikiem.",
   "listing.cornerUDesc":
-    "Narożniki U-kształtne — maksymalne siedzisko i otulina, do dużych salonów.",
+    "Narożniki U-kształtne - maksymalne siedzisko i otulina, do dużych salonów.",
 
   "footer.blurb":
     "Tworzymy meble, które łączą komfort z ponadczasowym designem. Polska produkcja, najwyższa jakość materiałów.",
@@ -123,7 +123,7 @@ export const pl = {
   "product.shipIn": "Wysyłka {time}",
   "product.addToCart": "Dodaj do koszyka",
   "product.toCart": "Do koszyka",
-  "product.id": "ID produktu — {sku}",
+  "product.id": "ID produktu - {sku}",
   "product.manufacturer": "Producent",
   "product.lowest30": "Najniższa cena z ostatnich 30 dni: {price}",
   "product.qtyDown": "Zmniejsz ilość",
@@ -139,16 +139,16 @@ export const pl = {
   "product.deliveryReady":
     "Model jest gotowy w magazynie. Wysyłka trwa {time}. Kurier kontaktuje się przed dostawą.",
   "product.deliveryMade":
-    "Twoje zamówienie trafia do produkcji — {production}. Potem dostawa {delivery}. Uwzględnij ten czas przy planowaniu odbioru.",
+    "Twoje zamówienie trafia do produkcji - {production}. Potem dostawa {delivery}. Uwzględnij ten czas przy planowaniu odbioru.",
   "product.shipping24h": "Wysyłka 24H",
   "product.bestseller": "Bestseller",
   "product.productionTime": "Termin produkcji",
   "product.shippingLabel": "Wysyłka",
   "product.shipping24hValue": "do 24H",
   "product.shipping24hBody":
-    "Produkt gotowy do wysyłki — wysyłamy w ciągu 24 godzin od zaksięgowania płatności. Przewidywana dostawa: {date}. Kurier kontaktuje się przed dostawą.",
+    "Produkt gotowy do wysyłki - wysyłamy w ciągu 24 godzin od zaksięgowania płatności. Przewidywana dostawa: {date}. Kurier kontaktuje się przed dostawą.",
   "product.productionBody":
-    "Ten model wykonujemy na zamówienie — czas produkcji {production}. Po zakończeniu produkcji przekazujemy mebel kurierowi ({transport}).",
+    "Ten model wykonujemy na zamówienie - czas produkcji {production}. Po zakończeniu produkcji przekazujemy mebel kurierowi ({transport}).",
   "product.deliveryEstimateBody":
     "Termin liczony od dnia złożenia zamówienia: produkcja + transport ({transport}), tylko dni robocze. Kurier kontaktuje się przed dostawą.",
   "product.deliveryEstimateManualBody":
@@ -188,7 +188,7 @@ export const pl = {
   "product.fabricPriceWithShade": "Cena produktu z tym odcieniem: {price}",
   "product.fabricSurchargeTitle": "Dopłata za tkaninę",
   "product.otherFabric":
-    "Interesuje Cię inna tkanina? Nie ma problemu — napisz do nas wiadomość po indywidualną wycenę i termin produkcji.",
+    "Interesuje Cię inna tkanina? Nie ma problemu - napisz do nas wiadomość po indywidualną wycenę i termin produkcji.",
   "product.otherFabricCta": "Napisz wiadomość",
   "product.fabricSurcharge": "+{amount} dopłata za tkaninę",
   "product.fabricSurchargeInPrice": "w tym dopłata za tkaninę: +{amount}",
@@ -231,7 +231,7 @@ export const pl = {
   "listing.offer": "Oferta",
   "listing.allFurniture": "Wszystkie meble",
   "listing.allFurnitureDesc":
-    "Sofy, narożniki, fotele i kolekcje — pełna oferta mebli Wrohaus.",
+    "Sofy, narożniki, fotele i kolekcje - pełna oferta mebli Wrohaus.",
   "listing.category": "Kategoria",
   "listing.empty": "Brak produktów w tej chwili. Sprawdź ponownie wkrótce.",
   "listing.count.one": "{n} produkt",
@@ -239,28 +239,28 @@ export const pl = {
   "listing.count.many": "{n} produktów",
   "listing.sale": "Promocje",
   "listing.saleDesc":
-    "Wybrane modele w obniżonych cenach. Produkty objęte promocją powstają na zamówienie — produkcja trwa do 2 tygodni.",
+    "Wybrane modele w obniżonych cenach. Produkty objęte promocją powstają na zamówienie - produkcja trwa do 2 tygodni.",
   "listing.saleEmpty":
     "Aktualnie brak produktów w promocji. Sprawdź ponownie wkrótce.",
   "listing.otherSales": "Pozostałe obniżki",
   "listing.readyEyebrow": "Szybka realizacja",
   "listing.readyTitle": "Meble od ręki",
   "listing.readyDesc":
-    "Modele gotowe w magazynie — bez oczekiwania na produkcję. Dostawa {price}, {time}.",
+    "Modele gotowe w magazynie - bez oczekiwania na produkcję. Dostawa {price}, {time}.",
   "listing.readyEmpty":
-    "Brak mebli od ręki w tej chwili. Skontaktuj się z nami — chętnie pomożemy.",
+    "Brak mebli od ręki w tej chwili. Skontaktuj się z nami - chętnie pomożemy.",
   "listing.sevenDaysEyebrow": "Szybka realizacja",
   "listing.sevenDaysTitle": "Meble do 7 dni",
   "listing.sevenDaysDesc":
-    "Meble z krótkim terminem — produkcja i wysyłka tak, aby trafiły do Ciebie w ciągu 7 dni. Dostawa {price}, {time}.",
+    "Meble z krótkim terminem - produkcja i wysyłka tak, aby trafiły do Ciebie w ciągu 7 dni. Dostawa {price}, {time}.",
   "listing.sevenDaysEmpty":
-    "Brak mebli do 7 dni w tej chwili. Skontaktuj się z nami — chętnie pomożemy.",
+    "Brak mebli do 7 dni w tej chwili. Skontaktuj się z nami - chętnie pomożemy.",
   "listing.emptyCategory": "Brak produktów w kategorii {name}.",
   "listing.line": "Linia",
   "listing.allLines": "Wszystkie linie",
   "listing.lines": "Linie",
   "listing.linesDesc":
-    "Kolekcje mebli — wejdź w folder, żeby zobaczyć modele z danej serii.",
+    "Kolekcje mebli - wejdź w folder, żeby zobaczyć modele z danej serii.",
   "listing.linesEmpty": "Linie kolekcji pojawią się tutaj, gdy je dodamy.",
   "listing.lineEmpty": "W tej linii nie ma jeszcze produktów.",
   "listing.folderCount": "{n} mebli",
@@ -302,19 +302,19 @@ export const pl = {
   "home.manufactory": "Polska manufaktura",
   "home.manufactoryTitle": "Kąty Wrocławskie. Od ramy po ostatni szew.",
   "home.manufactoryBody":
-    "Każdy mebel powstaje u nas. Kontrolujemy jakość sami — bez sezonowych kompromisów. {warranty}.",
+    "Każdy mebel powstaje u nas. Kontrolujemy jakość sami - bez sezonowych kompromisów. {warranty}.",
   "home.returnDays": "dni na zwrot",
   "home.returnBody":
     "Kupujesz spokojnie. Jeśli model nie siądzie we wnętrzu, odsyłasz bez zbędnych formalności.",
   "home.returnLink": "Zasady zwrotu",
   "home.shipPoland": "Wysyłamy z Polski",
   "home.shipBody":
-    "{time}. Sofy i narożniki zwykle jadą w całości. Szafy i meble skrzyniowe mogą być w paczkach do samodzielnego montażu — to jest na karcie produktu.",
+    "{time}. Sofy i narożniki zwykle jadą w całości. Szafy i meble skrzyniowe mogą być w paczkach do samodzielnego montażu - to jest na karcie produktu.",
   "home.shipLink": "Dostawa i terminy",
   "home.workshopAlt": "Manufaktura Wrohaus w Kątach Wrocławskich",
   "home.reviewsKicker": "Wasze opinie",
   "home.reviewsTitle": "Ludzie, którzy już siedzą na Wrohaus",
-  "home.reviewsMeta": "— oceny z zamówień sofy, narożników i foteli",
+  "home.reviewsMeta": "- oceny z zamówień sofy, narożników i foteli",
   "home.reviewMarta":
     "Siedzi się miękko, a tkanina w salonie wygląda drożej niż na zdjęciach. Dostawa w terminie, karton bez obtarć.",
   "home.reviewPiotr":
@@ -326,7 +326,7 @@ export const pl = {
   "home.newsletterKicker": "Newsletter",
   "home.newsletterTitle": "Bądź z nami na bieżąco",
   "home.newsletterBody":
-    "Zapisz się i dostawaj nowości, promocje oraz inspiracje — tylko to, co naprawdę warto wiedzieć.",
+    "Zapisz się i dostawaj nowości, promocje oraz inspiracje - tylko to, co naprawdę warto wiedzieć.",
   "home.newsletterEmail": "Twój adres e-mail",
   "home.newsletterCta": "Zapisz się",
   "home.newsletterConsent":
@@ -344,7 +344,7 @@ export const pl = {
   "home.lookKicker": "Aranżacje",
   "home.lookTitle": "Zainspiruj się",
   "home.lookIntro":
-    "Salon ułożony z mebli Wrohaus — ta sama tkanina, te same wymiary, bez zgadywania z katalogu. Najedź na biały znacznik na zdjęciu albo na model na liście: zobaczysz nazwę i cenę. Kliknij, żeby przejść prosto do produktu.",
+    "Salon ułożony z mebli Wrohaus - ta sama tkanina, te same wymiary, bez zgadywania z katalogu. Najedź na biały znacznik na zdjęciu albo na model na liście: zobaczysz nazwę i cenę. Kliknij, żeby przejść prosto do produktu.",
   "home.lookIntro2":
     "To gotowa aranżacja, nie moodboard. Każdy mebel z tej sceny jest w sklepie i możesz zamówić go w tej samej konfiguracji.",
   "home.lookList": "Na tym zdjęciu możesz zobaczyć:",
@@ -352,7 +352,7 @@ export const pl = {
   "home.catKicker": "Kategorie",
   "home.catTitle": "Zacznij od kategorii",
   "home.catIntro":
-    "Sofy, narożniki, fotele, kolekcje i reszta oferty — wybierz kategorię i znajdź model do swojego wnętrza.",
+    "Sofy, narożniki, fotele, kolekcje i reszta oferty - wybierz kategorię i znajdź model do swojego wnętrza.",
   "home.colKicker": "Kolekcje",
   "home.colTitle": "Odkryj nasze kolekcje",
   "home.colIntro": "",
@@ -365,11 +365,11 @@ export const pl = {
 
   "cookie.title": "Pliki cookies",
   "cookie.body":
-    "Używamy niezbędnych cookies, żeby działał koszyk, konto i bezpieczeństwo strony. Cookies analityczne i marketingowe (w tym planowany remarketing Meta) włączamy tylko za Twoją zgodą. Możesz zaakceptować wszystkie albo odrzucić opcjonalne — obie opcje są równoważne. Szczegóły:",
+    "Używamy niezbędnych cookies, żeby działał koszyk, konto i bezpieczeństwo strony. Cookies analityczne i marketingowe (w tym planowany remarketing Meta) włączamy tylko za Twoją zgodą. Możesz zaakceptować wszystkie albo odrzucić opcjonalne - obie opcje są równoważne. Szczegóły:",
   "cookie.analytics":
-    "Analityka odwiedzin (opcjonalne) — pomaga nam ulepszać sklep.",
+    "Analityka odwiedzin (opcjonalne) - pomaga nam ulepszać sklep.",
   "cookie.marketing":
-    "Marketing i remarketing (opcjonalne) — m.in. Meta Pixel, gdy go włączymy. Bez tej zgody nie ładujemy narzędzi reklamowych.",
+    "Marketing i remarketing (opcjonalne) - m.in. Meta Pixel, gdy go włączymy. Bez tej zgody nie ładujemy narzędzi reklamowych.",
   "cookie.acceptAll": "Akceptuję wszystkie",
   "cookie.reject": "Odrzucam opcjonalne",
   "cookie.save": "Zapisz wybór",
@@ -390,7 +390,7 @@ export const pl = {
   "cart.pricesNote":
     "Ceny w PLN, brutto z VAT. Płatność przez PayU (BLIK, karta, szybki przelew; raty jeśli dostępne przy kasie).",
   "cart.deliveryNote":
-    "Dostawa standardowa {time} (dni robocze). {returns} — szczegóły w",
+    "Dostawa standardowa {time} (dni robocze). {returns} - szczegóły w",
   "cart.returnsPolicy": "polityce zwrotów",
   "cart.terms":
     "Oświadczam, że zapoznałem/am się z {terms} i {privacy} oraz akceptuję ich treść. Klikając „Zamawiam i płacę” zobowiązuję się do zapłaty.",
@@ -403,7 +403,7 @@ export const pl = {
   "cart.payCard": "Karta płatnicza",
   "cart.payBank": "Przelew",
   "cart.payAppleHint":
-    "Na komputerze pojawi się kod QR — potwierdzisz płatność na iPhonie.",
+    "Na komputerze pojawi się kod QR - potwierdzisz płatność na iPhonie.",
   "cart.payMethodError":
     "Apple Pay jest niedostępne na tym urządzeniu. Wybierz inną metodę.",
   "cart.applePayError":
@@ -425,12 +425,12 @@ export const pl = {
   "cart.loginFirst": "Zaloguj się, aby złożyć zamówienie",
   "cart.accountStep": "Konto",
   "cart.accountHint":
-    "Możesz kupić jako gość — bez hasła i konta. Logowanie jest opcjonalne, jeśli chcesz śledzić zamówienia w panelu.",
+    "Możesz kupić jako gość - bez hasła i konta. Logowanie jest opcjonalne, jeśli chcesz śledzić zamówienia w panelu.",
   "cart.accountLoggedIn": "Zalogowano jako",
-  "cart.accountRequired": "Uzupełnij krok 03 — kup jako gość albo zaloguj się, aby przejść do płatności.",
+  "cart.accountRequired": "Uzupełnij krok 03 - kup jako gość albo zaloguj się, aby przejść do płatności.",
   "cart.guestTab": "Kup jako gość",
   "cart.guestHint":
-    "Podaj imię, nazwisko i e-mail. Potwierdzenie zamówienia wyślemy na skrzynkę — konto nie jest potrzebne.",
+    "Podaj imię, nazwisko i e-mail. Potwierdzenie zamówienia wyślemy na skrzynkę - konto nie jest potrzebne.",
   "cart.guestEmailHint": "Na ten adres wyślemy potwierdzenie i status płatności.",
   "cart.guestNameError": "Podaj imię i nazwisko",
   "cart.guestEmailError": "Podaj prawidłowy e-mail",
@@ -459,10 +459,10 @@ export const pl = {
   "chat.label": "Czat z doradcą",
   "chat.advisor": "Doradca · odpowiadamy na bieżąco",
   "chat.helpTitle": "W czym możemy pomóc?",
-  "chat.helpBody": "Dobór sofy, tkaniny albo wymiaru — napisz, doradca odpisze.",
+  "chat.helpBody": "Dobór sofy, tkaniny albo wymiaru - napisz, doradca odpisze.",
   "chat.namePh": "Twoje imię",
   "chat.start": "Rozpocznij czat",
-  "chat.empty": "Napisz pierwszą wiadomość — doradca wkrótce Ci odpowie.",
+  "chat.empty": "Napisz pierwszą wiadomość - doradca wkrótce Ci odpowie.",
   "chat.attach": "Wyślij załącznik",
   "chat.placeholder": "Napisz wiadomość…",
   "chat.uploading": "Wysyłanie pliku…",
@@ -473,9 +473,9 @@ export const pl = {
   "chat.advisorName": "Doradca",
 
   "payu.seller":
-    "Sprzedawca: {legal} — {brand}, {address}, Polska. NIP {nip}. Nazwa na wyciągu płatności: {statement}. Waluta: PLN. Ceny brutto z VAT. Kontakt:",
+    "Sprzedawca: {legal} - {brand}, {address}, Polska. NIP {nip}. Nazwa na wyciągu płatności: {statement}. Waluta: PLN. Ceny brutto z VAT. Kontakt:",
   "payu.body":
-    "Płatność obsługuje {name}. Środki pobierane są w chwili zlecenia płatności (BLIK, karta, szybki przelew) albo zgodnie z harmonogramem rat. Zwrot — na ten sam instrument płatniczy.",
+    "Płatność obsługuje {name}. Środki pobierane są w chwili zlecenia płatności (BLIK, karta, szybki przelew) albo zgodnie z harmonogramem rat. Zwrot - na ten sam instrument płatniczy.",
   "payu.accept": "Płacąc akceptujesz",
   "payu.terms": "Zasady płatności PayU",
   "payu.more": "Czytaj więcej",
@@ -489,7 +489,7 @@ export const pl = {
     "W PayU możesz zapłacić BLIK-iem, kartą lub szybkim przelewem. Status zmieni się automatycznie po zaksięgowaniu wpłaty.",
   "payu.failedTitle": "Płatność nie powiodła się",
   "payu.failedBody":
-    "Nie pobraliśmy płatności. Produkty wróciły do koszyka — możesz zapłacić ponownie albo wybrać inną metodę w PayU.",
+    "Nie pobraliśmy płatności. Produkty wróciły do koszyka - możesz zapłacić ponownie albo wybrać inną metodę w PayU.",
   "payu.failedHint":
     "Jeśli bank zablokował środki, wrócą samoczynnie. Zamówienie realizujemy dopiero po opłaceniu.",
   "payu.failedOrder": "Numer zamówienia:",
@@ -512,7 +512,7 @@ export const pl = {
   "contact.sending": "Wysyłanie…",
   "contact.subjectGeneral": "Zapytanie ogólne",
   "contact.subjectQuote": "Wycena mebli na wymiar",
-  "contact.subjectFabric": "Inna tkanina — wycena",
+  "contact.subjectFabric": "Inna tkanina - wycena",
   "contact.quoteLead": "Proszę o wycenę produktu: {name}",
   "contact.quoteColor": "Wybrany kolor tapicerki: {color}",
   "contact.quotePage": "Strona produktu: /produkt/{slug}",
@@ -539,7 +539,7 @@ export const en: Record<MessageKey, string> = {
   "header.closeMenu": "Close menu",
   "header.menu": "Menu",
   "header.close": "Close",
-  "header.home": "Wrohaus — home page",
+  "header.home": "Wrohaus - home page",
   "header.upholstery": "Upholstered furniture",
   "header.myAccount": "My account",
   "header.closeSearch": "Close search",
@@ -564,20 +564,20 @@ export const en: Record<MessageKey, string> = {
   "cat.meble-dzieciece": "Kids’ furniture",
   "cat.akcesoria-dla-zwierzat": "Pet accessories",
 
-  "intro.sofy": "From classic to modular — living-room sofas built to last.",
+  "intro.sofy": "From classic to modular - living-room sofas built to last.",
   "intro.narozniki": "Generous corner sofas with sleep function, storage and a deep seat.",
-  "intro.fotele": "Armchairs for reading, living rooms and studies — velvet, bouclé and linen.",
-  "intro.kolekcje": "Living-room sets in one palette — sofa, armchair and extras.",
-  "intro.oswietlenie": "Floor, table and pendant lamps — warm light for living room and bedroom.",
-  "intro.szafy": "Wardrobes for bedroom and hallway — shelves, hanging rail, calm fronts.",
-  "intro.szafki": "Bedroom nightstands — drawers, a shelf and calm fronts.",
-  "intro.szafki-rtv": "TV units for the screen, cables and hi-fi — a low line against the wall.",
-  "intro.komody": "Chests for bedroom and living room — drawers, quiet fronts, wood and lacquer.",
-  "intro.stoliki": "Coffee and side tables — beside the sofa, armchair or bed.",
-  "intro.materace": "Mattresses matched to our beds — springs, foam, covers.",
-  "intro.lozka": "Upholstered and wooden beds — frame, headboard, a calm line.",
-  "intro.meble-dzieciece": "Furniture for a child’s room — safe, lasting, made to grow with them.",
-  "intro.akcesoria-dla-zwierzat": "Beds and extras — the same fabric standard as the living room.",
+  "intro.fotele": "Armchairs for reading, living rooms and studies - velvet, bouclé and linen.",
+  "intro.kolekcje": "Living-room sets in one palette - sofa, armchair and extras.",
+  "intro.oswietlenie": "Floor, table and pendant lamps - warm light for living room and bedroom.",
+  "intro.szafy": "Wardrobes for bedroom and hallway - shelves, hanging rail, calm fronts.",
+  "intro.szafki": "Bedroom nightstands - drawers, a shelf and calm fronts.",
+  "intro.szafki-rtv": "TV units for the screen, cables and hi-fi - a low line against the wall.",
+  "intro.komody": "Chests for bedroom and living room - drawers, quiet fronts, wood and lacquer.",
+  "intro.stoliki": "Coffee and side tables - beside the sofa, armchair or bed.",
+  "intro.materace": "Mattresses matched to our beds - springs, foam, covers.",
+  "intro.lozka": "Upholstered and wooden beds - frame, headboard, a calm line.",
+  "intro.meble-dzieciece": "Furniture for a child’s room - safe, lasting, made to grow with them.",
+  "intro.akcesoria-dla-zwierzat": "Beds and extras - the same fabric standard as the living room.",
 
   "nav.sale": "Sale",
   "nav.ready": "Ready to ship",
@@ -593,9 +593,9 @@ export const en: Record<MessageKey, string> = {
   "nav.lines": "Lines",
   "nav.linesAll": "All lines",
   "listing.cornerLDesc":
-    "L-shaped corner sofas — generous living-room layouts, with sleep function and storage.",
+    "L-shaped corner sofas - generous living-room layouts, with sleep function and storage.",
   "listing.cornerUDesc":
-    "U-shaped corner sofas — maximum seating and wraparound comfort for larger rooms.",
+    "U-shaped corner sofas - maximum seating and wraparound comfort for larger rooms.",
 
   "footer.blurb":
     "We make furniture that joins comfort with lasting design. Produced in Poland, from the best materials.",
@@ -645,7 +645,7 @@ export const en: Record<MessageKey, string> = {
   "product.shipIn": "Ships in {time}",
   "product.addToCart": "Add to cart",
   "product.toCart": "Add to cart",
-  "product.id": "Product ID — {sku}",
+  "product.id": "Product ID - {sku}",
   "product.manufacturer": "Manufacturer",
   "product.lowest30": "Lowest price in the last 30 days: {price}",
   "product.qtyDown": "Decrease quantity",
@@ -661,16 +661,16 @@ export const en: Record<MessageKey, string> = {
   "product.deliveryReady":
     "This model is ready in the warehouse. Shipping takes {time}. The courier will contact you before delivery.",
   "product.deliveryMade":
-    "Your order goes into production — {production}. Then delivery in {delivery}. Allow for this when planning arrival.",
+    "Your order goes into production - {production}. Then delivery in {delivery}. Allow for this when planning arrival.",
   "product.shipping24h": "Ships in 24h",
   "product.bestseller": "Bestseller",
   "product.productionTime": "Production time",
   "product.shippingLabel": "Shipping",
   "product.shipping24hValue": "within 24h",
   "product.shipping24hBody":
-    "Ready to ship — we dispatch within 24 hours of payment. Estimated delivery: {date}. The courier will contact you before delivery.",
+    "Ready to ship - we dispatch within 24 hours of payment. Estimated delivery: {date}. The courier will contact you before delivery.",
   "product.productionBody":
-    "This model is made to order — production time {production}. Once finished, we hand it to the courier ({transport}).",
+    "This model is made to order - production time {production}. Once finished, we hand it to the courier ({transport}).",
   "product.deliveryEstimateBody":
     "Calculated from the order date: production + transport ({transport}), business days only. The courier will contact you before delivery.",
   "product.deliveryEstimateManualBody":
@@ -710,7 +710,7 @@ export const en: Record<MessageKey, string> = {
   "product.fabricPriceWithShade": "Product price with this shade: {price}",
   "product.fabricSurchargeTitle": "Fabric surcharge",
   "product.otherFabric":
-    "Looking for a different fabric? No problem — write to us for a personal quote and production time.",
+    "Looking for a different fabric? No problem - write to us for a personal quote and production time.",
   "product.otherFabricCta": "Send a message",
   "product.fabricSurcharge": "+{amount} fabric surcharge",
   "product.fabricSurchargeInPrice": "includes fabric surcharge: +{amount}",
@@ -753,7 +753,7 @@ export const en: Record<MessageKey, string> = {
   "listing.offer": "Shop",
   "listing.allFurniture": "All furniture",
   "listing.allFurnitureDesc":
-    "Sofas, corner sofas, armchairs and collections — the full Wrohaus range.",
+    "Sofas, corner sofas, armchairs and collections - the full Wrohaus range.",
   "listing.category": "Category",
   "listing.empty": "No products at the moment. Please check back soon.",
   "listing.count.one": "{n} product",
@@ -761,27 +761,27 @@ export const en: Record<MessageKey, string> = {
   "listing.count.many": "{n} products",
   "listing.sale": "Sale",
   "listing.saleDesc":
-    "Selected models at reduced prices. Sale pieces are made to order — production takes up to 2 weeks.",
+    "Selected models at reduced prices. Sale pieces are made to order - production takes up to 2 weeks.",
   "listing.saleEmpty": "Nothing on sale right now. Please check back soon.",
   "listing.otherSales": "Other discounts",
   "listing.readyEyebrow": "Fast dispatch",
   "listing.readyTitle": "Ready to ship",
   "listing.readyDesc":
-    "Models ready in the warehouse — no wait for production. Delivery {price}, {time}.",
+    "Models ready in the warehouse - no wait for production. Delivery {price}, {time}.",
   "listing.readyEmpty":
-    "No ready-to-ship furniture right now. Get in touch — we will help.",
+    "No ready-to-ship furniture right now. Get in touch - we will help.",
   "listing.sevenDaysEyebrow": "Fast dispatch",
   "listing.sevenDaysTitle": "Furniture in 7 days",
   "listing.sevenDaysDesc":
-    "Short-lead furniture — made and shipped so it can reach you within 7 days. Delivery {price}, {time}.",
+    "Short-lead furniture - made and shipped so it can reach you within 7 days. Delivery {price}, {time}.",
   "listing.sevenDaysEmpty":
-    "No 7-day furniture right now. Get in touch — we will help.",
+    "No 7-day furniture right now. Get in touch - we will help.",
   "listing.emptyCategory": "No products in {name}.",
   "listing.line": "Line",
   "listing.allLines": "All lines",
   "listing.lines": "Lines",
   "listing.linesDesc":
-    "Furniture collections — open a folder to see the models in that series.",
+    "Furniture collections - open a folder to see the models in that series.",
   "listing.linesEmpty": "Collection folders will appear here once we add them.",
   "listing.lineEmpty": "This line has no products yet.",
   "listing.folderCount": "{n} pieces",
@@ -823,19 +823,19 @@ export const en: Record<MessageKey, string> = {
   "home.manufactory": "Polish workshop",
   "home.manufactoryTitle": "Kąty Wrocławskie. From the frame to the last stitch.",
   "home.manufactoryBody":
-    "Every piece is made here. We control the quality ourselves — no seasonal shortcuts. {warranty}.",
+    "Every piece is made here. We control the quality ourselves - no seasonal shortcuts. {warranty}.",
   "home.returnDays": "days to return",
   "home.returnBody":
     "Buy with ease. If the model does not sit right in the room, send it back without the paperwork maze.",
   "home.returnLink": "Return terms",
   "home.shipPoland": "We ship from Poland",
   "home.shipBody":
-    "{time}. Sofas and corner sofas usually ship in one piece. Wardrobes and case furniture may arrive in flat packs for self-assembly — see the product page.",
+    "{time}. Sofas and corner sofas usually ship in one piece. Wardrobes and case furniture may arrive in flat packs for self-assembly - see the product page.",
   "home.shipLink": "Delivery and lead times",
   "home.workshopAlt": "Wrohaus workshop in Kąty Wrocławskie",
   "home.reviewsKicker": "Your reviews",
   "home.reviewsTitle": "People already sitting on Wrohaus",
-  "home.reviewsMeta": "— ratings from sofa, corner and armchair orders",
+  "home.reviewsMeta": "- ratings from sofa, corner and armchair orders",
   "home.reviewMarta":
     "It sits softly, and the fabric looks more expensive in the room than in photos. On-time delivery, carton unmarked.",
   "home.reviewPiotr":
@@ -847,7 +847,7 @@ export const en: Record<MessageKey, string> = {
   "home.newsletterKicker": "Newsletter",
   "home.newsletterTitle": "Stay in the picture",
   "home.newsletterBody":
-    "Sign up for new pieces, sales and inspiration — only what is worth knowing.",
+    "Sign up for new pieces, sales and inspiration - only what is worth knowing.",
   "home.newsletterEmail": "Your e-mail address",
   "home.newsletterCta": "Subscribe",
   "home.newsletterConsent":
@@ -865,7 +865,7 @@ export const en: Record<MessageKey, string> = {
   "home.lookKicker": "Interiors",
   "home.lookTitle": "Get inspired",
   "home.lookIntro":
-    "A living room composed of Wrohaus furniture — the same fabric, the same dimensions, no catalogue guesswork. Hover the white marker on the photo or a model on the list to see the name and price. Click to go straight to the product.",
+    "A living room composed of Wrohaus furniture - the same fabric, the same dimensions, no catalogue guesswork. Hover the white marker on the photo or a model on the list to see the name and price. Click to go straight to the product.",
   "home.lookIntro2":
     "This is a finished interior, not a moodboard. Every piece in the scene is in the shop and you can order it in the same configuration.",
   "home.lookList": "In this photo you can see:",
@@ -873,7 +873,7 @@ export const en: Record<MessageKey, string> = {
   "home.catKicker": "Categories",
   "home.catTitle": "Start with a category",
   "home.catIntro":
-    "Sofas, corner sofas, armchairs, collections and the rest of the range — pick a category and find a model for your room.",
+    "Sofas, corner sofas, armchairs, collections and the rest of the range - pick a category and find a model for your room.",
   "home.colKicker": "Collections",
   "home.colTitle": "Discover our collections",
   "home.colIntro": "",
@@ -886,11 +886,11 @@ export const en: Record<MessageKey, string> = {
 
   "cookie.title": "Cookies",
   "cookie.body":
-    "We use essential cookies so the cart, account and site security work. Analytics and marketing cookies (including planned Meta remarketing) are on only with your consent. You may accept all or reject optional ones — both choices are equal. Details:",
+    "We use essential cookies so the cart, account and site security work. Analytics and marketing cookies (including planned Meta remarketing) are on only with your consent. You may accept all or reject optional ones - both choices are equal. Details:",
   "cookie.analytics":
-    "Visit analytics (optional) — helps us improve the shop.",
+    "Visit analytics (optional) - helps us improve the shop.",
   "cookie.marketing":
-    "Marketing and remarketing (optional) — e.g. Meta Pixel when we enable it. We do not load ad tools without this consent.",
+    "Marketing and remarketing (optional) - e.g. Meta Pixel when we enable it. We do not load ad tools without this consent.",
   "cookie.acceptAll": "Accept all",
   "cookie.reject": "Reject optional",
   "cookie.save": "Save choice",
@@ -911,7 +911,7 @@ export const en: Record<MessageKey, string> = {
   "cart.pricesNote":
     "Prices in PLN, gross including VAT. Payment via PayU (BLIK, card, instant transfer; instalments if available at checkout).",
   "cart.deliveryNote":
-    "Standard delivery {time} (business days). {returns} — details in the",
+    "Standard delivery {time} (business days). {returns} - details in the",
   "cart.returnsPolicy": "returns policy",
   "cart.terms":
     "I confirm that I have read the {terms} and {privacy} and accept them. By clicking “Order and pay” I undertake to pay.",
@@ -923,7 +923,7 @@ export const en: Record<MessageKey, string> = {
   "cart.payCard": "Payment card",
   "cart.payBank": "Bank transfer",
   "cart.payAppleHint":
-    "On a computer a QR code will appear — confirm the payment on your iPhone.",
+    "On a computer a QR code will appear - confirm the payment on your iPhone.",
   "cart.payMethodError":
     "Apple Pay is not available on this device. Choose another method.",
   "cart.applePayError":
@@ -945,12 +945,12 @@ export const en: Record<MessageKey, string> = {
   "cart.loginFirst": "Sign in to place an order",
   "cart.accountStep": "Account",
   "cart.accountHint":
-    "You can buy as a guest — no password or account. Signing in is optional if you want to track orders in your panel.",
+    "You can buy as a guest - no password or account. Signing in is optional if you want to track orders in your panel.",
   "cart.accountLoggedIn": "Signed in as",
-  "cart.accountRequired": "Complete step 03 — buy as a guest or sign in to proceed to payment.",
+  "cart.accountRequired": "Complete step 03 - buy as a guest or sign in to proceed to payment.",
   "cart.guestTab": "Buy as guest",
   "cart.guestHint":
-    "Enter your name and email. We will send the order confirmation to your inbox — no account needed.",
+    "Enter your name and email. We will send the order confirmation to your inbox - no account needed.",
   "cart.guestEmailHint": "We will send the confirmation and payment status to this address.",
   "cart.guestNameError": "Enter your full name",
   "cart.guestEmailError": "Enter a valid email address",
@@ -980,10 +980,10 @@ export const en: Record<MessageKey, string> = {
   "chat.label": "Chat with an advisor",
   "chat.advisor": "Advisor · we reply as we go",
   "chat.helpTitle": "How can we help?",
-  "chat.helpBody": "Choosing a sofa, fabric or size — write to us, an advisor will reply.",
+  "chat.helpBody": "Choosing a sofa, fabric or size - write to us, an advisor will reply.",
   "chat.namePh": "Your name",
   "chat.start": "Start chat",
-  "chat.empty": "Send the first message — an advisor will reply shortly.",
+  "chat.empty": "Send the first message - an advisor will reply shortly.",
   "chat.attach": "Send attachment",
   "chat.placeholder": "Write a message…",
   "chat.uploading": "Uploading file…",
@@ -994,7 +994,7 @@ export const en: Record<MessageKey, string> = {
   "chat.advisorName": "Advisor",
 
   "payu.seller":
-    "Seller: {legal} — {brand}, {address}, Poland. VAT {nip}. Name on the payment statement: {statement}. Currency: PLN. Prices gross including VAT. Contact:",
+    "Seller: {legal} - {brand}, {address}, Poland. VAT {nip}. Name on the payment statement: {statement}. Currency: PLN. Prices gross including VAT. Contact:",
   "payu.body":
     "Payment is handled by {name}. Funds are taken when the payment is placed (BLIK, card, instant transfer) or on the instalment schedule. Refunds go back to the same payment instrument.",
   "payu.accept": "By paying you accept the",
@@ -1010,7 +1010,7 @@ export const en: Record<MessageKey, string> = {
     "In PayU you can pay with BLIK, card or a fast transfer. The status updates automatically after the payment is booked.",
   "payu.failedTitle": "Payment was not completed",
   "payu.failedBody":
-    "We did not take the payment. Your items are back in the cart — you can pay again or choose another method in PayU.",
+    "We did not take the payment. Your items are back in the cart - you can pay again or choose another method in PayU.",
   "payu.failedHint":
     "If your bank placed a hold, it will be released automatically. We start fulfilment only after the payment is confirmed.",
   "payu.failedOrder": "Order number:",
@@ -1033,7 +1033,7 @@ export const en: Record<MessageKey, string> = {
   "contact.sending": "Sending…",
   "contact.subjectGeneral": "General enquiry",
   "contact.subjectQuote": "Bespoke furniture quote",
-  "contact.subjectFabric": "Different fabric — quote",
+  "contact.subjectFabric": "Different fabric - quote",
   "contact.quoteLead": "Please quote this product: {name}",
   "contact.quoteColor": "Selected upholstery colour: {color}",
   "contact.quotePage": "Product page: /produkt/{slug}",
@@ -1058,7 +1058,7 @@ export const de: Record<MessageKey, string> = {
   "header.closeMenu": "Menü schließen",
   "header.menu": "Menü",
   "header.close": "Schließen",
-  "header.home": "Wrohaus — Startseite",
+  "header.home": "Wrohaus - Startseite",
   "header.upholstery": "Polstermöbel",
   "header.myAccount": "Mein Konto",
   "header.closeSearch": "Suche schließen",
@@ -1083,20 +1083,20 @@ export const de: Record<MessageKey, string> = {
   "cat.meble-dzieciece": "Kindermöbel",
   "cat.akcesoria-dla-zwierzat": "Tierzubehör",
 
-  "intro.sofy": "Von klassisch bis modular — Wohnzimmersofas, die jahrelang sitzen.",
+  "intro.sofy": "Von klassisch bis modular - Wohnzimmersofas, die jahrelang sitzen.",
   "intro.narozniki": "Großzügige Ecksofas mit Schlaffunktion, Bettkasten und tiefer Sitzfläche.",
-  "intro.fotele": "Sessel zum Lesen, fürs Wohnzimmer und Arbeitszimmer — Samt, Bouclé und Leinen.",
-  "intro.kolekcje": "Wohnzimmer-Sets in einer Palette — Sofa, Sessel und Ergänzungen.",
-  "intro.oswietlenie": "Steh-, Tisch- und Pendelleuchten — warmes Licht für Wohnzimmer und Schlafzimmer.",
-  "intro.szafy": "Schränke für Schlafzimmer und Flur — Fachböden, Kleiderstange, ruhige Fronten.",
-  "intro.szafki": "Nachttische fürs Schlafzimmer — Schubkästen, ein Fachboden und ruhige Fronten.",
-  "intro.szafki-rtv": "TV-Lowboards für Bildschirm, Kabel und Hi-Fi — eine niedrige Linie an der Wand.",
-  "intro.komody": "Kommoden für Schlafzimmer und Wohnzimmer — Schubkästen, ruhige Fronten, Holz und Lack.",
-  "intro.stoliki": "Couchtische und Beistelltische — neben Sofa, Sessel oder Bett.",
-  "intro.materace": "Matratzen passend zu unseren Betten — Federkern, Schaum, Bezüge.",
-  "intro.lozka": "Polster- und Holzbetten — Gestell, Kopfteil, ruhige Linie.",
-  "intro.meble-dzieciece": "Möbel fürs Kinderzimmer — sicher, langlebig, zum Mitwachsen.",
-  "intro.akcesoria-dla-zwierzat": "Körbe und Extras — derselbe Stoffstandard wie im Wohnzimmer.",
+  "intro.fotele": "Sessel zum Lesen, fürs Wohnzimmer und Arbeitszimmer - Samt, Bouclé und Leinen.",
+  "intro.kolekcje": "Wohnzimmer-Sets in einer Palette - Sofa, Sessel und Ergänzungen.",
+  "intro.oswietlenie": "Steh-, Tisch- und Pendelleuchten - warmes Licht für Wohnzimmer und Schlafzimmer.",
+  "intro.szafy": "Schränke für Schlafzimmer und Flur - Fachböden, Kleiderstange, ruhige Fronten.",
+  "intro.szafki": "Nachttische fürs Schlafzimmer - Schubkästen, ein Fachboden und ruhige Fronten.",
+  "intro.szafki-rtv": "TV-Lowboards für Bildschirm, Kabel und Hi-Fi - eine niedrige Linie an der Wand.",
+  "intro.komody": "Kommoden für Schlafzimmer und Wohnzimmer - Schubkästen, ruhige Fronten, Holz und Lack.",
+  "intro.stoliki": "Couchtische und Beistelltische - neben Sofa, Sessel oder Bett.",
+  "intro.materace": "Matratzen passend zu unseren Betten - Federkern, Schaum, Bezüge.",
+  "intro.lozka": "Polster- und Holzbetten - Gestell, Kopfteil, ruhige Linie.",
+  "intro.meble-dzieciece": "Möbel fürs Kinderzimmer - sicher, langlebig, zum Mitwachsen.",
+  "intro.akcesoria-dla-zwierzat": "Körbe und Extras - derselbe Stoffstandard wie im Wohnzimmer.",
 
   "nav.sale": "Sale",
   "nav.ready": "Sofort lieferbar",
@@ -1112,9 +1112,9 @@ export const de: Record<MessageKey, string> = {
   "nav.lines": "Linien",
   "nav.linesAll": "Alle Linien",
   "listing.cornerLDesc":
-    "L-förmige Ecksofas — großzügige Wohnzimmer-Anordnungen, mit Schlaffunktion und Bettkasten.",
+    "L-förmige Ecksofas - großzügige Wohnzimmer-Anordnungen, mit Schlaffunktion und Bettkasten.",
   "listing.cornerUDesc":
-    "U-förmige Ecksofas — maximale Sitzfläche und Umschließung für große Wohnzimmer.",
+    "U-förmige Ecksofas - maximale Sitzfläche und Umschließung für große Wohnzimmer.",
 
   "footer.blurb":
     "Wir fertigen Möbel, die Komfort mit zeitlosem Design verbinden. Produktion in Polen, höchste Materialqualität.",
@@ -1165,7 +1165,7 @@ export const de: Record<MessageKey, string> = {
   "product.shipIn": "Versand in {time}",
   "product.addToCart": "In den Warenkorb",
   "product.toCart": "In den Warenkorb",
-  "product.id": "Produkt-ID — {sku}",
+  "product.id": "Produkt-ID - {sku}",
   "product.manufacturer": "Hersteller",
   "product.lowest30": "Niedrigster Preis der letzten 30 Tage: {price}",
   "product.qtyDown": "Menge verringern",
@@ -1181,16 +1181,16 @@ export const de: Record<MessageKey, string> = {
   "product.deliveryReady":
     "Das Modell steht im Lager bereit. Der Versand dauert {time}. Der Kurier meldet sich vor der Zustellung.",
   "product.deliveryMade":
-    "Ihre Bestellung geht in die Fertigung — {production}. Danach Lieferung in {delivery}. Planen Sie diesen Zeitraum ein.",
+    "Ihre Bestellung geht in die Fertigung - {production}. Danach Lieferung in {delivery}. Planen Sie diesen Zeitraum ein.",
   "product.shipping24h": "Versand in 24h",
   "product.bestseller": "Bestseller",
   "product.productionTime": "Fertigungszeit",
   "product.shippingLabel": "Versand",
   "product.shipping24hValue": "innerhalb 24h",
   "product.shipping24hBody":
-    "Versandbereit — wir verschicken innerhalb von 24 Stunden nach Zahlungseingang. Voraussichtliche Lieferung: {date}. Der Kurier meldet sich vor der Zustellung.",
+    "Versandbereit - wir verschicken innerhalb von 24 Stunden nach Zahlungseingang. Voraussichtliche Lieferung: {date}. Der Kurier meldet sich vor der Zustellung.",
   "product.productionBody":
-    "Dieses Modell wird auf Bestellung gefertigt — Fertigungszeit {production}. Danach übergeben wir es dem Kurier ({transport}).",
+    "Dieses Modell wird auf Bestellung gefertigt - Fertigungszeit {production}. Danach übergeben wir es dem Kurier ({transport}).",
   "product.deliveryEstimateBody":
     "Berechnet ab Bestelldatum: Fertigung + Transport ({transport}), nur Werktage. Der Kurier meldet sich vor der Zustellung.",
   "product.deliveryEstimateManualBody":
@@ -1230,7 +1230,7 @@ export const de: Record<MessageKey, string> = {
   "product.fabricPriceWithShade": "Produktpreis mit diesem Ton: {price}",
   "product.fabricSurchargeTitle": "Stoffaufschlag",
   "product.otherFabric":
-    "Ein anderer Stoff gewünscht? Kein Problem — schreiben Sie uns für ein individuelles Angebot und die Produktionszeit.",
+    "Ein anderer Stoff gewünscht? Kein Problem - schreiben Sie uns für ein individuelles Angebot und die Produktionszeit.",
   "product.otherFabricCta": "Nachricht schreiben",
   "product.fabricSurcharge": "+{amount} Stoffaufschlag",
   "product.fabricSurchargeInPrice": "inkl. Stoffaufschlag: +{amount}",
@@ -1273,7 +1273,7 @@ export const de: Record<MessageKey, string> = {
   "listing.offer": "Angebot",
   "listing.allFurniture": "Alle Möbel",
   "listing.allFurnitureDesc":
-    "Sofas, Ecksofas, Sessel und Kollektionen — das gesamte Wrohaus-Sortiment.",
+    "Sofas, Ecksofas, Sessel und Kollektionen - das gesamte Wrohaus-Sortiment.",
   "listing.category": "Kategorie",
   "listing.empty": "Derzeit keine Produkte. Bitte schauen Sie bald wieder vorbei.",
   "listing.count.one": "{n} Produkt",
@@ -1281,27 +1281,27 @@ export const de: Record<MessageKey, string> = {
   "listing.count.many": "{n} Produkte",
   "listing.sale": "Sale",
   "listing.saleDesc":
-    "Ausgewählte Modelle zum reduzierten Preis. Sale-Stücke werden auf Bestellung gefertigt — Produktion bis zu 2 Wochen.",
+    "Ausgewählte Modelle zum reduzierten Preis. Sale-Stücke werden auf Bestellung gefertigt - Produktion bis zu 2 Wochen.",
   "listing.saleEmpty": "Derzeit keine Sale-Produkte. Bitte schauen Sie bald wieder vorbei.",
   "listing.otherSales": "Weitere Angebote",
   "listing.readyEyebrow": "Schnelle Lieferung",
   "listing.readyTitle": "Sofort lieferbar",
   "listing.readyDesc":
-    "Modelle im Lager — ohne Wartezeit auf die Fertigung. Lieferung {price}, {time}.",
+    "Modelle im Lager - ohne Wartezeit auf die Fertigung. Lieferung {price}, {time}.",
   "listing.readyEmpty":
-    "Derzeit keine sofort lieferbaren Möbel. Schreiben Sie uns — wir helfen gern.",
+    "Derzeit keine sofort lieferbaren Möbel. Schreiben Sie uns - wir helfen gern.",
   "listing.sevenDaysEyebrow": "Schnelle Lieferung",
   "listing.sevenDaysTitle": "Möbel in 7 Tagen",
   "listing.sevenDaysDesc":
-    "Möbel mit kurzer Frist — Fertigung und Versand, damit sie in 7 Tagen bei Ihnen sind. Lieferung {price}, {time}.",
+    "Möbel mit kurzer Frist - Fertigung und Versand, damit sie in 7 Tagen bei Ihnen sind. Lieferung {price}, {time}.",
   "listing.sevenDaysEmpty":
-    "Derzeit keine Möbel in 7 Tagen. Schreiben Sie uns — wir helfen gern.",
+    "Derzeit keine Möbel in 7 Tagen. Schreiben Sie uns - wir helfen gern.",
   "listing.emptyCategory": "Keine Produkte in {name}.",
   "listing.line": "Linie",
   "listing.allLines": "Alle Linien",
   "listing.lines": "Linien",
   "listing.linesDesc":
-    "Möbelkollektionen — öffnen Sie einen Ordner, um die Modelle der Serie zu sehen.",
+    "Möbelkollektionen - öffnen Sie einen Ordner, um die Modelle der Serie zu sehen.",
   "listing.linesEmpty": "Kollektionsordner erscheinen hier, sobald wir sie anlegen.",
   "listing.lineEmpty": "In dieser Linie gibt es noch keine Produkte.",
   "listing.folderCount": "{n} Möbel",
@@ -1343,19 +1343,19 @@ export const de: Record<MessageKey, string> = {
   "home.manufactory": "Manufaktur in Polen",
   "home.manufactoryTitle": "Kąty Wrocławskie. Vom Gestell bis zum letzten Stich.",
   "home.manufactoryBody":
-    "Jedes Möbel entsteht bei uns. Die Qualität kontrollieren wir selbst — ohne saisonale Kompromisse. {warranty}.",
+    "Jedes Möbel entsteht bei uns. Die Qualität kontrollieren wir selbst - ohne saisonale Kompromisse. {warranty}.",
   "home.returnDays": "Tage Rückgabe",
   "home.returnBody":
     "Sie kaufen in Ruhe. Sitzt das Modell nicht im Raum, senden Sie es ohne Umwege zurück.",
   "home.returnLink": "Rückgabebedingungen",
   "home.shipPoland": "Versand aus Polen",
   "home.shipBody":
-    "{time}. Sofas und Ecksofas kommen meist in einem Stück. Schränke und Korpusmöbel können in Paketen zur Selbstmontage ankommen — siehe Produktseite.",
+    "{time}. Sofas und Ecksofas kommen meist in einem Stück. Schränke und Korpusmöbel können in Paketen zur Selbstmontage ankommen - siehe Produktseite.",
   "home.shipLink": "Lieferung und Fristen",
   "home.workshopAlt": "Wrohaus-Manufaktur in Kąty Wrocławskie",
   "home.reviewsKicker": "Ihre Stimmen",
   "home.reviewsTitle": "Menschen, die bereits auf Wrohaus sitzen",
-  "home.reviewsMeta": "— Bewertungen aus Sofa-, Ecksofa- und Sesselbestellungen",
+  "home.reviewsMeta": "- Bewertungen aus Sofa-, Ecksofa- und Sesselbestellungen",
   "home.reviewMarta":
     "Es sitzt weich, und der Stoff wirkt im Wohnzimmer teurer als auf den Fotos. Lieferung pünktlich, Karton ohne Macken.",
   "home.reviewPiotr":
@@ -1367,7 +1367,7 @@ export const de: Record<MessageKey, string> = {
   "home.newsletterKicker": "Newsletter",
   "home.newsletterTitle": "Bleiben Sie auf dem Laufenden",
   "home.newsletterBody":
-    "Melden Sie sich an für Neuheiten, Angebote und Inspiration — nur das, was sich lohnt.",
+    "Melden Sie sich an für Neuheiten, Angebote und Inspiration - nur das, was sich lohnt.",
   "home.newsletterEmail": "Ihre E-Mail-Adresse",
   "home.newsletterCta": "Anmelden",
   "home.newsletterConsent":
@@ -1385,7 +1385,7 @@ export const de: Record<MessageKey, string> = {
   "home.lookKicker": "Einrichtungen",
   "home.lookTitle": "Lassen Sie sich inspirieren",
   "home.lookIntro":
-    "Ein Wohnzimmer aus Wrohaus-Möbeln — derselbe Stoff, dieselben Maße, ohne Rätselraten im Katalog. Fahren Sie über die weiße Markierung auf dem Foto oder ein Modell in der Liste: Name und Preis erscheinen. Klicken Sie, um direkt zum Produkt zu gehen.",
+    "Ein Wohnzimmer aus Wrohaus-Möbeln - derselbe Stoff, dieselben Maße, ohne Rätselraten im Katalog. Fahren Sie über die weiße Markierung auf dem Foto oder ein Modell in der Liste: Name und Preis erscheinen. Klicken Sie, um direkt zum Produkt zu gehen.",
   "home.lookIntro2":
     "Das ist eine fertige Einrichtung, kein Moodboard. Jedes Möbel in der Szene ist im Shop und Sie können es in derselben Konfiguration bestellen.",
   "home.lookList": "Auf diesem Foto sehen Sie:",
@@ -1393,7 +1393,7 @@ export const de: Record<MessageKey, string> = {
   "home.catKicker": "Kategorien",
   "home.catTitle": "Mit einer Kategorie beginnen",
   "home.catIntro":
-    "Sofas, Ecksofas, Sessel, Kollektionen und das übrige Sortiment — wählen Sie eine Kategorie und finden Sie das Modell für Ihren Raum.",
+    "Sofas, Ecksofas, Sessel, Kollektionen und das übrige Sortiment - wählen Sie eine Kategorie und finden Sie das Modell für Ihren Raum.",
   "home.colKicker": "Kollektionen",
   "home.colTitle": "Entdecken Sie unsere Kollektionen",
   "home.colIntro": "",
@@ -1406,11 +1406,11 @@ export const de: Record<MessageKey, string> = {
 
   "cookie.title": "Cookies",
   "cookie.body":
-    "Wir verwenden notwendige Cookies, damit Warenkorb, Konto und Sicherheit funktionieren. Analyse- und Marketing-Cookies (inkl. geplanter Meta-Remarketing) nur mit Ihrer Einwilligung. Sie können alle akzeptieren oder optionale ablehnen — beide Wege sind gleichwertig. Details:",
+    "Wir verwenden notwendige Cookies, damit Warenkorb, Konto und Sicherheit funktionieren. Analyse- und Marketing-Cookies (inkl. geplanter Meta-Remarketing) nur mit Ihrer Einwilligung. Sie können alle akzeptieren oder optionale ablehnen - beide Wege sind gleichwertig. Details:",
   "cookie.analytics":
-    "Besuchsanalyse (optional) — hilft uns, den Shop zu verbessern.",
+    "Besuchsanalyse (optional) - hilft uns, den Shop zu verbessern.",
   "cookie.marketing":
-    "Marketing und Remarketing (optional) — z. B. Meta Pixel, sobald wir ihn einsetzen. Ohne diese Einwilligung laden wir keine Werbetools.",
+    "Marketing und Remarketing (optional) - z. B. Meta Pixel, sobald wir ihn einsetzen. Ohne diese Einwilligung laden wir keine Werbetools.",
   "cookie.acceptAll": "Alle akzeptieren",
   "cookie.reject": "Optionale ablehnen",
   "cookie.save": "Auswahl speichern",
@@ -1431,7 +1431,7 @@ export const de: Record<MessageKey, string> = {
   "cart.pricesNote":
     "Preise in PLN, brutto inkl. MwSt. Zahlung über PayU (BLIK, Karte, Echtzeitüberweisung; Raten falls an der Kasse verfügbar).",
   "cart.deliveryNote":
-    "Standardlieferung {time} (Werktage). {returns} — Details in der",
+    "Standardlieferung {time} (Werktage). {returns} - Details in der",
   "cart.returnsPolicy": "Rückgaberichtlinie",
   "cart.terms":
     "Ich bestätige, die {terms} und die {privacy} gelesen zu haben und akzeptiere sie. Mit Klick auf „Bestellen und bezahlen“ verpflichte ich mich zur Zahlung.",
@@ -1443,7 +1443,7 @@ export const de: Record<MessageKey, string> = {
   "cart.payCard": "Zahlungskarte",
   "cart.payBank": "Überweisung",
   "cart.payAppleHint":
-    "Am Computer erscheint ein QR-Code — die Zahlung bestätigen Sie am iPhone.",
+    "Am Computer erscheint ein QR-Code - die Zahlung bestätigen Sie am iPhone.",
   "cart.payMethodError":
     "Apple Pay ist auf diesem Gerät nicht verfügbar. Bitte wählen Sie eine andere Methode.",
   "cart.applePayError":
@@ -1465,13 +1465,13 @@ export const de: Record<MessageKey, string> = {
   "cart.loginFirst": "Melden Sie sich an, um zu bestellen",
   "cart.accountStep": "Konto",
   "cart.accountHint":
-    "Sie können als Gast kaufen — ohne Passwort und Konto. Die Anmeldung ist optional, wenn Sie Bestellungen im Konto verfolgen möchten.",
+    "Sie können als Gast kaufen - ohne Passwort und Konto. Die Anmeldung ist optional, wenn Sie Bestellungen im Konto verfolgen möchten.",
   "cart.accountLoggedIn": "Angemeldet als",
   "cart.accountRequired":
-    "Schritt 03 abschließen — als Gast kaufen oder anmelden, um zur Zahlung zu gelangen.",
+    "Schritt 03 abschließen - als Gast kaufen oder anmelden, um zur Zahlung zu gelangen.",
   "cart.guestTab": "Als Gast kaufen",
   "cart.guestHint":
-    "Geben Sie Name und E-Mail an. Die Bestellbestätigung senden wir ins Postfach — ein Konto ist nicht nötig.",
+    "Geben Sie Name und E-Mail an. Die Bestellbestätigung senden wir ins Postfach - ein Konto ist nicht nötig.",
   "cart.guestEmailHint": "An diese Adresse senden wir Bestätigung und Zahlungsstatus.",
   "cart.guestNameError": "Bitte Vor- und Nachnamen angeben",
   "cart.guestEmailError": "Bitte eine gültige E-Mail angeben",
@@ -1501,10 +1501,10 @@ export const de: Record<MessageKey, string> = {
   "chat.label": "Chat mit der Beratung",
   "chat.advisor": "Beratung · wir antworten laufend",
   "chat.helpTitle": "Womit können wir helfen?",
-  "chat.helpBody": "Sofa, Stoff oder Maß — schreiben Sie uns, die Beratung antwortet.",
+  "chat.helpBody": "Sofa, Stoff oder Maß - schreiben Sie uns, die Beratung antwortet.",
   "chat.namePh": "Ihr Name",
   "chat.start": "Chat starten",
-  "chat.empty": "Schreiben Sie die erste Nachricht — die Beratung antwortet in Kürze.",
+  "chat.empty": "Schreiben Sie die erste Nachricht - die Beratung antwortet in Kürze.",
   "chat.attach": "Datei senden",
   "chat.placeholder": "Nachricht schreiben…",
   "chat.uploading": "Datei wird gesendet…",
@@ -1515,7 +1515,7 @@ export const de: Record<MessageKey, string> = {
   "chat.advisorName": "Beratung",
 
   "payu.seller":
-    "Verkäufer: {legal} — {brand}, {address}, Polen. USt-IdNr. {nip}. Name auf dem Kontoauszug: {statement}. Währung: PLN. Preise brutto inkl. MwSt. Kontakt:",
+    "Verkäufer: {legal} - {brand}, {address}, Polen. USt-IdNr. {nip}. Name auf dem Kontoauszug: {statement}. Währung: PLN. Preise brutto inkl. MwSt. Kontakt:",
   "payu.body":
     "Die Zahlung erfolgt über {name}. Beträge werden bei der Zahlung (BLIK, Karte, Echtzeitüberweisung) oder nach Ratenplan eingezogen. Erstattung auf dasselbe Zahlungsmittel.",
   "payu.accept": "Mit der Zahlung akzeptieren Sie die",
@@ -1531,7 +1531,7 @@ export const de: Record<MessageKey, string> = {
     "Bei PayU zahlen Sie per BLIK, Karte oder Echtzeitüberweisung. Der Status aktualisiert sich automatisch nach der Buchung.",
   "payu.failedTitle": "Zahlung nicht abgeschlossen",
   "payu.failedBody":
-    "Wir haben keine Zahlung eingezogen. Die Artikel sind wieder im Warenkorb — Sie können erneut zahlen oder in PayU eine andere Methode wählen.",
+    "Wir haben keine Zahlung eingezogen. Die Artikel sind wieder im Warenkorb - Sie können erneut zahlen oder in PayU eine andere Methode wählen.",
   "payu.failedHint":
     "Eine Bankreservierung wird automatisch aufgehoben. Die Bestellung bearbeiten wir erst nach bestätigter Zahlung.",
   "payu.failedOrder": "Bestellnummer:",
@@ -1554,7 +1554,7 @@ export const de: Record<MessageKey, string> = {
   "contact.sending": "Wird gesendet…",
   "contact.subjectGeneral": "Allgemeine Anfrage",
   "contact.subjectQuote": "Angebot für Maßmöbel",
-  "contact.subjectFabric": "Anderer Stoff — Angebot",
+  "contact.subjectFabric": "Anderer Stoff - Angebot",
   "contact.quoteLead": "Bitte um Angebot für: {name}",
   "contact.quoteColor": "Gewählter Bezugsstoff: {color}",
   "contact.quotePage": "Produktseite: /produkt/{slug}",
@@ -1579,7 +1579,7 @@ export const uk: Record<MessageKey, string> = {
   "header.closeMenu": "Закрити меню",
   "header.menu": "Меню",
   "header.close": "Закрити",
-  "header.home": "Wrohaus — головна сторінка",
+  "header.home": "Wrohaus - головна сторінка",
   "header.upholstery": "М’які меблі",
   "header.myAccount": "Мій кабінет",
   "header.closeSearch": "Закрити пошук",
@@ -1604,20 +1604,20 @@ export const uk: Record<MessageKey, string> = {
   "cat.meble-dzieciece": "Дитячі меблі",
   "cat.akcesoria-dla-zwierzat": "Аксесуари для тварин",
 
-  "intro.sofy": "Від класики до модульних — дивани в вітальню, на яких сидять роками.",
+  "intro.sofy": "Від класики до модульних - дивани в вітальню, на яких сидять роками.",
   "intro.narozniki": "Просторі кутові дивани зі спальним місцем, нішею і глибоким сидінням.",
-  "intro.fotele": "Крісла для читання, вітальні й кабінету — велюр, букле і льон.",
-  "intro.kolekcje": "Комплекти для вітальні в одній палітрі — диван, крісло і деталі.",
-  "intro.oswietlenie": "Торшери, настільні й підвісні лампи — тепле світло для вітальні та спальні.",
-  "intro.szafy": "Шафи для спальні й передпокою — полиці, штанга, спокійні фасади.",
-  "intro.szafki": "Приліжкові тумби до спальні — шухляди, полиця і спокійні фасади.",
-  "intro.szafki-rtv": "Тумби під телевізор, кабелі й техніку — низький об’єм біля стіни.",
-  "intro.komody": "Комоди для спальні й вітальні — шухляди, спокійні фасади, дерево і лак.",
-  "intro.stoliki": "Журнальні й бічні столики — біля дивана, крісла або ліжка.",
-  "intro.materace": "Матраци під наші ліжка — пружини, піна, чохли.",
-  "intro.lozka": "М’які та дерев’яні ліжка — каркас, узголів’я, спокійна лінія.",
-  "intro.meble-dzieciece": "Меблі в дитячу — безпечні, міцні, щоб рости разом із дитиною.",
-  "intro.akcesoria-dla-zwierzat": "Лежаки й деталі — той самий стандарт тканин, що й у вітальні.",
+  "intro.fotele": "Крісла для читання, вітальні й кабінету - велюр, букле і льон.",
+  "intro.kolekcje": "Комплекти для вітальні в одній палітрі - диван, крісло і деталі.",
+  "intro.oswietlenie": "Торшери, настільні й підвісні лампи - тепле світло для вітальні та спальні.",
+  "intro.szafy": "Шафи для спальні й передпокою - полиці, штанга, спокійні фасади.",
+  "intro.szafki": "Приліжкові тумби до спальні - шухляди, полиця і спокійні фасади.",
+  "intro.szafki-rtv": "Тумби під телевізор, кабелі й техніку - низький об’єм біля стіни.",
+  "intro.komody": "Комоди для спальні й вітальні - шухляди, спокійні фасади, дерево і лак.",
+  "intro.stoliki": "Журнальні й бічні столики - біля дивана, крісла або ліжка.",
+  "intro.materace": "Матраци під наші ліжка - пружини, піна, чохли.",
+  "intro.lozka": "М’які та дерев’яні ліжка - каркас, узголів’я, спокійна лінія.",
+  "intro.meble-dzieciece": "Меблі в дитячу - безпечні, міцні, щоб рости разом із дитиною.",
+  "intro.akcesoria-dla-zwierzat": "Лежаки й деталі - той самий стандарт тканин, що й у вітальні.",
 
   "nav.sale": "Знижки",
   "nav.ready": "В наявності",
@@ -1633,9 +1633,9 @@ export const uk: Record<MessageKey, string> = {
   "nav.lines": "Лінії",
   "nav.linesAll": "Усі лінії",
   "listing.cornerLDesc":
-    "Кутові дивани L — просторі схеми для вітальні, зі спальним місцем і нішею.",
+    "Кутові дивани L - просторі схеми для вітальні, зі спальним місцем і нішею.",
   "listing.cornerUDesc":
-    "Кутові дивани U — максимальне сидіння й облягання для великих віталень.",
+    "Кутові дивани U - максимальне сидіння й облягання для великих віталень.",
 
   "footer.blurb":
     "Робимо меблі, що поєднують комфорт із дизайном на роки. Виробництво в Польщі, найвища якість матеріалів.",
@@ -1686,7 +1686,7 @@ export const uk: Record<MessageKey, string> = {
   "product.shipIn": "Відправка {time}",
   "product.addToCart": "Додати до кошика",
   "product.toCart": "До кошика",
-  "product.id": "ID товару — {sku}",
+  "product.id": "ID товару - {sku}",
   "product.manufacturer": "Виробник",
   "product.lowest30": "Найнижча ціна за останні 30 днів: {price}",
   "product.qtyDown": "Зменшити кількість",
@@ -1702,16 +1702,16 @@ export const uk: Record<MessageKey, string> = {
   "product.deliveryReady":
     "Модель готова на складі. Відправка триває {time}. Кур’єр зв’яжеться перед доставкою.",
   "product.deliveryMade":
-    "Замовлення йде у виробництво — {production}. Потім доставка {delivery}. Врахуйте цей час, плануючи отримання.",
+    "Замовлення йде у виробництво - {production}. Потім доставка {delivery}. Врахуйте цей час, плануючи отримання.",
   "product.shipping24h": "Відправка 24 год",
   "product.bestseller": "Бестселер",
   "product.productionTime": "Термін виробництва",
   "product.shippingLabel": "Відправка",
   "product.shipping24hValue": "до 24 год",
   "product.shipping24hBody":
-    "Товар готовий до відправки — надсилаємо протягом 24 годин після оплати. Орієнтовна доставка: {date}. Кур’єр зв’яжеться перед доставкою.",
+    "Товар готовий до відправки - надсилаємо протягом 24 годин після оплати. Орієнтовна доставка: {date}. Кур’єр зв’яжеться перед доставкою.",
   "product.productionBody":
-    "Ця модель виготовляється на замовлення — термін виробництва {production}. Після виготовлення передаємо кур’єру ({transport}).",
+    "Ця модель виготовляється на замовлення - термін виробництва {production}. Після виготовлення передаємо кур’єру ({transport}).",
   "product.deliveryEstimateBody":
     "Розраховано від дати замовлення: виробництво + транспорт ({transport}), лише робочі дні. Кур’єр зв’яжеться перед доставкою.",
   "product.deliveryEstimateManualBody":
@@ -1724,7 +1724,7 @@ export const uk: Record<MessageKey, string> = {
   "product.layersHint": "Шари зверху донизу",
   "product.shippingCosts": "Вартість і варіанти доставки",
   "product.shippingBody":
-    "Стандартна доставка {price}. Кілька товарів у кошику — одна плата за доставку. Повну суму побачите в кошику перед замовленням. {pickup} безкоштовний.",
+    "Стандартна доставка {price}. Кілька товарів у кошику - одна плата за доставку. Повну суму побачите в кошику перед замовленням. {pickup} безкоштовний.",
   "product.return": "Повернення",
   "product.returnValue": "до {days} днів",
   "product.returnBody":
@@ -1751,7 +1751,7 @@ export const uk: Record<MessageKey, string> = {
   "product.fabricPriceWithShade": "Ціна товару з цим відтінком: {price}",
   "product.fabricSurchargeTitle": "Доплата за тканину",
   "product.otherFabric":
-    "Потрібна інша тканина? Без проблем — напишіть нам для індивідуальної ціни і терміну виробництва.",
+    "Потрібна інша тканина? Без проблем - напишіть нам для індивідуальної ціни і терміну виробництва.",
   "product.otherFabricCta": "Написати повідомлення",
   "product.fabricSurcharge": "+{amount} доплата за тканину",
   "product.fabricSurchargeInPrice": "у т. ч. доплата за тканину: +{amount}",
@@ -1794,7 +1794,7 @@ export const uk: Record<MessageKey, string> = {
   "listing.offer": "Пропозиція",
   "listing.allFurniture": "Усі меблі",
   "listing.allFurnitureDesc":
-    "Дивани, кутові, крісла і колекції — повна пропозиція Wrohaus.",
+    "Дивани, кутові, крісла і колекції - повна пропозиція Wrohaus.",
   "listing.category": "Категорія",
   "listing.empty": "Зараз немає товарів. Завітайте пізніше.",
   "listing.count.one": "{n} товар",
@@ -1802,27 +1802,27 @@ export const uk: Record<MessageKey, string> = {
   "listing.count.many": "{n} товарів",
   "listing.sale": "Знижки",
   "listing.saleDesc":
-    "Вибрані моделі за зниженою ціною. Товари зі знижкою шиємо на замовлення — виробництво до 2 тижнів.",
+    "Вибрані моделі за зниженою ціною. Товари зі знижкою шиємо на замовлення - виробництво до 2 тижнів.",
   "listing.saleEmpty": "Зараз немає товарів зі знижкою. Завітайте пізніше.",
   "listing.otherSales": "Інші знижки",
   "listing.readyEyebrow": "Швидка відправка",
   "listing.readyTitle": "Зі складу",
   "listing.readyDesc":
-    "Моделі готові на складі — без очікування виробництва. Доставка {price}, {time}.",
+    "Моделі готові на складі - без очікування виробництва. Доставка {price}, {time}.",
   "listing.readyEmpty":
-    "Зараз немає меблів зі складу. Напишіть нам — допоможемо.",
+    "Зараз немає меблів зі складу. Напишіть нам - допоможемо.",
   "listing.sevenDaysEyebrow": "Швидка відправка",
   "listing.sevenDaysTitle": "Меблі за 7 днів",
   "listing.sevenDaysDesc":
-    "Меблі з коротким терміном — виробництво й відправка так, щоб були в вас за 7 днів. Доставка {price}, {time}.",
+    "Меблі з коротким терміном - виробництво й відправка так, щоб були в вас за 7 днів. Доставка {price}, {time}.",
   "listing.sevenDaysEmpty":
-    "Зараз немає меблів за 7 днів. Напишіть нам — допоможемо.",
+    "Зараз немає меблів за 7 днів. Напишіть нам - допоможемо.",
   "listing.emptyCategory": "Немає товарів у категорії {name}.",
   "listing.line": "Лінія",
   "listing.allLines": "Усі лінії",
   "listing.lines": "Лінії",
   "listing.linesDesc":
-    "Колекції меблів — зайдіть у теку, щоб побачити моделі серії.",
+    "Колекції меблів - зайдіть у теку, щоб побачити моделі серії.",
   "listing.linesEmpty": "Теки колекцій з’являться тут, коли їх додамо.",
   "listing.lineEmpty": "У цій лінії ще немає товарів.",
   "listing.folderCount": "{n} меблів",
@@ -1864,19 +1864,19 @@ export const uk: Record<MessageKey, string> = {
   "home.manufactory": "Польська мануфактура",
   "home.manufactoryTitle": "Конти-Вроцлавські. Від каркаса до останнього шва.",
   "home.manufactoryBody":
-    "Кожні меблі виникають у нас. Якість контролюємо самі — без сезонних компромісів. {warranty}.",
+    "Кожні меблі виникають у нас. Якість контролюємо самі - без сезонних компромісів. {warranty}.",
   "home.returnDays": "днів на повернення",
   "home.returnBody":
     "Купуєте спокійно. Якщо модель не сяде в інтер’єрі, відсилаєте без зайвих формальностей.",
   "home.returnLink": "Правила повернення",
   "home.shipPoland": "Відправляємо з Польщі",
   "home.shipBody":
-    "{time}. Дивани й кутові дивани зазвичай їдуть цілими. Шафи та корпусні меблі можуть бути в пакетах для самостійного складання — це на картці товару.",
+    "{time}. Дивани й кутові дивани зазвичай їдуть цілими. Шафи та корпусні меблі можуть бути в пакетах для самостійного складання - це на картці товару.",
   "home.shipLink": "Доставка і терміни",
   "home.workshopAlt": "Мануфактура Wrohaus в Контах-Вроцлавських",
   "home.reviewsKicker": "Ваші відгуки",
   "home.reviewsTitle": "Люди, які вже сидять на Wrohaus",
-  "home.reviewsMeta": "— оцінки із замовлень диванів, кутових і крісел",
+  "home.reviewsMeta": "- оцінки із замовлень диванів, кутових і крісел",
   "home.reviewMarta":
     "Сидиться м’яко, а тканина в вітальні виглядає дорожче, ніж на фото. Доставка вчасно, коробка без подряпин.",
   "home.reviewPiotr":
@@ -1888,7 +1888,7 @@ export const uk: Record<MessageKey, string> = {
   "home.newsletterKicker": "Розсилка",
   "home.newsletterTitle": "Будьте з нами",
   "home.newsletterBody":
-    "Підпишіться на новини, знижки та натхнення — лише те, що справді варто знати.",
+    "Підпишіться на новини, знижки та натхнення - лише те, що справді варто знати.",
   "home.newsletterEmail": "Ваша адреса e-mail",
   "home.newsletterCta": "Підписатися",
   "home.newsletterConsent":
@@ -1906,7 +1906,7 @@ export const uk: Record<MessageKey, string> = {
   "home.lookKicker": "Інтер’єри",
   "home.lookTitle": "Надихніться",
   "home.lookIntro":
-    "Вітальня з меблів Wrohaus — та сама тканина, ті самі розміри, без здогадок із каталогу. Наведіть на білу позначку на фото або на модель у списку: побачите назву і ціну. Клацніть, щоб перейти до товару.",
+    "Вітальня з меблів Wrohaus - та сама тканина, ті самі розміри, без здогадок із каталогу. Наведіть на білу позначку на фото або на модель у списку: побачите назву і ціну. Клацніть, щоб перейти до товару.",
   "home.lookIntro2":
     "Це готова сцена, не мудборд. Кожні меблі з кадру є в магазині, і ви можете замовити їх у тій самій конфігурації.",
   "home.lookList": "На цьому фото можна побачити:",
@@ -1914,7 +1914,7 @@ export const uk: Record<MessageKey, string> = {
   "home.catKicker": "Категорії",
   "home.catTitle": "Почніть з категорії",
   "home.catIntro":
-    "Дивани, кутові, крісла, колекції і решта пропозиції — оберіть категорію й знайдіть модель до свого інтер’єру.",
+    "Дивани, кутові, крісла, колекції і решта пропозиції - оберіть категорію й знайдіть модель до свого інтер’єру.",
   "home.colKicker": "Колекції",
   "home.colTitle": "Відкрийте наші колекції",
   "home.colIntro": "",
@@ -1927,11 +1927,11 @@ export const uk: Record<MessageKey, string> = {
 
   "cookie.title": "Файли cookies",
   "cookie.body":
-    "Використовуємо необхідні cookies, щоб працювали кошик, кабінет і безпека сайту. Аналітичні та маркетингові cookies (зокрема запланований ремаркетинг Meta) вмикаємо лише за вашою згодою. Можете прийняти всі або відхилити необов’язкові — обидва варіанти рівноцінні. Деталі:",
+    "Використовуємо необхідні cookies, щоб працювали кошик, кабінет і безпека сайту. Аналітичні та маркетингові cookies (зокрема запланований ремаркетинг Meta) вмикаємо лише за вашою згодою. Можете прийняти всі або відхилити необов’язкові - обидва варіанти рівноцінні. Деталі:",
   "cookie.analytics":
-    "Аналітика відвідувань (необов’язково) — допомагає покращувати магазин.",
+    "Аналітика відвідувань (необов’язково) - допомагає покращувати магазин.",
   "cookie.marketing":
-    "Маркетинг і ремаркетинг (необов’язково) — зокрема Meta Pixel, коли його ввімкнемо. Без цієї згоди не завантажуємо рекламні інструменти.",
+    "Маркетинг і ремаркетинг (необов’язково) - зокрема Meta Pixel, коли його ввімкнемо. Без цієї згоди не завантажуємо рекламні інструменти.",
   "cookie.acceptAll": "Приймаю всі",
   "cookie.reject": "Відхиляю необов’язкові",
   "cookie.save": "Зберегти вибір",
@@ -1952,7 +1952,7 @@ export const uk: Record<MessageKey, string> = {
   "cart.pricesNote":
     "Ціни в злотих, брутто з ПДВ. Оплата через PayU (BLIK, картка, швидкий переказ; розстрочка, якщо доступна на касі).",
   "cart.deliveryNote":
-    "Стандартна доставка {time} (робочі дні). {returns} — деталі в",
+    "Стандартна доставка {time} (робочі дні). {returns} - деталі в",
   "cart.returnsPolicy": "політиці повернення",
   "cart.terms":
     "Підтверджую, що ознайомився/лась із {terms} і {privacy} та приймаю їх. Натискаючи «Замовляю і плачу», зобов’язуюсь сплатити.",
@@ -1964,7 +1964,7 @@ export const uk: Record<MessageKey, string> = {
   "cart.payCard": "Платіжна картка",
   "cart.payBank": "Переказ",
   "cart.payAppleHint":
-    "На комп’ютері з’явиться QR-код — підтвердіть оплату на iPhone.",
+    "На комп’ютері з’явиться QR-код - підтвердіть оплату на iPhone.",
   "cart.payMethodError":
     "Apple Pay недоступний на цьому пристрої. Оберіть інший спосіб.",
   "cart.applePayError":
@@ -1986,13 +1986,13 @@ export const uk: Record<MessageKey, string> = {
   "cart.loginFirst": "Увійдіть, щоб оформити замовлення",
   "cart.accountStep": "Кабінет",
   "cart.accountHint":
-    "Можна купити як гість — без пароля і кабінету. Вхід потрібен лише якщо хочете стежити за замовленнями в панелі.",
+    "Можна купити як гість - без пароля і кабінету. Вхід потрібен лише якщо хочете стежити за замовленнями в панелі.",
   "cart.accountLoggedIn": "Ви в системі як",
   "cart.accountRequired":
-    "Завершіть крок 03 — купіть як гість або увійдіть, щоб перейти до оплати.",
+    "Завершіть крок 03 - купіть як гість або увійдіть, щоб перейти до оплати.",
   "cart.guestTab": "Купити як гість",
   "cart.guestHint":
-    "Вкажіть ім’я, прізвище та e-mail. Підтвердження замовлення надішлемо на скриньку — кабінет не потрібен.",
+    "Вкажіть ім’я, прізвище та e-mail. Підтвердження замовлення надішлемо на скриньку - кабінет не потрібен.",
   "cart.guestEmailHint": "На цю адресу надішлемо підтвердження і статус оплати.",
   "cart.guestNameError": "Вкажіть ім’я та прізвище",
   "cart.guestEmailError": "Вкажіть правильний e-mail",
@@ -2022,10 +2022,10 @@ export const uk: Record<MessageKey, string> = {
   "chat.label": "Чат із консультантом",
   "chat.advisor": "Консультант · відповідаємо наживо",
   "chat.helpTitle": "Чим можемо допомогти?",
-  "chat.helpBody": "Підбір дивана, тканини чи розміру — напишіть, консультант відповість.",
+  "chat.helpBody": "Підбір дивана, тканини чи розміру - напишіть, консультант відповість.",
   "chat.namePh": "Ваше ім’я",
   "chat.start": "Почати чат",
-  "chat.empty": "Напишіть перше повідомлення — консультант незабаром відповість.",
+  "chat.empty": "Напишіть перше повідомлення - консультант незабаром відповість.",
   "chat.attach": "Надіслати файл",
   "chat.placeholder": "Напишіть повідомлення…",
   "chat.uploading": "Надсилання файлу…",
@@ -2036,15 +2036,15 @@ export const uk: Record<MessageKey, string> = {
   "chat.advisorName": "Консультант",
 
   "payu.seller":
-    "Продавець: {legal} — {brand}, {address}, Польща. NIP {nip}. Назва у виписці: {statement}. Валюта: PLN. Ціни брутто з ПДВ. Контакт:",
+    "Продавець: {legal} - {brand}, {address}, Польща. NIP {nip}. Назва у виписці: {statement}. Валюта: PLN. Ціни брутто з ПДВ. Контакт:",
   "payu.body":
-    "Оплату обслуговує {name}. Кошти списуються в момент платежу (BLIK, картка, швидкий переказ) або за графіком розстрочки. Повернення — на той самий інструмент оплати.",
+    "Оплату обслуговує {name}. Кошти списуються в момент платежу (BLIK, картка, швидкий переказ) або за графіком розстрочки. Повернення - на той самий інструмент оплати.",
   "payu.accept": "Оплачуючи, ви приймаєте",
   "payu.terms": "Правила оплати PayU",
   "payu.more": "Читати далі",
   "payu.less": "Згорнути",
   "payu.moreBody":
-    "Більше про обробку ваших персональних даних PayU — у",
+    "Більше про обробку ваших персональних даних PayU - у",
   "payu.privacy": "Політиці конфіденційності PayU",
   "payu.awaiting": "Очікування оплати PayU",
   "payu.awaitingAria": "Що означає цей статус?",
@@ -2052,7 +2052,7 @@ export const uk: Record<MessageKey, string> = {
     "У PayU можна заплатити BLIK, карткою або швидким переказом. Статус зміниться автоматично після зарахування.",
   "payu.failedTitle": "Оплату не завершено",
   "payu.failedBody":
-    "Ми не списали кошти. Товари повернулися в кошик — можете оплатити ще раз або обрати інший спосіб у PayU.",
+    "Ми не списали кошти. Товари повернулися в кошик - можете оплатити ще раз або обрати інший спосіб у PayU.",
   "payu.failedHint":
     "Якщо банк заблокував суму, вона повернеться автоматично. Замовлення виконуємо лише після підтвердженої оплати.",
   "payu.failedOrder": "Номер замовлення:",
@@ -2075,7 +2075,7 @@ export const uk: Record<MessageKey, string> = {
   "contact.sending": "Надсилання…",
   "contact.subjectGeneral": "Загальне запитання",
   "contact.subjectQuote": "Прорахунок меблів на замовлення",
-  "contact.subjectFabric": "Інша тканина — прорахунок",
+  "contact.subjectFabric": "Інша тканина - прорахунок",
   "contact.quoteLead": "Прошу прорахувати товар: {name}",
   "contact.quoteColor": "Обраний колір оббивки: {color}",
   "contact.quotePage": "Сторінка товару: /produkt/{slug}",

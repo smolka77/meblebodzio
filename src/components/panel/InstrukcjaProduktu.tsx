@@ -55,7 +55,7 @@ export function ProductManualField({
       <p className={panelLabelClass}>Instrukcja i paczki</p>
       <p className={`mt-1 max-w-xl ${panelHintClass}`}>
         Opcjonalnie. Wklej albo wgraj PDF / zdjęcie instrukcji montażu i podaj liczbę
-        paczek — pokażemy to na stronie produktu.
+        paczek - pokażemy to na stronie produktu.
       </p>
 
       <div className="mt-4 grid gap-4 sm:grid-cols-[1fr_10rem]">

@@ -95,7 +95,7 @@ export function ProductImagesField({
       }
       const toUpload = list.slice(0, room);
       if (list.length > room) {
-        onError?.(`Dodano tylko ${room} zdjęć — limit to ${MAX_IMAGES}`);
+        onError?.(`Dodano tylko ${room} zdjęć - limit to ${MAX_IMAGES}`);
       }
 
       setUploading((n) => n + toUpload.length);
@@ -300,7 +300,7 @@ export function ProductImagesField({
         <div className="mb-4 rounded-xl bg-terracotta/8 px-3 py-2.5 text-sm font-medium leading-relaxed text-charcoal">
           <span className="font-semibold">Krok 1.</span> Dodaj główne zdjęcie produktu.
           Najlepiej proporcje <strong>{ratioOption.label}</strong> (
-          <strong>{uploadHint}</strong>) — wtedy nic nie ucina boków.
+          <strong>{uploadHint}</strong>) - wtedy nic nie ucina boków.
         </div>
       )}
 
@@ -337,7 +337,7 @@ export function ProductImagesField({
       {hasImages && images.length > 1 && (
         <div className="mt-4">
           <p className="mb-2 text-xs font-semibold text-charcoal">
-            Przeciągnij zdjęcia, żeby zamienić je miejscami — pierwsze = główne, drugie = aranżacja
+            Przeciągnij zdjęcia, żeby zamienić je miejscami - pierwsze = główne, drugie = aranżacja
           </p>
           <ul className="flex flex-wrap gap-2">
             {images.map((src, index) => (
@@ -370,10 +370,10 @@ export function ProductImagesField({
                   }`}
                   title={
                     index === 0
-                      ? "Główne zdjęcie — przeciągnij, żeby zmienić kolejność"
+                      ? "Główne zdjęcie - przeciągnij, żeby zmienić kolejność"
                       : index === 1
-                        ? "Aranżacja — pokazuje się po najechaniu na kartę w sklepie"
-                        : `Zdjęcie ${index + 1} — przeciągnij, żeby zmienić kolejność`
+                        ? "Aranżacja - pokazuje się po najechaniu na kartę w sklepie"
+                        : `Zdjęcie ${index + 1} - przeciągnij, żeby zmienić kolejność`
                   }
                 >
                   <Image
@@ -476,7 +476,7 @@ export function ProductImagesField({
             {!atLimit && (
               <div className={`mb-3 rounded-xl bg-cream-light/80 px-3 py-2 ${panelMetaClass}`}>
                 <span className="font-semibold text-charcoal">Krok 2 (opcjonalnie).</span>{" "}
-                Drugie zdjęcie to aranżacja — na liście produktów pokazuje się po najechaniu na
+                Drugie zdjęcie to aranżacja - na liście produktów pokazuje się po najechaniu na
                 kartę.
               </div>
             )}

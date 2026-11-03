@@ -3,7 +3,7 @@ import { storePolicies } from "@/lib/zasadySklepu";
 import type { Locale } from "@/lib/jezyk";
 
 /**
- * Termin produkcji i przewidywana data dostawy — osobno, per produkt.
+ * Termin produkcji i przewidywana data dostawy - osobno, per produkt.
  *
  * Zasady z wytycznych:
  * - „Wysyłka 24H” → nie pokazujemy czasu produkcji, tylko „Wysyłka: do 24H”
@@ -126,15 +126,15 @@ export function formatDateRangePl(from: Date, to: Date, locale: Locale = "pl"): 
 }
 
 export interface DeliverySchedule {
-  /** Produkt gotowy — wysyłka do 24H. */
+  /** Produkt gotowy - wysyłka do 24H. */
   express: boolean;
   /** Etykieta czasu produkcji (null przy Wysyłce 24H / od ręki). */
   productionLabel: string | null;
-  /** Przewidywana dostawa — tekst do wyświetlenia. */
+  /** Przewidywana dostawa - tekst do wyświetlenia. */
   deliveryLabel: string;
   /** Czy data została wyliczona automatycznie. */
   computed: boolean;
-  /** Koszt dostawy — z produktu lub polityki sklepu. */
+  /** Koszt dostawy - z produktu lub polityki sklepu. */
   deliveryCostLabel: string;
 }
 

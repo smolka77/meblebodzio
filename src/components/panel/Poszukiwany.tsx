@@ -138,7 +138,7 @@ export function AdminWanted() {
                 terenie kilku państw. Śledztwo łączy go z nocnymi transportami,
                 znikającymi świadkami i operacjami prowadzonymi pod przykrywką
                 „projektów internetowych”. Podejrzany wielokrotnie zmieniał
-                wygląd, kaptur i okularowy uśmiech do kamery — stąd dwa
+                wygląd, kaptur i okularowy uśmiech do kamery - stąd dwa
                 niezależne wizerunki w aktach. Uznaje się, że nie przebywa w
                 klasycznym areszcie: jego więzieniem jest komputer, przy którym
                 robi tę stronę.
@@ -149,7 +149,7 @@ export function AdminWanted() {
               <figure className="overflow-hidden rounded-lg border border-[#5a2424] bg-black">
                 <img
                   src="/easter/xmenago-1.jpg"
-                  alt="xmenago — zdjęcie do noty Interpolu"
+                  alt="xmenago - zdjęcie do noty Interpolu"
                   className="aspect-[3/4] w-full object-cover object-top grayscale contrast-125 brightness-90"
                 />
                 <figcaption className="px-2 py-2 text-center text-[10px] tracking-[0.16em] text-[#c4b0b0] uppercase">
@@ -159,7 +159,7 @@ export function AdminWanted() {
               <figure className="overflow-hidden rounded-lg border border-[#5a2424] bg-black">
                 <img
                   src="/easter/xmenago-2.png?v=2"
-                  alt="xmenago — drugie zdjęcie do noty Interpolu"
+                  alt="xmenago - drugie zdjęcie do noty Interpolu"
                   className="aspect-[3/4] w-full object-cover object-top grayscale contrast-125 brightness-90"
                 />
                 <figcaption className="px-2 py-2 text-center text-[10px] tracking-[0.16em] text-[#c4b0b0] uppercase">
@@ -203,7 +203,7 @@ export function AdminWanted() {
           }}
           className="flex min-h-[52px] w-full items-center justify-center rounded-xl bg-[#e10600] px-5 py-3.5 text-center text-sm font-bold text-white transition-colors hover:bg-[#c10500]"
         >
-          Wiem, gdzie on przebywa — kliknij, by zgłosić na policję
+          Wiem, gdzie on przebywa - kliknij, by zgłosić na policję
         </button>
       </div>
     </>

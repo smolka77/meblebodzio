@@ -18,12 +18,12 @@ export const BUDGETS: { id: BudgetId; label: string; min: number; max: number }[
 export const PREFS: { id: PrefId; label: string; hint: string }[] = [
   { id: "szybko", label: "Szybka dostawa", hint: "Modele wysyłane w 24 h" },
   { id: "spanie", label: "Rozkładane, do spania", hint: "Funkcja spania lub rozkładania" },
-  { id: "kompakt", label: "Kompaktowe", hint: "Do 200 cm szerokości — na mały metraż" },
+  { id: "kompakt", label: "Kompaktowe", hint: "Do 200 cm szerokości - na mały metraż" },
 ];
 
 export interface AdvisorAnswers {
   room?: ProductRoom;
-  /** Kategorie (slug) — puste = dowolne z pomieszczenia. */
+  /** Kategorie (slug) - puste = dowolne z pomieszczenia. */
   types: string[];
   style?: ProductStyle;
   budget: BudgetId;

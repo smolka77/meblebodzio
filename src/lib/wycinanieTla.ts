@@ -8,7 +8,7 @@ export interface WycinekMebla {
   url: string;
   width: number;
   height: number;
-  /** false — nie udało się odciąć tła, pokazujemy zdjęcie w całości. */
+  /** false - nie udało się odciąć tła, pokazujemy zdjęcie w całości. */
   cutout: boolean;
 }
 

@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { mediaSrcSet, shouldUnoptimizeImage, sizedMediaUrl } from "@/lib/obrazy";
 
-/** next/image rzuca 500 przy hoście spoza remotePatterns — wtedy zwykły img. */
+/** next/image rzuca 500 przy hoście spoza remotePatterns - wtedy zwykły img. */
 export function StoreImage({
   src,
   alt,

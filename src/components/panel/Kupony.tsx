@@ -111,7 +111,7 @@ export function AdminCoupons() {
         <div className="mb-6 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
           <p className="max-w-xl text-sm leading-relaxed text-sand">
             Twórz kody z limitem użyć, procentem rabatu i datą wygaśnięcia. To nie
-            jest lista mebli na wyprzedaży — te akcje są w{" "}
+            jest lista mebli na wyprzedaży - te akcje są w{" "}
             <Link href="/admin/promocje" className="underline underline-offset-2">
               Promocjach
             </Link>
@@ -257,7 +257,7 @@ export function AdminCoupons() {
             <Tag className="mx-auto h-10 w-10 text-sand/40" strokeWidth={1} />
             <p className="mt-4 text-sm text-charcoal">Brak kodów rabatowych</p>
             <p className="mt-1 text-sm text-sand">
-              Utwórz pierwszy kod — klienci wpiszą go w koszyku.
+              Utwórz pierwszy kod - klienci wpiszą go w koszyku.
             </p>
           </div>
         ) : (
@@ -327,7 +327,7 @@ export function AdminCoupons() {
                         <td className="px-4 py-4 text-sand sm:px-6">
                           {coupon.expiresAt
                             ? new Date(coupon.expiresAt).toLocaleDateString("pl-PL")
-                            : "—"}
+                            : "-"}
                         </td>
                         <td className="px-4 py-4 sm:px-6">
                           <div className="flex gap-2">

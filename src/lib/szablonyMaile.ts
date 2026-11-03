@@ -25,7 +25,7 @@ export const EMAIL_TEMPLATE_TOKENS = [
 ] as const;
 
 export const DEFAULT_EMAIL_TEMPLATES: ShopEmailTemplates = {
-  createdSubject: "{{sklep}} — zamówienie {{numer}} przyjęte",
+  createdSubject: "{{sklep}} - zamówienie {{numer}} przyjęte",
   createdBody: `Cześć {{klient}},
 
 Dziękujemy za zamówienie w {{sklep}}.
@@ -41,7 +41,7 @@ Dokończ płatność w PayU (BLIK, karta lub szybki przelew). Potwierdzenie i SM
 Pytania: {{kontakt}}
 
 {{firma}}`,
-  paidSubject: "{{sklep}} — potwierdzenie zamówienia {{numer}}",
+  paidSubject: "{{sklep}} - potwierdzenie zamówienia {{numer}}",
   paidBody: `Cześć {{klient}},
 
 Potwierdzamy płatność i przyjęcie zamówienia {{numer}}.

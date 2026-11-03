@@ -2,7 +2,7 @@ import { writeStore, readStore } from "./baza";
 import { deleteChatUpload } from "./wgrywanieCzatu";
 import type { ChatConversation } from "@/lib/typy";
 
-/** Czyści dane operacyjne — bez produktów, ustawień, FAQ, bloga i tkanin. */
+/** Czyści dane operacyjne - bez produktów, ustawień, FAQ, bloga i tkanin. */
 export async function resetOperationalData(): Promise<{
   cleared: string[];
 }> {

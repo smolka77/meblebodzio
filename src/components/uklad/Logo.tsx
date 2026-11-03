@@ -2,7 +2,7 @@ import Link from "next/link";
 
 type LogoProps = {
   className?: string;
-  /** `dark` — jasna wersja na ciemnym tle (stopka) */
+  /** `dark` - jasna wersja na ciemnym tle (stopka) */
   variant?: "light" | "dark";
   compact?: boolean;
   href?: string;

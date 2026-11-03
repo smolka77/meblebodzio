@@ -133,7 +133,7 @@ export function FabricFormModal({ fabric, onClose, onSaved }: FabricFormModalPro
       }))
       .filter((shade) => shade.name || shade.image);
     if (cleanShades.length === 0) {
-      setError("Dodaj przynajmniej jeden odcień — nazwę i zdjęcie");
+      setError("Dodaj przynajmniej jeden odcień - nazwę i zdjęcie");
       return;
     }
     if (cleanShades.some((shade) => !shade.name.trim())) {
@@ -220,7 +220,7 @@ export function FabricFormModal({ fabric, onClose, onSaved }: FabricFormModalPro
             <label className={fabricLabelClass}>Gama kolorystyczna</label>
             <p className={`mt-1 ${panelHintClass}`}>
               Każdy odcień to osobny kafelek u klienta: zdjęcie próbki i nazwa.
-              Wideo tkaniny nie zastępuje tych zdjęć — trafia tylko do podglądu
+              Wideo tkaniny nie zastępuje tych zdjęć - trafia tylko do podglądu
               „więcej o tkaninie”, gdy odcień nie ma własnego zdjęcia.
             </p>
             <div className="mt-3 space-y-3">
@@ -289,7 +289,7 @@ export function FabricFormModal({ fabric, onClose, onSaved }: FabricFormModalPro
                       <p className={panelMetaClass}>
                         {shade.image
                           ? "To zdjęcie zobaczy klient na kafelku koloru."
-                          : "Opcjonalnie — bez niego użyjemy ogólnego zdjęcia tkaniny."}
+                          : "Opcjonalnie - bez niego użyjemy ogólnego zdjęcia tkaniny."}
                       </p>
                       {shade.image && (
                         <button
@@ -358,7 +358,7 @@ export function FabricFormModal({ fabric, onClose, onSaved }: FabricFormModalPro
                   surcharge: raw ? Math.max(0, Math.round(Number(raw) || 0)) : undefined,
                 });
               }}
-              placeholder="0 — bez dopłaty"
+              placeholder="0 - bez dopłaty"
               className={fabricInputClass}
             />
             <p className={`mt-1.5 ${panelHintClass}`}>
@@ -367,7 +367,7 @@ export function FabricFormModal({ fabric, onClose, onSaved }: FabricFormModalPro
           </div>
           <ImageDropzone
             label="Ogólne zdjęcie lub wideo tkaniny"
-            folderHint="Fallback, gdy odcień nie ma własnego zdjęcia — plus podgląd w konfiguratorze"
+            folderHint="Fallback, gdy odcień nie ma własnego zdjęcia - plus podgląd w konfiguratorze"
             value={previewUrl}
             onChange={setFabricMedia}
             uploadEndpoint="/api/fabrics/upload"
@@ -397,12 +397,12 @@ export function FabricFormModal({ fabric, onClose, onSaved }: FabricFormModalPro
             <p className="text-xs text-charcoal/65">
               {previewIsVideo
                 ? "Wideo jest podglądem tkaniny w konfiguratorze. Na kafelkach kolorów klient zobaczy zdjęcia odcieni, nie tę animację."
-                : "Wgrano zdjęcie — będzie widoczne w konfiguratorze i jako fallback, gdy odcień nie ma własnego zdjęcia."}
+                : "Wgrano zdjęcie - będzie widoczne w konfiguratorze i jako fallback, gdy odcień nie ma własnego zdjęcia."}
             </p>
           )}
           <ImageDropzone
             label="Logo / watermark producenta"
-            folderHint="Opcjonalnie — PNG z przezroczystością; pojawi się w prawym dolnym rogu podglądu tkaniny"
+            folderHint="Opcjonalnie - PNG z przezroczystością; pojawi się w prawym dolnym rogu podglądu tkaniny"
             value={form.watermark ?? ""}
             onChange={(url) => setForm({ ...form, watermark: url })}
             uploadEndpoint="/api/fabrics/upload"
@@ -414,7 +414,7 @@ export function FabricFormModal({ fabric, onClose, onSaved }: FabricFormModalPro
               checked={form.active}
               onChange={(e) => setForm({ ...form, active: e.target.checked })}
             />
-            Aktywna — można wybrać do ogłoszenia
+            Aktywna - można wybrać do ogłoszenia
           </label>
           <div className="flex justify-end gap-2 border-t border-taupe/20 pt-4">
             <button type="button" onClick={onClose} className="rounded-lg border px-4 py-2 text-sm">

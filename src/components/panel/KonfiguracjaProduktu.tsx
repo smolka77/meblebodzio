@@ -57,7 +57,7 @@ function SectionShell({
   );
 }
 
-/** Rozmiar / szerokość / powierzchnia spania — wariant z dopłatą. */
+/** Rozmiar / szerokość / powierzchnia spania - wariant z dopłatą. */
 export function ProductSizesField({
   template,
   sizes,
@@ -207,7 +207,7 @@ export function ProductOptionsField({
   return (
     <SectionShell
       title="Warianty zakupowe"
-      hint="Wybory klienta u góry karty produktu — każdy z opcjonalną dopłatą. Opcja z jedną wartością nie jest pokazywana. Pokazuj tylko to, co model faktycznie ma."
+      hint="Wybory klienta u góry karty produktu - każdy z opcjonalną dopłatą. Opcja z jedną wartością nie jest pokazywana. Pokazuj tylko to, co model faktycznie ma."
     >
       {suggestions.length > 0 && (
         <div className="mb-4">
@@ -338,7 +338,7 @@ export function ProductOptionsField({
   );
 }
 
-/** Materac z katalogu sklepu — kafelek pod opisem łóżka. */
+/** Materac z katalogu sklepu - kafelek pod opisem łóżka. */
 export function ProductSuggestedMattressField({
   mattresses,
   value,
@@ -367,7 +367,7 @@ export function ProductSuggestedMattressField({
             onChange={(e) => onChange(e.target.value || undefined)}
             className={inputClass}
           >
-            <option value="">— bez materaca —</option>
+            <option value="">- bez materaca -</option>
             {mattresses.map((item) => (
               <option key={item.id} value={item.id}>
                 {item.name}

@@ -45,7 +45,8 @@ export function sanitizeOptions(input: unknown): ProductOption[] {
         String(value.id ?? "").trim().slice(0, 64) || slugifyOption(label, "wartosc"),
         seenValues
       );
-      values.push({ id, label, surcharge: Math.round(surcharge) });
+      const swatch = /^#[0-9a-f]{6}$/i.test(String(value.swatch ?? "")) ? String(value.swatch) : undefined;
+      values.push({ id, label, surcharge: Math.round(surcharge), ...(swatch ? { swatch } : {}) });
     }
     if (values.length === 0) continue;
 
@@ -138,7 +139,7 @@ export function selectedOptionLabels(items: SelectedProductOption[] | undefined)
   return (items ?? []).map((item) => item.value.label);
 }
 
-/** Najniższa możliwa dopłata za warianty — do ceny „od”. */
+/** Najniższa możliwa dopłata za warianty - do ceny „od”. */
 export function minOptionsSurcharge(product: Pick<Product, "options">): number {
   return productOptions(product).reduce(
     (sum, option) => sum + Math.min(...option.values.map((value) => value.surcharge)),
@@ -162,7 +163,7 @@ function foldOptionLabel(label: string): string {
     .trim();
 }
 
-/** Lewy / Left / Links — albo Prawy / Right / Rechts. */
+/** Lewy / Left / Links - albo Prawy / Right / Rechts. */
 export function optionValueSide(label: string): "left" | "right" | null {
   const text = foldOptionLabel(label);
   if (

@@ -71,7 +71,7 @@ export function ImportOgloszenia({
           <h3 className="font-serif text-lg text-charcoal">Import z AI</h3>
           <p className={`mt-1 ${panelHintClass}`}>
             Skopiuj ogłoszenie dostawcy do ChatGPT / Claude z naszym promptem. Wgraj
-            JSON, który wróci — formularz wypełni się sam. Zdjęcia i cenę i tak
+            JSON, który wróci - formularz wypełni się sam. Zdjęcia i cenę i tak
             sprawdź przed publikacją.
           </p>
         </div>

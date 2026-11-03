@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "id": "zestaw10",
+    "code": "ZESTAW10",
+    "name": "Rabat na zestaw",
+    "description": "Naliczany automatycznie po kliknięciu „Kup cały zestaw”. Działa od koszyka 5000 zł.",
+    "discountPercent": 10,
+    "minSubtotal": 5000,
+    "maxUses": null,
+    "usedCount": 0,
+    "active": true,
+    "createdAt": "2026-11-03T00:00:00.000Z"
+  }
+]

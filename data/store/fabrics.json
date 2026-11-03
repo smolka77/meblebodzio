@@ -13,7 +13,7 @@
   {
     "id": "fab-boucle-sand",
     "name": "Boucle Sand",
-    "description": "Boucle w piaskowym odcieniu — ciepły, przytulny, świetny do wnętrz boho i japandi.",
+    "description": "Boucle w piaskowym odcieniu - ciepły, przytulny, świetny do wnętrz boho i japandi.",
     "material": "Boucle",
     "colorHex": "#C9B89A",
     "image": "https://images.unsplash.com/photo-1615529328331-f8917597711f?w=800&q=80",
@@ -36,7 +36,7 @@
     "colorHex": "#9C9588",
     "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=800&q=80",
     "specs": "Typ tkaniny: welur\nSkład: 100% PES\nTest Martindale: >50 000 cykli\nGramatura: 420 g/m²",
-    "care": "Odkurzać miękką końcówką. Plamy blotować wilgotną ściereczką — nie pocierać.",
+    "care": "Odkurzać miękką końcówką. Plamy blotować wilgotną ściereczką - nie pocierać.",
     "active": true
   },
   {
@@ -79,7 +79,7 @@
   {
     "id": "fab-len-oat",
     "name": "Len Oat",
-    "description": "Len w odcieniu owsianki — jaśniejszy, bardzo uniwersalny do małych i dużych wnętrz.",
+    "description": "Len w odcieniu owsianki - jaśniejszy, bardzo uniwersalny do małych i dużych wnętrz.",
     "material": "Len",
     "colorHex": "#E5DCC8",
     "image": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=800&q=80",

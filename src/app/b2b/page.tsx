@@ -34,7 +34,7 @@ export default function B2bPage() {
     <PageShell
       eyebrow="Współprace"
       title="Wrohaus dla firm"
-      description="Hotele, apartamenty, biura i projektanci — meble polskiej produkcji, wycena pod kontrakt i stała współpraca B2B."
+      description="Hotele, apartamenty, biura i projektanci - meble polskiej produkcji, wycena pod kontrakt i stała współpraca B2B."
       heroImage="https://images.unsplash.com/photo-1497366216548-37526070297c?w=1920&q=85"
       path="/b2b"
     >
@@ -77,7 +77,7 @@ export default function B2bPage() {
               <div className="mt-10 space-y-3 border-t border-taupe/30 pt-10 text-sm text-charcoal/80">
                 <p>Wycena kontraktowa i powtarzalne zamówienia</p>
                 <p>Próbki tkanin do biura lub na budowę</p>
-                <p>Polska produkcja — kontrola terminu i jakości</p>
+                <p>Polska produkcja - kontrola terminu i jakości</p>
               </div>
             </div>
             <div className="rounded-2xl bg-white p-8 shadow-[0_8px_24px_-16px_rgba(17,17,17,0.18)] lg:p-10">

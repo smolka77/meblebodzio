@@ -41,7 +41,7 @@ export function ContactForm() {
 
     setForm((prev) => ({
       ...prev,
-      subject: otherFabric ? "Inna tkanina — wycena" : "Wycena mebli na wymiar",
+      subject: otherFabric ? "Inna tkanina - wycena" : "Wycena mebli na wymiar",
       message: lines.join("\n"),
     }));
 
@@ -170,7 +170,7 @@ export function ContactForm() {
       <p className="text-xs leading-relaxed text-sand">
         Wysyłając formularz, przekazujesz dane potrzebne do odpowiedzi na
         zapytanie. Podstawa: art. 6 ust. 1 lit. b RODO (działania przed umową)
-        albo art. 6 ust. 1 lit. f RODO (uzasadniony interes — obsługa
+        albo art. 6 ust. 1 lit. f RODO (uzasadniony interes - obsługa
         korespondencji). Szczegóły w{" "}
         <a href="/polityka-prywatnosci" className="underline underline-offset-2">
           Polityce prywatności

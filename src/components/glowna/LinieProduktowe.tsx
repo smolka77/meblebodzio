@@ -32,7 +32,7 @@ export function HomeProductLines() {
                 <div className="relative aspect-[4/5] sm:aspect-[3/4]">
                   <Image
                     src={lineImages[line]}
-                    alt={`${title} — ${tag}`}
+                    alt={`${title} - ${tag}`}
                     fill
                     className="object-cover transition-transform duration-700 ease-out group-hover:scale-[1.06]"
                     sizes="(max-width: 640px) 100vw, 33vw"

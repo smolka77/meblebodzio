@@ -14,7 +14,7 @@ interface AddToCartButtonProps {
   quantity?: number;
   className?: string;
   label?: string;
-  /** Gdy ogłoszenie ma kolory / pokrowce — bez wyboru przycisk jest nieaktywny. */
+  /** Gdy ogłoszenie ma kolory / pokrowce - bez wyboru przycisk jest nieaktywny. */
   requireColor?: boolean;
   choiceLabel?: string;
 }

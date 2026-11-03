@@ -127,7 +127,7 @@ export function LookHotspotEditor({
         >
           <Image
             src={image}
-            alt="Aranżacja — ustaw kulki"
+            alt="Aranżacja - ustaw kulki"
             fill
             className="pointer-events-none object-cover object-center"
             sizes="(max-width: 768px) 100vw, 448px"
@@ -169,7 +169,7 @@ export function LookHotspotEditor({
         </div>
       ) : (
         <p className="rounded-lg border border-dashed border-taupe/40 bg-cream-light/50 px-4 py-6 text-center text-sm text-sand">
-          Najpierw wrzuć zdjęcie aranżacji — wtedy ustawisz kulki.
+          Najpierw wrzuć zdjęcie aranżacji - wtedy ustawisz kulki.
         </p>
       )}
 

@@ -279,7 +279,7 @@ export function AdminHomepage() {
 
           <SectionEditor
             title="Kategorie"
-            hint="Ta siatka nie jest już na stronie głównej — zamiast niej są trzy linie produktowe (Smart, Comfort, Premium)."
+            hint="Ta siatka nie jest już na stronie głównej - zamiast niej są trzy linie produktowe (Smart, Comfort, Premium)."
             section={content.categories}
             onChange={(categories) => setContent({ ...content, categories })}
             onError={setError}
@@ -288,7 +288,7 @@ export function AdminHomepage() {
 
           <SectionEditor
             title="Kolekcje / linie"
-            hint="Kafelki Smart, Comfort i Premium na stronie głównej — po aranżacjach. Zdjęcia ustawiasz tutaj; hasła BEST PRICE / BEST CHOICE / BEST DESIGN dopisuje sklep."
+            hint="Kafelki Smart, Comfort i Premium na stronie głównej - po aranżacjach. Zdjęcia ustawiasz tutaj; hasła BEST PRICE / BEST CHOICE / BEST DESIGN dopisuje sklep."
             section={content.collections}
             onChange={(collections) => setContent({ ...content, collections })}
             onError={setError}
@@ -444,7 +444,7 @@ export function AdminHomepage() {
               <h3 className="text-sm font-medium text-charcoal">Opinie na stronie głównej</h3>
               <p className="mt-1 text-xs text-sand">
                 Kafelki z recenzjami pod sekcją „Dlaczego Wrohaus”. Możesz zmienić
-                istniejące, dodać nowe albo usunąć — zapis idzie od razu na sklep.
+                istniejące, dodać nowe albo usunąć - zapis idzie od razu na sklep.
               </p>
             </div>
             <div className="grid gap-4 sm:grid-cols-2">

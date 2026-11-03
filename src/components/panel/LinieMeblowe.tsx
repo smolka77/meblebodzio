@@ -158,7 +158,7 @@ export function AdminFurnitureLines() {
       <div className="admin-page">
         <div className="mb-6 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
           <p className="max-w-xl text-sm leading-relaxed text-sand">
-            Linie to foldery kolekcji (np. Sorela) — ze zdjęciem hero na /linie.
+            Linie to foldery kolekcji (np. Sorela) - ze zdjęciem hero na /linie.
             Po wejściu w folder widać meble z tej serii. Smart / Comfort / Premium
             zostają osobno w menu.
           </p>

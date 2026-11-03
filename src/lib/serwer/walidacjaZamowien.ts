@@ -55,7 +55,7 @@ export async function validateOrderItems(
     if (stock != null && already + requested > stock) {
       return {
         ok: false,
-        error: `Na magazynie zostało tylko ${stock} szt. — ${product.name}`,
+        error: `Na magazynie zostało tylko ${stock} szt. - ${product.name}`,
       };
     }
     const qty = Math.min(

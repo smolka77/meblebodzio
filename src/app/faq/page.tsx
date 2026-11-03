@@ -51,12 +51,12 @@ export default async function FaqPage() {
               },
               {
                 title: "Zwroty",
-                text: "14 dni, adres zwrotu i formularz odstąpienia",
+                text: `${storePolicies.returnsDays} dni, adres zwrotu i formularz odstąpienia`,
                 href: "/polityka-zwrotow",
               },
               {
                 title: "Gwarancja",
-                text: `${storePolicies.warrantyYears} lata ochrony na każdy produkt`,
+                text: `${storePolicies.warrantyYearsText} ochrony na każdy produkt`,
                 href: "/gwarancja",
               },
             ].map((card) => (

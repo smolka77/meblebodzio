@@ -1,6 +1,6 @@
 import type { Locale } from "./locale";
 
-/** Stałe etykiety ogłoszenia — bez czekania na translator. */
+/** Stałe etykiety ogłoszenia - bez czekania na translator. */
 const LABELS: Record<string, Record<Exclude<Locale, "pl">, string>> = {
   Szerokość: { en: "Width", de: "Breite", uk: "Ширина" },
   "Szerokość całkowita": { en: "Overall width", de: "Gesamtbreite", uk: "Загальна ширина" },
@@ -47,8 +47,8 @@ const LABELS: Record<string, Record<Exclude<Locale, "pl">, string>> = {
   "Zamek pokrowca": { en: "Cover zip", de: "Bezugreißverschluss", uk: "Замок чохла" },
   "Temperatura prania pokrowca": { en: "Cover wash temperature", de: "Washtemperatur Bezug", uk: "Температура прання чохла" },
   "Rodzaj materaca": { en: "Mattress type", de: "Matratzentyp", uk: "Тип матраца" },
-  "Twardość — strona A": { en: "Firmness — side A", de: "Härte — Seite A", uk: "Жорсткість — сторона A" },
-  "Twardość — strona B": { en: "Firmness — side B", de: "Härte — Seite B", uk: "Жорсткість — сторона B" },
+  "Twardość - strona A": { en: "Firmness - side A", de: "Härte - Seite A", uk: "Жорсткість - сторона A" },
+  "Twardość - strona B": { en: "Firmness - side B", de: "Härte - Seite B", uk: "Жорсткість - сторона B" },
   "Liczba stref": { en: "Number of zones", de: "Anzahl Zonen", uk: "Кількість зон" },
   "Liczba sprężyn": { en: "Spring count", de: "Federzahl", uk: "Кількість пружин" },
   "Rodzaj sprężyn": { en: "Spring type", de: "Federtyp", uk: "Тип пружин" },

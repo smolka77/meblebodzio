@@ -18,8 +18,8 @@ export default function CookiePolicyPage() {
       content: (
         <P>
           Pliki cookies to niewielkie informacje zapisywane na urządzeniu
-          (przeglądarka), potrzebne do działania strony, zapamiętania sesji albo —
-          za zgodą — do statystyk. Podstawa: Prawo komunikacji elektronicznej oraz
+          (przeglądarka), potrzebne do działania strony, zapamiętania sesji albo -
+          za zgodą - do statystyk. Podstawa: Prawo komunikacji elektronicznej oraz
           RODO. Administratorem jest {company.sellerLine}.
         </P>
       ),
@@ -32,7 +32,7 @@ export default function CookiePolicyPage() {
           <P>
             Przy pierwszej wizycie pokazujemy baner z równorzędnymi opcjami:
             akceptacją wszystkich cookies opcjonalnych oraz ich odrzuceniem.
-            Cookies niezbędne działają zawsze — bez nich nie działa koszyk,
+            Cookies niezbędne działają zawsze - bez nich nie działa koszyk,
             logowanie ani bezpieczeństwo sesji. Osobno możesz włączyć analitykę
             oraz marketing (remarketing Meta), gdy te narzędzia będą używane.
           </P>
@@ -68,7 +68,7 @@ export default function CookiePolicyPage() {
         <>
           <P>
             Po wyrażeniu zgody Sklep może zapisywać anonimowy identyfikator sesji
-            odwiedzin (statystyki ścieżki, koszyk — na potrzeby ulepszania Sklepu).
+            odwiedzin (statystyki ścieżki, koszyk - na potrzeby ulepszania Sklepu).
             Bez zgody te pomiary nie są włączane.
           </P>
           <P>
@@ -103,8 +103,8 @@ export default function CookiePolicyPage() {
         <>
           <Ul
             items={[
-              "Cookies sesyjne — do zamknięcia przeglądarki",
-              "Cookies stałe — maksymalnie 12 miesięcy, o ile wcześniej nie cofniesz zgody",
+              "Cookies sesyjne - do zamknięcia przeglądarki",
+              "Cookies stałe - maksymalnie 12 miesięcy, o ile wcześniej nie cofniesz zgody",
               "Możesz też usunąć cookies w ustawieniach przeglądarki",
             ]}
           />
@@ -124,7 +124,7 @@ export default function CookiePolicyPage() {
     <PageShell
       eyebrow="Ochrona danych"
       title="Polityka cookies"
-      description="Niezbędne cookies działają zawsze. Analityczne i marketingowe — tylko po zgodzie. Akceptacja i odmowa są równoważne."
+      description="Niezbędne cookies działają zawsze. Analityczne i marketingowe - tylko po zgodzie. Akceptacja i odmowa są równoważne."
     >
       <LegalDocument updated={legalUpdated} sections={sections} />
     </PageShell>

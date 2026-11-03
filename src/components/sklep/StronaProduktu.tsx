@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { useSearchParams } from "next/navigation";
 import type { Product, ProductColor } from "@/lib/typy";
 import { ProductGallery } from "@/components/sklep/GaleriaProduktu";
@@ -8,6 +8,8 @@ import { ProductDetail } from "@/components/sklep/SzczegolyProduktu";
 import { ProductRichContent } from "@/components/sklep/OpisProduktu";
 import { ProductReviewsSection } from "@/components/sklep/OpinieProduktu";
 import { CompleteTheSet } from "@/components/sklep/DobierzDoZestawu";
+import { CompleteInterior } from "@/components/sklep/SkompletujWnetrze";
+import { recordProductView } from "@/lib/profilPrzegladania";
 import { defaultSize, productSizes } from "@/lib/rozmiary";
 import {
   defaultOptionSelection,
@@ -19,6 +21,7 @@ export function ProductPageClient({
   product,
   suggestedMattress,
   lineSet,
+  interior,
 }: {
   product: Product;
   suggestedMattress?: Product;
@@ -27,8 +30,13 @@ export function ProductPageClient({
     slug: string;
     products: Product[];
   };
+  interior?: Product[];
 }) {
   const searchParams = useSearchParams();
+
+  useEffect(() => {
+    recordProductView(product);
+  }, [product]);
   const colors = product.colors ?? [];
   const fromQuery = colors.find(
     (color) => color.id === searchParams.get("kolor")
@@ -84,6 +92,7 @@ export function ProductPageClient({
           lineName={lineSet?.name || undefined}
           lineHref={lineSet?.slug ? `/linie/${lineSet.slug}` : undefined}
         />
+        <CompleteInterior products={interior ?? []} />
         <ProductRichContent
           product={product}
           details={product.details}

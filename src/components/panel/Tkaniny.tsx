@@ -105,7 +105,7 @@ export function AdminFabrics() {
         {tab === "fabrics" ? (
           fabrics.length === 0 ? (
             <p className="rounded-xl border border-taupe/30 bg-white p-6 text-sm font-medium text-charcoal/85">
-              Brak tkanin. Dodaj je w katalogu — potem przypniesz do produktu jednym kliknięciem
+              Brak tkanin. Dodaj je w katalogu - potem przypniesz do produktu jednym kliknięciem
               w zakładce „Kolory i tkaniny”.
             </p>
           ) : (

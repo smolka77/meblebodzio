@@ -11,7 +11,7 @@ export function dedupeOrdersById(orders: UserOrder[]): UserOrder[] {
 }
 
 export function orderSummary(order: { items: { name: string; quantity: number }[] }) {
-  if (order.items.length === 0) return "—";
+  if (order.items.length === 0) return "-";
   const first = order.items[0].name;
   if (order.items.length === 1) return first;
   const extra = order.items.length - 1;

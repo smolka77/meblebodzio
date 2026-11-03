@@ -31,7 +31,7 @@ export async function verifyPassword(
     }
   }
 
-  // Migracja ze starego plaintext — porównanie stałoczasowe gdy długości równe
+  // Migracja ze starego plaintext - porównanie stałoczasowe gdy długości równe
   if (password.length !== stored.length) return false;
   return timingSafeEqual(Buffer.from(password), Buffer.from(stored));
 }

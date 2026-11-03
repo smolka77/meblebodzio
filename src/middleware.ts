@@ -6,10 +6,10 @@ const isDev = process.env.NODE_ENV === "development";
 export function middleware(request: NextRequest) {
   const response = NextResponse.next();
 
-  // Nie DENY — PayU ładuje Apple Pay w ramce ze sklepu. CSP frame-ancestors ogranicza do PayU.
+  // Nie DENY - PayU ładuje Apple Pay w ramce ze sklepu. CSP frame-ancestors ogranicza do PayU.
   response.headers.set("X-Content-Type-Options", "nosniff");
   response.headers.set("Referrer-Policy", "strict-origin-when-cross-origin");
-  // payment=() wyłącza Payment Request API — PayU/Apple Pay wtedy nie wstaje
+  // payment=() wyłącza Payment Request API - PayU/Apple Pay wtedy nie wstaje
   // (także w iframe ze strony płatności PayU).
   response.headers.set(
     "Permissions-Policy",
@@ -39,7 +39,7 @@ export function middleware(request: NextRequest) {
   }
 
   // Dev: React/Next potrzebuje unsafe-eval i WebSocket (HMR).
-  // Prod: bez unsafe-eval — bezpieczniejsza polityka.
+  // Prod: bez unsafe-eval - bezpieczniejsza polityka.
   const payuHosts =
     "https://secure.payu.com https://secure.snd.payu.com https://static.payu.com https://credit-widget-config.payu.com https://credit.payu.com https://poland.payu.com";
   const applePayHosts =

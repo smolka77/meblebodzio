@@ -223,7 +223,7 @@ export function AdminCategories() {
       <div className="admin-page">
         <div className="mx-auto max-w-2xl space-y-6">
           <p className="text-sm leading-relaxed text-sand">
-            W każdej głównej grupie menu możesz dodać własną podkategorię — ta sama
+            W każdej głównej grupie menu możesz dodać własną podkategorię - ta sama
             strona listingu co Sofy czy Szafy. Wpisz nazwę i opis, a pozycja wpadnie
             do rozwijanego menu. Meble przypisujesz w{" "}
             <Link href="/admin/produkty" className="underline underline-offset-2">
@@ -254,7 +254,7 @@ export function AdminCategories() {
                   <h2 className="text-sm font-medium text-charcoal">{group.label}</h2>
                   <p className="mt-0.5 text-xs text-sand">
                     {group.id === "bathroom"
-                      ? "Na razie pusta — pojawi się w menu sklepu po pierwszej podkategorii."
+                      ? "Na razie pusta - pojawi się w menu sklepu po pierwszej podkategorii."
                       : "Podkategorie w rozwijanym menu tej grupy."}
                   </p>
                   {builtins.length > 0 ? (
@@ -302,7 +302,7 @@ export function AdminCategories() {
                         onChange={(e) =>
                           patchCustom(row.id, { description: e.target.value })
                         }
-                        placeholder={`${row.name} z oferty Wrohaus — polska produkcja.`}
+                        placeholder={`${row.name} z oferty Wrohaus - polska produkcja.`}
                         className={inputClass}
                       />
                     </label>
@@ -394,9 +394,9 @@ export function AdminCategories() {
 
           <form onSubmit={handleSave} className="space-y-6">
             <p className="text-sm leading-relaxed text-sand">
-              Opisy wbudowanych stron. Puste pole = domyślny tekst. Nie wklejaj HTML —
+              Opisy wbudowanych stron. Puste pole = domyślny tekst. Nie wklejaj HTML -
               zwykły tekst. Promocje, meble od ręki, meble do 7 dni i próbki tkanin nie
-              są kategoriami produktów — tu tylko ich opisy.
+              są kategoriami produktów - tu tylko ich opisy.
             </p>
 
             {extraListingIds.map((slug) => {
@@ -412,7 +412,7 @@ export function AdminCategories() {
                         {extraListingLabels[slug]}
                       </h3>
                       <p className="mt-0.5 text-xs text-sand">
-                        Osobna strona w menu — nie kategoria mebli.
+                        Osobna strona w menu - nie kategoria mebli.
                       </p>
                     </div>
                     <Link
@@ -455,7 +455,7 @@ export function AdminCategories() {
                       </h3>
                       {hidden ? (
                         <p className="mt-0.5 text-xs text-sand">
-                          Wyłączona w sklepie — opis zostaje na później.
+                          Wyłączona w sklepie - opis zostaje na później.
                         </p>
                       ) : null}
                     </div>

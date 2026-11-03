@@ -113,7 +113,7 @@ export function SearchOverlay({ open, onClose }: SearchOverlayProps) {
                       <div className="relative h-16 w-16 shrink-0 overflow-hidden rounded-xl bg-cream-light">
                         <Image
                           src={product.image}
-                          alt={`${collapseRepeatedProductName(product.name)} — widok z przodu`}
+                          alt={`${collapseRepeatedProductName(product.name)} - widok z przodu`}
                           fill
                           className="object-cover"
                           sizes="64px"

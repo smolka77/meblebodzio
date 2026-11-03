@@ -1,3 +1,5 @@
+import { storePolicies } from "./zasadySklepu";
+
 export const SEO_TITLE_HINT = 60;
 export const SEO_TITLE_MAX = 80;
 export const SEO_DESC_HINT = 160;
@@ -7,8 +9,7 @@ export const CATEGORY_DESC_MAX = 500;
 
 export const SEO_DEFAULT_TITLE = "Meble i wyposażenie domu | Wrohaus";
 export const SEO_HOME_H1 = SEO_DEFAULT_TITLE;
-export const SEO_DEFAULT_DESCRIPTION =
-  "Cały dom w jednym miejscu — sofy, szafy, łóżka, materace i więcej z polskiej manufaktury. 14 dni na zwrot, 2 lata gwarancji. Zamów online.";
+export const SEO_DEFAULT_DESCRIPTION = `Cały dom w jednym miejscu - sofy, szafy, łóżka, materace i więcej z polskiej manufaktury. ${storePolicies.returnsLabel}, ${storePolicies.warrantyLabel}. Zamów online.`;
 export const SEO_DEFAULT_KEYWORDS = [
   "meble",
   "wyposażenie domu",
@@ -24,7 +25,7 @@ export const SEO_DEFAULT_KEYWORDS = [
   "Wrohaus",
 ] as const;
 
-/** Czysty tekst do meta — bez HTML i sterujących. Pusty = brak. */
+/** Czysty tekst do meta - bez HTML i sterujących. Pusty = brak. */
 export function wyczyscMeta(value: unknown, max: number): string | undefined {
   if (typeof value !== "string") return undefined;
   const clean = value

@@ -15,7 +15,7 @@ export function isPayUConfigured(): boolean {
   );
 }
 
-/** Publiczne dane widgetu rat — tylko posId i 2 pierwsze znaki klucza (wymóg PayU). */
+/** Publiczne dane widgetu rat - tylko posId i 2 pierwsze znaki klucza (wymóg PayU). */
 export function getPayUInstallmentPublicConfig(): {
   posId: string;
   key: string;
@@ -66,7 +66,7 @@ export function payuCustomerIp(request: Request): string {
 
 /**
  * PayU Europe: POST /api/v2_1/applepay/session
- * body = { domain, displayName } — OpenPayU_ApplePay::createSession
+ * body = { domain, displayName } - OpenPayU_ApplePay::createSession
  * (nie validationUrl; to pole jest z PayU India / starej integracji).
  */
 export async function createApplePaySession(): Promise<unknown> {
@@ -167,7 +167,7 @@ function buildPayUContinueUrl(siteUrl: string, orderId: string, guestAccessToken
   return continueUrl.toString();
 }
 
-/** PayU wymaga unikalnego extOrderId na zawsze — ORD-1 po resecie sklepu już tam istnieje. */
+/** PayU wymaga unikalnego extOrderId na zawsze - ORD-1 po resecie sklepu już tam istnieje. */
 function uniquePayUExtOrderId(orderId: string): string {
   return `${orderId}-${crypto.randomBytes(4).toString("hex")}`;
 }

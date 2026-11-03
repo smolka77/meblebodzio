@@ -65,7 +65,7 @@ export const DEFAULT_ABOUT: AboutContent = {
   archived: false,
   metaTitle: "Polska manufaktura mebli",
   metaDescription:
-    "Wrohaus to meble i wyposażenie domu z Kątów Wrocławskich. Salon, sypialnia, szafy i materace — rzemiosło, które zostaje na lata.",
+    "Wrohaus to meble i wyposażenie domu z Kątów Wrocławskich. Salon, sypialnia, szafy i materace - rzemiosło, które zostaje na lata.",
   hero: {
     eyebrow: "Nasza historia",
     title: "Rzemiosło spotyka nowoczesny design",
@@ -81,7 +81,7 @@ export const DEFAULT_ABOUT: AboutContent = {
     kicker: "Kim jesteśmy",
     title: "Meble, które stają się sercem domu",
     paragraph1:
-      "Wierzymy, że dom to przestrzeń, w której design spotyka się z codziennym komfortem. Dlatego projektujemy meble, które są piękne, funkcjonalne i stworzone, by służyć przez lata — nie sezony.",
+      "Wierzymy, że dom to przestrzeń, w której design spotyka się z codziennym komfortem. Dlatego projektujemy meble, które są piękne, funkcjonalne i stworzone, by służyć przez lata - nie sezony.",
     paragraph2:
       "Nasz zespół projektantów, tapicerów i stolarzy pracuje ramię w ramię, tworząc kolekcje inspirowane skandynawskim minimalizmem i ciepłem polskiego rzemiosła.",
   },
@@ -97,7 +97,7 @@ export const DEFAULT_ABOUT: AboutContent = {
       {
         number: "01",
         title: "Polska produkcja",
-        text: "Każdy mebel powstaje w naszej manufakturze w Kątach Wrocławskich. Kontrolujemy jakość na każdym etapie — od ramy po ostatni szew.",
+        text: "Każdy mebel powstaje w naszej manufakturze w Kątach Wrocławskich. Kontrolujemy jakość na każdym etapie - od ramy po ostatni szew.",
       },
       {
         number: "02",
@@ -107,7 +107,7 @@ export const DEFAULT_ABOUT: AboutContent = {
       {
         number: "03",
         title: "Design ponadczasowy",
-        text: "Tworzymy meble, które nie poddają się trendom. Minimalistyczna forma, miękkie linie i neutralna paleta barw — na lata.",
+        text: "Tworzymy meble, które nie poddają się trendom. Minimalistyczna forma, miękkie linie i neutralna paleta barw - na lata.",
       },
       {
         number: "04",

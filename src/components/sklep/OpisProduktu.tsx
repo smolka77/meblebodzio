@@ -13,6 +13,8 @@ import { dimensionsForSize } from "@/lib/rozmiary";
 import { ProductAverageRating } from "@/components/sklep/GwiazdkiOceny";
 import { SuggestedMattressTile } from "@/components/sklep/KafelekMateraca";
 import { StoreImage } from "@/components/sklep/ObrazSklepu";
+import { TechnicalDrawing } from "@/components/sklep/RysunekTechniczny";
+import { dimsFromRows, hasFullDims, seatHeightCm } from "@/lib/atrybutyProduktu";
 
 const sectionClass =
   "rounded-2xl bg-white px-5 py-6 shadow-[0_8px_24px_-16px_rgba(17,17,17,0.14)] sm:px-8 sm:py-8";
@@ -38,7 +40,7 @@ export function ProductRichContent({
   );
   const features = (details?.features ?? []).map((f) => f.trim()).filter(Boolean);
   const layers = (details?.layers ?? []).filter((layer) => layer.name?.trim());
-  // Puste wiersze z szablonu (lub „—”, „brak”, „nie dotyczy”) nie trafiają na stronę.
+  // Puste wiersze z szablonu (lub „-”, „brak”, „nie dotyczy”) nie trafiają na stronę.
   const specs = (details?.specs ?? []).filter(
     (item) => item.label?.trim() && isVisibleSpecValue(item.value)
   );
@@ -49,6 +51,7 @@ export function ProductRichContent({
   ).filter(
     (item) => item.label?.trim() && isVisibleSpecValue(item.value)
   );
+  const dims = dimsFromRows(dimensions);
   const dimensionImage = details?.dimensionImage?.trim();
   const faq = (details?.faq ?? []).filter(
     (item) => item.question?.trim() && item.answer?.trim()
@@ -175,7 +178,17 @@ export function ProductRichContent({
         </section>
       ) : dimensions.length > 0 ? (
         <section className={sectionClass}>
-          <h2 className="text-xl font-semibold text-charcoal">{t("product.dims")}</h2>
+          <h2 className="text-xl font-semibold text-charcoal">
+            {hasFullDims(dims) ? "Wymiary i rysunek techniczny" : t("product.dims")}
+          </h2>
+          {hasFullDims(dims) ? (
+            <div className="mt-4 rounded-xl bg-cream/50 px-2 py-4 sm:px-6">
+              <TechnicalDrawing dims={dims} seat={seatHeightCm(dimensions)} />
+              <p className="mt-2 text-center text-[12.5px] text-charcoal/60">
+                Wymiary gabarytowe w jednej skali. Rysunek poglądowy - tolerancja ±2 cm.
+              </p>
+            </div>
+          ) : null}
           <dl className="mt-4 divide-y divide-taupe/25">
             {dimensions.map((item) => (
               <div

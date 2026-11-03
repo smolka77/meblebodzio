@@ -31,7 +31,7 @@ function applePaySessionCtor(): ApplePaySessionCtor | undefined {
   return (window as unknown as { ApplePaySession?: ApplePaySessionCtor }).ApplePaySession;
 }
 
-/** Jak oficjalna wtyczka PayU WooCommerce 2.11 — najwyższa obsługiwana wersja API. */
+/** Jak oficjalna wtyczka PayU WooCommerce 2.11 - najwyższa obsługiwana wersja API. */
 function applePayApiVersion(ApplePaySession: ApplePaySessionCtor): number {
   for (let version = 14; version >= 1; version--) {
     try {
@@ -47,7 +47,7 @@ function applePayApiVersion(ApplePaySession: ApplePaySessionCtor): number {
  * Safari/iPhone: natywny ApplePaySession.
  * Chrome/Edge/Firefox na Windowsie: apple-pay-sdk.js podkłada ApplePaySession
  * i po begin() pokazuje kod QR do skanu iPhone’em (iOS 18+).
- * canMakePayments() na Windowsie bywa false — samo istnienie konstruktora wystarczy.
+ * canMakePayments() na Windowsie bywa false - samo istnienie konstruktora wystarczy.
  */
 export function canUseApplePay(): boolean {
   try {
@@ -72,7 +72,7 @@ export type ApplePayAuthorization = {
 /**
  * Oficjalny przepływ PayU Europe: ApplePaySession na stronie sklepu,
  * walidacja przez POST /api/v2_1/applepay/session (domain + displayName).
- * begin() jest synchroniczne — wywołuj w handlerze kliknięcia, przed await.
+ * begin() jest synchroniczne - wywołuj w handlerze kliknięcia, przed await.
  */
 export function beginApplePayPayment(amountPln: number): Promise<ApplePayAuthorization | "cancelled" | "failed"> {
   const ApplePaySession = applePaySessionCtor();

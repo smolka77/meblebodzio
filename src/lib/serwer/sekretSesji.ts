@@ -25,7 +25,7 @@ export async function getSessionSecret(): Promise<string> {
       return fromFile;
     }
   } catch {
-    // brak pliku — wygeneruj
+    // brak pliku - wygeneruj
   }
 
   const generated = randomBytes(48).toString("hex");

@@ -1,34 +1,45 @@
 import Link from "next/link";
+import type { Metadata } from "next";
 import { RotateCcw, Clock, Truck, ShieldCheck } from "lucide-react";
 import { PageShell } from "@/components/strony/PowlokaStrony";
 import { DeliveryMethodIcon } from "@/components/dostawa/IkonaMetodyDostawy";
 import { company } from "@/lib/firma";
-import { storePolicies } from "@/lib/zasadySklepu";
+import { freeShippingText, freeShippingThresholdOf, storePolicies } from "@/lib/zasadySklepu";
 import { activeDeliveryMethods } from "@/lib/dostawa";
 import { getDelivery } from "@/lib/serwer/dostawa";
+import { getSettings } from "@/lib/serwer/ustawienia";
 import { stronaMeta } from "@/lib/seo";
 import { getRequestLocale } from "@/lib/jezyk/serwer";
 import { localizeDelivery } from "@/lib/jezyk/trescCms";
 
-export const metadata = stronaMeta({
-  title: "Dostawa mebli",
-  description: `Dostawa mebli i wyposażenia domu w ${storePolicies.deliveryTimeLabel}, koszt ${storePolicies.standardDeliveryPriceLabel}. ${storePolicies.returnsLabel} i odbiór z magazynu.`,
-  path: "/dostawa",
-});
+export async function generateMetadata(): Promise<Metadata> {
+  const free = freeShippingText(freeShippingThresholdOf(await getSettings()));
+  return stronaMeta({
+    title: "Dostawa mebli",
+    description: `Dostawa mebli i wyposażenia domu w ${storePolicies.deliveryTimeLabel}, koszt ${storePolicies.standardDeliveryPriceLabel}${free ? `. ${free}` : ""}. ${storePolicies.returnsLabel} i odbiór z magazynu.`,
+    path: "/dostawa",
+  });
+}
 
 export default async function DeliveryPage() {
-  const [deliveryRaw, locale] = await Promise.all([
+  const [deliveryRaw, locale, settings] = await Promise.all([
     getDelivery(),
     getRequestLocale(),
+    getSettings(),
   ]);
   const delivery = await localizeDelivery(deliveryRaw, locale);
-  const methods = activeDeliveryMethods(delivery.methods);
+  const free = freeShippingText(freeShippingThresholdOf(settings));
+  const methods = activeDeliveryMethods(delivery.methods).map((method) =>
+    method.id === "standard" && free
+      ? { ...method, features: [free, ...method.features] }
+      : method
+  );
 
   return (
     <PageShell
       eyebrow="Pomoc"
       title="Dostawa i zwroty"
-      description={`Dbamy o to, aby Twój mebel dotarł bezpiecznie i w dogodnym terminie. Masz też ${storePolicies.returnsLabel.toLowerCase()} — bez zbędnych formalności.`}
+      description={`Dbamy o to, aby Twój mebel dotarł bezpiecznie i w dogodnym terminie.${free ? ` ${free}.` : ""} Masz też ${storePolicies.returnsLabel.toLowerCase()} - bez zbędnych formalności.`}
       heroImage="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1920&q=85"
       path="/dostawa"
     >
@@ -81,7 +92,7 @@ export default async function DeliveryPage() {
                       className={`flex gap-2 text-sm ${opt.highlight ? "text-cream/80" : "text-charcoal/80"}`}
                     >
                       <span className={opt.highlight ? "text-cream/50" : "text-sand"}>
-                        —
+                        -
                       </span>
                       {feature}
                     </li>
@@ -130,8 +141,9 @@ export default async function DeliveryPage() {
               <p className="mt-4 text-sm leading-[1.9] text-charcoal/80">
                 Konsument ma {storePolicies.returnsDays} dni na odstąpienie od umowy
                 bez podawania przyczyny. Nie wymagamy oryginalnego opakowania.
-                Adres zwrotu: {company.returnsAddress}. Zwrot środków — na ten sam
-                instrument płatniczy (PayU), w ciągu 14 dni.
+                Adres zwrotu: {company.returnsAddress}. Zwrot środków - na ten sam
+                instrument płatniczy (PayU), w ciągu {storePolicies.refundDays} dni od otrzymania
+                oświadczenia o odstąpieniu.
               </p>
               <ul className="mt-8 space-y-3">
                 {[
@@ -173,7 +185,7 @@ export default async function DeliveryPage() {
                 {
                   icon: Truck,
                   title: "Co obejmuje cena dostawy",
-                  text: "Transport do umówionego miejsca na poziomie wejścia (zwykle drzwi budynku). Wniesienie na piętro i ustawienie w mieszkaniu nie są w cenie. Sofy i narożniki zwykle jadą w całości; szafy i meble skrzyniowe mogą być do samodzielnego montażu — to jest na karcie produktu.",
+                  text: "Transport do umówionego miejsca na poziomie wejścia (zwykle drzwi budynku). Wniesienie na piętro i ustawienie w mieszkaniu nie są w cenie. Sofy i narożniki zwykle jadą w całości; szafy i meble skrzyniowe mogą być do samodzielnego montażu - to jest na karcie produktu.",
                 },
               ].map(({ icon: Icon, title, text }) => (
                 <div

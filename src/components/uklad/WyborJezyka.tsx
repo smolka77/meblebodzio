@@ -142,7 +142,7 @@ export function LanguageExpand() {
             strokeWidth={1.5}
           />
         </span>
-        <span className="text-[12px] font-medium">{t("lang.label")}</span>
+        <span className="text-[13px] font-medium">{t("lang.label")}</span>
       </button>
 
       {open && (
@@ -195,7 +195,7 @@ export function LanguageDrawerRow() {
             aria-label={LOCALE_NAMES[code]}
             title={LOCALE_NAMES[code]}
             onClick={() => setLocale(code)}
-            className={`min-h-[48px] border-b-2 text-[13px] font-semibold tracking-wide transition-colors ${
+            className={`min-h-[48px] border-b-2 text-[14px] font-semibold tracking-wide transition-colors ${
               selected
                 ? "border-terracotta text-terracotta"
                 : "border-transparent text-sand"

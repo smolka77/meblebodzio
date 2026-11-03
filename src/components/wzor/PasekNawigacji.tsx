@@ -5,13 +5,20 @@ import { useEffect, useRef, useState } from "react";
 import { createPortal } from "react-dom";
 import { usePathname } from "next/navigation";
 import { StoreImage } from "@/components/sklep/ObrazSklepu";
-import { Chevron, Star } from "./ikony";
+import { PRODUCT_STYLES } from "@/lib/stylePomieszczenia";
+import { Chevron, Sparkle, Star } from "./ikony";
 
 type Karta = { label: string; href: string; image: string };
 type Grupa = { title: string; cards: Karta[] };
 type Pozycja =
   | { type: "menu"; label: string; groups: Grupa[] }
-  | { type: "link"; label: string; href: string; highlight?: boolean };
+  | { type: "link"; label: string; href: string; highlight?: boolean; sparkle?: boolean };
+
+const styleCards: Karta[] = PRODUCT_STYLES.map((style) => ({
+  label: style.label,
+  href: `/produkty?styl=${style.id}`,
+  image: style.image,
+}));
 
 const nav: Pozycja[] = [
   {
@@ -44,7 +51,7 @@ const nav: Pozycja[] = [
           { label: "Szafy", href: "/kategoria/szafy", image: "/katalog/szafa-line.jpg" },
           { label: "Komody", href: "/kategoria/komody", image: "/katalog/komoda-grove.jpg" },
           { label: "Szafki RTV", href: "/kategoria/szafki-rtv", image: "/katalog/szafka-rtv-frame.jpg" },
-          { label: "Szafki nocne", href: "/kategoria/szafki", image: "/katalog/szafka-oak.jpg" },
+          { label: "Regały i szafki nocne", href: "/kategoria/szafki", image: "/katalog/szafka-oak.jpg" },
         ],
       },
       {
@@ -59,39 +66,12 @@ const nav: Pozycja[] = [
   },
   {
     type: "menu",
-    label: "Oświetlenie",
-    groups: [
-      {
-        title: "Lampy",
-        cards: [
-          { label: "Zobacz wszystkie", href: "/kategoria/oswietlenie", image: "/katalog/lampa-arc.jpg" },
-          { label: "Lampy podłogowe", href: "/kategoria/oswietlenie", image: "/katalog/lampa-arc.jpg" },
-          { label: "Lampy stołowe", href: "/kategoria/oswietlenie", image: "/katalog/lampa-halo.jpg" },
-        ],
-      },
-    ],
-  },
-  {
-    type: "menu",
-    label: "Dodatki",
-    groups: [
-      {
-        title: "Dla zwierząt",
-        cards: [
-          { label: "Zobacz wszystkie", href: "/kategoria/akcesoria-dla-zwierzat", image: "/katalog/legowisko-nest.jpg" },
-          { label: "Legowiska", href: "/kategoria/akcesoria-dla-zwierzat", image: "/katalog/legowisko-nest.jpg" },
-          { label: "Drapaki", href: "/kategoria/akcesoria-dla-zwierzat", image: "/katalog/drapak-grove.jpg" },
-        ],
-      },
-    ],
-  },
-  {
-    type: "menu",
     label: "Pomieszczenia",
     groups: [
       {
         title: "Salon",
         cards: [
+          { label: "Cały salon", href: "/produkty?pokoj=salon", image: "/wzor/living-bright.jpg" },
           { label: "Narożniki", href: "/kategoria/narozniki", image: "/katalog/naroznik-cloud.jpg" },
           { label: "Kanapy i sofy", href: "/kategoria/sofy", image: "/katalog/sofa-como.jpg" },
           { label: "Szafki RTV", href: "/kategoria/szafki-rtv", image: "/katalog/szafka-rtv-line.jpg" },
@@ -104,6 +84,7 @@ const nav: Pozycja[] = [
       {
         title: "Sypialnia",
         cards: [
+          { label: "Cała sypialnia", href: "/produkty?pokoj=sypialnia", image: "/wzor/bedroom.jpg" },
           { label: "Łóżka", href: "/kategoria/lozka", image: "/katalog/lozko-loft.jpg" },
           { label: "Materace", href: "/kategoria/materace", image: "/katalog/materac-dual-comfort.jpg" },
           { label: "Szafy", href: "/kategoria/szafy", image: "/katalog/szafa-haven.jpg" },
@@ -114,8 +95,36 @@ const nav: Pozycja[] = [
       {
         title: "Pokój dziecka",
         cards: [
+          { label: "Cały pokój dziecka", href: "/produkty?pokoj=pokoj-dzieciecy", image: "/katalog/lozko-mini-nest.jpg" },
           { label: "Łóżka dziecięce", href: "/kategoria/meble-dzieciece", image: "/katalog/lozko-mini-nest.jpg" },
           { label: "Komody", href: "/kategoria/meble-dzieciece", image: "/katalog/komoda-play.jpg" },
+        ],
+      },
+    ],
+  },
+  {
+    type: "menu",
+    label: "Style",
+    groups: [{ title: "Style wnętrz", cards: styleCards }],
+  },
+  {
+    type: "menu",
+    label: "Dodatki",
+    groups: [
+      {
+        title: "Lampy",
+        cards: [
+          { label: "Zobacz wszystkie", href: "/kategoria/oswietlenie", image: "/katalog/lampa-arc.jpg" },
+          { label: "Lampy podłogowe", href: "/kategoria/oswietlenie", image: "/katalog/lampa-arc.jpg" },
+          { label: "Lampy stołowe", href: "/kategoria/oswietlenie", image: "/katalog/lampa-halo.jpg" },
+        ],
+      },
+      {
+        title: "Dla zwierząt",
+        cards: [
+          { label: "Zobacz wszystkie", href: "/kategoria/akcesoria-dla-zwierzat", image: "/katalog/legowisko-nest.jpg" },
+          { label: "Legowiska", href: "/kategoria/akcesoria-dla-zwierzat", image: "/katalog/legowisko-nest.jpg" },
+          { label: "Drapaki", href: "/kategoria/akcesoria-dla-zwierzat", image: "/katalog/drapak-grove.jpg" },
         ],
       },
     ],
@@ -123,8 +132,11 @@ const nav: Pozycja[] = [
   { type: "link", label: "Nowości", href: "/produkty?widok=nowosci" },
   { type: "link", label: "Bestsellery", href: "/produkty?widok=bestsellery" },
   { type: "link", label: "Promocje", href: "/promocje" },
+  { type: "link", label: "Inspiracje", href: "/inspiracje" },
   { type: "link", label: "Kolekcje", href: "/kategoria/kolekcje", highlight: true },
+  { type: "link", label: "Doradca", href: "/doradca", sparkle: true },
 ];
+
 
 function Caret({ className = "" }: { className?: string }) {
   return (
@@ -219,29 +231,30 @@ export function ShopNav({
         onMouseLeave={scheduleClose}
         onMouseEnter={cancelClose}
       >
-        <div className="pw flex h-[45px] items-center">
+        <div className="pw flex h-[56px] items-center">
           {nav.map((item) =>
             item.type === "link" ? (
               <Link
                 key={item.label}
                 href={item.href}
-                className="inline-flex h-8 items-center gap-1.5 px-4 text-[15px] font-bold text-black"
+                className="inline-flex h-10 items-center gap-1.5 whitespace-nowrap px-2 text-[16px] font-bold text-black min-[1100px]:px-3 xl:px-3.5 xl:text-[17px]"
               >
-                {item.highlight ? <Star className="h-3.5 w-3.5" /> : null}
+                {item.highlight ? <Star className="h-4 w-4" /> : null}
+                {item.sparkle ? <Sparkle className="h-[18px] w-[18px] text-accent" /> : null}
                 {item.label}
               </Link>
             ) : (
               <button
                 key={item.label}
                 type="button"
-                className="inline-flex h-8 items-center px-4 text-[15px] font-bold text-black"
+                className="inline-flex h-10 items-center whitespace-nowrap px-2 text-[16px] font-bold text-black min-[1100px]:px-3 xl:px-3.5 xl:text-[17px]"
                 aria-expanded={menu === item.label}
                 onMouseEnter={() => openMenu(item.label)}
                 onFocus={() => openMenu(item.label)}
               >
                 <span className="inline-flex items-center gap-1">
                   {item.label}
-                  <Caret className="h-3.5 w-3.5" />
+                  <Caret className="h-4 w-4" />
                 </span>
               </button>
             )
@@ -337,7 +350,7 @@ export function ShopNav({
                   {mobileGroup === item.label
                     ? item.groups.map((grupa) => (
                         <div key={grupa.title} className="pb-3">
-                          <p className="px-1 pb-1 text-[13px] font-semibold text-black/50">{grupa.title}</p>
+                          <p className="px-1 pb-1 text-[14px] font-semibold text-black/50">{grupa.title}</p>
                           {grupa.cards.map((card) => (
                             <Link
                               key={`${grupa.title}-${card.label}`}

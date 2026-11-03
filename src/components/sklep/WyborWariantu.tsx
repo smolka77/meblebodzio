@@ -4,7 +4,7 @@ import type { ProductOption, ProductOptionValue } from "@/lib/typy";
 import { formatPrice } from "@/lib/dane";
 import { useLanguage } from "@/kontekst/KontekstJezyka";
 
-/** Wariant zakupowy (strona narożnika, typ drzwi, lustro, LED, materac…) — kafelki wyboru. */
+/** Wariant zakupowy (strona narożnika, typ drzwi, lustro, LED, materac…) - kafelki wyboru. */
 export function OptionSelector({
   option,
   selected,
@@ -38,7 +38,14 @@ export function OptionSelector({
                   : "border-taupe/40 bg-cream/40 hover:border-charcoal/40"
               }`}
             >
-              <span className="block text-[15px] font-semibold tracking-wide text-charcoal">
+              <span className="flex items-center gap-2 text-[15px] font-semibold tracking-wide text-charcoal">
+                {value.swatch ? (
+                  <span
+                    aria-hidden
+                    className="h-3.5 w-3.5 shrink-0 rounded-full ring-1 ring-black/20"
+                    style={{ backgroundColor: value.swatch }}
+                  />
+                ) : null}
                 {value.label}
               </span>
               <span

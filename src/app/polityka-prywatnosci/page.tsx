@@ -59,7 +59,7 @@ export default function PrivacyPage() {
               "Dane identyfikacyjne: imię, nazwisko",
               "Dane kontaktowe: adres e-mail, numer telefonu, adres dostawy i korespondencyjny",
               "Dane zamówienia: pozycje, cena, status, historia zakupów",
-              "Dane płatności przekazywane do PayU (kwota, tytuł, dane odbiorcy) — Sklep nie zapisuje pełnego numeru karty ani kodu CVV",
+              "Dane płatności przekazywane do PayU (kwota, tytuł, dane odbiorcy) - Sklep nie zapisuje pełnego numeru karty ani kodu CVV",
               "Dane konta: login, hasło w postaci hasza",
               "Dane techniczne: adres IP, typ przeglądarki, pliki cookies zgodnie z Polityką cookies",
               "Treść korespondencji (formularz, czat, e-mail)",
@@ -76,15 +76,15 @@ export default function PrivacyPage() {
           <P>Dane przetwarzamy w następujących celach i na następujących podstawach RODO:</P>
           <Ul
             items={[
-              "Zawarcie i wykonanie umowy sprzedaży, obsługa konta, dostawa, kontakt w sprawie zamówienia — art. 6 ust. 1 lit. b RODO",
-              "Płatności online za pośrednictwem PayU — art. 6 ust. 1 lit. b RODO (umowa) oraz — po stronie PayU — własne podstawy PayU jako administratora",
-              "Wystawianie faktur, księgowość, obowiązki podatkowe — art. 6 ust. 1 lit. c RODO",
-              "Reklamacje, rękojmia, gwarancja, odstąpienie od umowy — art. 6 ust. 1 lit. b, c i f RODO",
-              "Ustalenie, dochodzenie i obrona roszczeń — art. 6 ust. 1 lit. f RODO",
-              "Odpowiedź na zapytania z formularza kontaktowego i czatu — art. 6 ust. 1 lit. b RODO (działania przed zawarciem umowy, gdy pytasz o produkt lub zamówienie) albo art. 6 ust. 1 lit. f RODO (uzasadniony interes: obsługa korespondencji). Nie opieramy tej odpowiedzi wyłącznie na zgodzie.",
-              "Newsletter i marketing e-mail — wyłącznie za zgodą, art. 6 ust. 1 lit. a RODO",
-              "Analityka odwiedzin Sklepu — wyłącznie za zgodą na cookies analityczne, art. 6 ust. 1 lit. a RODO",
-              "Remarketing (w tym Meta) — wyłącznie za zgodą na cookies marketingowe, art. 6 ust. 1 lit. a RODO",
+              "Zawarcie i wykonanie umowy sprzedaży, obsługa konta, dostawa, kontakt w sprawie zamówienia - art. 6 ust. 1 lit. b RODO",
+              "Płatności online za pośrednictwem PayU - art. 6 ust. 1 lit. b RODO (umowa) oraz - po stronie PayU - własne podstawy PayU jako administratora",
+              "Wystawianie faktur, księgowość, obowiązki podatkowe - art. 6 ust. 1 lit. c RODO",
+              "Reklamacje, rękojmia, gwarancja, odstąpienie od umowy - art. 6 ust. 1 lit. b, c i f RODO",
+              "Ustalenie, dochodzenie i obrona roszczeń - art. 6 ust. 1 lit. f RODO",
+              "Odpowiedź na zapytania z formularza kontaktowego i czatu - art. 6 ust. 1 lit. b RODO (działania przed zawarciem umowy, gdy pytasz o produkt lub zamówienie) albo art. 6 ust. 1 lit. f RODO (uzasadniony interes: obsługa korespondencji). Nie opieramy tej odpowiedzi wyłącznie na zgodzie.",
+              "Newsletter i marketing e-mail - wyłącznie za zgodą, art. 6 ust. 1 lit. a RODO",
+              "Analityka odwiedzin Sklepu - wyłącznie za zgodą na cookies analityczne, art. 6 ust. 1 lit. a RODO",
+              "Remarketing (w tym Meta) - wyłącznie za zgodą na cookies marketingowe, art. 6 ust. 1 lit. a RODO",
             ]}
           />
           <P>
@@ -105,8 +105,8 @@ export default function PrivacyPage() {
           </P>
           <Ul
             items={[
-              `${payu.legalName} (KRS ${payu.krs}, NIP ${payu.nip}) — operator płatności; PayU jest samodzielnym administratorem danych płatniczych`,
-              "Firmy kurierskie i transportowe — w zakresie niezbędnym do dostawy lub odbioru zwrotu",
+              `${payu.legalName} (KRS ${payu.krs}, NIP ${payu.nip}) - operator płatności; PayU jest samodzielnym administratorem danych płatniczych`,
+              "Firmy kurierskie i transportowe - w zakresie niezbędnym do dostawy lub odbioru zwrotu",
               "Dostawca hostingu i utrzymania serwera Sklepu",
               "Biuro rachunkowe i doradcy prawni",
               "Podmioty uprawnione na podstawie przepisów (np. urząd skarbowy, sąd)",
@@ -157,11 +157,11 @@ export default function PrivacyPage() {
       content: (
         <Ul
           items={[
-            "Dane zamówień i faktur — przez okres wymagany przepisami rachunkowymi i podatkowymi (co do zasady 5 lat od końca roku podatkowego)",
-            "Dane konta — do usunięcia konta, z zastrzeżeniem dokumentów, które musimy zachować ustawowo",
-            "Korespondencja reklamacyjna — do przedawnienia roszczeń, zwykle do 6 lat",
-            "Zgody marketingowe — do cofnięcia zgody",
-            "Cookies analityczne i marketingowe — zgodnie z Polityką cookies, nie dłużej niż 12 miesięcy od zgody, o ile wcześniej jej nie cofniesz",
+            "Dane zamówień i faktur - przez okres wymagany przepisami rachunkowymi i podatkowymi (co do zasady 5 lat od końca roku podatkowego)",
+            "Dane konta - do usunięcia konta, z zastrzeżeniem dokumentów, które musimy zachować ustawowo",
+            "Korespondencja reklamacyjna - do przedawnienia roszczeń, zwykle do 6 lat",
+            "Zgody marketingowe - do cofnięcia zgody",
+            "Cookies analityczne i marketingowe - zgodnie z Polityką cookies, nie dłużej niż 12 miesięcy od zgody, o ile wcześniej jej nie cofniesz",
           ]}
         />
       ),
@@ -176,7 +176,7 @@ export default function PrivacyPage() {
             items={[
               "dostęp do danych oraz kopia danych",
               "sprostowanie (poprawienie) danych",
-              "usunięcie danych („prawo do bycia zapomnianym”) — gdy pozwalają na to przepisy",
+              "usunięcie danych („prawo do bycia zapomnianym”) - gdy pozwalają na to przepisy",
               "ograniczenie przetwarzania",
               "przenoszenie danych",
               "sprzeciw wobec przetwarzania opartego na art. 6 ust. 1 lit. f RODO",
@@ -204,7 +204,7 @@ export default function PrivacyPage() {
             Polityka cookies
           </a>
           . Cookies niezbędne (koszyk, sesja logowania, bezpieczeństwo) działają
-          bez zgody. Cookies analityczne i marketingowe — wyłącznie po Twojej
+          bez zgody. Cookies analityczne i marketingowe - wyłącznie po Twojej
           zgodzie na daną kategorię.
         </P>
       ),

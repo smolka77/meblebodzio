@@ -97,7 +97,7 @@ export function detachFabricFromColor(color: ProductColor): ProductColor {
   };
 }
 
-/** Live catalog fields on the storefront — keeps the product's own name/hex. */
+/** Live catalog fields on the storefront - keeps the product's own name/hex. */
 export function mergeLiveFabric(
   color: ProductColor,
   fabric: Fabric | undefined
@@ -153,7 +153,7 @@ export function getFabricMedia(product: Product, color: ProductColor): string {
   );
 }
 
-/** Close-up in the overlay — shade photo first; fabric video only when this color has no still. */
+/** Close-up in the overlay - shade photo first; fabric video only when this color has no still. */
 export function getFabricCloseupSrc(color: ProductColor): string | undefined {
   return (
     firstStillSrc(color.fabricImage, color.fabricMedia) ||
@@ -163,7 +163,7 @@ export function getFabricCloseupSrc(color: ProductColor): string | undefined {
   );
 }
 
-/** Still for the color tile — never the parent fabric animation. */
+/** Still for the color tile - never the parent fabric animation. */
 export function getFabricSwatchSrc(color: ProductColor): string | undefined {
   return firstStillSrc(
     color.fabricImage,
@@ -235,7 +235,7 @@ export function getFabricName(color: ProductColor): string {
   return color.fabricName?.trim() || color.name;
 }
 
-/** Nazwa odcienia na kafelku — osobno od nazwy tkaniny. */
+/** Nazwa odcienia na kafelku - osobno od nazwy tkaniny. */
 export function getColorShadeName(color: ProductColor): string {
   const shade = color.name?.trim();
   const fabric = color.fabricName?.trim();
@@ -286,7 +286,7 @@ export function getFabricAbout(product: Product, color: ProductColor): string {
     return `Wybrany odcień ${color.name} pokazuje tę tkaninę w naturalnym świetle salonu. ${spec}`;
   }
 
-  return `Odcień ${color.name} jest częścią palety tapicerki tego modelu. Kolor na ekranie może delikatnie różnić się od rzeczywistego — warto zobaczyć tkaninę w swoim wnętrzu.`;
+  return `Odcień ${color.name} jest częścią palety tapicerki tego modelu. Kolor na ekranie może delikatnie różnić się od rzeczywistego - warto zobaczyć tkaninę w swoim wnętrzu.`;
 }
 
 export function getFabricCare(
@@ -318,7 +318,7 @@ export function parseFabricSpecRows(spec: string | undefined): FabricSpecRow[] {
       continue;
     }
     if (/^[-•*]\s/.test(line)) {
-      rows.push({ label: "—", value: line.replace(/^[-•*]\s*/, "") });
+      rows.push({ label: "-", value: line.replace(/^[-•*]\s*/, "") });
     }
   }
 

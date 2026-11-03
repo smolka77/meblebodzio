@@ -70,7 +70,7 @@ export function BedDimensionImageField({
       className="outline-none"
     >
       <p className={`max-w-2xl ${panelHintClass}`}>
-        Zamiast wpisywać centymetry — wklej (Ctrl+V) albo wgraj gotową planszę
+        Zamiast wpisywać centymetry - wklej (Ctrl+V) albo wgraj gotową planszę
         „Wymiary łóżka”. Na stronie produktu kafelek pokaże to zdjęcie.
       </p>
 

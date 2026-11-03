@@ -11,6 +11,9 @@ import { getPublicProducts, getPublicProductBySlug, getProductSlugRedirect } fro
 import { localizeProducts } from "@/lib/jezyk/tlumaczOgloszenie";
 import { pickRelatedProducts } from "@/lib/losowyProdukt";
 import { productsForCompleteSet } from "@/lib/zestawLinii";
+import { complementaryProducts } from "@/lib/uzupelnienia";
+import { freeShippingThresholdOf } from "@/lib/zasadySklepu";
+import { getSettings } from "@/lib/serwer/ustawienia";
 import { getFurnitureLines } from "@/lib/serwer/linieMeblowe";
 import { resolveSuggestedMattress } from "@/lib/sugerowanyMaterac";
 import { jsonLdFaqPage, jsonLdOkuszki, jsonLdProdukt, metaProduktu } from "@/lib/seo";
@@ -79,6 +82,8 @@ export default async function ProductPage({
           products: await localizeProducts(lineMates, locale),
         }
       : undefined;
+  const interior = await localizeProducts(complementaryProducts(all, current, 4), locale);
+  const freeShippingFrom = freeShippingThresholdOf(await getSettings());
   const suggestedMattressRaw = resolveSuggestedMattress(all, product);
   const suggestedMattress = suggestedMattressRaw
     ? (await localizeProducts([suggestedMattressRaw], locale))[0]
@@ -94,7 +99,7 @@ export default async function ProductPage({
     <>
       <DaneStrukturalne
         dane={[
-          jsonLdProdukt(product),
+          jsonLdProdukt(product, { freeShippingFrom }),
           jsonLdFaqPage(
             (product.details?.faq ?? []).map((item) => ({
               question: item.question ?? "",
@@ -135,6 +140,7 @@ export default async function ProductPage({
                 product={product}
                 suggestedMattress={suggestedMattress}
                 lineSet={lineSet}
+                interior={interior}
               />
             </Suspense>
           </div>

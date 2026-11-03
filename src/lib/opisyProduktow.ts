@@ -4,7 +4,7 @@ export const productDetailsMap: Record<string, ProductDetails> = {
   "naroznik-oslo": {
     productCode: "SF-NO-238",
     longDescription:
-      "Zorganizuj stylową i przytulną strefę relaksu w salonie z narożnikiem Oslo. To przestronne rozwiązanie łączące organiczny, zaokrąglony design Wrohaus z maksymalną funkcjonalnością na co dzień. System rozkładania i pojemnik na pościel sprawiają, że Oslo to idealny wybór dla osób, które cenią komfort wypoczynku i praktyczne rozwiązania — bez rezygnacji z eleganckiej estetyki wnętrza.",
+      "Zorganizuj stylową i przytulną strefę relaksu w salonie z narożnikiem Oslo. To przestronne rozwiązanie łączące organiczny, zaokrąglony design Wrohaus z maksymalną funkcjonalnością na co dzień. System rozkładania i pojemnik na pościel sprawiają, że Oslo to idealny wybór dla osób, które cenią komfort wypoczynku i praktyczne rozwiązania - bez rezygnacji z eleganckiej estetyki wnętrza.",
     highlights: [
       {
         title: "Funkcja spania i pojemnik",
@@ -14,7 +14,7 @@ export const productDetailsMap: Record<string, ProductDetails> = {
       {
         title: "Welur Easy Clean",
         description:
-          "Łatwoczyszcząca tkanina welurowa ułatwia utrzymanie jasnego odcienia w czystości — wystarczy odrobina wody i miękka ściereczka.",
+          "Łatwoczyszcząca tkanina welurowa ułatwia utrzymanie jasnego odcienia w czystości - wystarczy odrobina wody i miękka ściereczka.",
       },
       {
         title: "Ergonomiczne siedzisko",
@@ -31,20 +31,20 @@ export const productDetailsMap: Record<string, ProductDetails> = {
       {
         label: "Wypełnienie siedziska",
         value:
-          "Sprężyny Bonell i pianka T30 — trwałość, brak odkształceń i wygodne podparcie kręgosłupa.",
+          "Sprężyny Bonell i pianka T30 - trwałość, brak odkształceń i wygodne podparcie kręgosłupa.",
       },
       {
         label: "Kształt i układ",
-        value: "L-kształtny, wariant lewostronny — dopasuj mebel do geometrii pomieszczenia.",
+        value: "L-kształtny, wariant lewostronny - dopasuj mebel do geometrii pomieszczenia.",
       },
       {
         label: "System rozkładania",
-        value: "Automat DL — intuicyjne rozkładanie bez ryzyka zarysowania podłogi.",
+        value: "Automat DL - intuicyjne rozkładanie bez ryzyka zarysowania podłogi.",
       },
       {
         label: "Tkanina",
         value:
-          "Castel 04 (kremowy) — miękki welur o wysokiej odporności na tarcie i mechacenie. Technologia Easy Clean.",
+          "Castel 04 (kremowy) - miękki welur o wysokiej odporności na tarcie i mechacenie. Technologia Easy Clean.",
       },
       {
         label: "Konstrukcja",
@@ -74,7 +74,7 @@ export const productDetailsMap: Record<string, ProductDetails> = {
       {
         question: "Czy ten model nadaje się do codziennego spania?",
         answer:
-          "Tak — mechanizm DL i materac piankowy T30 zostały zaprojektowane do regularnego użytkowania jako łóżko gościnne lub codzienne.",
+          "Tak - mechanizm DL i materac piankowy T30 zostały zaprojektowane do regularnego użytkowania jako łóżko gościnne lub codzienne.",
       },
     ],
     disclaimer:
@@ -105,13 +105,13 @@ export const productDetailsMap: Record<string, ProductDetails> = {
     specs: [
       {
         label: "Wypełnienie siedziska",
-        value: "Pianka HR T30 + warstwa włókien silikonowych — miękki, ale sprężysty komfort.",
+        value: "Pianka HR T30 + warstwa włókien silikonowych - miękki, ale sprężysty komfort.",
       },
       {
         label: "Tkanina",
-        value: "Boucle Luna 12 (ecru) — 100% poliester, odporność na tarcie 50 000 cykli Martindale.",
+        value: "Boucle Luna 12 (ecru) - 100% poliester, odporność na tarcie 50 000 cykli Martindale.",
       },
-      { label: "Nóżki", value: "Drewno dębowe, wysokość 15 cm — regulacja stabilizująca w zestawie." },
+      { label: "Nóżki", value: "Drewno dębowe, wysokość 15 cm - regulacja stabilizująca w zestawie." },
       { label: "Poduszki", value: "2 duże + 2 małe w zestawie, wypełnienie pierze syntetyczne." },
     ],
     dimensions: [
@@ -153,12 +153,12 @@ export const productDetailsMap: Record<string, ProductDetails> = {
       {
         title: "Kompaktowy gabaryt",
         description:
-          "Szerokość 78 cm — fotel mieści się nawet w wąskim kącie salonu lub sypialni.",
+          "Szerokość 78 cm - fotel mieści się nawet w wąskim kącie salonu lub sypialni.",
       },
     ],
     specs: [
       { label: "Wypełnienie", value: "Pianka T25 + sprężyny faliste w siedzisku." },
-      { label: "Tkanina", value: "Welur Soft 18 (piaskowy) — odporność na tarcie 45 000 cykli." },
+      { label: "Tkanina", value: "Welur Soft 18 (piaskowy) - odporność na tarcie 45 000 cykli." },
       { label: "Nóżki", value: "Lite drewno dębowe, olejowane, wysokość 22 cm." },
       { label: "Maksymalne obciążenie", value: "130 kg" },
     ],
@@ -171,7 +171,7 @@ export const productDetailsMap: Record<string, ProductDetails> = {
     faq: [
       {
         question: "Czy fotel nadaje się do codziennego użytkowania?",
-        answer: "Tak — konstrukcja i tkanina zostały zaprojektowane do intensywnego, codziennego użytkowania domowego.",
+        answer: "Tak - konstrukcja i tkanina zostały zaprojektowane do intensywnego, codziennego użytkowania domowego.",
       },
     ],
     disclaimer:
@@ -181,12 +181,12 @@ export const productDetailsMap: Record<string, ProductDetails> = {
   "naroznik-cloud": {
     productCode: "SF-NC-310",
     longDescription:
-      "Narożnik Cloud to modułowa odpowiedź na potrzeby dużych salonów i rodzin, które cenią przestrzeń. Głębokie, miękkie siedziska i puszyste poduszki tworzą strefę wypoczynku klasy premium — jak chmura, która otula po ciężkim dniu.",
+      "Narożnik Cloud to modułowa odpowiedź na potrzeby dużych salonów i rodzin, które cenią przestrzeń. Głębokie, miękkie siedziska i puszyste poduszki tworzą strefę wypoczynku klasy premium - jak chmura, która otula po ciężkim dniu.",
     highlights: [
       {
         title: "Modułowa konstrukcja",
         description:
-          "Sekcje łączy się według potrzeb — możesz rozbudować narożnik o dodatkowy moduł w przyszłości.",
+          "Sekcje łączy się według potrzeb - możesz rozbudować narożnik o dodatkowy moduł w przyszłości.",
       },
       {
         title: "Ultra głębokie siedzisko",
@@ -196,12 +196,12 @@ export const productDetailsMap: Record<string, ProductDetails> = {
       {
         title: "Premium wypełnienie",
         description:
-          "Pianka visco + sprężyny kieszeniowe — dopasowują się do kształtu ciała i redukują punkty nacisku.",
+          "Pianka visco + sprężyny kieszeniowe - dopasowują się do kształtu ciała i redukują punkty nacisku.",
       },
     ],
     specs: [
       { label: "Wypełnienie", value: "Sprężyny kieszeniowe + pianka visco T40 + warstwa memory." },
-      { label: "Tkanina", value: "Boucle Cloud 02 (jasny beż) — 55 000 cykli Martindale." },
+      { label: "Tkanina", value: "Boucle Cloud 02 (jasny beż) - 55 000 cykli Martindale." },
       { label: "Moduły", value: "Narożnik + sofa 3-osobowa + puf (w zestawie)." },
     ],
     dimensions: [
@@ -214,7 +214,7 @@ export const productDetailsMap: Record<string, ProductDetails> = {
     faq: [
       {
         question: "Czy można dokupić dodatkowe moduły?",
-        answer: "Tak — oferujemy rozbudowę o moduł 1-osobowy i puf. Skontaktuj się z doradcą w celu wyceny.",
+        answer: "Tak - oferujemy rozbudowę o moduł 1-osobowy i puf. Skontaktuj się z doradcą w celu wyceny.",
       },
     ],
   },
@@ -222,11 +222,11 @@ export const productDetailsMap: Record<string, ProductDetails> = {
   "sofa-linen": {
     productCode: "SF-SL-200",
     longDescription:
-      "Sofa Linen to klasyka w nowoczesnym wydaniu — trzyosobowa forma, lniana tapicerka w odcieniu naturalnego ecru i niskie drewniane nóżki. Idealna dla wnętrz w stylu japandi, boho i ciepłego minimalizmu.",
+      "Sofa Linen to klasyka w nowoczesnym wydaniu - trzyosobowa forma, lniana tapicerka w odcieniu naturalnego ecru i niskie drewniane nóżki. Idealna dla wnętrz w stylu japandi, boho i ciepłego minimalizmu.",
     highlights: [
       {
         title: "Naturalna tkanina",
-        description: "Mieszanka leniu i bawełny — przewiewna, przyjemna w dotyku i z czasem pięknieje.",
+        description: "Mieszanka leniu i bawełny - przewiewna, przyjemna w dotyku i z czasem pięknieje.",
       },
       {
         title: "Uniwersalny design",
@@ -234,7 +234,7 @@ export const productDetailsMap: Record<string, ProductDetails> = {
       },
     ],
     specs: [
-      { label: "Tkanina", value: "Linen Natural 01 — 70% len, 30% bawełna." },
+      { label: "Tkanina", value: "Linen Natural 01 - 70% len, 30% bawełna." },
       { label: "Wypełnienie", value: "Pianka T30 + włókna silikonowe." },
       { label: "Nóżki", value: "Drewno jesionowe, wys. 12 cm." },
     ],
@@ -247,7 +247,7 @@ export const productDetailsMap: Record<string, ProductDetails> = {
     faq: [
       {
         question: "Czy len jest trudny w pielęgnacji?",
-        answer: "Len wymaga regularnego odkurzania. Poszewki można prać w 30°C. Z czasem pojawiają się naturalne zagniecenia — to cecha materiału.",
+        answer: "Len wymaga regularnego odkurzania. Poszewki można prać w 30°C. Z czasem pojawiają się naturalne zagniecenia - to cecha materiału.",
       },
     ],
   },
@@ -255,19 +255,19 @@ export const productDetailsMap: Record<string, ProductDetails> = {
   "fotel-wing": {
     productCode: "SF-FW-85",
     longDescription:
-      "Fotel Wing to hołd dla designu lat 50. — charakterystyczne uszy oparcia, aksamitna tapicerka w głębokim odcieniu zieleni i smukła sylwetka. Statement piece, który nadaje wnętrzu charakteru i elegancji.",
+      "Fotel Wing to hołd dla designu lat 50. - charakterystyczne uszy oparcia, aksamitna tapicerka w głębokim odcieniu zieleni i smukła sylwetka. Statement piece, który nadaje wnętrzu charakteru i elegancji.",
     highlights: [
       {
         title: "Design mid-century",
-        description: "Ikoniczna forma wingback — ponadczasowa i rozpoznawalna na pierwszy rzut oka.",
+        description: "Ikoniczna forma wingback - ponadczasowa i rozpoznawalna na pierwszy rzut oka.",
       },
       {
         title: "Aksamit premium",
-        description: "Gęsty aksamit o rubowym wykończeniu — miły w dotyku i odporny na ścieranie.",
+        description: "Gęsty aksamit o rubowym wykończeniu - miły w dotyku i odporny na ścieranie.",
       },
     ],
     specs: [
-      { label: "Tkanina", value: "Velvet Royal 33 (butelkowa zieleń) — 40 000 cykli Martindale." },
+      { label: "Tkanina", value: "Velvet Royal 33 (butelkowa zieleń) - 40 000 cykli Martindale." },
       { label: "Wypełnienie", value: "Pianka T30 + sprężyny faliste." },
       { label: "Nóżki", value: "Metal czarny mat, wys. 25 cm." },
     ],
@@ -291,16 +291,16 @@ export const productDetailsMap: Record<string, ProductDetails> = {
     highlights: [
       {
         title: "Organiczna forma",
-        description: "Zaokrąglone boki i oparcie — bezpieczne dla dzieci i wizualnie lekkie.",
+        description: "Zaokrąglone boki i oparcie - bezpieczne dla dzieci i wizualnie lekkie.",
       },
       {
         title: "Tapicerka premium",
-        description: "Tkanina Luna 08 z powłoką Easy Clean — idealna do domów z dziećmi i zwierzętami.",
+        description: "Tkanina Luna 08 z powłoką Easy Clean - idealna do domów z dziećmi i zwierzętami.",
       },
     ],
     specs: [
       { label: "Wypełnienie", value: "Sprężyny Bonell + pianka HR T35." },
-      { label: "Tkanina", value: "Luna 08 (kość słoniowa) — Easy Clean, 48 000 cykli." },
+      { label: "Tkanina", value: "Luna 08 (kość słoniowa) - Easy Clean, 48 000 cykli." },
     ],
     dimensions: [
       { label: "Szerokość", value: "240 cm" },
@@ -311,7 +311,7 @@ export const productDetailsMap: Record<string, ProductDetails> = {
     faq: [
       {
         question: "Czy sofa Aura jest niska?",
-        answer: "Tak — niskie siedzisko (38 cm) to świadomy wybór designerski. Jeśli preferujesz wyższe siedzisko, polecamy poduszki dekoracyjne lub model Milano.",
+        answer: "Tak - niskie siedzisko (38 cm) to świadomy wybór designerski. Jeśli preferujesz wyższe siedzisko, polecamy poduszki dekoracyjne lub model Milano.",
       },
     ],
   },
@@ -319,19 +319,19 @@ export const productDetailsMap: Record<string, ProductDetails> = {
   "kolekcja-terra": {
     productCode: "SF-KT-SET",
     longDescription:
-      "Kolekcja Terra to kompletny zestaw salonowy Wrohaus: sofa trzyosobowa, fotel i stolik kawowy w spójnej estetyce ciepłego minimalizmu. Wszystkie elementy łączy ta sama paleta materiałów — naturalne drewno dębowe i tapicerka lniana w odcieniu piaskowym.",
+      "Kolekcja Terra to kompletny zestaw salonowy Wrohaus: sofa trzyosobowa, fotel i stolik kawowy w spójnej estetyce ciepłego minimalizmu. Wszystkie elementy łączy ta sama paleta materiałów - naturalne drewno dębowe i tapicerka lniana w odcieniu piaskowym.",
     highlights: [
       {
         title: "Spójny design",
-        description: "Każdy element kolekcji projektowany był razem — gwarantuje harmonijny wygląd całego salonu.",
+        description: "Każdy element kolekcji projektowany był razem - gwarantuje harmonijny wygląd całego salonu.",
       },
       {
         title: "Komplet w jednym",
-        description: "Oszczędzasz czas na dobieraniu mebli — zestaw jest gotowy do aranżacji od razu po dostawie.",
+        description: "Oszczędzasz czas na dobieraniu mebli - zestaw jest gotowy do aranżacji od razu po dostawie.",
       },
       {
         title: "Stolik z litego dębu",
-        description: "Stolik kawowy z blatem dębowym i stalową ramą — trwały i ponadczasowy.",
+        description: "Stolik kawowy z blatem dębowym i stalową ramą - trwały i ponadczasowy.",
       },
       {
         title: "Ciepły minimalizm",
@@ -341,19 +341,19 @@ export const productDetailsMap: Record<string, ProductDetails> = {
     ],
     specs: [
       { label: "Zawartość zestawu", value: "Sofa Terra 220 cm + Fotel Terra + Stolik kawowy dąb." },
-      { label: "Tapicerka", value: "Linen Sand 03 — we wszystkich elementach tapicerowanych." },
-      { label: "Stolik — blat", value: "Lite drewno dębowe olejowane, średnica 90 cm." },
+      { label: "Tapicerka", value: "Linen Sand 03 - we wszystkich elementach tapicerowanych." },
+      { label: "Stolik - blat", value: "Lite drewno dębowe olejowane, średnica 90 cm." },
     ],
     dimensions: [
-      { label: "Sofa — szerokość", value: "220 cm" },
-      { label: "Fotel — szerokość", value: "80 cm" },
-      { label: "Stolik — średnica", value: "90 cm" },
-      { label: "Stolik — wysokość", value: "42 cm" },
+      { label: "Sofa - szerokość", value: "220 cm" },
+      { label: "Fotel - szerokość", value: "80 cm" },
+      { label: "Stolik - średnica", value: "90 cm" },
+      { label: "Stolik - wysokość", value: "42 cm" },
     ],
     faq: [
       {
         question: "Czy mogę kupić elementy osobno?",
-        answer: "Tak — każdy element kolekcji Terra dostępny jest indywidualnie. Zestaw jest tańszy o 15% w stosunku do zakupu osobno.",
+        answer: "Tak - każdy element kolekcji Terra dostępny jest indywidualnie. Zestaw jest tańszy o 15% w stosunku do zakupu osobno.",
       },
     ],
   },

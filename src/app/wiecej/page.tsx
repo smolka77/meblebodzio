@@ -7,7 +7,7 @@ import { stronaMeta } from "@/lib/seo";
 export const metadata = stronaMeta({
   title: "Promocje, od ręki, do 7 dni, próbki",
   description:
-    "Wyprzedaże, meble gotowe do wysyłki, meble do 7 dni i próbki tkanin — skróty do zakupów w Wrohaus.",
+    "Wyprzedaże, meble gotowe do wysyłki, meble do 7 dni i próbki tkanin - skróty do zakupów w Wrohaus.",
   path: "/wiecej",
 });
 
@@ -16,7 +16,7 @@ export default function MorePage() {
     <PageShell
       eyebrow="Sklep"
       title="Więcej"
-      description="Promocje, gotowe meble, meble do 7 dni i próbki tkanin — wszystko w jednym miejscu."
+      description="Promocje, gotowe meble, meble do 7 dni i próbki tkanin - wszystko w jednym miejscu."
       path="/wiecej"
     >
       <section className="py-16 sm:py-20">

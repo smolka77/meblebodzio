@@ -119,7 +119,7 @@ export async function saveSmtpConfig(input: {
 
   await fs.mkdir(path.dirname(SMTP_ENV_FILE), { recursive: true, mode: 0o700 });
   const lines = [
-    "# SMTP — potwierdzenia zamówień. Nie commituj.",
+    "# SMTP - potwierdzenia zamówień. Nie commituj.",
     `SMTP_HOST=${host}`,
     `SMTP_PORT=${port}`,
     `SMTP_SECURE=${secure ? "true" : "false"}`,
@@ -182,7 +182,7 @@ async function sendMail(options: {
 
   if (!smtp || !transporter) {
     console.warn(
-      "[poczta] SMTP nie skonfigurowane — mail nie wyszedł",
+      "[poczta] SMTP nie skonfigurowane - mail nie wyszedł",
       options.logId || options.to
     );
     if (process.env.NODE_ENV === "development") {
@@ -213,7 +213,7 @@ function orderLinesText(order: StoreOrder): string {
   return order.items
     .map(
       (item) =>
-        `• ${item.name}${orderLineVariant(item)} × ${item.quantity} — ${formatPrice(item.price * item.quantity)}`
+        `• ${item.name}${orderLineVariant(item)} × ${item.quantity} - ${formatPrice(item.price * item.quantity)}`
     )
     .join("\n");
 }
@@ -221,7 +221,7 @@ function orderLinesText(order: StoreOrder): string {
 function orderLinesHtml(order: StoreOrder): string {
   const items = order.items
     .map((item) => {
-      const label = `${item.name}${orderLineVariant(item)} × ${item.quantity} — ${formatPrice(item.price * item.quantity)}`;
+      const label = `${item.name}${orderLineVariant(item)} × ${item.quantity} - ${formatPrice(item.price * item.quantity)}`;
       return `<li>${escapeHtml(label)}</li>`;
     })
     .join("");
@@ -232,7 +232,7 @@ function deliveryText(order: StoreOrder): string {
   const line = [order.address, [order.postalCode, order.city].filter(Boolean).join(" ")]
     .filter(Boolean)
     .join(", ");
-  return line || "—";
+  return line || "-";
 }
 
 function textVar(value: string): EmailVar {
@@ -250,7 +250,7 @@ function orderEmailVars(order: StoreOrder): Record<string, EmailVar> {
     dostawa: textVar(delivery),
     kwota: textVar(formatPrice(order.total)),
     adres: textVar(deliveryText(order)),
-    telefon: textVar(order.phone?.trim() || "—"),
+    telefon: textVar(order.phone?.trim() || "-"),
     link: {
       text: accountUrl,
       html: `<a href="${escapeHtml(accountUrl)}">${escapeHtml(accountUrl)}</a>`,
@@ -306,7 +306,7 @@ export async function sendAdminNewOrderEmail(
   const text = [
     `Nowe zamówienie ${order.id}`,
     `Klient: ${order.customer} (${order.email})`,
-    `Telefon: ${order.phone ?? "—"}`,
+    `Telefon: ${order.phone ?? "-"}`,
     `Adres: ${order.address ?? ""}, ${order.postalCode ?? ""} ${order.city ?? ""}`,
     `Suma: ${formatPrice(order.total)}`,
   ].join("\n");
@@ -324,7 +324,7 @@ export async function sendTestEmail(to: string): Promise<boolean> {
   if (!to.includes("@")) throw new Error("Podaj adres e-mail do testu.");
   return sendMail({
     to,
-    subject: `${company.brandName} — test poczty`,
+    subject: `${company.brandName} - test poczty`,
     text: `To jest test. Potwierdzenia opłaconych zamówień będą wychodzić z tego konta SMTP.\n\n${company.legalName}`,
     html: `<p>To jest test. Potwierdzenia opłaconych zamówień będą wychodzić z tego konta SMTP.</p><p>${company.legalName}</p>`,
     logId: "test",

@@ -194,7 +194,7 @@ export function AdminMessages() {
           </div>
           {conversations.length === 0 ? (
             <p className="p-6 text-center text-sm text-sand">
-              Brak wiadomości — czat pojawi się, gdy klient napisze ze strony sklepu.
+              Brak wiadomości - czat pojawi się, gdy klient napisze ze strony sklepu.
             </p>
           ) : (
             conversations.map((conv) => {
@@ -222,7 +222,7 @@ export function AdminMessages() {
                     <p className="truncate text-xs text-sand">{conv.visitorEmail}</p>
                   )}
                   <p className="mt-1 truncate text-xs text-sand">
-                    {last ? messagePreview(last) : "—"}
+                    {last ? messagePreview(last) : "-"}
                   </p>
                   <p className="mt-0.5 text-[10px] text-sand/70">
                     {formatChatDate(conv.lastMessageAt)}
@@ -383,7 +383,7 @@ export function AdminMessages() {
               Usunie wszystkie pliki z{" "}
               <code className="text-xs text-charcoal">data/uploads/chat</code>{" "}
               i wyczyści odwołania w rozmowach. Treść wiadomości tekstowych
-              zostanie — znikną tylko załączniki (zdjęcia, PDF itd.).
+              zostanie - znikną tylko załączniki (zdjęcia, PDF itd.).
             </p>
             <label className="mt-5 block text-xs text-sand">
               Wpisz <strong className="text-charcoal">{CLEAR_ATTACHMENTS_PHRASE}</strong>{" "}

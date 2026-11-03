@@ -16,6 +16,7 @@ import {
   productMatchesCornerShape,
 } from "@/lib/nawigacjaSklepu";
 import { getSettings } from "@/lib/serwer/ustawienia";
+import { parseListingPreset } from "@/lib/presetListy";
 import {
   getCategoryPageModel,
   getCustomCategories,
@@ -117,6 +118,7 @@ export default async function CategoryPage({
   const path = ksztalt
     ? `/kategoria/${model.slug}?ksztalt=${ksztalt}`
     : `/kategoria/${model.slug}`;
+  const preset = parseListingPreset(query);
 
   return (
     <>
@@ -131,11 +133,13 @@ export default async function CategoryPage({
       />
       <Header />
       <ShopListing
+        key={JSON.stringify(preset)}
         eyebrow={t("listing.category")}
         title={label}
         description={description}
         products={filtered}
         emptyText={t("listing.emptyCategory", { name: label.toLowerCase() })}
+        preset={preset}
       />
       <ShopFooter />
     </>

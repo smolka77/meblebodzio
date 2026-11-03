@@ -117,7 +117,7 @@ function ProductPreviewDetails({
       </h3>
       {context.productCode?.trim() && (
         <p className="mt-1 truncate text-[10px] font-medium text-charcoal/80">
-          ID produktu — {context.productCode.trim()}
+          ID produktu - {context.productCode.trim()}
         </p>
       )}
 
@@ -331,7 +331,7 @@ export function ProductPageMockPreview({
     price: context.price ?? 0,
   });
   const priceLabel =
-    context.price && context.price > 0 ? formatPrice(context.price) : "— zł";
+    context.price && context.price > 0 ? formatPrice(context.price) : "- zł";
   const colors = context.colors?.filter((color) => color.hex?.trim()) ?? [];
   const displayColors = colors.slice(0, 5);
 
@@ -410,7 +410,7 @@ export function ProductPageMockPreview({
               </div>
             </div>
             <p className="mt-2 text-center text-[10px] font-medium text-charcoal/75">
-              Na telefonie miniatury pod galerią są ukryte — tylko kropki i strzałki.
+              Na telefonie miniatury pod galerią są ukryte - tylko kropki i strzałki.
             </p>
           </div>
         ) : (
@@ -427,7 +427,7 @@ export function ProductPageMockPreview({
 
         {!hasImage && !loading && (
           <p className="mt-3 text-center text-xs font-medium leading-relaxed text-charcoal/80">
-            Uzupełnij nazwę i cenę w formularzu — podgląd od razu pokaże stronę produktu.
+            Uzupełnij nazwę i cenę w formularzu - podgląd od razu pokaże stronę produktu.
           </p>
         )}
       </div>

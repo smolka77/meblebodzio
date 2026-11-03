@@ -1,4 +1,5 @@
 import { products as seedProducts } from "@/lib/dane";
+import { storePolicies } from "@/lib/zasadySklepu";
 import { productDetailsMap } from "@/lib/opisyProduktow";
 import { readStore, writeStore, fileExists } from "./baza";
 import {
@@ -24,11 +25,11 @@ export const DEFAULT_SETTINGS: ShopSettings = {
   contactEmail: company.email,
   phone: "",
   deliveryFee: 249,
-  freeShippingThreshold: 0,
+  freeShippingThreshold: storePolicies.freeShippingFrom,
   bankAccountName: company.legalName,
   bankAccountNumber: "",
   bankName: "",
-  returnsDays: 14,
+  returnsDays: storePolicies.returnsDays,
   notifyNewOrders: true,
   notifyLowStock: true,
   notifyWeeklyReport: false,

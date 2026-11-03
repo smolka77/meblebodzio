@@ -4,7 +4,7 @@ export interface ProductColor {
   hex: string;
   /** Główne zdjęcie mebla w tym kolorze (pierwsze z `images`) */
   image?: string;
-  /** Do 10 zdjęć mebla w tym kolorze — galeria po kliknięciu tkaniny */
+  /** Do 10 zdjęć mebla w tym kolorze - galeria po kliknięciu tkaniny */
   images?: string[];
   /** Tkanina z katalogu admina (`/admin/tkaniny`) */
   fabricId?: string;
@@ -12,7 +12,7 @@ export interface ProductColor {
   fabricImage?: string;
   /** Wideo lub zdjęcie w oknie „Więcej o tkaninie” */
   fabricMedia?: string;
-  /** Logo producenta tkaniny — watermark w podglądzie */
+  /** Logo producenta tkaniny - watermark w podglądzie */
   fabricWatermark?: string;
   /** Nazwa tkaniny, np. „Welur Soft 18” */
   fabricName?: string;
@@ -22,9 +22,9 @@ export interface ProductColor {
   fabricSpecs?: string;
   /** Krótki opis tkaniny i koloru */
   fabricAbout?: string;
-  /** Pielęgnacja — opcjonalnie */
+  /** Pielęgnacja - opcjonalnie */
   fabricCare?: string;
-  /** Dopłata (PLN) za tkaninę lub pokrowiec — z katalogu albo ustawiona przy tym produkcie */
+  /** Dopłata (PLN) za tkaninę lub pokrowiec - z katalogu albo ustawiona przy tym produkcie */
   fabricSurcharge?: number;
 }
 
@@ -47,7 +47,7 @@ export type ProductCategory =
 /** Główne grupy w menu (rozwijane). */
 export type CategoryNavGroupId = "lounge" | "interior" | "bathroom";
 
-/** Podkategoria dodana w panelu — strona jak zwykła /kategoria/[slug]. */
+/** Podkategoria dodana w panelu - strona jak zwykła /kategoria/[slug]. */
 export interface CustomShopCategory {
   id: string;
   slug: string;
@@ -63,10 +63,26 @@ export type ExtraListingId =
   | "meble-do-7-dni"
   | "probki-tkanin";
 
-/** Linia produktowa — Smart, Comfort, Premium. */
+/** Linia produktowa - Smart, Comfort, Premium. */
 export type ProductLine = "smart" | "comfort" | "premium";
 
-/** Nazwana kolekcja mebli (np. Sorela) — foldery w /linie. */
+/** Styl wnętrza - filtr listy i nawigacja „Style”. */
+export type ProductStyle =
+  | "nowoczesny"
+  | "skandynawski"
+  | "loft"
+  | "klasyczny"
+  | "glamour";
+
+/** Pomieszczenie - domyślnie z kategorii, można nadpisać w ogłoszeniu. */
+export type ProductRoom =
+  | "salon"
+  | "sypialnia"
+  | "jadalnia"
+  | "biuro"
+  | "pokoj-dzieciecy";
+
+/** Nazwana kolekcja mebli (np. Sorela) - foldery w /linie. */
 export interface FurnitureLine {
   id: string;
   slug: string;
@@ -95,20 +111,22 @@ export interface ProductDimension {
   value: string;
 }
 
-/** Wariant rozmiaru (materace, łóżka) — dopłata do ceny bazowej. */
+/** Wariant rozmiaru (materace, łóżka) - dopłata do ceny bazowej. */
 export interface ProductSize {
   id: string;
   label: string;
   surcharge: number;
 }
 
-/** Opinia klienta przy ogłoszeniu — dodawana w panelu. */
+/** Opinia klienta przy ogłoszeniu - dodawana w panelu. */
 export interface ProductReview {
   id: string;
   author: string;
   city?: string;
   rating: number;
   text: string;
+  /** Zdjęcia klienta (UGC) - pokazywane pod opinią. */
+  photos?: string[];
 }
 
 export interface ProductFaq {
@@ -116,7 +134,7 @@ export interface ProductFaq {
   answer: string;
 }
 
-/** Szablon karty produktu — grupa mebli z własnym zestawem pól. */
+/** Szablon karty produktu - grupa mebli z własnym zestawem pól. */
 export type ProductTemplateId =
   | "sofa"
   | "naroznik"
@@ -135,6 +153,8 @@ export interface ProductOptionValue {
   label: string;
   /** Dopłata brutto (PLN) doliczana do ceny produktu. */
   surcharge: number;
+  /** Kolor próbki (#rrggbb) - kropka obok nazwy, np. przy nóżkach. */
+  swatch?: string;
 }
 
 /**
@@ -150,7 +170,7 @@ export interface ProductOption {
   afterColor?: boolean;
 }
 
-/** Warstwa materaca — od góry do dołu. */
+/** Warstwa materaca - od góry do dołu. */
 export interface MattressLayer {
   name: string;
   thickness?: string;
@@ -189,9 +209,9 @@ export interface ProductDetails {
   longDescription: string;
   /** Trzy główne wyróżniki (nagłówek + krótki opis + ikona). */
   highlights: ProductHighlight[];
-  /** Najważniejsze cechy / atuty — krótkie nazwy (chipy). */
+  /** Najważniejsze cechy / atuty - krótkie nazwy (chipy). */
   features?: string[];
-  /** Budowa materaca — warstwy od góry do dołu. */
+  /** Budowa materaca - warstwy od góry do dołu. */
   layers?: MattressLayer[];
   specs: ProductSpec[];
   dimensions: ProductDimension[];
@@ -200,7 +220,7 @@ export interface ProductDetails {
   disclaimer?: string;
   /** Czy pokazać notę prawną na stronie produktu. */
   showDisclaimer?: boolean;
-  /** Tło sekcji „O modelu” — zdjęcie za tekstem (fallback: zdjęcie produktu) */
+  /** Tło sekcji „O modelu” - zdjęcie za tekstem (fallback: zdjęcie produktu) */
   storyImage?: string;
   /** Plansza wymiarów łóżka (zdjęcie zamiast tabeli centymetrów). */
   dimensionImage?: string;
@@ -218,11 +238,11 @@ export interface Product {
   /** Cena brutto na stronie sklepu (z VAT 23%). */
   price: number;
   originalPrice?: number;
-  /** Najniższa cena z ostatnich 30 dni (Omnibus) — liczona z historii cen. */
+  /** Najniższa cena z ostatnich 30 dni (Omnibus) - liczona z historii cen. */
   lowestPrice30Days?: number;
-  /** Historia ceny sprzedaży — do automatycznego Omnibus. */
+  /** Historia ceny sprzedaży - do automatycznego Omnibus. */
   priceHistory?: { at: string; price: number }[];
-  /** Cena netto od producenta — do wyliczenia ceny sprzedaży w adminie. */
+  /** Cena netto od producenta - do wyliczenia ceny sprzedaży w adminie. */
   costNet?: number;
   /** Marża % nakładana na netto producenta. */
   marginPercent?: number;
@@ -230,39 +250,45 @@ export interface Product {
   image: string;
   /** Dodatkowe zdjęcia galerii (bez okładki). */
   images?: string[];
-  /** Drugie zdjęcie galerii = aranżacja (hover na karcie). Stare ogłoszenia mogą mieć to pole — składamy je do galerii. */
+  /** Drugie zdjęcie galerii = aranżacja (hover na karcie). Stare ogłoszenia mogą mieć to pole - składamy je do galerii. */
   arrangementImage?: string;
-  /** Proporcje galerii na stronie produktu — domyślnie 5:4. */
+  /** Proporcje galerii na stronie produktu - domyślnie 5:4. */
   aspectRatio?: ProductAspectRatio;
   description: string;
   inStock: boolean;
-  /** Bestseller — sekcja na stronie głównej i oznaczenie na karcie. */
+  /** Bestseller - sekcja na stronie głównej i oznaczenie na karcie. */
   featured?: boolean;
   isNew?: boolean;
-  /** Mebel od ręki — gotowy w magazynie. */
+  /** Mebel od ręki - gotowy w magazynie. */
   readyToShip?: boolean;
-  /** Sztuki na magazynie — tylko przy „od ręki”. */
+  /** Sztuki na magazynie - tylko przy „od ręki”. */
   stockQty?: number;
-  /** Wysyłka 24H — gotowy do wysłania, bez czasu produkcji. */
+  /** Wysyłka 24H - gotowy do wysłania, bez czasu produkcji. */
   shipping24h?: boolean;
-  /** Mebel do 7 dni — krótka produkcja, strona „Meble do 7 dni”. */
+  /** Mebel do 7 dni - krótka produkcja, strona „Meble do 7 dni”. */
   shipsIn7Days?: boolean;
   /** Szablon karty produktu użyty w panelu. */
   templateId?: ProductTemplateId;
   /** Rodzaj w obrębie kategorii, np. „Szafa przesuwna”, „Witryna”. */
   kind?: string;
+  /** Style wnętrz (nowoczesny, skandynawski…) - filtry i doradca. */
+  styles?: ProductStyle[];
+  /** Pomieszczenia - puste = z kategorii. */
+  rooms?: ProductRoom[];
+  /** Główne materiały (Boucle, Welur, Drewno…) - filtr „Materiał”. */
+  materials?: string[];
   /** Termin produkcji, np. „7–10 dni roboczych”. Pusty = polityka sklepu. */
   productionTime?: string;
   /** Ręcznie wpisana przewidywana dostawa, np. „18–22 września”. Pusty = liczona automatycznie. */
   deliveryEstimate?: string;
   /** Koszt dostawy dla tego produktu, np. „od 249 zł”. Pusty = polityka sklepu. */
   deliveryCost?: string;
-  /** Producent mebla — pusty = nie pokazujemy na ogłoszeniu. */
+  /** Producent mebla - pusty = nie pokazujemy na ogłoszeniu. */
   manufacturer?: string;
   /** Hurtownia / feed, z którego wpadł szkic (np. Jarstol). */
   supplier?: "jarstol";
   colors: ProductColor[];
-  /** Rozmiary / szerokości z dopłatą — materace, łóżka, szafy, komody, RTV. */
+  /** Rozmiary / szerokości z dopłatą - materace, łóżka, szafy, komody, RTV. */
   sizes?: ProductSize[];
   /** Warianty zakupowe (strona, drzwi, lustro, LED, materac, pokrowiec). */
   options?: ProductOption[];
@@ -279,11 +305,11 @@ export interface Product {
   rating?: number;
   /** Liczba opinii przy średniej na karcie. */
   reviewCount?: number;
-  /** Szkic — niewidoczny w sklepie, aż opublikujesz z panelu. */
+  /** Szkic - niewidoczny w sklepie, aż opublikujesz z panelu. */
   draft?: boolean;
-  /** Tytuł w Google — pusty = nazwa produktu. */
+  /** Tytuł w Google - pusty = nazwa produktu. */
   seoTitle?: string;
-  /** Opis w Google — pusty = krótki opis + kategoria + cena. */
+  /** Opis w Google - pusty = krótki opis + kategoria + cena. */
   seoDescription?: string;
 }
 
@@ -395,7 +421,7 @@ export interface StoreOrder {
   deliveryMethod?: string;
   invoiceNip?: string;
   paidAt?: string;
-  /** Magazyn już zdjęty po opłaceniu — żeby PayU nie zdjęło dwa razy. */
+  /** Magazyn już zdjęty po opłaceniu - żeby PayU nie zdjęło dwa razy. */
   stockApplied?: boolean;
   /** Magazyn zwrócony po anulowaniu opłaconego zamówienia. */
   stockRestored?: boolean;
@@ -418,7 +444,7 @@ export interface Coupon {
   createdAt: string;
 }
 
-/** Imienna promocja na stronie /promocje — produkty wybierasz z listy. */
+/** Imienna promocja na stronie /promocje - produkty wybierasz z listy. */
 export interface ShopPromotion {
   id: string;
   slug: string;
@@ -462,7 +488,7 @@ export interface ShopSettings {
   notifyNewOrders: boolean;
   notifyLowStock: boolean;
   notifyWeeklyReport: boolean;
-  /** @deprecated Użyj socialLinks — synchronizowane przy zapisie */
+  /** @deprecated Użyj socialLinks - synchronizowane przy zapisie */
   instagramUrl?: string;
   socialLinks?: SocialLink[];
   adminEmail: string;
@@ -475,15 +501,15 @@ export interface ShopSettings {
    * Brak w starych ustawieniach = domyślna lista z oferty.
    */
   visibleProductCategories?: ProductCategory[];
-  /** Tytuł strony głównej w Google — pusty = domyślny z kodu. */
+  /** Tytuł strony głównej w Google - pusty = domyślny z kodu. */
   seoTitle?: string;
-  /** Opis strony głównej w Google — pusty = domyślny z kodu. */
+  /** Opis strony głównej w Google - pusty = domyślny z kodu. */
   seoDescription?: string;
-  /** Słowa kluczowe (po przecinku) — puste = domyślne z kodu. */
+  /** Słowa kluczowe (po przecinku) - puste = domyślne z kodu. */
   seoKeywords?: string;
-  /** Opisy stron kategorii — pusty wpis = domyślny tekst sklepu. */
+  /** Opisy stron kategorii - pusty wpis = domyślny tekst sklepu. */
   categoryDescriptions?: Partial<Record<ProductCategory, string>>;
-  /** Opisy stron Promocje, Meble od ręki, Meble do 7 dni i Próbki tkanin — pusty wpis = domyślny tekst. */
+  /** Opisy stron Promocje, Meble od ręki, Meble do 7 dni i Próbki tkanin - pusty wpis = domyślny tekst. */
   listingDescriptions?: Partial<Record<ExtraListingId, string>>;
 }
 
@@ -516,9 +542,9 @@ export interface BlogPost {
   image: string;
   featured?: boolean;
   content: string[];
-  /** Tytuł w Google — pusty = tytuł artykułu. */
+  /** Tytuł w Google - pusty = tytuł artykułu. */
   seoTitle?: string;
-  /** Opis w Google — pusty = zajawka. */
+  /** Opis w Google - pusty = zajawka. */
   seoDescription?: string;
 }
 
@@ -545,13 +571,13 @@ export interface Fabric {
    * pokrowiec / plyta = tylko do ogłoszeń, bez katalogu próbek.
    */
   role?: FabricRole;
-  /** Gama odcieni — na stronie próbek i przy przypinaniu do produktu. */
+  /** Gama odcieni - na stronie próbek i przy przypinaniu do produktu. */
   colors?: FabricShade[];
   /** Zdjęcie tkaniny (kafelek koloru). Puste, gdy podgląd to wyłącznie wideo. */
   image: string;
-  /** Wideo tkaniny (MP4 / WebM) — konfigurator tapicerki. Alternatywa dla zdjęcia. */
+  /** Wideo tkaniny (MP4 / WebM) - konfigurator tapicerki. Alternatywa dla zdjęcia. */
   video?: string;
-  /** Logo / watermark producenta (PNG z przezroczystością) — prawy dolny róg podglądu */
+  /** Logo / watermark producenta (PNG z przezroczystością) - prawy dolny róg podglądu */
   watermark?: string;
   /** Opcjonalna dopłata (PLN) doliczana do ceny produktu po wyborze tkaniny */
   surcharge?: number;

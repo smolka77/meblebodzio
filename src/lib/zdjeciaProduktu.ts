@@ -48,7 +48,7 @@ function isFabricSwatch(src: string, color: ProductColor): boolean {
   return Boolean(swatch && src === swatch);
 }
 
-/** Zdjęcia mebla w danym kolorze (max COLOR_PHOTO_LIMIT) — nigdy próbka tkaniny. */
+/** Zdjęcia mebla w danym kolorze (max COLOR_PHOTO_LIMIT) - nigdy próbka tkaniny. */
 export function productPhotosForColor(color: ProductColor): string[] {
   const unique: string[] = [];
   const seen = new Set<string>();
@@ -62,7 +62,7 @@ export function productPhotosForColor(color: ProductColor): string[] {
   return unique;
 }
 
-/** Pierwsze zdjęcie mebla w kolorze — do koszyka i kafelka. */
+/** Pierwsze zdjęcie mebla w kolorze - do koszyka i kafelka. */
 export function productPhotoForColor(color: ProductColor): string | undefined {
   return productPhotosForColor(color)[0];
 }
@@ -113,7 +113,7 @@ export function galleryPhotoAlt(name: string, index: number, color?: string): st
   const view = PHOTO_VIEWS[index] ?? `zdjęcie ${index + 1}`;
   const label = collapseRepeatedProductName(name) || "Produkt";
   const who = color?.trim() ? `${label} w kolorze ${color.trim()}` : label;
-  return `${who} — ${view}`;
+  return `${who} - ${view}`;
 }
 
 export type ProductGallerySlide = {
@@ -162,7 +162,7 @@ export function getProductImageUrls(
   return image ? [image, ...images] : images;
 }
 
-/** Drugie zdjęcie ogłoszenia — hover na karcie. */
+/** Drugie zdjęcie ogłoszenia - hover na karcie. */
 export function arrangementPhotoUrl(
   product: Pick<Product, "image" | "images" | "arrangementImage">
 ): string | undefined {
@@ -179,7 +179,7 @@ function colorFurniturePhotoUrls(product: Product): Set<string> {
   return urls;
 }
 
-/** Zdjęcia poglądowe ogłoszenia — bez kadrów mebla w konkretnej tkaninie. */
+/** Zdjęcia poglądowe ogłoszenia - bez kadrów mebla w konkretnej tkaninie. */
 export function overviewPhotoUrls(product: Product): string[] {
   const all = getProductImageUrls(product);
   if (all.length === 0) return [];
@@ -241,7 +241,7 @@ export function getProductGallerySlides(
         src,
         undefined,
         index === 1
-          ? `${collapseRepeatedProductName(product.name)} — aranżacja`
+          ? `${collapseRepeatedProductName(product.name)} - aranżacja`
           : galleryPhotoAlt(product.name, index)
       );
     });

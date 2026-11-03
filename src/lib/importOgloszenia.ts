@@ -408,7 +408,7 @@ export function listingToProductSeed(raw: unknown): ImportResult {
 
   const warnings: string[] = [];
   if (Array.isArray(raw) && raw.length > 1) {
-    warnings.push(`W pliku jest ${raw.length} ogłoszeń — wgrano pierwsze. Resztę zaimportuj osobno.`);
+    warnings.push(`W pliku jest ${raw.length} ogłoszeń - wgrano pierwsze. Resztę zaimportuj osobno.`);
   }
 
   const templateId = guessTemplateId(record);
@@ -520,8 +520,8 @@ export function listingToProductSeed(raw: unknown): ImportResult {
     draft: true,
   };
 
-  if (!seed.name) warnings.push("Brak nazwy — dopisz ją w formularzu.");
-  if (!seed.price) warnings.push("Brak ceny — wpisz cenę brutto przed publikacją.");
+  if (!seed.name) warnings.push("Brak nazwy - dopisz ją w formularzu.");
+  if (!seed.price) warnings.push("Brak ceny - wpisz cenę brutto przed publikacją.");
 
   return { seed, warnings };
 }
@@ -610,7 +610,7 @@ export function buildAiImportPrompt(templateId?: ProductTemplateId): string {
     ? [
         `Wymiary (etykiety zostaw 1:1): ${template.dimensions.map((item) => item.label).join(", ")}.`,
         `Specyfikacja (etykiety zostaw 1:1): ${template.specs.map((item) => item.label).join(", ")}.`,
-        `Atuty — wybierz tylko z tej listy, jeśli dotyczą modelu: ${templateFeatureList(template).join(", ")}.`,
+        `Atuty - wybierz tylko z tej listy, jeśli dotyczą modelu: ${templateFeatureList(template).join(", ")}.`,
         template.kinds.length ? `Rodzaj: jeden z: ${template.kinds.join(", ")}.` : "",
       ]
         .filter(Boolean)

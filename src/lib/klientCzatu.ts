@@ -37,7 +37,7 @@ export function formatChatDate(iso: string): string {
 export function messagePreview(msg: ChatMessage): string {
   if (msg.text.trim()) return msg.text.trim();
   if (msg.attachment) return `📎 ${msg.attachment.name}`;
-  return "—";
+  return "-";
 }
 
 export async function uploadChatFile(file: File): Promise<ChatAttachment> {

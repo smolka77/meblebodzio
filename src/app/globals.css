@@ -16,7 +16,7 @@
   --color-line-premium-soft: #f6f0e3;
   --background: var(--color-cream);
   --foreground: var(--color-charcoal);
-  --site-header-height: 11rem;
+  --site-header-height: 11.75rem;
 }
 
 @media (min-width: 1024px) {
@@ -95,14 +95,14 @@ body {
   padding-bottom: env(safe-area-inset-bottom, 0px);
 }
 
-/* Menu mobilne — chwilowo ukryj pływak czatu (tylko telefon) */
+/* Menu mobilne - chwilowo ukryj pływak czatu (tylko telefon) */
 @media (max-width: 1023px) {
   body.mobile-menu-open [data-chat-fab] {
     display: none;
   }
 }
 
-/* Czat — ukryj przy najechaniu na stopkę (desktop / touch z hover) */
+/* Czat - ukryj przy najechaniu na stopkę (desktop / touch z hover) */
 @media (hover: hover) {
   body:has(#site-footer:hover) [data-chat-fab] {
     pointer-events: none;
@@ -111,7 +111,7 @@ body {
   }
 }
 
-/* Stopka — safe area + stały odstęp (safe-bottom nie może być razem z pb-* na tym samym elemencie) */
+/* Stopka - safe area + stały odstęp (safe-bottom nie może być razem z pb-* na tym samym elemencie) */
 .site-footer-inner {
   padding-bottom: max(1.75rem, calc(env(safe-area-inset-bottom, 0px) + 1rem));
 }
@@ -160,7 +160,7 @@ body {
   margin-right: auto;
 }
 
-/* Consistent section rhythm — tighter on mobile */
+/* Consistent section rhythm - tighter on mobile */
 .section-y {
   padding-top: 4rem;
   padding-bottom: 4rem;
@@ -549,4 +549,27 @@ body {
 @media (prefers-reduced-motion: reduce) {
   .marquee-track { animation: none; }
   .marquee { overflow-x: auto; }
+}
+
+@keyframes hotspot-pulse {
+  0% { transform: scale(0.9); opacity: 0.55; }
+  70%, 100% { transform: scale(2.1); opacity: 0; }
+}
+.hotspot-pulse::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 9999px;
+  background: rgb(255 255 255 / 0.85);
+  animation: hotspot-pulse 2.2s ease-out infinite;
+}
+@media (prefers-reduced-motion: reduce) {
+  .hotspot-pulse::before { animation: none; opacity: 0; }
+}
+
+/* Przypięty pasek zakupu na karcie produktu (telefon) zastępuje pływak czatu */
+@media (max-width: 1023px) {
+  body.has-sticky-cta [data-chat-fab] {
+    display: none;
+  }
 }

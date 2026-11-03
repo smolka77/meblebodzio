@@ -52,15 +52,15 @@
       "specs": [
         {
           "label": "Wypełnienie siedziska",
-          "value": "Pianka HR T30 + warstwa włókien silikonowych — miękki, ale sprężysty komfort."
+          "value": "Pianka HR T30 + warstwa włókien silikonowych - miękki, ale sprężysty komfort."
         },
         {
           "label": "Tkanina",
-          "value": "Boucle Luna 12 (ecru) — 100% poliester, odporność na tarcie 50 000 cykli Martindale."
+          "value": "Boucle Luna 12 (ecru) - 100% poliester, odporność na tarcie 50 000 cykli Martindale."
         },
         {
           "label": "Nóżki",
-          "value": "Drewno dębowe, wysokość 15 cm — regulacja stabilizująca w zestawie."
+          "value": "Drewno dębowe, wysokość 15 cm - regulacja stabilizująca w zestawie."
         },
         {
           "label": "Poduszki",
@@ -105,6 +105,39 @@
     "reviewCount": 52,
     "images": [
       "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=1400&q=80"
+    ],
+    "styles": [
+      "glamour",
+      "klasyczny"
+    ],
+    "materials": [
+      "Welur"
+    ],
+    "options": [
+      {
+        "id": "nozki",
+        "name": "Nóżki",
+        "values": [
+          {
+            "id": "dab",
+            "label": "Dąb olejowany",
+            "surcharge": 0,
+            "swatch": "#B98B5A"
+          },
+          {
+            "id": "czarny",
+            "label": "Czarny mat",
+            "surcharge": 0,
+            "swatch": "#1F1F1F"
+          },
+          {
+            "id": "mosiadz",
+            "label": "Mosiądz szczotkowany",
+            "surcharge": 249,
+            "swatch": "#B79A5B"
+          }
+        ]
+      }
     ]
   },
   {
@@ -143,7 +176,7 @@
     ],
     "details": {
       "productCode": "SF-NO-238",
-      "longDescription": "Zorganizuj stylową i przytulną strefę relaksu w salonie z narożnikiem Oslo. To przestronne rozwiązanie łączące organiczny, zaokrąglony design Wrohaus z maksymalną funkcjonalnością na co dzień. System rozkładania i pojemnik na pościel sprawiają, że Oslo to idealny wybór dla osób, które cenią komfort wypoczynku i praktyczne rozwiązania — bez rezygnacji z eleganckiej estetyki wnętrza.",
+      "longDescription": "Zorganizuj stylową i przytulną strefę relaksu w salonie z narożnikiem Oslo. To przestronne rozwiązanie łączące organiczny, zaokrąglony design Wrohaus z maksymalną funkcjonalnością na co dzień. System rozkładania i pojemnik na pościel sprawiają, że Oslo to idealny wybór dla osób, które cenią komfort wypoczynku i praktyczne rozwiązania - bez rezygnacji z eleganckiej estetyki wnętrza.",
       "highlights": [
         {
           "title": "Funkcja spania i pojemnik",
@@ -151,7 +184,7 @@
         },
         {
           "title": "Welur Easy Clean",
-          "description": "Łatwoczyszcząca tkanina welurowa ułatwia utrzymanie jasnego odcienia w czystości — wystarczy odrobina wody i miękka ściereczka."
+          "description": "Łatwoczyszcząca tkanina welurowa ułatwia utrzymanie jasnego odcienia w czystości - wystarczy odrobina wody i miękka ściereczka."
         },
         {
           "title": "Ergonomiczne siedzisko",
@@ -165,19 +198,19 @@
       "specs": [
         {
           "label": "Wypełnienie siedziska",
-          "value": "Sprężyny Bonell i pianka T30 — trwałość, brak odkształceń i wygodne podparcie kręgosłupa."
+          "value": "Sprężyny Bonell i pianka T30 - trwałość, brak odkształceń i wygodne podparcie kręgosłupa."
         },
         {
           "label": "Kształt i układ",
-          "value": "L-kształtny, wariant lewostronny — dopasuj mebel do geometrii pomieszczenia."
+          "value": "L-kształtny, wariant lewostronny - dopasuj mebel do geometrii pomieszczenia."
         },
         {
           "label": "System rozkładania",
-          "value": "Automat DL — intuicyjne rozkładanie bez ryzyka zarysowania podłogi."
+          "value": "Automat DL - intuicyjne rozkładanie bez ryzyka zarysowania podłogi."
         },
         {
           "label": "Tkanina",
-          "value": "Castel 04 (kremowy) — miękki welur o wysokiej odporności na tarcie i mechacenie. Technologia Easy Clean."
+          "value": "Castel 04 (kremowy) - miękki welur o wysokiej odporności na tarcie i mechacenie. Technologia Easy Clean."
         },
         {
           "label": "Konstrukcja",
@@ -225,7 +258,7 @@
         },
         {
           "question": "Czy ten model nadaje się do codziennego spania?",
-          "answer": "Tak — mechanizm DL i materac piankowy T30 zostały zaprojektowane do regularnego użytkowania jako łóżko gościnne lub codzienne."
+          "answer": "Tak - mechanizm DL i materac piankowy T30 zostały zaprojektowane do regularnego użytkowania jako łóżko gościnne lub codzienne."
         }
       ],
       "disclaimer": "Wymiary mogą nieznacznie różnić się w zależności od ułożenia tkaniny. Kolory na zdjęciach poglądowych mogą delikatnie odbiegać od rzeczywistych ze względu na ustawienia ekranu."
@@ -234,6 +267,12 @@
     "reviewCount": 29,
     "images": [
       "https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?w=1400&q=80"
+    ],
+    "styles": [
+      "skandynawski"
+    ],
+    "materials": [
+      "Tkanina"
     ]
   },
   {
@@ -282,7 +321,7 @@
         },
         {
           "title": "Kompaktowy gabaryt",
-          "description": "Szerokość 78 cm — fotel mieści się nawet w wąskim kącie salonu lub sypialni."
+          "description": "Szerokość 78 cm - fotel mieści się nawet w wąskim kącie salonu lub sypialni."
         }
       ],
       "specs": [
@@ -292,7 +331,7 @@
         },
         {
           "label": "Tkanina",
-          "value": "Welur Soft 18 (piaskowy) — odporność na tarcie 45 000 cykli."
+          "value": "Welur Soft 18 (piaskowy) - odporność na tarcie 45 000 cykli."
         },
         {
           "label": "Nóżki",
@@ -324,7 +363,7 @@
       "faq": [
         {
           "question": "Czy fotel nadaje się do codziennego użytkowania?",
-          "answer": "Tak — konstrukcja i tkanina zostały zaprojektowane do intensywnego, codziennego użytkowania domowego."
+          "answer": "Tak - konstrukcja i tkanina zostały zaprojektowane do intensywnego, codziennego użytkowania domowego."
         }
       ],
       "disclaimer": "Kolory na zdjęciach poglądowych mogą delikatnie odbiegać od rzeczywistych."
@@ -333,6 +372,38 @@
     "reviewCount": 10,
     "images": [
       "https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?w=1400&q=80"
+    ],
+    "styles": [
+      "skandynawski"
+    ],
+    "materials": [
+      "Welur"
+    ],
+    "options": [
+      {
+        "id": "nozki",
+        "name": "Nóżki",
+        "values": [
+          {
+            "id": "dab",
+            "label": "Dąb olejowany",
+            "surcharge": 0,
+            "swatch": "#B98B5A"
+          },
+          {
+            "id": "czarny",
+            "label": "Czarny mat",
+            "surcharge": 0,
+            "swatch": "#1F1F1F"
+          },
+          {
+            "id": "mosiadz",
+            "label": "Mosiądz szczotkowany",
+            "surcharge": 249,
+            "swatch": "#B79A5B"
+          }
+        ]
+      }
     ]
   },
   {
@@ -363,11 +434,11 @@
     ],
     "details": {
       "productCode": "SF-SL-200",
-      "longDescription": "Sofa Linen to klasyka w nowoczesnym wydaniu — trzyosobowa forma, lniana tapicerka w odcieniu naturalnego ecru i niskie drewniane nóżki. Idealna dla wnętrz w stylu japandi, boho i ciepłego minimalizmu.",
+      "longDescription": "Sofa Linen to klasyka w nowoczesnym wydaniu - trzyosobowa forma, lniana tapicerka w odcieniu naturalnego ecru i niskie drewniane nóżki. Idealna dla wnętrz w stylu japandi, boho i ciepłego minimalizmu.",
       "highlights": [
         {
           "title": "Naturalna tkanina",
-          "description": "Mieszanka leniu i bawełny — przewiewna, przyjemna w dotyku i z czasem pięknieje."
+          "description": "Mieszanka leniu i bawełny - przewiewna, przyjemna w dotyku i z czasem pięknieje."
         },
         {
           "title": "Uniwersalny design",
@@ -377,7 +448,7 @@
       "specs": [
         {
           "label": "Tkanina",
-          "value": "Linen Natural 01 — 70% len, 30% bawełna."
+          "value": "Linen Natural 01 - 70% len, 30% bawełna."
         },
         {
           "label": "Wypełnienie",
@@ -409,7 +480,7 @@
       "faq": [
         {
           "question": "Czy len jest trudny w pielęgnacji?",
-          "answer": "Len wymaga regularnego odkurzania. Poszewki można prać w 30°C. Z czasem pojawiają się naturalne zagniecenia — to cecha materiału."
+          "answer": "Len wymaga regularnego odkurzania. Poszewki można prać w 30°C. Z czasem pojawiają się naturalne zagniecenia - to cecha materiału."
         }
       ]
     },
@@ -417,6 +488,38 @@
     "reviewCount": 75,
     "images": [
       "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?w=1400&q=80"
+    ],
+    "styles": [
+      "skandynawski"
+    ],
+    "materials": [
+      "Len"
+    ],
+    "options": [
+      {
+        "id": "nozki",
+        "name": "Nóżki",
+        "values": [
+          {
+            "id": "dab",
+            "label": "Dąb olejowany",
+            "surcharge": 0,
+            "swatch": "#B98B5A"
+          },
+          {
+            "id": "czarny",
+            "label": "Czarny mat",
+            "surcharge": 0,
+            "swatch": "#1F1F1F"
+          },
+          {
+            "id": "mosiadz",
+            "label": "Mosiądz szczotkowany",
+            "surcharge": 249,
+            "swatch": "#B79A5B"
+          }
+        ]
+      }
     ]
   },
   {
@@ -454,11 +557,11 @@
     ],
     "details": {
       "productCode": "SF-NC-310",
-      "longDescription": "Narożnik Cloud to modułowa odpowiedź na potrzeby dużych salonów i rodzin, które cenią przestrzeń. Głębokie, miękkie siedziska i puszyste poduszki tworzą strefę wypoczynku klasy premium — jak chmura, która otula po ciężkim dniu.",
+      "longDescription": "Narożnik Cloud to modułowa odpowiedź na potrzeby dużych salonów i rodzin, które cenią przestrzeń. Głębokie, miękkie siedziska i puszyste poduszki tworzą strefę wypoczynku klasy premium - jak chmura, która otula po ciężkim dniu.",
       "highlights": [
         {
           "title": "Modułowa konstrukcja",
-          "description": "Sekcje łączy się według potrzeb — możesz rozbudować narożnik o dodatkowy moduł w przyszłości."
+          "description": "Sekcje łączy się według potrzeb - możesz rozbudować narożnik o dodatkowy moduł w przyszłości."
         },
         {
           "title": "Ultra głębokie siedzisko",
@@ -466,7 +569,7 @@
         },
         {
           "title": "Premium wypełnienie",
-          "description": "Pianka visco + sprężyny kieszeniowe — dopasowują się do kształtu ciała i redukują punkty nacisku."
+          "description": "Pianka visco + sprężyny kieszeniowe - dopasowują się do kształtu ciała i redukują punkty nacisku."
         }
       ],
       "specs": [
@@ -476,7 +579,7 @@
         },
         {
           "label": "Tkanina",
-          "value": "Boucle Cloud 02 (jasny beż) — 55 000 cykli Martindale."
+          "value": "Boucle Cloud 02 (jasny beż) - 55 000 cykli Martindale."
         },
         {
           "label": "Moduły",
@@ -508,7 +611,7 @@
       "faq": [
         {
           "question": "Czy można dokupić dodatkowe moduły?",
-          "answer": "Tak — oferujemy rozbudowę o moduł 1-osobowy i puf. Skontaktuj się z doradcą w celu wyceny."
+          "answer": "Tak - oferujemy rozbudowę o moduł 1-osobowy i puf. Skontaktuj się z doradcą w celu wyceny."
         }
       ]
     },
@@ -516,6 +619,13 @@
     "reviewCount": 56,
     "images": [
       "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=1400&q=80"
+    ],
+    "styles": [
+      "skandynawski",
+      "nowoczesny"
+    ],
+    "materials": [
+      "Boucle"
     ]
   },
   {
@@ -551,21 +661,21 @@
     ],
     "details": {
       "productCode": "SF-FW-85",
-      "longDescription": "Fotel Wing to hołd dla designu lat 50. — charakterystyczne uszy oparcia, aksamitna tapicerka w głębokim odcieniu zieleni i smukła sylwetka. Statement piece, który nadaje wnętrzu charakteru i elegancji.",
+      "longDescription": "Fotel Wing to hołd dla designu lat 50. - charakterystyczne uszy oparcia, aksamitna tapicerka w głębokim odcieniu zieleni i smukła sylwetka. Statement piece, który nadaje wnętrzu charakteru i elegancji.",
       "highlights": [
         {
           "title": "Design mid-century",
-          "description": "Ikoniczna forma wingback — ponadczasowa i rozpoznawalna na pierwszy rzut oka."
+          "description": "Ikoniczna forma wingback - ponadczasowa i rozpoznawalna na pierwszy rzut oka."
         },
         {
           "title": "Aksamit premium",
-          "description": "Gęsty aksamit o rubowym wykończeniu — miły w dotyku i odporny na ścieranie."
+          "description": "Gęsty aksamit o rubowym wykończeniu - miły w dotyku i odporny na ścieranie."
         }
       ],
       "specs": [
         {
           "label": "Tkanina",
-          "value": "Velvet Royal 33 (butelkowa zieleń) — 40 000 cykli Martindale."
+          "value": "Velvet Royal 33 (butelkowa zieleń) - 40 000 cykli Martindale."
         },
         {
           "label": "Wypełnienie",
@@ -601,6 +711,39 @@
     "reviewCount": 33,
     "images": [
       "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=1400&q=80"
+    ],
+    "styles": [
+      "klasyczny",
+      "glamour"
+    ],
+    "materials": [
+      "Welur"
+    ],
+    "options": [
+      {
+        "id": "nozki",
+        "name": "Nóżki",
+        "values": [
+          {
+            "id": "czarny",
+            "label": "Czarny mat",
+            "surcharge": 0,
+            "swatch": "#1F1F1F"
+          },
+          {
+            "id": "dab",
+            "label": "Dąb olejowany",
+            "surcharge": 0,
+            "swatch": "#B98B5A"
+          },
+          {
+            "id": "mosiadz",
+            "label": "Mosiądz szczotkowany",
+            "surcharge": 249,
+            "swatch": "#B79A5B"
+          }
+        ]
+      }
     ]
   },
   {
@@ -641,11 +784,11 @@
       "highlights": [
         {
           "title": "Organiczna forma",
-          "description": "Zaokrąglone boki i oparcie — bezpieczne dla dzieci i wizualnie lekkie."
+          "description": "Zaokrąglone boki i oparcie - bezpieczne dla dzieci i wizualnie lekkie."
         },
         {
           "title": "Tapicerka premium",
-          "description": "Tkanina Luna 08 z powłoką Easy Clean — idealna do domów z dziećmi i zwierzętami."
+          "description": "Tkanina Luna 08 z powłoką Easy Clean - idealna do domów z dziećmi i zwierzętami."
         }
       ],
       "specs": [
@@ -655,7 +798,7 @@
         },
         {
           "label": "Tkanina",
-          "value": "Luna 08 (kość słoniowa) — Easy Clean, 48 000 cykli."
+          "value": "Luna 08 (kość słoniowa) - Easy Clean, 48 000 cykli."
         }
       ],
       "dimensions": [
@@ -679,7 +822,7 @@
       "faq": [
         {
           "question": "Czy sofa Aura jest niska?",
-          "answer": "Tak — niskie siedzisko (38 cm) to świadomy wybór designerski. Jeśli preferujesz wyższe siedzisko, polecamy poduszki dekoracyjne lub model Milano."
+          "answer": "Tak - niskie siedzisko (38 cm) to świadomy wybór designerski. Jeśli preferujesz wyższe siedzisko, polecamy poduszki dekoracyjne lub model Milano."
         }
       ]
     },
@@ -687,6 +830,39 @@
     "reviewCount": 14,
     "images": [
       "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=1400&q=80"
+    ],
+    "styles": [
+      "skandynawski",
+      "nowoczesny"
+    ],
+    "materials": [
+      "Boucle"
+    ],
+    "options": [
+      {
+        "id": "nozki",
+        "name": "Nóżki",
+        "values": [
+          {
+            "id": "dab",
+            "label": "Dąb olejowany",
+            "surcharge": 0,
+            "swatch": "#B98B5A"
+          },
+          {
+            "id": "czarny",
+            "label": "Czarny mat",
+            "surcharge": 0,
+            "swatch": "#1F1F1F"
+          },
+          {
+            "id": "mosiadz",
+            "label": "Mosiądz szczotkowany",
+            "surcharge": 249,
+            "swatch": "#B79A5B"
+          }
+        ]
+      }
     ]
   },
   {
@@ -718,19 +894,19 @@
     ],
     "details": {
       "productCode": "SF-KT-SET",
-      "longDescription": "Kolekcja Terra to kompletny zestaw salonowy Wrohaus: sofa trzyosobowa, fotel i stolik kawowy w spójnej estetyce ciepłego minimalizmu. Wszystkie elementy łączy ta sama paleta materiałów — naturalne drewno dębowe i tapicerka lniana w odcieniu piaskowym.",
+      "longDescription": "Kolekcja Terra to kompletny zestaw salonowy Wrohaus: sofa trzyosobowa, fotel i stolik kawowy w spójnej estetyce ciepłego minimalizmu. Wszystkie elementy łączy ta sama paleta materiałów - naturalne drewno dębowe i tapicerka lniana w odcieniu piaskowym.",
       "highlights": [
         {
           "title": "Spójny design",
-          "description": "Każdy element kolekcji projektowany był razem — gwarantuje harmonijny wygląd całego salonu."
+          "description": "Każdy element kolekcji projektowany był razem - gwarantuje harmonijny wygląd całego salonu."
         },
         {
           "title": "Komplet w jednym",
-          "description": "Oszczędzasz czas na dobieraniu mebli — zestaw jest gotowy do aranżacji od razu po dostawie."
+          "description": "Oszczędzasz czas na dobieraniu mebli - zestaw jest gotowy do aranżacji od razu po dostawie."
         },
         {
           "title": "Stolik z litego dębu",
-          "description": "Stolik kawowy z blatem dębowym i stalową ramą — trwały i ponadczasowy."
+          "description": "Stolik kawowy z blatem dębowym i stalową ramą - trwały i ponadczasowy."
         },
         {
           "title": "Ciepły minimalizm",
@@ -744,35 +920,35 @@
         },
         {
           "label": "Tapicerka",
-          "value": "Linen Sand 03 — we wszystkich elementach tapicerowanych."
+          "value": "Linen Sand 03 - we wszystkich elementach tapicerowanych."
         },
         {
-          "label": "Stolik — blat",
+          "label": "Stolik - blat",
           "value": "Lite drewno dębowe olejowane, średnica 90 cm."
         }
       ],
       "dimensions": [
         {
-          "label": "Sofa — szerokość",
+          "label": "Sofa - szerokość",
           "value": "220 cm"
         },
         {
-          "label": "Fotel — szerokość",
+          "label": "Fotel - szerokość",
           "value": "80 cm"
         },
         {
-          "label": "Stolik — średnica",
+          "label": "Stolik - średnica",
           "value": "90 cm"
         },
         {
-          "label": "Stolik — wysokość",
+          "label": "Stolik - wysokość",
           "value": "42 cm"
         }
       ],
       "faq": [
         {
           "question": "Czy mogę kupić elementy osobno?",
-          "answer": "Tak — każdy element kolekcji Terra dostępny jest indywidualnie. Zestaw jest tańszy o 15% w stosunku do zakupu osobno."
+          "answer": "Tak - każdy element kolekcji Terra dostępny jest indywidualnie. Zestaw jest tańszy o 15% w stosunku do zakupu osobno."
         }
       ]
     },
@@ -780,6 +956,13 @@
     "reviewCount": 63,
     "images": [
       "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=1400&q=80"
+    ],
+    "styles": [
+      "skandynawski"
+    ],
+    "materials": [
+      "Len",
+      "Drewno"
     ]
   },
   {
@@ -819,6 +1002,66 @@
     "reviewCount": 44,
     "images": [
       "https://images.unsplash.com/photo-1484101403633-562f891dc89a?w=1400&q=80"
+    ],
+    "styles": [
+      "klasyczny",
+      "skandynawski"
+    ],
+    "materials": [
+      "Tkanina"
+    ],
+    "details": {
+      "longDescription": "",
+      "highlights": [],
+      "specs": [],
+      "dimensions": [
+        {
+          "label": "Szerokość",
+          "value": "215 cm"
+        },
+        {
+          "label": "Wysokość",
+          "value": "86 cm"
+        },
+        {
+          "label": "Głębokość",
+          "value": "92 cm"
+        },
+        {
+          "label": "Wysokość siedziska",
+          "value": "44 cm"
+        }
+      ],
+      "faq": [],
+      "productCode": ""
+    },
+    "stockQty": 12,
+    "shipping24h": true,
+    "options": [
+      {
+        "id": "nozki",
+        "name": "Nóżki",
+        "values": [
+          {
+            "id": "dab",
+            "label": "Dąb olejowany",
+            "surcharge": 0,
+            "swatch": "#B98B5A"
+          },
+          {
+            "id": "czarny",
+            "label": "Czarny mat",
+            "surcharge": 0,
+            "swatch": "#1F1F1F"
+          },
+          {
+            "id": "mosiadz",
+            "label": "Mosiądz szczotkowany",
+            "surcharge": 249,
+            "swatch": "#B79A5B"
+          }
+        ]
+      }
     ]
   },
   {
@@ -857,6 +1100,63 @@
     "reviewCount": 60,
     "images": [
       "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1400&q=80"
+    ],
+    "styles": [
+      "nowoczesny"
+    ],
+    "materials": [
+      "Tkanina"
+    ],
+    "details": {
+      "longDescription": "",
+      "highlights": [],
+      "specs": [],
+      "dimensions": [
+        {
+          "label": "Szerokość",
+          "value": "245 cm"
+        },
+        {
+          "label": "Wysokość",
+          "value": "74 cm"
+        },
+        {
+          "label": "Głębokość",
+          "value": "104 cm"
+        },
+        {
+          "label": "Wysokość siedziska",
+          "value": "38 cm"
+        }
+      ],
+      "faq": [],
+      "productCode": ""
+    },
+    "options": [
+      {
+        "id": "nozki",
+        "name": "Nóżki",
+        "values": [
+          {
+            "id": "dab",
+            "label": "Dąb olejowany",
+            "surcharge": 0,
+            "swatch": "#B98B5A"
+          },
+          {
+            "id": "czarny",
+            "label": "Czarny mat",
+            "surcharge": 0,
+            "swatch": "#1F1F1F"
+          },
+          {
+            "id": "mosiadz",
+            "label": "Mosiądz szczotkowany",
+            "surcharge": 249,
+            "swatch": "#B79A5B"
+          }
+        ]
+      }
     ]
   },
   {
@@ -866,7 +1166,7 @@
     "category": "sofy",
     "price": 4299,
     "image": "/katalog/sofa-velvet.jpg",
-    "description": "Welurowa sofa o zaokrąglonej bryle — miękki akcent do salonu.",
+    "description": "Welurowa sofa o zaokrąglonej bryle - miękki akcent do salonu.",
     "inStock": true,
     "isNew": true,
     "colors": [
@@ -895,6 +1195,64 @@
     "reviewCount": 79,
     "images": [
       "https://images.unsplash.com/photo-1600121848594-d8644e57abab?w=1400&q=80"
+    ],
+    "styles": [
+      "glamour",
+      "klasyczny"
+    ],
+    "materials": [
+      "Welur"
+    ],
+    "details": {
+      "longDescription": "",
+      "highlights": [],
+      "specs": [],
+      "dimensions": [
+        {
+          "label": "Szerokość",
+          "value": "205 cm"
+        },
+        {
+          "label": "Wysokość",
+          "value": "82 cm"
+        },
+        {
+          "label": "Głębokość",
+          "value": "90 cm"
+        },
+        {
+          "label": "Wysokość siedziska",
+          "value": "42 cm"
+        }
+      ],
+      "faq": [],
+      "productCode": ""
+    },
+    "options": [
+      {
+        "id": "nozki",
+        "name": "Nóżki",
+        "values": [
+          {
+            "id": "dab",
+            "label": "Dąb olejowany",
+            "surcharge": 0,
+            "swatch": "#B98B5A"
+          },
+          {
+            "id": "czarny",
+            "label": "Czarny mat",
+            "surcharge": 0,
+            "swatch": "#1F1F1F"
+          },
+          {
+            "id": "mosiadz",
+            "label": "Mosiądz szczotkowany",
+            "surcharge": 249,
+            "swatch": "#B79A5B"
+          }
+        ]
+      }
     ]
   },
   {
@@ -934,6 +1292,66 @@
     "reviewCount": 18,
     "images": [
       "https://images.unsplash.com/photo-1684165610413-2401399e0e59?w=1400&q=80"
+    ],
+    "styles": [
+      "loft",
+      "nowoczesny"
+    ],
+    "materials": [
+      "Tkanina"
+    ],
+    "details": {
+      "longDescription": "",
+      "highlights": [],
+      "specs": [],
+      "dimensions": [
+        {
+          "label": "Szerokość",
+          "value": "220 cm"
+        },
+        {
+          "label": "Wysokość",
+          "value": "76 cm"
+        },
+        {
+          "label": "Głębokość",
+          "value": "96 cm"
+        },
+        {
+          "label": "Wysokość siedziska",
+          "value": "40 cm"
+        }
+      ],
+      "faq": [],
+      "productCode": ""
+    },
+    "stockQty": 8,
+    "shipping24h": true,
+    "options": [
+      {
+        "id": "nozki",
+        "name": "Nóżki",
+        "values": [
+          {
+            "id": "czarny",
+            "label": "Czarny mat",
+            "surcharge": 0,
+            "swatch": "#1F1F1F"
+          },
+          {
+            "id": "dab",
+            "label": "Dąb olejowany",
+            "surcharge": 0,
+            "swatch": "#B98B5A"
+          },
+          {
+            "id": "mosiadz",
+            "label": "Mosiądz szczotkowany",
+            "surcharge": 249,
+            "swatch": "#B79A5B"
+          }
+        ]
+      }
     ]
   },
   {
@@ -974,7 +1392,38 @@
     "reviewCount": 37,
     "images": [
       "https://images.unsplash.com/photo-1615876234886-fd9a39fda97f?w=1400&q=80"
-    ]
+    ],
+    "styles": [
+      "skandynawski"
+    ],
+    "materials": [
+      "Tkanina"
+    ],
+    "details": {
+      "longDescription": "",
+      "highlights": [],
+      "specs": [],
+      "dimensions": [
+        {
+          "label": "Szerokość",
+          "value": "285 cm"
+        },
+        {
+          "label": "Wysokość",
+          "value": "86 cm"
+        },
+        {
+          "label": "Głębokość",
+          "value": "165 cm"
+        },
+        {
+          "label": "Wysokość siedziska",
+          "value": "44 cm"
+        }
+      ],
+      "faq": [],
+      "productCode": ""
+    }
   },
   {
     "id": "14",
@@ -984,7 +1433,7 @@
     "kind": "Narożnik U-kształtny",
     "price": 10299,
     "image": "/katalog/naroznik-porto.jpg",
-    "description": "Duży narożnik U z głębokim siedziskiem — do przestronnych salonów.",
+    "description": "Duży narożnik U z głębokim siedziskiem - do przestronnych salonów.",
     "inStock": true,
     "readyToShip": true,
     "colors": [
@@ -1013,7 +1462,40 @@
     "reviewCount": 64,
     "images": [
       "https://images.unsplash.com/photo-1759722668253-1767030ad9b2?w=1400&q=80"
-    ]
+    ],
+    "styles": [
+      "nowoczesny"
+    ],
+    "materials": [
+      "Tkanina"
+    ],
+    "details": {
+      "longDescription": "",
+      "highlights": [],
+      "specs": [],
+      "dimensions": [
+        {
+          "label": "Szerokość",
+          "value": "330 cm"
+        },
+        {
+          "label": "Wysokość",
+          "value": "85 cm"
+        },
+        {
+          "label": "Głębokość",
+          "value": "190 cm"
+        },
+        {
+          "label": "Wysokość siedziska",
+          "value": "44 cm"
+        }
+      ],
+      "faq": [],
+      "productCode": ""
+    },
+    "stockQty": 4,
+    "shipping24h": true
   },
   {
     "id": "15",
@@ -1052,7 +1534,39 @@
     "reviewCount": 83,
     "images": [
       "https://images.unsplash.com/photo-1768511731493-d3c2aa483bb5?w=1400&q=80"
-    ]
+    ],
+    "styles": [
+      "nowoczesny",
+      "skandynawski"
+    ],
+    "materials": [
+      "Tkanina"
+    ],
+    "details": {
+      "longDescription": "",
+      "highlights": [],
+      "specs": [],
+      "dimensions": [
+        {
+          "label": "Szerokość",
+          "value": "275 cm"
+        },
+        {
+          "label": "Wysokość",
+          "value": "84 cm"
+        },
+        {
+          "label": "Głębokość",
+          "value": "160 cm"
+        },
+        {
+          "label": "Wysokość siedziska",
+          "value": "44 cm"
+        }
+      ],
+      "faq": [],
+      "productCode": ""
+    }
   },
   {
     "id": "16",
@@ -1061,7 +1575,7 @@
     "category": "fotele",
     "price": 1899,
     "image": "/katalog/fotel-kyoto.jpg",
-    "description": "Niski fotel wypoczynkowy z drewna i tkaniny — spokojna forma.",
+    "description": "Niski fotel wypoczynkowy z drewna i tkaniny - spokojna forma.",
     "inStock": true,
     "readyToShip": true,
     "colors": [
@@ -1090,6 +1604,66 @@
     "reviewCount": 22,
     "images": [
       "https://images.unsplash.com/photo-1506439773649-6e0eb8cfb237?w=1400&q=80"
+    ],
+    "styles": [
+      "skandynawski"
+    ],
+    "materials": [
+      "Drewno",
+      "Tkanina"
+    ],
+    "details": {
+      "longDescription": "",
+      "highlights": [],
+      "specs": [],
+      "dimensions": [
+        {
+          "label": "Szerokość",
+          "value": "70 cm"
+        },
+        {
+          "label": "Wysokość",
+          "value": "80 cm"
+        },
+        {
+          "label": "Głębokość",
+          "value": "78 cm"
+        },
+        {
+          "label": "Wysokość siedziska",
+          "value": "41 cm"
+        }
+      ],
+      "faq": [],
+      "productCode": ""
+    },
+    "stockQty": 15,
+    "shipping24h": true,
+    "options": [
+      {
+        "id": "nozki",
+        "name": "Nóżki",
+        "values": [
+          {
+            "id": "dab",
+            "label": "Dąb olejowany",
+            "surcharge": 0,
+            "swatch": "#B98B5A"
+          },
+          {
+            "id": "czarny",
+            "label": "Czarny mat",
+            "surcharge": 0,
+            "swatch": "#1F1F1F"
+          },
+          {
+            "id": "mosiadz",
+            "label": "Mosiądz szczotkowany",
+            "surcharge": 249,
+            "swatch": "#B79A5B"
+          }
+        ]
+      }
     ]
   },
   {
@@ -1099,7 +1673,7 @@
     "category": "fotele",
     "price": 2499,
     "image": "/katalog/fotel-boucle.jpg",
-    "description": "Okrągły fotel w tkaninie boucle — miękki punkt relaksu.",
+    "description": "Okrągły fotel w tkaninie boucle - miękki punkt relaksu.",
     "inStock": true,
     "isNew": true,
     "colors": [
@@ -1128,6 +1702,64 @@
     "reviewCount": 41,
     "images": [
       "https://images.unsplash.com/photo-1686510347470-0e36eb055a30?w=1400&q=80"
+    ],
+    "styles": [
+      "skandynawski",
+      "nowoczesny"
+    ],
+    "materials": [
+      "Boucle"
+    ],
+    "details": {
+      "longDescription": "",
+      "highlights": [],
+      "specs": [],
+      "dimensions": [
+        {
+          "label": "Szerokość",
+          "value": "82 cm"
+        },
+        {
+          "label": "Wysokość",
+          "value": "74 cm"
+        },
+        {
+          "label": "Głębokość",
+          "value": "78 cm"
+        },
+        {
+          "label": "Wysokość siedziska",
+          "value": "40 cm"
+        }
+      ],
+      "faq": [],
+      "productCode": ""
+    },
+    "options": [
+      {
+        "id": "nozki",
+        "name": "Nóżki",
+        "values": [
+          {
+            "id": "dab",
+            "label": "Dąb olejowany",
+            "surcharge": 0,
+            "swatch": "#B98B5A"
+          },
+          {
+            "id": "czarny",
+            "label": "Czarny mat",
+            "surcharge": 0,
+            "swatch": "#1F1F1F"
+          },
+          {
+            "id": "mosiadz",
+            "label": "Mosiądz szczotkowany",
+            "surcharge": 249,
+            "swatch": "#B79A5B"
+          }
+        ]
+      }
     ]
   },
   {
@@ -1166,6 +1798,63 @@
     "reviewCount": 68,
     "images": [
       "https://images.unsplash.com/photo-1592078615290-033ee584e267?w=1400&q=80"
+    ],
+    "styles": [
+      "nowoczesny"
+    ],
+    "materials": [
+      "Tkanina"
+    ],
+    "details": {
+      "longDescription": "",
+      "highlights": [],
+      "specs": [],
+      "dimensions": [
+        {
+          "label": "Szerokość",
+          "value": "85 cm"
+        },
+        {
+          "label": "Wysokość",
+          "value": "90 cm"
+        },
+        {
+          "label": "Głębokość",
+          "value": "86 cm"
+        },
+        {
+          "label": "Wysokość siedziska",
+          "value": "42 cm"
+        }
+      ],
+      "faq": [],
+      "productCode": ""
+    },
+    "options": [
+      {
+        "id": "nozki",
+        "name": "Nóżki",
+        "values": [
+          {
+            "id": "dab",
+            "label": "Dąb olejowany",
+            "surcharge": 0,
+            "swatch": "#B98B5A"
+          },
+          {
+            "id": "czarny",
+            "label": "Czarny mat",
+            "surcharge": 0,
+            "swatch": "#1F1F1F"
+          },
+          {
+            "id": "mosiadz",
+            "label": "Mosiądz szczotkowany",
+            "surcharge": 249,
+            "swatch": "#B79A5B"
+          }
+        ]
+      }
     ]
   },
   {
@@ -1175,7 +1864,7 @@
     "category": "fotele",
     "price": 2299,
     "image": "/katalog/fotel-harbor.jpg",
-    "description": "Fotel z wysokim oparciem i podłokietnikami — do czytania.",
+    "description": "Fotel z wysokim oparciem i podłokietnikami - do czytania.",
     "inStock": true,
     "readyToShip": true,
     "colors": [
@@ -1204,6 +1893,66 @@
     "reviewCount": 87,
     "images": [
       "https://images.unsplash.com/photo-1567016432779-094069958ea5?w=1400&q=80"
+    ],
+    "styles": [
+      "klasyczny",
+      "nowoczesny"
+    ],
+    "materials": [
+      "Welur"
+    ],
+    "details": {
+      "longDescription": "",
+      "highlights": [],
+      "specs": [],
+      "dimensions": [
+        {
+          "label": "Szerokość",
+          "value": "76 cm"
+        },
+        {
+          "label": "Wysokość",
+          "value": "82 cm"
+        },
+        {
+          "label": "Głębokość",
+          "value": "80 cm"
+        },
+        {
+          "label": "Wysokość siedziska",
+          "value": "43 cm"
+        }
+      ],
+      "faq": [],
+      "productCode": ""
+    },
+    "stockQty": 20,
+    "shipping24h": true,
+    "options": [
+      {
+        "id": "nozki",
+        "name": "Nóżki",
+        "values": [
+          {
+            "id": "dab",
+            "label": "Dąb olejowany",
+            "surcharge": 0,
+            "swatch": "#B98B5A"
+          },
+          {
+            "id": "czarny",
+            "label": "Czarny mat",
+            "surcharge": 0,
+            "swatch": "#1F1F1F"
+          },
+          {
+            "id": "mosiadz",
+            "label": "Mosiądz szczotkowany",
+            "surcharge": 249,
+            "swatch": "#B79A5B"
+          }
+        ]
+      }
     ]
   },
   {
@@ -1242,7 +1991,38 @@
     "reviewCount": 71,
     "images": [
       "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?w=1400&q=80"
-    ]
+    ],
+    "styles": [
+      "nowoczesny"
+    ],
+    "materials": [
+      "Tkanina"
+    ],
+    "details": {
+      "longDescription": "",
+      "highlights": [],
+      "specs": [],
+      "dimensions": [
+        {
+          "label": "Sofa - szerokość",
+          "value": "260 cm"
+        },
+        {
+          "label": "Fotel - szerokość",
+          "value": "85 cm"
+        },
+        {
+          "label": "Stolik - średnica",
+          "value": "85 cm"
+        },
+        {
+          "label": "Stolik - wysokość",
+          "value": "40 cm"
+        }
+      ],
+      "faq": [],
+      "productCode": ""
+    }
   },
   {
     "id": "21",
@@ -1281,7 +2061,35 @@
     "reviewCount": 52,
     "images": [
       "https://images.unsplash.com/photo-1600121848594-d8644e57abab?w=1400&q=80"
-    ]
+    ],
+    "styles": [
+      "nowoczesny",
+      "skandynawski"
+    ],
+    "materials": [
+      "Boucle"
+    ],
+    "details": {
+      "longDescription": "",
+      "highlights": [],
+      "specs": [],
+      "dimensions": [
+        {
+          "label": "Narożnik - szerokość",
+          "value": "280 cm"
+        },
+        {
+          "label": "Fotel - szerokość",
+          "value": "80 cm"
+        },
+        {
+          "label": "Puf - średnica",
+          "value": "55 cm"
+        }
+      ],
+      "faq": [],
+      "productCode": ""
+    }
   },
   {
     "id": "22",
@@ -1319,6 +2127,64 @@
     "reviewCount": 29,
     "images": [
       "https://images.unsplash.com/photo-1484101403633-562f891dc89a?w=1400&q=80"
+    ],
+    "styles": [
+      "nowoczesny",
+      "klasyczny"
+    ],
+    "materials": [
+      "Tkanina"
+    ],
+    "details": {
+      "longDescription": "",
+      "highlights": [],
+      "specs": [],
+      "dimensions": [
+        {
+          "label": "Szerokość",
+          "value": "195 cm"
+        },
+        {
+          "label": "Wysokość",
+          "value": "83 cm"
+        },
+        {
+          "label": "Głębokość",
+          "value": "88 cm"
+        },
+        {
+          "label": "Wysokość siedziska",
+          "value": "43 cm"
+        }
+      ],
+      "faq": [],
+      "productCode": ""
+    },
+    "options": [
+      {
+        "id": "nozki",
+        "name": "Nóżki",
+        "values": [
+          {
+            "id": "czarny",
+            "label": "Czarny mat",
+            "surcharge": 0,
+            "swatch": "#1F1F1F"
+          },
+          {
+            "id": "dab",
+            "label": "Dąb olejowany",
+            "surcharge": 0,
+            "swatch": "#B98B5A"
+          },
+          {
+            "id": "mosiadz",
+            "label": "Mosiądz szczotkowany",
+            "surcharge": 249,
+            "swatch": "#B79A5B"
+          }
+        ]
+      }
     ]
   },
   {
@@ -1358,7 +2224,41 @@
     "reviewCount": 10,
     "images": [
       "https://images.unsplash.com/photo-1759722665935-0967b4e0da93?w=1400&q=80"
-    ]
+    ],
+    "styles": [
+      "loft",
+      "klasyczny"
+    ],
+    "materials": [
+      "Skóra"
+    ],
+    "details": {
+      "longDescription": "",
+      "highlights": [],
+      "specs": [],
+      "dimensions": [
+        {
+          "label": "Szerokość",
+          "value": "300 cm"
+        },
+        {
+          "label": "Wysokość",
+          "value": "85 cm"
+        },
+        {
+          "label": "Głębokość",
+          "value": "175 cm"
+        },
+        {
+          "label": "Wysokość siedziska",
+          "value": "43 cm"
+        }
+      ],
+      "faq": [],
+      "productCode": ""
+    },
+    "stockQty": 6,
+    "shipping24h": true
   },
   {
     "id": "24",
@@ -1368,7 +2268,7 @@
     "price": 1699,
     "originalPrice": 1999,
     "image": "/katalog/fotel-soft.jpg",
-    "description": "Lekki fotel tapicerowany — do sypialni, gabinetu albo salonu.",
+    "description": "Lekki fotel tapicerowany - do sypialni, gabinetu albo salonu.",
     "inStock": true,
     "isNew": true,
     "colors": [
@@ -1397,6 +2297,63 @@
     "reviewCount": 75,
     "images": [
       "https://images.unsplash.com/photo-1506439773649-6e0eb8cfb237?w=1400&q=80"
+    ],
+    "styles": [
+      "skandynawski"
+    ],
+    "materials": [
+      "Tkanina"
+    ],
+    "details": {
+      "longDescription": "",
+      "highlights": [],
+      "specs": [],
+      "dimensions": [
+        {
+          "label": "Szerokość",
+          "value": "68 cm"
+        },
+        {
+          "label": "Wysokość",
+          "value": "84 cm"
+        },
+        {
+          "label": "Głębokość",
+          "value": "72 cm"
+        },
+        {
+          "label": "Wysokość siedziska",
+          "value": "44 cm"
+        }
+      ],
+      "faq": [],
+      "productCode": ""
+    },
+    "options": [
+      {
+        "id": "nozki",
+        "name": "Nóżki",
+        "values": [
+          {
+            "id": "dab",
+            "label": "Dąb olejowany",
+            "surcharge": 0,
+            "swatch": "#B98B5A"
+          },
+          {
+            "id": "czarny",
+            "label": "Czarny mat",
+            "surcharge": 0,
+            "swatch": "#1F1F1F"
+          },
+          {
+            "id": "mosiadz",
+            "label": "Mosiądz szczotkowany",
+            "surcharge": 249,
+            "swatch": "#B79A5B"
+          }
+        ]
+      }
     ]
   },
   {
@@ -1406,7 +2363,7 @@
     "category": "oswietlenie",
     "price": 899,
     "image": "/katalog/lampa-arc.jpg",
-    "description": "Lampa podłogowa z łukowym ramieniem — ciepłe światło do salonu.",
+    "description": "Lampa podłogowa z łukowym ramieniem - ciepłe światło do salonu.",
     "inStock": true,
     "isNew": true,
     "colors": [
@@ -1435,7 +2392,35 @@
     "reviewCount": 56,
     "images": [
       "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=1400&q=80"
-    ]
+    ],
+    "styles": [
+      "loft",
+      "nowoczesny"
+    ],
+    "materials": [
+      "Metal"
+    ],
+    "details": {
+      "longDescription": "",
+      "highlights": [],
+      "specs": [],
+      "dimensions": [
+        {
+          "label": "Szerokość",
+          "value": "160 cm"
+        },
+        {
+          "label": "Wysokość",
+          "value": "190 cm"
+        },
+        {
+          "label": "Głębokość",
+          "value": "32 cm"
+        }
+      ],
+      "faq": [],
+      "productCode": ""
+    }
   },
   {
     "id": "26",
@@ -1445,7 +2430,7 @@
     "price": 549,
     "originalPrice": 699,
     "image": "/katalog/lampa-halo.jpg",
-    "description": "Lampa stołowa z abażurem — na komodę, stolik nocny albo biurko.",
+    "description": "Lampa stołowa z abażurem - na komodę, stolik nocny albo biurko.",
     "inStock": true,
     "readyToShip": true,
     "colors": [
@@ -1474,7 +2459,38 @@
     "reviewCount": 33,
     "images": [
       "https://images.unsplash.com/photo-1517991104123-1d56a6e81ed9?w=1400&q=80"
-    ]
+    ],
+    "styles": [
+      "glamour",
+      "klasyczny"
+    ],
+    "materials": [
+      "Metal",
+      "Tkanina"
+    ],
+    "details": {
+      "longDescription": "",
+      "highlights": [],
+      "specs": [],
+      "dimensions": [
+        {
+          "label": "Szerokość",
+          "value": "32 cm"
+        },
+        {
+          "label": "Wysokość",
+          "value": "62 cm"
+        },
+        {
+          "label": "Głębokość",
+          "value": "32 cm"
+        }
+      ],
+      "faq": [],
+      "productCode": ""
+    },
+    "stockQty": 24,
+    "shipping24h": true
   },
   {
     "id": "27",
@@ -1512,7 +2528,35 @@
     "reviewCount": 14,
     "images": [
       "https://images.unsplash.com/photo-1493809842364-78817add7ffb?w=1400&q=80"
-    ]
+    ],
+    "styles": [
+      "skandynawski"
+    ],
+    "materials": [
+      "Drewno",
+      "Płyta laminowana"
+    ],
+    "details": {
+      "longDescription": "",
+      "highlights": [],
+      "specs": [],
+      "dimensions": [
+        {
+          "label": "Szerokość",
+          "value": "160 cm"
+        },
+        {
+          "label": "Wysokość",
+          "value": "45 cm"
+        },
+        {
+          "label": "Głębokość",
+          "value": "40 cm"
+        }
+      ],
+      "faq": [],
+      "productCode": ""
+    }
   },
   {
     "id": "28",
@@ -1522,7 +2566,7 @@
     "price": 2199,
     "originalPrice": 2499,
     "image": "/katalog/szafka-rtv-line.jpg",
-    "description": "Szafka RTV na drewnianych nogach — pod telewizor 55–75\".",
+    "description": "Szafka RTV na drewnianych nogach - pod telewizor 55–75\".",
     "inStock": true,
     "colors": [
       {
@@ -1551,7 +2595,35 @@
     "reviewCount": 63,
     "images": [
       "https://images.unsplash.com/photo-1616137466211-f939a420be84?w=1400&q=80"
-    ]
+    ],
+    "styles": [
+      "nowoczesny",
+      "skandynawski"
+    ],
+    "materials": [
+      "Płyta laminowana"
+    ],
+    "details": {
+      "longDescription": "",
+      "highlights": [],
+      "specs": [],
+      "dimensions": [
+        {
+          "label": "Szerokość",
+          "value": "180 cm"
+        },
+        {
+          "label": "Wysokość",
+          "value": "50 cm"
+        },
+        {
+          "label": "Głębokość",
+          "value": "40 cm"
+        }
+      ],
+      "faq": [],
+      "productCode": ""
+    }
   },
   {
     "id": "41",
@@ -1560,7 +2632,7 @@
     "category": "szafki",
     "price": 1599,
     "image": "/katalog/szafka-oak.jpg",
-    "description": "Szafka z dębowym fornirem — do salonu, sypialni albo przedpokoju.",
+    "description": "Szafka z dębowym fornirem - do salonu, sypialni albo przedpokoju.",
     "inStock": true,
     "isNew": true,
     "colors": [
@@ -1589,7 +2661,34 @@
     "reviewCount": 78,
     "images": [
       "https://images.unsplash.com/photo-1558997519-83ea9252edf8?w=1400&q=80"
-    ]
+    ],
+    "styles": [
+      "klasyczny"
+    ],
+    "materials": [
+      "Drewno"
+    ],
+    "details": {
+      "longDescription": "",
+      "highlights": [],
+      "specs": [],
+      "dimensions": [
+        {
+          "label": "Szerokość",
+          "value": "85 cm"
+        },
+        {
+          "label": "Wysokość",
+          "value": "185 cm"
+        },
+        {
+          "label": "Głębokość",
+          "value": "45 cm"
+        }
+      ],
+      "faq": [],
+      "productCode": ""
+    }
   },
   {
     "id": "42",
@@ -1628,7 +2727,37 @@
     "reviewCount": 59,
     "images": [
       "https://images.unsplash.com/photo-1513694203232-719a280e022f?w=1400&q=80"
-    ]
+    ],
+    "styles": [
+      "nowoczesny",
+      "skandynawski"
+    ],
+    "materials": [
+      "Płyta laminowana"
+    ],
+    "details": {
+      "longDescription": "",
+      "highlights": [],
+      "specs": [],
+      "dimensions": [
+        {
+          "label": "Szerokość",
+          "value": "70 cm"
+        },
+        {
+          "label": "Wysokość",
+          "value": "70 cm"
+        },
+        {
+          "label": "Głębokość",
+          "value": "35 cm"
+        }
+      ],
+      "faq": [],
+      "productCode": ""
+    },
+    "stockQty": 18,
+    "shipping24h": true
   },
   {
     "id": "29",
@@ -1637,7 +2766,7 @@
     "category": "komody",
     "price": 2499,
     "image": "/katalog/komoda-grove.jpg",
-    "description": "Komoda z sześcioma szufladami — do sypialni albo przedpokoju.",
+    "description": "Komoda z sześcioma szufladami - do sypialni albo przedpokoju.",
     "inStock": true,
     "colors": [
       {
@@ -1665,7 +2794,35 @@
     "reviewCount": 44,
     "images": [
       "https://images.unsplash.com/photo-1558997519-83ea9252edf8?w=1400&q=80"
-    ]
+    ],
+    "styles": [
+      "klasyczny",
+      "skandynawski"
+    ],
+    "materials": [
+      "Drewno"
+    ],
+    "details": {
+      "longDescription": "",
+      "highlights": [],
+      "specs": [],
+      "dimensions": [
+        {
+          "label": "Szerokość",
+          "value": "140 cm"
+        },
+        {
+          "label": "Wysokość",
+          "value": "80 cm"
+        },
+        {
+          "label": "Głębokość",
+          "value": "42 cm"
+        }
+      ],
+      "faq": [],
+      "productCode": ""
+    }
   },
   {
     "id": "30",
@@ -1675,7 +2832,7 @@
     "price": 1799,
     "isNew": true,
     "image": "/katalog/komoda-mira.jpg",
-    "description": "Niska komoda z frontami bez uchwytów — spokojna bryła do salonu.",
+    "description": "Niska komoda z frontami bez uchwytów - spokojna bryła do salonu.",
     "inStock": true,
     "colors": [
       {
@@ -1703,7 +2860,35 @@
     "reviewCount": 62,
     "images": [
       "https://images.unsplash.com/photo-1513694203232-719a280e022f?w=1400&q=80"
-    ]
+    ],
+    "styles": [
+      "skandynawski"
+    ],
+    "materials": [
+      "Płyta laminowana",
+      "Drewno"
+    ],
+    "details": {
+      "longDescription": "",
+      "highlights": [],
+      "specs": [],
+      "dimensions": [
+        {
+          "label": "Szerokość",
+          "value": "120 cm"
+        },
+        {
+          "label": "Wysokość",
+          "value": "78 cm"
+        },
+        {
+          "label": "Głębokość",
+          "value": "40 cm"
+        }
+      ],
+      "faq": [],
+      "productCode": ""
+    }
   },
   {
     "id": "31",
@@ -1741,7 +2926,36 @@
     "reviewCount": 81,
     "images": [
       "https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?w=1400&q=80"
-    ]
+    ],
+    "styles": [
+      "loft",
+      "nowoczesny"
+    ],
+    "materials": [
+      "Drewno",
+      "Metal"
+    ],
+    "details": {
+      "longDescription": "",
+      "highlights": [],
+      "specs": [],
+      "dimensions": [
+        {
+          "label": "Szerokość",
+          "value": "90 cm"
+        },
+        {
+          "label": "Wysokość",
+          "value": "38 cm"
+        },
+        {
+          "label": "Głębokość",
+          "value": "90 cm"
+        }
+      ],
+      "faq": [],
+      "productCode": ""
+    }
   },
   {
     "id": "32",
@@ -1751,7 +2965,7 @@
     "price": 699,
     "originalPrice": 849,
     "image": "/katalog/stolik-boczny-nook.jpg",
-    "description": "Mały stolik przy sofie — na lampę, książkę i kawę.",
+    "description": "Mały stolik przy sofie - na lampę, książkę i kawę.",
     "inStock": true,
     "readyToShip": true,
     "colors": [
@@ -1780,7 +2994,36 @@
     "reviewCount": 24,
     "images": [
       "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?w=1400&q=80"
-    ]
+    ],
+    "styles": [
+      "skandynawski"
+    ],
+    "materials": [
+      "Drewno"
+    ],
+    "details": {
+      "longDescription": "",
+      "highlights": [],
+      "specs": [],
+      "dimensions": [
+        {
+          "label": "Szerokość",
+          "value": "45 cm"
+        },
+        {
+          "label": "Wysokość",
+          "value": "50 cm"
+        },
+        {
+          "label": "Głębokość",
+          "value": "45 cm"
+        }
+      ],
+      "faq": [],
+      "productCode": ""
+    },
+    "stockQty": 22,
+    "shipping24h": true
   },
   {
     "id": "33",
@@ -1789,7 +3032,7 @@
     "category": "materace",
     "price": 2199,
     "image": "/katalog/materac-cloud-sleep.jpg",
-    "description": "Materac kieszeniowy 160×200 — sprężyny i warstwa pianki.",
+    "description": "Materac kieszeniowy 160×200 - sprężyny i warstwa pianki.",
     "inStock": true,
     "colors": [
       {
@@ -1829,6 +3072,9 @@
     "reviewCount": 43,
     "images": [
       "https://images.unsplash.com/photo-1631049035182-249067d7618e?w=1400&q=80"
+    ],
+    "materials": [
+      "Pianka"
     ]
   },
   {
@@ -1839,7 +3085,7 @@
     "price": 1899,
     "originalPrice": 2299,
     "image": "/katalog/materac-dual-comfort.jpg",
-    "description": "Materac dwustronny — lato/zima, twardość H3.",
+    "description": "Materac dwustronny - lato/zima, twardość H3.",
     "inStock": true,
     "colors": [
       {
@@ -1874,6 +3120,9 @@
     "reviewCount": 58,
     "images": [
       "https://images.unsplash.com/photo-1554995207-c18c203602cb?w=1400&q=80"
+    ],
+    "materials": [
+      "Pianka"
     ]
   },
   {
@@ -1930,7 +3179,35 @@
     "reviewCount": 77,
     "images": [
       "https://images.unsplash.com/photo-1556228453-efd6c1ff04f6?w=1400&q=80"
-    ]
+    ],
+    "styles": [
+      "nowoczesny",
+      "loft"
+    ],
+    "materials": [
+      "Tkanina"
+    ],
+    "details": {
+      "longDescription": "",
+      "highlights": [],
+      "specs": [],
+      "dimensions": [
+        {
+          "label": "Szerokość",
+          "value": "170 cm"
+        },
+        {
+          "label": "Wysokość",
+          "value": "110 cm"
+        },
+        {
+          "label": "Głębokość",
+          "value": "215 cm"
+        }
+      ],
+      "faq": [],
+      "productCode": ""
+    }
   },
   {
     "id": "36",
@@ -1985,7 +3262,34 @@
     "reviewCount": 20,
     "images": [
       "https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?w=1400&q=80"
-    ]
+    ],
+    "styles": [
+      "skandynawski"
+    ],
+    "materials": [
+      "Drewno"
+    ],
+    "details": {
+      "longDescription": "",
+      "highlights": [],
+      "specs": [],
+      "dimensions": [
+        {
+          "label": "Szerokość",
+          "value": "170 cm"
+        },
+        {
+          "label": "Wysokość",
+          "value": "95 cm"
+        },
+        {
+          "label": "Głębokość",
+          "value": "210 cm"
+        }
+      ],
+      "faq": [],
+      "productCode": ""
+    }
   },
   {
     "id": "37",
@@ -2023,7 +3327,34 @@
     "reviewCount": 39,
     "images": [
       "https://images.unsplash.com/photo-1771862956412-6ce9a725eb22?w=1400&q=80"
-    ]
+    ],
+    "styles": [
+      "skandynawski"
+    ],
+    "materials": [
+      "Drewno"
+    ],
+    "details": {
+      "longDescription": "",
+      "highlights": [],
+      "specs": [],
+      "dimensions": [
+        {
+          "label": "Szerokość",
+          "value": "100 cm"
+        },
+        {
+          "label": "Wysokość",
+          "value": "85 cm"
+        },
+        {
+          "label": "Głębokość",
+          "value": "205 cm"
+        }
+      ],
+      "faq": [],
+      "productCode": ""
+    }
   },
   {
     "id": "38",
@@ -2032,7 +3363,7 @@
     "category": "meble-dzieciece",
     "price": 1199,
     "image": "/katalog/komoda-play.jpg",
-    "description": "Niska komoda do pokoju dziecka — zaokrąglone krawędzie.",
+    "description": "Niska komoda do pokoju dziecka - zaokrąglone krawędzie.",
     "inStock": true,
     "colors": [
       {
@@ -2060,7 +3391,34 @@
     "reviewCount": 54,
     "images": [
       "https://images.unsplash.com/photo-1778075642254-5418a12335cb?w=1400&q=80"
-    ]
+    ],
+    "styles": [
+      "skandynawski"
+    ],
+    "materials": [
+      "Płyta laminowana"
+    ],
+    "details": {
+      "longDescription": "",
+      "highlights": [],
+      "specs": [],
+      "dimensions": [
+        {
+          "label": "Szerokość",
+          "value": "100 cm"
+        },
+        {
+          "label": "Wysokość",
+          "value": "75 cm"
+        },
+        {
+          "label": "Głębokość",
+          "value": "40 cm"
+        }
+      ],
+      "faq": [],
+      "productCode": ""
+    }
   },
   {
     "id": "39",
@@ -2069,7 +3427,7 @@
     "category": "akcesoria-dla-zwierzat",
     "price": 349,
     "image": "/katalog/legowisko-nest.jpg",
-    "description": "Miękkie legowisko dla psa lub kota — zdejmowany pokrowiec.",
+    "description": "Miękkie legowisko dla psa lub kota - zdejmowany pokrowiec.",
     "inStock": true,
     "readyToShip": true,
     "colors": [
@@ -2098,7 +3456,36 @@
     "reviewCount": 73,
     "images": [
       "https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?w=1400&q=80"
-    ]
+    ],
+    "styles": [
+      "skandynawski"
+    ],
+    "materials": [
+      "Boucle"
+    ],
+    "details": {
+      "longDescription": "",
+      "highlights": [],
+      "specs": [],
+      "dimensions": [
+        {
+          "label": "Szerokość",
+          "value": "70 cm"
+        },
+        {
+          "label": "Wysokość",
+          "value": "18 cm"
+        },
+        {
+          "label": "Głębokość",
+          "value": "70 cm"
+        }
+      ],
+      "faq": [],
+      "productCode": ""
+    },
+    "stockQty": 30,
+    "shipping24h": true
   },
   {
     "id": "40",
@@ -2108,7 +3495,7 @@
     "price": 429,
     "originalPrice": 499,
     "image": "/katalog/drapak-grove.jpg",
-    "description": "Drapak z siedziskiem — do salonu, nie do schowania w korytarzu.",
+    "description": "Drapak z siedziskiem - do salonu, nie do schowania w korytarzu.",
     "inStock": true,
     "colors": [
       {
@@ -2136,7 +3523,34 @@
     "reviewCount": 17,
     "images": [
       "https://images.unsplash.com/photo-1574158622682-e40e69881006?w=1400&q=80"
-    ]
+    ],
+    "styles": [
+      "skandynawski"
+    ],
+    "materials": [
+      "Drewno"
+    ],
+    "details": {
+      "longDescription": "",
+      "highlights": [],
+      "specs": [],
+      "dimensions": [
+        {
+          "label": "Szerokość",
+          "value": "50 cm"
+        },
+        {
+          "label": "Wysokość",
+          "value": "120 cm"
+        },
+        {
+          "label": "Głębokość",
+          "value": "40 cm"
+        }
+      ],
+      "faq": [],
+      "productCode": ""
+    }
   },
   {
     "id": "43",
@@ -2145,7 +3559,7 @@
     "category": "szafy",
     "price": 4299,
     "image": "/katalog/szafa-haven.jpg",
-    "description": "Szafa dwudrzwiowa z półkami i drążkiem — do sypialni albo garderoby.",
+    "description": "Szafa dwudrzwiowa z półkami i drążkiem - do sypialni albo garderoby.",
     "inStock": true,
     "featured": true,
     "colors": [
@@ -2174,7 +3588,35 @@
     "reviewCount": 40,
     "images": [
       "https://images.unsplash.com/photo-1615876234886-fd9a39fda97f?w=1400&q=80"
-    ]
+    ],
+    "styles": [
+      "skandynawski",
+      "nowoczesny"
+    ],
+    "materials": [
+      "Płyta laminowana"
+    ],
+    "details": {
+      "longDescription": "",
+      "highlights": [],
+      "specs": [],
+      "dimensions": [
+        {
+          "label": "Szerokość",
+          "value": "100 cm"
+        },
+        {
+          "label": "Wysokość",
+          "value": "210 cm"
+        },
+        {
+          "label": "Głębokość",
+          "value": "58 cm"
+        }
+      ],
+      "faq": [],
+      "productCode": ""
+    }
   },
   {
     "id": "44",
@@ -2184,7 +3626,7 @@
     "price": 3799,
     "originalPrice": 4299,
     "image": "/katalog/szafa-line.jpg",
-    "description": "Szafa z lustrzanym frontem — optycznie powiększa sypialnię.",
+    "description": "Szafa z lustrzanym frontem - optycznie powiększa sypialnię.",
     "inStock": true,
     "isNew": true,
     "colors": [
@@ -2214,6 +3656,33 @@
     "reviewCount": 13,
     "images": [
       "https://images.unsplash.com/photo-1595428774223-ef52624120d2?w=1400&q=80"
-    ]
+    ],
+    "styles": [
+      "nowoczesny"
+    ],
+    "materials": [
+      "Płyta laminowana"
+    ],
+    "details": {
+      "longDescription": "",
+      "highlights": [],
+      "specs": [],
+      "dimensions": [
+        {
+          "label": "Szerokość",
+          "value": "90 cm"
+        },
+        {
+          "label": "Wysokość",
+          "value": "200 cm"
+        },
+        {
+          "label": "Głębokość",
+          "value": "55 cm"
+        }
+      ],
+      "faq": [],
+      "productCode": ""
+    }
   }
 ]

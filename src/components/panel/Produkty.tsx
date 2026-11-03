@@ -283,7 +283,7 @@ export function AdminProducts() {
       <div className="admin-page">
         <p className="mb-5 max-w-2xl text-sm leading-relaxed text-sand">
           Katalog Jarstol wpada sam jako szkice (co ok. 12 godzin, gdy jesteś w
-          panelu, albo przyciskiem poniżej). Uzupełniasz cenę brutto i publikujesz —
+          panelu, albo przyciskiem poniżej). Uzupełniasz cenę brutto i publikujesz -
           dopiero wtedy widać mebel w sklepie. Usunięty szkic Jarstol nie wraca przy
           kolejnym pobraniu. Opisy kategorii:{" "}
           <Link href="/admin/kategorie" className="underline underline-offset-2">

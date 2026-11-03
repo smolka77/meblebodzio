@@ -33,7 +33,7 @@ function extensionOf(name: string): string {
   return i >= 0 ? name.slice(i).toLowerCase() : "";
 }
 
-/** Trwały katalog na VPS — osobny folder dla produktów, bloga i tkanin. */
+/** Trwały katalog na VPS - osobny folder dla produktów, bloga i tkanin. */
 export function getStoreUploadDir(kind: StoreUploadKind) {
   return path.join(process.cwd(), "data", "uploads", kind);
 }
@@ -124,7 +124,7 @@ export async function saveStoreImage(kind: StoreUploadKind, file: File) {
 
 const MAX_DOCUMENT_SIZE = 12 * 1024 * 1024;
 
-/** Instrukcja montażu — PDF albo zdjęcie. */
+/** Instrukcja montażu - PDF albo zdjęcie. */
 export async function saveProductDocument(file: File) {
   const mime = resolveImageMime(file);
   const allowed = new Set([

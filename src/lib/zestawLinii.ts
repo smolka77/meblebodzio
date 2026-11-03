@@ -2,7 +2,7 @@ import type { Product } from "@/lib/typy";
 
 const SET_LIMIT = 16;
 
-/** Inne oferty z tej samej linii — inne kategorie pierwsze, bez bieżącego mebla. */
+/** Inne oferty z tej samej linii - inne kategorie pierwsze, bez bieżącego mebla. */
 export function productsForCompleteSet(
   products: Product[],
   current: Pick<Product, "id" | "category" | "furnitureLineId">,

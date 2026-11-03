@@ -8,7 +8,7 @@ export const lineLabels: Record<ProductLine, string> = {
   premium: "Premium",
 };
 
-/** Domyślna linia przy braku ustawienia — wg ceny katalogowej. */
+/** Domyślna linia przy braku ustawienia - wg ceny katalogowej. */
 export function inferProductLine(price: number): ProductLine {
   if (price >= 6000) return "premium";
   if (price >= 3000) return "comfort";

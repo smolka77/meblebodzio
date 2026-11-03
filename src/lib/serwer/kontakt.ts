@@ -50,7 +50,7 @@ export async function submitContactMessage(input: {
 
   const messages = await getContactMessages();
   await writeStore(FILE, [entry, ...messages]);
-  return { ok: true, message: "Dziękujemy — wiadomość została wysłana.", id: entry.id };
+  return { ok: true, message: "Dziękujemy - wiadomość została wysłana.", id: entry.id };
 }
 
 export async function markContactMessageRead(id: string): Promise<boolean> {

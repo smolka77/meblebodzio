@@ -10,9 +10,10 @@ const W = ({ children, className = "" }: { children: React.ReactNode; className?
 
 const cols = [
   ["Sklep", [
-    ["Salon", "/kategoria/sofy"],
-    ["Sypialnia", "/kategoria/lozka"],
-    ["Jadalnia", "/kategoria/stoliki"],
+    ["Salon", "/produkty?pokoj=salon"],
+    ["Sypialnia", "/produkty?pokoj=sypialnia"],
+    ["Inspiracje", "/inspiracje"],
+    ["Doradca zakupowy", "/doradca"],
     ["Oświetlenie", "/kategoria/oswietlenie"],
     ["Promocje", "/promocje"],
   ]],
@@ -45,7 +46,7 @@ export function Footer(_props?: { hideAbout?: boolean }) {
         body: JSON.stringify({ email }),
       });
     } catch {
-      /* pokazujemy potwierdzenie także gdy sieć padnie — adres zostaje w polu */
+      /* pokazujemy potwierdzenie także gdy sieć padnie - adres zostaje w polu */
     }
     setDone(true);
   }
@@ -57,7 +58,7 @@ export function Footer(_props?: { hideAbout?: boolean }) {
         <div className="absolute top-0 right-0 hidden h-full w-[38%] bg-gradient-to-r from-forest-2 via-forest-2/40 to-transparent lg:block" />
         <W className="relative py-14 lg:py-20">
           <div className="max-w-[720px]">
-            <span className="inline-flex h-8 items-center gap-2 rounded-full bg-accent px-3.5 text-[13px] font-semibold text-white">−10% na start</span>
+            <span className="inline-flex h-8 items-center gap-2 rounded-full bg-accent px-3.5 text-[14px] font-semibold text-white">−10% na start</span>
             <h3 className="font-display mt-5 text-[34px] leading-[1.02] tracking-[-0.04em] sm:text-[48px] xl:text-[56px]">Dołącz do nas i zgarnij −10% na pierwsze zakupy</h3>
             <p className="mt-4 max-w-lg text-[16px] text-white/80">Raz w tygodniu: nowe kolekcje, inspiracje i promocje tylko dla subskrybentów. Bez spamu.</p>
             {done ? (
@@ -70,7 +71,7 @@ export function Footer(_props?: { hideAbout?: boolean }) {
                 <button className="h-14 rounded-full bg-accent px-8 text-[16px] font-semibold text-white transition hover:bg-accent-dark">Odbierz rabat</button>
               </form>
             )}
-            <div className="mt-3 text-[12.5px] text-white/60">Zapisując się, akceptujesz politykę prywatności. Wypiszesz się jednym kliknięciem.</div>
+            <div className="mt-3 text-[14px] text-white/60">Zapisując się, akceptujesz politykę prywatności. Wypiszesz się jednym kliknięciem.</div>
           </div>
         </W>
       </div>
@@ -82,7 +83,7 @@ export function Footer(_props?: { hideAbout?: boolean }) {
               <span className="grid h-12 w-12 shrink-0 place-items-center rounded-full bg-white/10"><Icon className="h-5 w-5" /></span>
               <div>
                 <div className="text-[16px] font-semibold">{String(t)}</div>
-                <div className="text-[13px] text-white/70">{String(s)}</div>
+                <div className="text-[14px] text-white/70">{String(s)}</div>
               </div>
             </div>
           );
@@ -92,10 +93,19 @@ export function Footer(_props?: { hideAbout?: boolean }) {
         <div className="col-span-2 max-w-sm lg:col-span-1">
           <div className="text-[28px] leading-none font-semibold tracking-[-0.04em]">sklep</div>
           <p className="mt-3 text-white/70">Meble projektowane we Wrocławiu i produkowane w Polsce. Dostarczamy z wniesieniem w całym kraju.</p>
-          <div className="mt-5 flex gap-2.5">
-            {["IG", "FB", "PIN", "YT", "TT"].map((x) => (
-              <span key={x} className="grid h-10 w-10 place-items-center rounded-full border border-white/25 text-[11.5px] font-semibold">{x}</span>
-            ))}
+          <div className="mt-5 flex items-center gap-5 text-white">
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="transition hover:opacity-70">
+            <svg aria-hidden viewBox="0 0 24 24" className="h-7 w-7" fill="none" stroke="currentColor" strokeWidth="1.8">
+              <rect x="3" y="3" width="18" height="18" rx="5" />
+              <circle cx="12" cy="12" r="4.2" />
+              <circle cx="17.4" cy="6.6" r="1.1" fill="currentColor" stroke="none" />
+            </svg>
+            </a>
+            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook" className="transition hover:opacity-70">
+            <svg aria-hidden viewBox="0 0 24 24" className="h-7 w-7" fill="currentColor">
+              <path d="M13.5 22v-8.2h2.8l.5-3.3h-3.3V8.4c0-1 .4-1.7 1.8-1.7H17V3.8c-.3 0-1.3-.2-2.5-.2-2.6 0-4.3 1.6-4.3 4.4v2.5H7.4v3.3h2.8V22h3.3Z" />
+            </svg>
+            </a>
           </div>
         </div>
         {cols.map(([title, links], i) => (
@@ -109,11 +119,11 @@ export function Footer(_props?: { hideAbout?: boolean }) {
           </div>
         ))}
       </W>
-      <W className="flex flex-col justify-between gap-4 border-t border-white/15 py-6 text-[12.5px] lg:flex-row lg:items-center">
+      <W className="flex flex-col justify-between gap-4 border-t border-white/15 py-6 text-[14px] lg:flex-row lg:items-center">
         <div className="flex flex-wrap items-center gap-2">
           <span className="mr-1 text-white/60">Płatności:</span>
           {["BLIK", "Visa", "Mastercard", "Przelewy24", "PayPo", "Raty 0%"].map((x) => (
-            <span key={x} className="rounded bg-white px-2 py-1 font-semibold text-forest">{x}</span>
+            <span key={x} className="px-1.5 py-1 font-semibold text-white">{x}</span>
           ))}
         </div>
         <div className="flex flex-wrap items-center gap-2">

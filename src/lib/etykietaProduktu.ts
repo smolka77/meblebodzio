@@ -1,4 +1,4 @@
-/** Ukrywa kind, gdy nazwa już go zawiera — np. „Narożnik Porto L-kształtny” + kind „Porto”. */
+/** Ukrywa kind, gdy nazwa już go zawiera - np. „Narożnik Porto L-kształtny” + kind „Porto”. */
 export function productKindLabel(name: string, kind?: string): string | undefined {
   const label = kind?.trim();
   if (!label) return undefined;
@@ -23,7 +23,7 @@ function extraNameHint(product: {
   return undefined;
 }
 
-/** Dwa ogłoszenia z tą samą nazwą — dopisz kolor / rodzaj, żeby karty się różniły. */
+/** Dwa ogłoszenia z tą samą nazwą - dopisz kolor / rodzaj, żeby karty się różniły. */
 export function disambiguateProductNames<T extends { id: string; name: string; colors?: { name?: string }[]; kind?: string }>(
   products: T[]
 ): T[] {
@@ -38,7 +38,7 @@ export function disambiguateProductNames<T extends { id: string; name: string; c
     const extra = extraNameHint(product);
     if (!extra) return product;
     const base = collapseRepeatedProductName(product.name);
-    return { ...product, name: `${base} — ${extra}` };
+    return { ...product, name: `${base} - ${extra}` };
   });
 }
 

@@ -67,7 +67,7 @@ export function ProductDeliveryField({
 
       {value.readyToShip ? (
         <p className={`mt-4 ${panelHintClass}`}>
-          Ten produkt jest od ręki — czas produkcji nie obowiązuje. Ilość na magazynie
+          Ten produkt jest od ręki - czas produkcji nie obowiązuje. Ilość na magazynie
           ustawiasz przy kategorii.
         </p>
       ) : null}

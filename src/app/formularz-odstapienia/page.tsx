@@ -12,7 +12,7 @@ export const metadata = stronaMeta({
 
 export default function WithdrawalFormPage() {
   const mailHref = `mailto:${company.email}?subject=${encodeURIComponent(
-    "Oświadczenie o odstąpieniu od umowy — Wrohaus"
+    "Oświadczenie o odstąpieniu od umowy - Wrohaus"
   )}`;
 
   return (

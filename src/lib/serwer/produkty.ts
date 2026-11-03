@@ -404,12 +404,17 @@ function sanitizeReviews(input: unknown): ProductReview[] {
     let rating = Math.round(Number(row.rating));
     if (!Number.isFinite(rating)) rating = 5;
     rating = Math.min(5, Math.max(1, rating));
+    const photos = (Array.isArray(row.photos) ? row.photos : [])
+      .map((photo) => String(photo ?? "").trim().slice(0, 400))
+      .filter((photo) => photo.startsWith("/") || photo.startsWith("https://"))
+      .slice(0, 4);
     out.push({
       id: String(row.id ?? "").trim().slice(0, 64) || crypto.randomUUID(),
       author: author || "Klient",
       text,
       rating,
       city: String(row.city ?? "").trim().slice(0, 80) || undefined,
+      ...(photos.length ? { photos } : {}),
     });
   }
   return out;

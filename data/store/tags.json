@@ -4,7 +4,7 @@
       "id": "status-new",
       "group": "status",
       "name": "Nowość",
-      "hint": "Produkty oznaczone jako nowe — karta i strona produktu",
+      "hint": "Produkty oznaczone jako nowe - karta i strona produktu",
       "backgroundColor": "#5F6B54",
       "textColor": "#F8F7F4",
       "uppercase": true
@@ -22,7 +22,7 @@
       "id": "status-24h",
       "group": "status",
       "name": "Wysyłka 24H",
-      "hint": "Produkt gotowy do wysłania w 24 godziny — kafelek i karta produktu",
+      "hint": "Produkt gotowy do wysłania w 24 godziny - kafelek i karta produktu",
       "backgroundColor": "#111111",
       "textColor": "#F8F7F4",
       "borderColor": "#C4512F",
@@ -32,7 +32,7 @@
       "id": "status-bestseller",
       "group": "status",
       "name": "Bestseller",
-      "hint": "Najchętniej kupowane modele — kafelek i karta produktu",
+      "hint": "Najchętniej kupowane modele - kafelek i karta produktu",
       "backgroundColor": "#C9A227",
       "textColor": "#111111",
       "uppercase": true
@@ -50,7 +50,7 @@
       "id": "status-sold-out",
       "group": "status",
       "name": "Wyprzedane",
-      "hint": "Brak na stanie — karta produktu",
+      "hint": "Brak na stanie - karta produktu",
       "backgroundColor": "#B8B0A3",
       "textColor": "#111111",
       "uppercase": true

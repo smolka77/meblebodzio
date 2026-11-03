@@ -1,4 +1,5 @@
 import { shopNavVisibleHrefs } from "./nawigacjaSklepu";
+import { storePolicies } from "./zasadySklepu";
 
 const VISIBLE_CATEGORY_HREFS = shopNavVisibleHrefs();
 
@@ -143,7 +144,7 @@ export const DEFAULT_HOMEPAGE: HomepageContent = {
     eyebrow: "Aranżacje",
     title: "Zainspiruj się",
     intro:
-      "Salon ułożony z mebli Wrohaus — ta sama tkanina, te same wymiary, bez zgadywania z katalogu. Najedź na biały znacznik na zdjęciu albo na model na liście: zobaczysz nazwę i cenę. Kliknij, żeby przejść prosto do produktu.",
+      "Salon ułożony z mebli Wrohaus - ta sama tkanina, te same wymiary, bez zgadywania z katalogu. Najedź na biały znacznik na zdjęciu albo na model na liście: zobaczysz nazwę i cenę. Kliknij, żeby przejść prosto do produktu.",
     intro2:
       "To gotowa aranżacja, nie moodboard. Każdy mebel z tej sceny jest w sklepie i możesz zamówić go w tej samej konfiguracji.",
     listLabel: "Na tym zdjęciu możesz zobaczyć:",
@@ -159,7 +160,7 @@ export const DEFAULT_HOMEPAGE: HomepageContent = {
     eyebrow: "Kategorie",
     title: "Zacznij od kategorii",
     intro:
-      "Sofy, narożniki, fotele, kolekcje i reszta oferty — wybierz kategorię i znajdź model do swojego wnętrza.",
+      "Sofy, narożniki, fotele, kolekcje i reszta oferty - wybierz kategorię i znajdź model do swojego wnętrza.",
     cards: [
       {
         label: "Sofy",
@@ -269,11 +270,11 @@ export const DEFAULT_HOMEPAGE: HomepageContent = {
       alt: "Manufaktura Wrohaus w Kątach Wrocławskich",
       kicker: "Polska manufaktura",
       title: "Kąty Wrocławskie. Od ramy po ostatni szew.",
-      body: "Każdy mebel powstaje u nas. Kontrolujemy jakość sami — bez sezonowych kompromisów. 2 lata gwarancji.",
+      body: `Każdy mebel powstaje u nas. Kontrolujemy jakość sami - bez sezonowych kompromisów. ${storePolicies.warrantyLabel}.`,
       href: "/o-nas",
     },
     returns: {
-      highlight: "14",
+      highlight: String(storePolicies.returnsDays),
       title: "dni na zwrot",
       body: "Kupujesz spokojnie. Jeśli model nie siądzie we wnętrzu, odsyłasz bez zbędnych formalności.",
       linkLabel: "Zasady zwrotu",
@@ -282,7 +283,7 @@ export const DEFAULT_HOMEPAGE: HomepageContent = {
     shipping: {
       highlight: "od 249 zł",
       title: "Wysyłamy z Polski",
-      body: "1–10 dni roboczych. Sofy i narożniki zwykle jadą w całości. Szafy i meble skrzyniowe mogą być w paczkach do samodzielnego montażu — to jest na karcie produktu.",
+      body: "1–10 dni roboczych. Sofy i narożniki zwykle jadą w całości. Szafy i meble skrzyniowe mogą być w paczkach do samodzielnego montażu - to jest na karcie produktu.",
       linkLabel: "Dostawa i terminy",
       linkHref: "/dostawa",
     },
@@ -291,7 +292,7 @@ export const DEFAULT_HOMEPAGE: HomepageContent = {
     eyebrow: "Wasze opinie",
     title: "Ludzie, którzy już siedzą na Wrohaus",
     rating: "4,9 / 5",
-    meta: "— oceny z zamówień sofy, narożników i foteli",
+    meta: "- oceny z zamówień sofy, narożników i foteli",
     items: [
       {
         id: "review-marta",

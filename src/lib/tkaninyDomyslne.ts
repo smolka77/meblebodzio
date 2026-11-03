@@ -3,7 +3,7 @@ import type { Fabric } from "./typy";
 /** Katalog startowy + dane testowe do podglądu flow styl → kolor. */
 export function getDefaultFabrics(): Fabric[] {
   return [
-    // —— Boucle (3 odcienie) ——
+    // -- Boucle (3 odcienie) --
     {
       id: "fab-boucle-ivory",
       name: "Boucle Ivory",
@@ -21,7 +21,7 @@ export function getDefaultFabrics(): Fabric[] {
       id: "fab-boucle-sand",
       name: "Boucle Sand",
       description:
-        "Boucle w piaskowym odcieniu — ciepły, przytulny, świetny do wnętrz boho i japandi.",
+        "Boucle w piaskowym odcieniu - ciepły, przytulny, świetny do wnętrz boho i japandi.",
       material: "Boucle",
       colorHex: "#C9B89A",
       image:
@@ -40,7 +40,7 @@ export function getDefaultFabrics(): Fabric[] {
       active: true,
     },
 
-    // —— Welur (4 odcienie) ——
+    // -- Welur (4 odcienie) --
     {
       id: "fab-welur-stone",
       name: "Welur Stone",
@@ -52,7 +52,7 @@ export function getDefaultFabrics(): Fabric[] {
         "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=800&q=80",
       specs:
         "Typ tkaniny: welur\nSkład: 100% PES\nTest Martindale: >50 000 cykli\nGramatura: 420 g/m²",
-      care: "Odkurzać miękką końcówką. Plamy blotować wilgotną ściereczką — nie pocierać.",
+      care: "Odkurzać miękką końcówką. Plamy blotować wilgotną ściereczką - nie pocierać.",
       active: true,
     },
     {
@@ -89,7 +89,7 @@ export function getDefaultFabrics(): Fabric[] {
       active: true,
     },
 
-    // —— Len (3 odcienie) ——
+    // -- Len (3 odcienie) --
     {
       id: "fab-len-natural",
       name: "Len Natural",
@@ -106,7 +106,7 @@ export function getDefaultFabrics(): Fabric[] {
       id: "fab-len-oat",
       name: "Len Oat",
       description:
-        "Len w odcieniu owsianki — jaśniejszy, bardzo uniwersalny do małych i dużych wnętrz.",
+        "Len w odcieniu owsianki - jaśniejszy, bardzo uniwersalny do małych i dużych wnętrz.",
       material: "Len",
       colorHex: "#E5DCC8",
       image:
@@ -125,7 +125,7 @@ export function getDefaultFabrics(): Fabric[] {
       active: true,
     },
 
-    // —— Mikrofibra (2 odcienie) ——
+    // -- Mikrofibra (2 odcienie) --
     {
       id: "fab-micro-graphite",
       name: "Mikrofibra Graphite",

@@ -34,7 +34,7 @@ export function getDefaultFaqCategories(): FaqCategory[] {
         {
           id: "dos-1",
           question: "Ile kosztuje dostawa?",
-          answer: `Dostawa standardowa kosztuje ${storePolicies.standardDeliveryPriceLabel}. Koszt zależy od gabarytu produktu i lokalizacji — wyświetlamy go przed finalizacją zamówienia. Możesz też wybrać ${storePolicies.pickupTitle.toLowerCase()} bez opłaty za transport (${storePolicies.pickupHoursLabel}, po umówieniu).`,
+          answer: `Dostawa standardowa kosztuje ${storePolicies.standardDeliveryPriceLabel}. Przy zamówieniach od ${storePolicies.freeShippingFrom} zł dostawa standardowa jest bezpłatna. Koszt zależy od gabarytu produktu i lokalizacji — wyświetlamy go przed finalizacją zamówienia. Możesz też wybrać ${storePolicies.pickupTitle.toLowerCase()} bez opłaty za transport (${storePolicies.pickupHoursLabel}, po umówieniu).`,
         },
         {
           id: "dos-2",
@@ -55,7 +55,7 @@ export function getDefaultFaqCategories(): FaqCategory[] {
         {
           id: "zwr-1",
           question: "Ile mam czasu na zwrot?",
-          answer: `Konsument ma ${storePolicies.returnsDays} dni na odstąpienie od umowy od otrzymania mebla — bez podawania przyczyny. Możesz rozpakować i sprawdzić mebel tak jak w sklepie stacjonarnym. Nie wymagamy oryginalnego opakowania. Jeśli korzystasz z mebla poza tym zakresem, możemy rozliczyć zmniejszenie wartości. Meble na wymiar (art. 38 pkt 3) mogą być wyłączone. Szczegóły: Polityka zwrotów.`,
+          answer: `Konsument ma ${storePolicies.returnsDays} dni na odstąpienie od umowy od otrzymania mebla (ustawowe ${storePolicies.statutoryReturnsDays} dni wydłużamy do ${storePolicies.returnsDays}) — bez podawania przyczyny. Możesz rozpakować i sprawdzić mebel tak jak w sklepie stacjonarnym. Nie wymagamy oryginalnego opakowania. Jeśli korzystasz z mebla poza tym zakresem, możemy rozliczyć zmniejszenie wartości. Meble na wymiar (art. 38 pkt 3) mogą być wyłączone. Szczegóły: Polityka zwrotów.`,
         },
         {
           id: "zwr-2",
@@ -66,7 +66,7 @@ export function getDefaultFaqCategories(): FaqCategory[] {
           id: "zwr-3",
           question: "Kiedy otrzymam zwrot pieniędzy?",
           answer:
-            "Zwrot środków realizujemy w ciągu 14 dni od otrzymania oświadczenia o odstąpieniu. Możemy wstrzymać zwrot do chwili otrzymania mebla albo dowodu nadania — które zdarzenie nastąpi wcześniej. Pieniądze wracają na ten sam instrument płatniczy w PayU (karta, BLIK, przelew). Bezpośrednie koszty odesłania mebla ponosi klient.",
+            `Zwrot środków realizujemy w ciągu ${storePolicies.refundDays} dni od otrzymania oświadczenia o odstąpieniu. Możemy wstrzymać zwrot do chwili otrzymania mebla albo dowodu nadania — które zdarzenie nastąpi wcześniej. Pieniądze wracają na ten sam instrument płatniczy w PayU (karta, BLIK, przelew). Bezpośrednie koszty odesłania mebla ponosi klient.`,
         },
       ],
     },

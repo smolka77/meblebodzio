@@ -3,6 +3,7 @@
 import type { ProductReview } from "@/lib/typy";
 import { averageRating, formatAverageRating } from "@/lib/opinie";
 import { RatingStars } from "@/components/sklep/GwiazdkiOceny";
+import { StoreImage } from "@/components/sklep/ObrazSklepu";
 import { useLanguage } from "@/kontekst/KontekstJezyka";
 
 export { averageRating } from "@/lib/opinie";
@@ -39,6 +40,23 @@ export function ProductReviewsSection({ reviews }: { reviews: ProductReview[] })
                 <p className="mt-3 text-[15px] leading-relaxed text-charcoal/85">
                   {review.text}
                 </p>
+                {review.photos?.length ? (
+                  <ul className="mt-3 flex gap-2">
+                    {review.photos.map((photo) => (
+                      <li
+                        key={photo}
+                        className="relative h-16 w-16 overflow-hidden rounded-lg bg-cream-light"
+                      >
+                        <StoreImage
+                          src={photo}
+                          alt={`Zdjęcie klienta: ${review.author}`}
+                          fill
+                          sizes="64px"
+                        />
+                      </li>
+                    ))}
+                  </ul>
+                ) : null}
                 <p className="mt-3 text-sm font-semibold text-charcoal">{review.author}</p>
                 {review.city ? (
                   <p className="text-xs text-sand">{review.city}</p>

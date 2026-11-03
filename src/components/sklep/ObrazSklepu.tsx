@@ -10,6 +10,7 @@ export function StoreImage({
   sizes,
   priority,
   fit = "cover",
+  position,
 }: {
   src?: string | null;
   alt: string;
@@ -18,10 +19,13 @@ export function StoreImage({
   sizes?: string;
   priority?: boolean;
   fit?: "cover" | "contain";
+  /** Kadr zdjęcia (object-position), np. „50% 60%”. */
+  position?: string;
 }) {
   const url = src?.trim();
   if (!url) return null;
   const objectClass = fit === "contain" ? "object-contain" : "object-cover";
+  const style = position ? { objectPosition: position } : undefined;
 
   if (shouldUnoptimizeImage(url)) {
     const srcSet = mediaSrcSet(url);
@@ -36,6 +40,7 @@ export function StoreImage({
         decoding="async"
         loading={priority ? "eager" : "lazy"}
         fetchPriority={priority ? "high" : "auto"}
+        style={style}
         className={
           fill
             ? `absolute inset-0 h-full w-full ${objectClass} ${className ?? ""}`.trim()
@@ -51,6 +56,7 @@ export function StoreImage({
       alt={alt}
       fill={fill}
       className={`${objectClass} ${className ?? ""}`.trim()}
+      style={style}
       sizes={sizes}
       priority={priority}
     />

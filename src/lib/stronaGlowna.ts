@@ -1,4 +1,5 @@
 import { shopNavVisibleHrefs } from "./nawigacjaSklepu";
+import { storePolicies } from "./zasadySklepu";
 
 const VISIBLE_CATEGORY_HREFS = shopNavVisibleHrefs();
 
@@ -269,11 +270,11 @@ export const DEFAULT_HOMEPAGE: HomepageContent = {
       alt: "Manufaktura Wrohaus w Kątach Wrocławskich",
       kicker: "Polska manufaktura",
       title: "Kąty Wrocławskie. Od ramy po ostatni szew.",
-      body: "Każdy mebel powstaje u nas. Kontrolujemy jakość sami — bez sezonowych kompromisów. 2 lata gwarancji.",
+      body: `Każdy mebel powstaje u nas. Kontrolujemy jakość sami — bez sezonowych kompromisów. ${storePolicies.warrantyLabel}.`,
       href: "/o-nas",
     },
     returns: {
-      highlight: "14",
+      highlight: String(storePolicies.returnsDays),
       title: "dni na zwrot",
       body: "Kupujesz spokojnie. Jeśli model nie siądzie we wnętrzu, odsyłasz bez zbędnych formalności.",
       linkLabel: "Zasady zwrotu",

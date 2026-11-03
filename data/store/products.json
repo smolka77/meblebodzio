@@ -105,6 +105,39 @@
     "reviewCount": 52,
     "images": [
       "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=1400&q=80"
+    ],
+    "styles": [
+      "glamour",
+      "klasyczny"
+    ],
+    "materials": [
+      "Welur"
+    ],
+    "options": [
+      {
+        "id": "nozki",
+        "name": "Nóżki",
+        "values": [
+          {
+            "id": "dab",
+            "label": "Dąb olejowany",
+            "surcharge": 0,
+            "swatch": "#B98B5A"
+          },
+          {
+            "id": "czarny",
+            "label": "Czarny mat",
+            "surcharge": 0,
+            "swatch": "#1F1F1F"
+          },
+          {
+            "id": "mosiadz",
+            "label": "Mosiądz szczotkowany",
+            "surcharge": 249,
+            "swatch": "#B79A5B"
+          }
+        ]
+      }
     ]
   },
   {
@@ -234,6 +267,12 @@
     "reviewCount": 29,
     "images": [
       "https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?w=1400&q=80"
+    ],
+    "styles": [
+      "skandynawski"
+    ],
+    "materials": [
+      "Tkanina"
     ]
   },
   {
@@ -333,6 +372,38 @@
     "reviewCount": 10,
     "images": [
       "https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?w=1400&q=80"
+    ],
+    "styles": [
+      "skandynawski"
+    ],
+    "materials": [
+      "Welur"
+    ],
+    "options": [
+      {
+        "id": "nozki",
+        "name": "Nóżki",
+        "values": [
+          {
+            "id": "dab",
+            "label": "Dąb olejowany",
+            "surcharge": 0,
+            "swatch": "#B98B5A"
+          },
+          {
+            "id": "czarny",
+            "label": "Czarny mat",
+            "surcharge": 0,
+            "swatch": "#1F1F1F"
+          },
+          {
+            "id": "mosiadz",
+            "label": "Mosiądz szczotkowany",
+            "surcharge": 249,
+            "swatch": "#B79A5B"
+          }
+        ]
+      }
     ]
   },
   {
@@ -417,6 +488,38 @@
     "reviewCount": 75,
     "images": [
       "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?w=1400&q=80"
+    ],
+    "styles": [
+      "skandynawski"
+    ],
+    "materials": [
+      "Len"
+    ],
+    "options": [
+      {
+        "id": "nozki",
+        "name": "Nóżki",
+        "values": [
+          {
+            "id": "dab",
+            "label": "Dąb olejowany",
+            "surcharge": 0,
+            "swatch": "#B98B5A"
+          },
+          {
+            "id": "czarny",
+            "label": "Czarny mat",
+            "surcharge": 0,
+            "swatch": "#1F1F1F"
+          },
+          {
+            "id": "mosiadz",
+            "label": "Mosiądz szczotkowany",
+            "surcharge": 249,
+            "swatch": "#B79A5B"
+          }
+        ]
+      }
     ]
   },
   {
@@ -516,6 +619,13 @@
     "reviewCount": 56,
     "images": [
       "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=1400&q=80"
+    ],
+    "styles": [
+      "skandynawski",
+      "nowoczesny"
+    ],
+    "materials": [
+      "Boucle"
     ]
   },
   {
@@ -601,6 +711,39 @@
     "reviewCount": 33,
     "images": [
       "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=1400&q=80"
+    ],
+    "styles": [
+      "klasyczny",
+      "glamour"
+    ],
+    "materials": [
+      "Welur"
+    ],
+    "options": [
+      {
+        "id": "nozki",
+        "name": "Nóżki",
+        "values": [
+          {
+            "id": "czarny",
+            "label": "Czarny mat",
+            "surcharge": 0,
+            "swatch": "#1F1F1F"
+          },
+          {
+            "id": "dab",
+            "label": "Dąb olejowany",
+            "surcharge": 0,
+            "swatch": "#B98B5A"
+          },
+          {
+            "id": "mosiadz",
+            "label": "Mosiądz szczotkowany",
+            "surcharge": 249,
+            "swatch": "#B79A5B"
+          }
+        ]
+      }
     ]
   },
   {
@@ -687,6 +830,39 @@
     "reviewCount": 14,
     "images": [
       "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=1400&q=80"
+    ],
+    "styles": [
+      "skandynawski",
+      "nowoczesny"
+    ],
+    "materials": [
+      "Boucle"
+    ],
+    "options": [
+      {
+        "id": "nozki",
+        "name": "Nóżki",
+        "values": [
+          {
+            "id": "dab",
+            "label": "Dąb olejowany",
+            "surcharge": 0,
+            "swatch": "#B98B5A"
+          },
+          {
+            "id": "czarny",
+            "label": "Czarny mat",
+            "surcharge": 0,
+            "swatch": "#1F1F1F"
+          },
+          {
+            "id": "mosiadz",
+            "label": "Mosiądz szczotkowany",
+            "surcharge": 249,
+            "swatch": "#B79A5B"
+          }
+        ]
+      }
     ]
   },
   {
@@ -780,6 +956,13 @@
     "reviewCount": 63,
     "images": [
       "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=1400&q=80"
+    ],
+    "styles": [
+      "skandynawski"
+    ],
+    "materials": [
+      "Len",
+      "Drewno"
     ]
   },
   {
@@ -819,6 +1002,66 @@
     "reviewCount": 44,
     "images": [
       "https://images.unsplash.com/photo-1484101403633-562f891dc89a?w=1400&q=80"
+    ],
+    "styles": [
+      "klasyczny",
+      "skandynawski"
+    ],
+    "materials": [
+      "Tkanina"
+    ],
+    "details": {
+      "longDescription": "",
+      "highlights": [],
+      "specs": [],
+      "dimensions": [
+        {
+          "label": "Szerokość",
+          "value": "215 cm"
+        },
+        {
+          "label": "Wysokość",
+          "value": "86 cm"
+        },
+        {
+          "label": "Głębokość",
+          "value": "92 cm"
+        },
+        {
+          "label": "Wysokość siedziska",
+          "value": "44 cm"
+        }
+      ],
+      "faq": [],
+      "productCode": ""
+    },
+    "stockQty": 12,
+    "shipping24h": true,
+    "options": [
+      {
+        "id": "nozki",
+        "name": "Nóżki",
+        "values": [
+          {
+            "id": "dab",
+            "label": "Dąb olejowany",
+            "surcharge": 0,
+            "swatch": "#B98B5A"
+          },
+          {
+            "id": "czarny",
+            "label": "Czarny mat",
+            "surcharge": 0,
+            "swatch": "#1F1F1F"
+          },
+          {
+            "id": "mosiadz",
+            "label": "Mosiądz szczotkowany",
+            "surcharge": 249,
+            "swatch": "#B79A5B"
+          }
+        ]
+      }
     ]
   },
   {
@@ -857,6 +1100,63 @@
     "reviewCount": 60,
     "images": [
       "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1400&q=80"
+    ],
+    "styles": [
+      "nowoczesny"
+    ],
+    "materials": [
+      "Tkanina"
+    ],
+    "details": {
+      "longDescription": "",
+      "highlights": [],
+      "specs": [],
+      "dimensions": [
+        {
+          "label": "Szerokość",
+          "value": "245 cm"
+        },
+        {
+          "label": "Wysokość",
+          "value": "74 cm"
+        },
+        {
+          "label": "Głębokość",
+          "value": "104 cm"
+        },
+        {
+          "label": "Wysokość siedziska",
+          "value": "38 cm"
+        }
+      ],
+      "faq": [],
+      "productCode": ""
+    },
+    "options": [
+      {
+        "id": "nozki",
+        "name": "Nóżki",
+        "values": [
+          {
+            "id": "dab",
+            "label": "Dąb olejowany",
+            "surcharge": 0,
+            "swatch": "#B98B5A"
+          },
+          {
+            "id": "czarny",
+            "label": "Czarny mat",
+            "surcharge": 0,
+            "swatch": "#1F1F1F"
+          },
+          {
+            "id": "mosiadz",
+            "label": "Mosiądz szczotkowany",
+            "surcharge": 249,
+            "swatch": "#B79A5B"
+          }
+        ]
+      }
     ]
   },
   {
@@ -895,6 +1195,64 @@
     "reviewCount": 79,
     "images": [
       "https://images.unsplash.com/photo-1600121848594-d8644e57abab?w=1400&q=80"
+    ],
+    "styles": [
+      "glamour",
+      "klasyczny"
+    ],
+    "materials": [
+      "Welur"
+    ],
+    "details": {
+      "longDescription": "",
+      "highlights": [],
+      "specs": [],
+      "dimensions": [
+        {
+          "label": "Szerokość",
+          "value": "205 cm"
+        },
+        {
+          "label": "Wysokość",
+          "value": "82 cm"
+        },
+        {
+          "label": "Głębokość",
+          "value": "90 cm"
+        },
+        {
+          "label": "Wysokość siedziska",
+          "value": "42 cm"
+        }
+      ],
+      "faq": [],
+      "productCode": ""
+    },
+    "options": [
+      {
+        "id": "nozki",
+        "name": "Nóżki",
+        "values": [
+          {
+            "id": "dab",
+            "label": "Dąb olejowany",
+            "surcharge": 0,
+            "swatch": "#B98B5A"
+          },
+          {
+            "id": "czarny",
+            "label": "Czarny mat",
+            "surcharge": 0,
+            "swatch": "#1F1F1F"
+          },
+          {
+            "id": "mosiadz",
+            "label": "Mosiądz szczotkowany",
+            "surcharge": 249,
+            "swatch": "#B79A5B"
+          }
+        ]
+      }
     ]
   },
   {
@@ -934,6 +1292,66 @@
     "reviewCount": 18,
     "images": [
       "https://images.unsplash.com/photo-1684165610413-2401399e0e59?w=1400&q=80"
+    ],
+    "styles": [
+      "loft",
+      "nowoczesny"
+    ],
+    "materials": [
+      "Tkanina"
+    ],
+    "details": {
+      "longDescription": "",
+      "highlights": [],
+      "specs": [],
+      "dimensions": [
+        {
+          "label": "Szerokość",
+          "value": "220 cm"
+        },
+        {
+          "label": "Wysokość",
+          "value": "76 cm"
+        },
+        {
+          "label": "Głębokość",
+          "value": "96 cm"
+        },
+        {
+          "label": "Wysokość siedziska",
+          "value": "40 cm"
+        }
+      ],
+      "faq": [],
+      "productCode": ""
+    },
+    "stockQty": 8,
+    "shipping24h": true,
+    "options": [
+      {
+        "id": "nozki",
+        "name": "Nóżki",
+        "values": [
+          {
+            "id": "czarny",
+            "label": "Czarny mat",
+            "surcharge": 0,
+            "swatch": "#1F1F1F"
+          },
+          {
+            "id": "dab",
+            "label": "Dąb olejowany",
+            "surcharge": 0,
+            "swatch": "#B98B5A"
+          },
+          {
+            "id": "mosiadz",
+            "label": "Mosiądz szczotkowany",
+            "surcharge": 249,
+            "swatch": "#B79A5B"
+          }
+        ]
+      }
     ]
   },
   {
@@ -974,7 +1392,38 @@
     "reviewCount": 37,
     "images": [
       "https://images.unsplash.com/photo-1615876234886-fd9a39fda97f?w=1400&q=80"
-    ]
+    ],
+    "styles": [
+      "skandynawski"
+    ],
+    "materials": [
+      "Tkanina"
+    ],
+    "details": {
+      "longDescription": "",
+      "highlights": [],
+      "specs": [],
+      "dimensions": [
+        {
+          "label": "Szerokość",
+          "value": "285 cm"
+        },
+        {
+          "label": "Wysokość",
+          "value": "86 cm"
+        },
+        {
+          "label": "Głębokość",
+          "value": "165 cm"
+        },
+        {
+          "label": "Wysokość siedziska",
+          "value": "44 cm"
+        }
+      ],
+      "faq": [],
+      "productCode": ""
+    }
   },
   {
     "id": "14",
@@ -1013,7 +1462,40 @@
     "reviewCount": 64,
     "images": [
       "https://images.unsplash.com/photo-1759722668253-1767030ad9b2?w=1400&q=80"
-    ]
+    ],
+    "styles": [
+      "nowoczesny"
+    ],
+    "materials": [
+      "Tkanina"
+    ],
+    "details": {
+      "longDescription": "",
+      "highlights": [],
+      "specs": [],
+      "dimensions": [
+        {
+          "label": "Szerokość",
+          "value": "330 cm"
+        },
+        {
+          "label": "Wysokość",
+          "value": "85 cm"
+        },
+        {
+          "label": "Głębokość",
+          "value": "190 cm"
+        },
+        {
+          "label": "Wysokość siedziska",
+          "value": "44 cm"
+        }
+      ],
+      "faq": [],
+      "productCode": ""
+    },
+    "stockQty": 4,
+    "shipping24h": true
   },
   {
     "id": "15",
@@ -1052,7 +1534,39 @@
     "reviewCount": 83,
     "images": [
       "https://images.unsplash.com/photo-1768511731493-d3c2aa483bb5?w=1400&q=80"
-    ]
+    ],
+    "styles": [
+      "nowoczesny",
+      "skandynawski"
+    ],
+    "materials": [
+      "Tkanina"
+    ],
+    "details": {
+      "longDescription": "",
+      "highlights": [],
+      "specs": [],
+      "dimensions": [
+        {
+          "label": "Szerokość",
+          "value": "275 cm"
+        },
+        {
+          "label": "Wysokość",
+          "value": "84 cm"
+        },
+        {
+          "label": "Głębokość",
+          "value": "160 cm"
+        },
+        {
+          "label": "Wysokość siedziska",
+          "value": "44 cm"
+        }
+      ],
+      "faq": [],
+      "productCode": ""
+    }
   },
   {
     "id": "16",
@@ -1090,6 +1604,66 @@
     "reviewCount": 22,
     "images": [
       "https://images.unsplash.com/photo-1506439773649-6e0eb8cfb237?w=1400&q=80"
+    ],
+    "styles": [
+      "skandynawski"
+    ],
+    "materials": [
+      "Drewno",
+      "Tkanina"
+    ],
+    "details": {
+      "longDescription": "",
+      "highlights": [],
+      "specs": [],
+      "dimensions": [
+        {
+          "label": "Szerokość",
+          "value": "70 cm"
+        },
+        {
+          "label": "Wysokość",
+          "value": "80 cm"
+        },
+        {
+          "label": "Głębokość",
+          "value": "78 cm"
+        },
+        {
+          "label": "Wysokość siedziska",
+          "value": "41 cm"
+        }
+      ],
+      "faq": [],
+      "productCode": ""
+    },
+    "stockQty": 15,
+    "shipping24h": true,
+    "options": [
+      {
+        "id": "nozki",
+        "name": "Nóżki",
+        "values": [
+          {
+            "id": "dab",
+            "label": "Dąb olejowany",
+            "surcharge": 0,
+            "swatch": "#B98B5A"
+          },
+          {
+            "id": "czarny",
+            "label": "Czarny mat",
+            "surcharge": 0,
+            "swatch": "#1F1F1F"
+          },
+          {
+            "id": "mosiadz",
+            "label": "Mosiądz szczotkowany",
+            "surcharge": 249,
+            "swatch": "#B79A5B"
+          }
+        ]
+      }
     ]
   },
   {
@@ -1128,6 +1702,64 @@
     "reviewCount": 41,
     "images": [
       "https://images.unsplash.com/photo-1686510347470-0e36eb055a30?w=1400&q=80"
+    ],
+    "styles": [
+      "skandynawski",
+      "nowoczesny"
+    ],
+    "materials": [
+      "Boucle"
+    ],
+    "details": {
+      "longDescription": "",
+      "highlights": [],
+      "specs": [],
+      "dimensions": [
+        {
+          "label": "Szerokość",
+          "value": "82 cm"
+        },
+        {
+          "label": "Wysokość",
+          "value": "74 cm"
+        },
+        {
+          "label": "Głębokość",
+          "value": "78 cm"
+        },
+        {
+          "label": "Wysokość siedziska",
+          "value": "40 cm"
+        }
+      ],
+      "faq": [],
+      "productCode": ""
+    },
+    "options": [
+      {
+        "id": "nozki",
+        "name": "Nóżki",
+        "values": [
+          {
+            "id": "dab",
+            "label": "Dąb olejowany",
+            "surcharge": 0,
+            "swatch": "#B98B5A"
+          },
+          {
+            "id": "czarny",
+            "label": "Czarny mat",
+            "surcharge": 0,
+            "swatch": "#1F1F1F"
+          },
+          {
+            "id": "mosiadz",
+            "label": "Mosiądz szczotkowany",
+            "surcharge": 249,
+            "swatch": "#B79A5B"
+          }
+        ]
+      }
     ]
   },
   {
@@ -1166,6 +1798,63 @@
     "reviewCount": 68,
     "images": [
       "https://images.unsplash.com/photo-1592078615290-033ee584e267?w=1400&q=80"
+    ],
+    "styles": [
+      "nowoczesny"
+    ],
+    "materials": [
+      "Tkanina"
+    ],
+    "details": {
+      "longDescription": "",
+      "highlights": [],
+      "specs": [],
+      "dimensions": [
+        {
+          "label": "Szerokość",
+          "value": "85 cm"
+        },
+        {
+          "label": "Wysokość",
+          "value": "90 cm"
+        },
+        {
+          "label": "Głębokość",
+          "value": "86 cm"
+        },
+        {
+          "label": "Wysokość siedziska",
+          "value": "42 cm"
+        }
+      ],
+      "faq": [],
+      "productCode": ""
+    },
+    "options": [
+      {
+        "id": "nozki",
+        "name": "Nóżki",
+        "values": [
+          {
+            "id": "dab",
+            "label": "Dąb olejowany",
+            "surcharge": 0,
+            "swatch": "#B98B5A"
+          },
+          {
+            "id": "czarny",
+            "label": "Czarny mat",
+            "surcharge": 0,
+            "swatch": "#1F1F1F"
+          },
+          {
+            "id": "mosiadz",
+            "label": "Mosiądz szczotkowany",
+            "surcharge": 249,
+            "swatch": "#B79A5B"
+          }
+        ]
+      }
     ]
   },
   {
@@ -1204,6 +1893,66 @@
     "reviewCount": 87,
     "images": [
       "https://images.unsplash.com/photo-1567016432779-094069958ea5?w=1400&q=80"
+    ],
+    "styles": [
+      "klasyczny",
+      "nowoczesny"
+    ],
+    "materials": [
+      "Welur"
+    ],
+    "details": {
+      "longDescription": "",
+      "highlights": [],
+      "specs": [],
+      "dimensions": [
+        {
+          "label": "Szerokość",
+          "value": "76 cm"
+        },
+        {
+          "label": "Wysokość",
+          "value": "82 cm"
+        },
+        {
+          "label": "Głębokość",
+          "value": "80 cm"
+        },
+        {
+          "label": "Wysokość siedziska",
+          "value": "43 cm"
+        }
+      ],
+      "faq": [],
+      "productCode": ""
+    },
+    "stockQty": 20,
+    "shipping24h": true,
+    "options": [
+      {
+        "id": "nozki",
+        "name": "Nóżki",
+        "values": [
+          {
+            "id": "dab",
+            "label": "Dąb olejowany",
+            "surcharge": 0,
+            "swatch": "#B98B5A"
+          },
+          {
+            "id": "czarny",
+            "label": "Czarny mat",
+            "surcharge": 0,
+            "swatch": "#1F1F1F"
+          },
+          {
+            "id": "mosiadz",
+            "label": "Mosiądz szczotkowany",
+            "surcharge": 249,
+            "swatch": "#B79A5B"
+          }
+        ]
+      }
     ]
   },
   {
@@ -1242,7 +1991,38 @@
     "reviewCount": 71,
     "images": [
       "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?w=1400&q=80"
-    ]
+    ],
+    "styles": [
+      "nowoczesny"
+    ],
+    "materials": [
+      "Tkanina"
+    ],
+    "details": {
+      "longDescription": "",
+      "highlights": [],
+      "specs": [],
+      "dimensions": [
+        {
+          "label": "Sofa — szerokość",
+          "value": "260 cm"
+        },
+        {
+          "label": "Fotel — szerokość",
+          "value": "85 cm"
+        },
+        {
+          "label": "Stolik — średnica",
+          "value": "85 cm"
+        },
+        {
+          "label": "Stolik — wysokość",
+          "value": "40 cm"
+        }
+      ],
+      "faq": [],
+      "productCode": ""
+    }
   },
   {
     "id": "21",
@@ -1281,7 +2061,35 @@
     "reviewCount": 52,
     "images": [
       "https://images.unsplash.com/photo-1600121848594-d8644e57abab?w=1400&q=80"
-    ]
+    ],
+    "styles": [
+      "nowoczesny",
+      "skandynawski"
+    ],
+    "materials": [
+      "Boucle"
+    ],
+    "details": {
+      "longDescription": "",
+      "highlights": [],
+      "specs": [],
+      "dimensions": [
+        {
+          "label": "Narożnik — szerokość",
+          "value": "280 cm"
+        },
+        {
+          "label": "Fotel — szerokość",
+          "value": "80 cm"
+        },
+        {
+          "label": "Puf — średnica",
+          "value": "55 cm"
+        }
+      ],
+      "faq": [],
+      "productCode": ""
+    }
   },
   {
     "id": "22",
@@ -1319,6 +2127,64 @@
     "reviewCount": 29,
     "images": [
       "https://images.unsplash.com/photo-1484101403633-562f891dc89a?w=1400&q=80"
+    ],
+    "styles": [
+      "nowoczesny",
+      "klasyczny"
+    ],
+    "materials": [
+      "Tkanina"
+    ],
+    "details": {
+      "longDescription": "",
+      "highlights": [],
+      "specs": [],
+      "dimensions": [
+        {
+          "label": "Szerokość",
+          "value": "195 cm"
+        },
+        {
+          "label": "Wysokość",
+          "value": "83 cm"
+        },
+        {
+          "label": "Głębokość",
+          "value": "88 cm"
+        },
+        {
+          "label": "Wysokość siedziska",
+          "value": "43 cm"
+        }
+      ],
+      "faq": [],
+      "productCode": ""
+    },
+    "options": [
+      {
+        "id": "nozki",
+        "name": "Nóżki",
+        "values": [
+          {
+            "id": "czarny",
+            "label": "Czarny mat",
+            "surcharge": 0,
+            "swatch": "#1F1F1F"
+          },
+          {
+            "id": "dab",
+            "label": "Dąb olejowany",
+            "surcharge": 0,
+            "swatch": "#B98B5A"
+          },
+          {
+            "id": "mosiadz",
+            "label": "Mosiądz szczotkowany",
+            "surcharge": 249,
+            "swatch": "#B79A5B"
+          }
+        ]
+      }
     ]
   },
   {
@@ -1358,7 +2224,41 @@
     "reviewCount": 10,
     "images": [
       "https://images.unsplash.com/photo-1759722665935-0967b4e0da93?w=1400&q=80"
-    ]
+    ],
+    "styles": [
+      "loft",
+      "klasyczny"
+    ],
+    "materials": [
+      "Skóra"
+    ],
+    "details": {
+      "longDescription": "",
+      "highlights": [],
+      "specs": [],
+      "dimensions": [
+        {
+          "label": "Szerokość",
+          "value": "300 cm"
+        },
+        {
+          "label": "Wysokość",
+          "value": "85 cm"
+        },
+        {
+          "label": "Głębokość",
+          "value": "175 cm"
+        },
+        {
+          "label": "Wysokość siedziska",
+          "value": "43 cm"
+        }
+      ],
+      "faq": [],
+      "productCode": ""
+    },
+    "stockQty": 6,
+    "shipping24h": true
   },
   {
     "id": "24",
@@ -1397,6 +2297,63 @@
     "reviewCount": 75,
     "images": [
       "https://images.unsplash.com/photo-1506439773649-6e0eb8cfb237?w=1400&q=80"
+    ],
+    "styles": [
+      "skandynawski"
+    ],
+    "materials": [
+      "Tkanina"
+    ],
+    "details": {
+      "longDescription": "",
+      "highlights": [],
+      "specs": [],
+      "dimensions": [
+        {
+          "label": "Szerokość",
+          "value": "68 cm"
+        },
+        {
+          "label": "Wysokość",
+          "value": "84 cm"
+        },
+        {
+          "label": "Głębokość",
+          "value": "72 cm"
+        },
+        {
+          "label": "Wysokość siedziska",
+          "value": "44 cm"
+        }
+      ],
+      "faq": [],
+      "productCode": ""
+    },
+    "options": [
+      {
+        "id": "nozki",
+        "name": "Nóżki",
+        "values": [
+          {
+            "id": "dab",
+            "label": "Dąb olejowany",
+            "surcharge": 0,
+            "swatch": "#B98B5A"
+          },
+          {
+            "id": "czarny",
+            "label": "Czarny mat",
+            "surcharge": 0,
+            "swatch": "#1F1F1F"
+          },
+          {
+            "id": "mosiadz",
+            "label": "Mosiądz szczotkowany",
+            "surcharge": 249,
+            "swatch": "#B79A5B"
+          }
+        ]
+      }
     ]
   },
   {
@@ -1435,7 +2392,35 @@
     "reviewCount": 56,
     "images": [
       "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=1400&q=80"
-    ]
+    ],
+    "styles": [
+      "loft",
+      "nowoczesny"
+    ],
+    "materials": [
+      "Metal"
+    ],
+    "details": {
+      "longDescription": "",
+      "highlights": [],
+      "specs": [],
+      "dimensions": [
+        {
+          "label": "Szerokość",
+          "value": "160 cm"
+        },
+        {
+          "label": "Wysokość",
+          "value": "190 cm"
+        },
+        {
+          "label": "Głębokość",
+          "value": "32 cm"
+        }
+      ],
+      "faq": [],
+      "productCode": ""
+    }
   },
   {
     "id": "26",
@@ -1474,7 +2459,38 @@
     "reviewCount": 33,
     "images": [
       "https://images.unsplash.com/photo-1517991104123-1d56a6e81ed9?w=1400&q=80"
-    ]
+    ],
+    "styles": [
+      "glamour",
+      "klasyczny"
+    ],
+    "materials": [
+      "Metal",
+      "Tkanina"
+    ],
+    "details": {
+      "longDescription": "",
+      "highlights": [],
+      "specs": [],
+      "dimensions": [
+        {
+          "label": "Szerokość",
+          "value": "32 cm"
+        },
+        {
+          "label": "Wysokość",
+          "value": "62 cm"
+        },
+        {
+          "label": "Głębokość",
+          "value": "32 cm"
+        }
+      ],
+      "faq": [],
+      "productCode": ""
+    },
+    "stockQty": 24,
+    "shipping24h": true
   },
   {
     "id": "27",
@@ -1512,7 +2528,35 @@
     "reviewCount": 14,
     "images": [
       "https://images.unsplash.com/photo-1493809842364-78817add7ffb?w=1400&q=80"
-    ]
+    ],
+    "styles": [
+      "skandynawski"
+    ],
+    "materials": [
+      "Drewno",
+      "Płyta laminowana"
+    ],
+    "details": {
+      "longDescription": "",
+      "highlights": [],
+      "specs": [],
+      "dimensions": [
+        {
+          "label": "Szerokość",
+          "value": "160 cm"
+        },
+        {
+          "label": "Wysokość",
+          "value": "45 cm"
+        },
+        {
+          "label": "Głębokość",
+          "value": "40 cm"
+        }
+      ],
+      "faq": [],
+      "productCode": ""
+    }
   },
   {
     "id": "28",
@@ -1551,7 +2595,35 @@
     "reviewCount": 63,
     "images": [
       "https://images.unsplash.com/photo-1616137466211-f939a420be84?w=1400&q=80"
-    ]
+    ],
+    "styles": [
+      "nowoczesny",
+      "skandynawski"
+    ],
+    "materials": [
+      "Płyta laminowana"
+    ],
+    "details": {
+      "longDescription": "",
+      "highlights": [],
+      "specs": [],
+      "dimensions": [
+        {
+          "label": "Szerokość",
+          "value": "180 cm"
+        },
+        {
+          "label": "Wysokość",
+          "value": "50 cm"
+        },
+        {
+          "label": "Głębokość",
+          "value": "40 cm"
+        }
+      ],
+      "faq": [],
+      "productCode": ""
+    }
   },
   {
     "id": "41",
@@ -1589,7 +2661,34 @@
     "reviewCount": 78,
     "images": [
       "https://images.unsplash.com/photo-1558997519-83ea9252edf8?w=1400&q=80"
-    ]
+    ],
+    "styles": [
+      "klasyczny"
+    ],
+    "materials": [
+      "Drewno"
+    ],
+    "details": {
+      "longDescription": "",
+      "highlights": [],
+      "specs": [],
+      "dimensions": [
+        {
+          "label": "Szerokość",
+          "value": "85 cm"
+        },
+        {
+          "label": "Wysokość",
+          "value": "185 cm"
+        },
+        {
+          "label": "Głębokość",
+          "value": "45 cm"
+        }
+      ],
+      "faq": [],
+      "productCode": ""
+    }
   },
   {
     "id": "42",
@@ -1628,7 +2727,37 @@
     "reviewCount": 59,
     "images": [
       "https://images.unsplash.com/photo-1513694203232-719a280e022f?w=1400&q=80"
-    ]
+    ],
+    "styles": [
+      "nowoczesny",
+      "skandynawski"
+    ],
+    "materials": [
+      "Płyta laminowana"
+    ],
+    "details": {
+      "longDescription": "",
+      "highlights": [],
+      "specs": [],
+      "dimensions": [
+        {
+          "label": "Szerokość",
+          "value": "70 cm"
+        },
+        {
+          "label": "Wysokość",
+          "value": "70 cm"
+        },
+        {
+          "label": "Głębokość",
+          "value": "35 cm"
+        }
+      ],
+      "faq": [],
+      "productCode": ""
+    },
+    "stockQty": 18,
+    "shipping24h": true
   },
   {
     "id": "29",
@@ -1665,7 +2794,35 @@
     "reviewCount": 44,
     "images": [
       "https://images.unsplash.com/photo-1558997519-83ea9252edf8?w=1400&q=80"
-    ]
+    ],
+    "styles": [
+      "klasyczny",
+      "skandynawski"
+    ],
+    "materials": [
+      "Drewno"
+    ],
+    "details": {
+      "longDescription": "",
+      "highlights": [],
+      "specs": [],
+      "dimensions": [
+        {
+          "label": "Szerokość",
+          "value": "140 cm"
+        },
+        {
+          "label": "Wysokość",
+          "value": "80 cm"
+        },
+        {
+          "label": "Głębokość",
+          "value": "42 cm"
+        }
+      ],
+      "faq": [],
+      "productCode": ""
+    }
   },
   {
     "id": "30",
@@ -1703,7 +2860,35 @@
     "reviewCount": 62,
     "images": [
       "https://images.unsplash.com/photo-1513694203232-719a280e022f?w=1400&q=80"
-    ]
+    ],
+    "styles": [
+      "skandynawski"
+    ],
+    "materials": [
+      "Płyta laminowana",
+      "Drewno"
+    ],
+    "details": {
+      "longDescription": "",
+      "highlights": [],
+      "specs": [],
+      "dimensions": [
+        {
+          "label": "Szerokość",
+          "value": "120 cm"
+        },
+        {
+          "label": "Wysokość",
+          "value": "78 cm"
+        },
+        {
+          "label": "Głębokość",
+          "value": "40 cm"
+        }
+      ],
+      "faq": [],
+      "productCode": ""
+    }
   },
   {
     "id": "31",
@@ -1741,7 +2926,36 @@
     "reviewCount": 81,
     "images": [
       "https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?w=1400&q=80"
-    ]
+    ],
+    "styles": [
+      "loft",
+      "nowoczesny"
+    ],
+    "materials": [
+      "Drewno",
+      "Metal"
+    ],
+    "details": {
+      "longDescription": "",
+      "highlights": [],
+      "specs": [],
+      "dimensions": [
+        {
+          "label": "Szerokość",
+          "value": "90 cm"
+        },
+        {
+          "label": "Wysokość",
+          "value": "38 cm"
+        },
+        {
+          "label": "Głębokość",
+          "value": "90 cm"
+        }
+      ],
+      "faq": [],
+      "productCode": ""
+    }
   },
   {
     "id": "32",
@@ -1780,7 +2994,36 @@
     "reviewCount": 24,
     "images": [
       "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?w=1400&q=80"
-    ]
+    ],
+    "styles": [
+      "skandynawski"
+    ],
+    "materials": [
+      "Drewno"
+    ],
+    "details": {
+      "longDescription": "",
+      "highlights": [],
+      "specs": [],
+      "dimensions": [
+        {
+          "label": "Szerokość",
+          "value": "45 cm"
+        },
+        {
+          "label": "Wysokość",
+          "value": "50 cm"
+        },
+        {
+          "label": "Głębokość",
+          "value": "45 cm"
+        }
+      ],
+      "faq": [],
+      "productCode": ""
+    },
+    "stockQty": 22,
+    "shipping24h": true
   },
   {
     "id": "33",
@@ -1829,6 +3072,9 @@
     "reviewCount": 43,
     "images": [
       "https://images.unsplash.com/photo-1631049035182-249067d7618e?w=1400&q=80"
+    ],
+    "materials": [
+      "Pianka"
     ]
   },
   {
@@ -1874,6 +3120,9 @@
     "reviewCount": 58,
     "images": [
       "https://images.unsplash.com/photo-1554995207-c18c203602cb?w=1400&q=80"
+    ],
+    "materials": [
+      "Pianka"
     ]
   },
   {
@@ -1930,7 +3179,35 @@
     "reviewCount": 77,
     "images": [
       "https://images.unsplash.com/photo-1556228453-efd6c1ff04f6?w=1400&q=80"
-    ]
+    ],
+    "styles": [
+      "nowoczesny",
+      "loft"
+    ],
+    "materials": [
+      "Tkanina"
+    ],
+    "details": {
+      "longDescription": "",
+      "highlights": [],
+      "specs": [],
+      "dimensions": [
+        {
+          "label": "Szerokość",
+          "value": "170 cm"
+        },
+        {
+          "label": "Wysokość",
+          "value": "110 cm"
+        },
+        {
+          "label": "Głębokość",
+          "value": "215 cm"
+        }
+      ],
+      "faq": [],
+      "productCode": ""
+    }
   },
   {
     "id": "36",
@@ -1985,7 +3262,34 @@
     "reviewCount": 20,
     "images": [
       "https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?w=1400&q=80"
-    ]
+    ],
+    "styles": [
+      "skandynawski"
+    ],
+    "materials": [
+      "Drewno"
+    ],
+    "details": {
+      "longDescription": "",
+      "highlights": [],
+      "specs": [],
+      "dimensions": [
+        {
+          "label": "Szerokość",
+          "value": "170 cm"
+        },
+        {
+          "label": "Wysokość",
+          "value": "95 cm"
+        },
+        {
+          "label": "Głębokość",
+          "value": "210 cm"
+        }
+      ],
+      "faq": [],
+      "productCode": ""
+    }
   },
   {
     "id": "37",
@@ -2023,7 +3327,34 @@
     "reviewCount": 39,
     "images": [
       "https://images.unsplash.com/photo-1771862956412-6ce9a725eb22?w=1400&q=80"
-    ]
+    ],
+    "styles": [
+      "skandynawski"
+    ],
+    "materials": [
+      "Drewno"
+    ],
+    "details": {
+      "longDescription": "",
+      "highlights": [],
+      "specs": [],
+      "dimensions": [
+        {
+          "label": "Szerokość",
+          "value": "100 cm"
+        },
+        {
+          "label": "Wysokość",
+          "value": "85 cm"
+        },
+        {
+          "label": "Głębokość",
+          "value": "205 cm"
+        }
+      ],
+      "faq": [],
+      "productCode": ""
+    }
   },
   {
     "id": "38",
@@ -2060,7 +3391,34 @@
     "reviewCount": 54,
     "images": [
       "https://images.unsplash.com/photo-1778075642254-5418a12335cb?w=1400&q=80"
-    ]
+    ],
+    "styles": [
+      "skandynawski"
+    ],
+    "materials": [
+      "Płyta laminowana"
+    ],
+    "details": {
+      "longDescription": "",
+      "highlights": [],
+      "specs": [],
+      "dimensions": [
+        {
+          "label": "Szerokość",
+          "value": "100 cm"
+        },
+        {
+          "label": "Wysokość",
+          "value": "75 cm"
+        },
+        {
+          "label": "Głębokość",
+          "value": "40 cm"
+        }
+      ],
+      "faq": [],
+      "productCode": ""
+    }
   },
   {
     "id": "39",
@@ -2098,7 +3456,36 @@
     "reviewCount": 73,
     "images": [
       "https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?w=1400&q=80"
-    ]
+    ],
+    "styles": [
+      "skandynawski"
+    ],
+    "materials": [
+      "Boucle"
+    ],
+    "details": {
+      "longDescription": "",
+      "highlights": [],
+      "specs": [],
+      "dimensions": [
+        {
+          "label": "Szerokość",
+          "value": "70 cm"
+        },
+        {
+          "label": "Wysokość",
+          "value": "18 cm"
+        },
+        {
+          "label": "Głębokość",
+          "value": "70 cm"
+        }
+      ],
+      "faq": [],
+      "productCode": ""
+    },
+    "stockQty": 30,
+    "shipping24h": true
   },
   {
     "id": "40",
@@ -2136,7 +3523,34 @@
     "reviewCount": 17,
     "images": [
       "https://images.unsplash.com/photo-1574158622682-e40e69881006?w=1400&q=80"
-    ]
+    ],
+    "styles": [
+      "skandynawski"
+    ],
+    "materials": [
+      "Drewno"
+    ],
+    "details": {
+      "longDescription": "",
+      "highlights": [],
+      "specs": [],
+      "dimensions": [
+        {
+          "label": "Szerokość",
+          "value": "50 cm"
+        },
+        {
+          "label": "Wysokość",
+          "value": "120 cm"
+        },
+        {
+          "label": "Głębokość",
+          "value": "40 cm"
+        }
+      ],
+      "faq": [],
+      "productCode": ""
+    }
   },
   {
     "id": "43",
@@ -2174,7 +3588,35 @@
     "reviewCount": 40,
     "images": [
       "https://images.unsplash.com/photo-1615876234886-fd9a39fda97f?w=1400&q=80"
-    ]
+    ],
+    "styles": [
+      "skandynawski",
+      "nowoczesny"
+    ],
+    "materials": [
+      "Płyta laminowana"
+    ],
+    "details": {
+      "longDescription": "",
+      "highlights": [],
+      "specs": [],
+      "dimensions": [
+        {
+          "label": "Szerokość",
+          "value": "100 cm"
+        },
+        {
+          "label": "Wysokość",
+          "value": "210 cm"
+        },
+        {
+          "label": "Głębokość",
+          "value": "58 cm"
+        }
+      ],
+      "faq": [],
+      "productCode": ""
+    }
   },
   {
     "id": "44",
@@ -2214,6 +3656,33 @@
     "reviewCount": 13,
     "images": [
       "https://images.unsplash.com/photo-1595428774223-ef52624120d2?w=1400&q=80"
-    ]
+    ],
+    "styles": [
+      "nowoczesny"
+    ],
+    "materials": [
+      "Płyta laminowana"
+    ],
+    "details": {
+      "longDescription": "",
+      "highlights": [],
+      "specs": [],
+      "dimensions": [
+        {
+          "label": "Szerokość",
+          "value": "90 cm"
+        },
+        {
+          "label": "Wysokość",
+          "value": "200 cm"
+        },
+        {
+          "label": "Głębokość",
+          "value": "55 cm"
+        }
+      ],
+      "faq": [],
+      "productCode": ""
+    }
   }
 ]

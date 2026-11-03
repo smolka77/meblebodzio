@@ -45,7 +45,8 @@ export function sanitizeOptions(input: unknown): ProductOption[] {
         String(value.id ?? "").trim().slice(0, 64) || slugifyOption(label, "wartosc"),
         seenValues
       );
-      values.push({ id, label, surcharge: Math.round(surcharge) });
+      const swatch = /^#[0-9a-f]{6}$/i.test(String(value.swatch ?? "")) ? String(value.swatch) : undefined;
+      values.push({ id, label, surcharge: Math.round(surcharge), ...(swatch ? { swatch } : {}) });
     }
     if (values.length === 0) continue;
 

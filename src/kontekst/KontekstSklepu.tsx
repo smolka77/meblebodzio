@@ -45,6 +45,7 @@ import { getFabricName } from "@/lib/infoTkanin";
 import { useLanguage } from "@/kontekst/KontekstJezyka";
 import { DEFAULT_VISIBLE_PRODUCT_CATEGORIES, normalizeVisibleProductCategories } from "@/lib/widocznoscKategorii";
 import { isPurchasable, remainingWarehouseQty, warehouseQty } from "@/lib/stanMagazynu";
+import { storePolicies } from "@/lib/zasadySklepu";
 
 interface ShopContextValue {
   cart: CartLine[];
@@ -229,7 +230,7 @@ export function ShopProvider({
           shopName: data.shopName ?? "Wrohaus",
           phone: data.phone ?? "",
           deliveryFee: data.deliveryFee ?? 249,
-          freeShippingThreshold: data.freeShippingThreshold ?? 0,
+          freeShippingThreshold: data.freeShippingThreshold ?? storePolicies.freeShippingFrom,
           bankAccountName: data.bankAccountName ?? "",
           bankAccountNumber: data.bankAccountNumber ?? "",
           bankName: data.bankName ?? "",
@@ -872,7 +873,10 @@ export function ShopProvider({
       const totals = calculateOrderTotal(
         cartTotal,
         discount,
-        checkoutSettings ?? { deliveryFee: 249, freeShippingThreshold: 0 },
+        checkoutSettings ?? {
+          deliveryFee: storePolicies.standardDeliveryFrom,
+          freeShippingThreshold: storePolicies.freeShippingFrom,
+        },
         shipping.deliveryMethod
       );
 

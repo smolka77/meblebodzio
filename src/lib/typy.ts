@@ -66,6 +66,22 @@ export type ExtraListingId =
 /** Linia produktowa — Smart, Comfort, Premium. */
 export type ProductLine = "smart" | "comfort" | "premium";
 
+/** Styl wnętrza — filtr listy i nawigacja „Style”. */
+export type ProductStyle =
+  | "nowoczesny"
+  | "skandynawski"
+  | "loft"
+  | "klasyczny"
+  | "glamour";
+
+/** Pomieszczenie — domyślnie z kategorii, można nadpisać w ogłoszeniu. */
+export type ProductRoom =
+  | "salon"
+  | "sypialnia"
+  | "jadalnia"
+  | "biuro"
+  | "pokoj-dzieciecy";
+
 /** Nazwana kolekcja mebli (np. Sorela) — foldery w /linie. */
 export interface FurnitureLine {
   id: string;
@@ -109,6 +125,8 @@ export interface ProductReview {
   city?: string;
   rating: number;
   text: string;
+  /** Zdjęcia klienta (UGC) — pokazywane pod opinią. */
+  photos?: string[];
 }
 
 export interface ProductFaq {
@@ -135,6 +153,8 @@ export interface ProductOptionValue {
   label: string;
   /** Dopłata brutto (PLN) doliczana do ceny produktu. */
   surcharge: number;
+  /** Kolor próbki (#rrggbb) — kropka obok nazwy, np. przy nóżkach. */
+  swatch?: string;
 }
 
 /**
@@ -251,6 +271,12 @@ export interface Product {
   templateId?: ProductTemplateId;
   /** Rodzaj w obrębie kategorii, np. „Szafa przesuwna”, „Witryna”. */
   kind?: string;
+  /** Style wnętrz (nowoczesny, skandynawski…) — filtry i doradca. */
+  styles?: ProductStyle[];
+  /** Pomieszczenia — puste = z kategorii. */
+  rooms?: ProductRoom[];
+  /** Główne materiały (Boucle, Welur, Drewno…) — filtr „Materiał”. */
+  materials?: string[];
   /** Termin produkcji, np. „7–10 dni roboczych”. Pusty = polityka sklepu. */
   productionTime?: string;
   /** Ręcznie wpisana przewidywana dostawa, np. „18–22 września”. Pusty = liczona automatycznie. */

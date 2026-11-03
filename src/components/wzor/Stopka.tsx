@@ -10,9 +10,10 @@ const W = ({ children, className = "" }: { children: React.ReactNode; className?
 
 const cols = [
   ["Sklep", [
-    ["Salon", "/kategoria/sofy"],
-    ["Sypialnia", "/kategoria/lozka"],
-    ["Jadalnia", "/kategoria/stoliki"],
+    ["Salon", "/produkty?pokoj=salon"],
+    ["Sypialnia", "/produkty?pokoj=sypialnia"],
+    ["Inspiracje", "/inspiracje"],
+    ["Doradca zakupowy", "/doradca"],
     ["Oświetlenie", "/kategoria/oswietlenie"],
     ["Promocje", "/promocje"],
   ]],

@@ -1,7 +1,7 @@
 import { PageShell } from "@/components/strony/PowlokaStrony";
 import { LegalDocument, P, Ul } from "@/components/strony/DokumentPrawny";
 import { company, legalUpdated } from "@/lib/firma";
-import { storePolicies } from "@/lib/zasadySklepu";
+import { freeShippingThresholdOf, storePolicies } from "@/lib/zasadySklepu";
 import { payu } from "@/lib/payu";
 import { stronaMeta } from "@/lib/seo";
 import { getSettings } from "@/lib/serwer/ustawienia";
@@ -15,6 +15,7 @@ export const metadata = stronaMeta({
 
 export default async function TermsPage() {
   const settings = await getSettings();
+  const freeFrom = freeShippingThresholdOf(settings);
   const contactPhone = settings.phone?.trim();
   const phoneContact = contactPhone ? `, telefon ${contactPhone}` : "";
 
@@ -170,6 +171,12 @@ export default async function TermsPage() {
             Dostawa na terenie Polski: firmy kurierskie albo transport własny
             Sprzedawcy. Koszt dostawy standardowej:{" "}
             {storePolicies.standardDeliveryPriceLabel} (dokładna kwota w koszyku).{" "}
+            {freeFrom > 0 ? (
+              <>
+                Przy zamówieniach od {freeFrom} zł dostawa standardowa jest
+                bezpłatna.{" "}
+              </>
+            ) : null}
             {storePolicies.pickupTitle} — bezpłatnie, po umówieniu terminu.
           </P>
           <P>
@@ -190,7 +197,9 @@ export default async function TermsPage() {
             Konsument i Przedsiębiorca na prawach konsumenta mogą odstąpić od
             umowy zawartej na odległość w terminie {storePolicies.returnsDays} dni
             bez podania przyczyny. Termin liczy się od objęcia Produktu w
-            posiadanie (przy kilku przesyłkach — od objęcia ostatniej).
+            posiadanie (przy kilku przesyłkach — od objęcia ostatniej). Ustawowy
+            termin odstąpienia wynosi {storePolicies.statutoryReturnsDays} dni;
+            Sprzedawca dobrowolnie wydłuża go do {storePolicies.returnsDays} dni.
           </P>
           <P>
             Szczegółowa procedura, adres zwrotu, skutki odstąpienia i wzór
@@ -224,7 +233,7 @@ export default async function TermsPage() {
           <P>
             Sprzedawca odpowiada z tytułu niezgodności towaru z umową (rękojmia)
             na zasadach ustawy o prawach konsumenta. Dodatkowo udziela gwarancji
-            jakości sprzedawcy na {storePolicies.warrantyYears} lata. Treść
+            jakości sprzedawcy na {storePolicies.warrantyYearsText}. Treść
             gwarancji:{" "}
             <a href="/gwarancja" className="underline underline-offset-2">
               Gwarancja

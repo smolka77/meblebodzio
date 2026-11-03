@@ -9,6 +9,11 @@ import type {
 } from "@/lib/typy";
 import { newOption } from "@/lib/opcjeProduktu";
 import { FAQ_PRESETS } from "@/lib/szablonyOpisu";
+import { storePolicies } from "@/lib/zasadySklepu";
+
+/** Wiersz „Gwarancja” w nowych kartach produktu — wartość z polityki sklepu. */
+const WARRANTY_HINT = `np. ${storePolicies.warrantyYearsText}`;
+const WARRANTY_DEFAULT = storePolicies.warrantyYearsText;
 
 /**
  * Szablony kart produktu — jeden na grupę mebli (wg wytycznych Wrohaus).
@@ -170,7 +175,7 @@ const UPHOLSTERY_SPECS: TemplateField[] = [
   spec("System rozkładania", "DL / Delfin / Puma / Belgijski — puste = brak funkcji spania"),
   spec("Nóżki", "np. Tworzywo / metal / drewno"),
   spec("Montaż", "np. Do samodzielnego montażu"),
-  spec("Gwarancja", "np. 2 lata"),
+  spec("Gwarancja", WARRANTY_HINT),
 ];
 
 const COLOR_OPTION_HINT = "Wybarwienie płyty — jeden produkt z wariantami zamiast osobnych.";
@@ -406,7 +411,7 @@ export const PRODUCT_TEMPLATES: ProductTemplate[] = [
       flag("Materac opcjonalny"),
       spec("Nóżki", "np. Tworzywo / metal / drewno", "tworzywo / metal / drewno"),
       spec("Montaż", "np. Do samodzielnego montażu", "do samodzielnego montażu"),
-      spec("Gwarancja", "np. 2 lata", "2 lata"),
+      spec("Gwarancja", WARRANTY_HINT, WARRANTY_DEFAULT),
     ],
     disclaimer: NOTE_UPHOLSTERY,
     faq: FAQ_BASE,
@@ -524,7 +529,7 @@ export const PRODUCT_TEMPLATES: ProductTemplate[] = [
       spec("Nóżki", "Tworzywo / metal / drewno"),
       flag("Produkt wolnostojący"),
       spec("Montaż", "np. Do samodzielnego montażu", "do samodzielnego montażu"),
-      spec("Gwarancja", "np. 2 lata", "2 lata"),
+      spec("Gwarancja", WARRANTY_HINT, WARRANTY_DEFAULT),
     ],
     disclaimer: NOTE_UPHOLSTERY,
     faq: FAQ_BASE,
@@ -671,7 +676,7 @@ export const PRODUCT_TEMPLATES: ProductTemplate[] = [
       spec("Zamek pokrowca", "błyskawiczny / rozdzielczy"),
       spec("Temperatura prania pokrowca", "np. 60 °C"),
       spec("Sposób pakowania", "rolowany / na płasko"),
-      spec("Gwarancja", "np. 5 lat"),
+      spec("Gwarancja", WARRANTY_HINT),
     ],
     layers: true,
     disclaimer: NOTE_MATTRESS,
@@ -811,7 +816,7 @@ export const PRODUCT_TEMPLATES: ProductTemplate[] = [
       spec("Stopki / nóżki", "ślizgi / regulowane stopki / metalowe"),
       spec("Oświetlenie LED", "LED w zestawie / opcjonalne / za dopłatą, rodzaj, barwa"),
       spec("Montaż", "np. Do samodzielnego montażu"),
-      spec("Gwarancja", "np. 2 lata"),
+      spec("Gwarancja", WARRANTY_HINT),
     ],
     disclaimer: NOTE_CASE_FURNITURE,
     faq: FAQ_BASE.slice(0, 1).concat([
@@ -966,7 +971,7 @@ export const PRODUCT_TEMPLATES: ProductTemplate[] = [
       spec("Uchwyty", "metalowe / wpuszczane / frezowane"),
       spec("Kolor uchwytów"),
       spec("Montaż", "np. Do samodzielnego montażu"),
-      spec("Gwarancja", "np. 2 lata"),
+      spec("Gwarancja", WARRANTY_HINT),
     ],
     disclaimer: NOTE_CASE_FURNITURE,
     faq: FAQ_BASE.slice(0, 1),
@@ -1085,7 +1090,7 @@ export const PRODUCT_TEMPLATES: ProductTemplate[] = [
       spec("Wysokość nóżek", "cm"),
       spec("Oświetlenie LED", "LED w zestawie / opcjonalne / za dopłatą, rodzaj, barwa"),
       spec("Montaż", "np. Do samodzielnego montażu"),
-      spec("Gwarancja", "np. 2 lata"),
+      spec("Gwarancja", WARRANTY_HINT),
     ],
     disclaimer: NOTE_CASE_FURNITURE,
     faq: FAQ_BASE.slice(0, 1),
@@ -1203,7 +1208,7 @@ export const PRODUCT_TEMPLATES: ProductTemplate[] = [
       spec("Uchwyty", "np. Brak — system bezuchwytowy"),
       spec("Nóżki / stopki", "np. Regulowane stopki"),
       spec("Montaż", "np. Do samodzielnego montażu"),
-      spec("Gwarancja", "np. 2 lata"),
+      spec("Gwarancja", WARRANTY_HINT),
     ],
     disclaimer: NOTE_CASE_FURNITURE,
     faq: FAQ_BASE.slice(0, 1),
@@ -1273,7 +1278,7 @@ export const PRODUCT_TEMPLATES: ProductTemplate[] = [
       spec("Wykończenie"),
       spec("Konstrukcja"),
       spec("Montaż", "np. Do samodzielnego montażu"),
-      spec("Gwarancja", "np. 2 lata"),
+      spec("Gwarancja", WARRANTY_HINT),
     ],
     disclaimer: NOTE_CASE_FURNITURE,
     faq: FAQ_BASE.slice(0, 1),

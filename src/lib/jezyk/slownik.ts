@@ -22,9 +22,9 @@ export const pl = {
   "header.closeSearch": "Zamknij wyszukiwanie",
 
   "top.madeInPoland": "Polska produkcja",
-  "top.delivery": "Dostawa od 249 zł",
-  "top.returns": "14 dni na zwrot",
-  "top.warranty": "2 lata gwarancji",
+  "top.delivery": "Dostawa od 249 zł, gratis od 999 zł",
+  "top.returns": "30 dni na zwrot",
+  "top.warranty": "5 lat gwarancji",
 
   "cat.sofy": "Sofy",
   "cat.narozniki": "Narożniki",
@@ -545,9 +545,9 @@ export const en: Record<MessageKey, string> = {
   "header.closeSearch": "Close search",
 
   "top.madeInPoland": "Made in Poland",
-  "top.delivery": "Delivery from 249 PLN",
-  "top.returns": "14-day returns",
-  "top.warranty": "2-year warranty",
+  "top.delivery": "Delivery from 249 PLN, free over 999 PLN",
+  "top.returns": "30-day returns",
+  "top.warranty": "5-year warranty",
 
   "cat.sofy": "Sofas",
   "cat.narozniki": "Corner sofas",
@@ -1064,9 +1064,9 @@ export const de: Record<MessageKey, string> = {
   "header.closeSearch": "Suche schließen",
 
   "top.madeInPoland": "Produktion in Polen",
-  "top.delivery": "Lieferung ab 249 PLN",
-  "top.returns": "14 Tage Rückgabe",
-  "top.warranty": "2 Jahre Garantie",
+  "top.delivery": "Lieferung ab 249 PLN, kostenlos ab 999 PLN",
+  "top.returns": "30 Tage Rückgabe",
+  "top.warranty": "5 Jahre Garantie",
 
   "cat.sofy": "Sofas",
   "cat.narozniki": "Ecksofas",
@@ -1585,9 +1585,9 @@ export const uk: Record<MessageKey, string> = {
   "header.closeSearch": "Закрити пошук",
 
   "top.madeInPoland": "Виробництво в Польщі",
-  "top.delivery": "Доставка від 249 злотих",
-  "top.returns": "14 днів на повернення",
-  "top.warranty": "2 роки гарантії",
+  "top.delivery": "Доставка від 249 злотих, безкоштовно від 999 злотих",
+  "top.returns": "30 днів на повернення",
+  "top.warranty": "5 років гарантії",
 
   "cat.sofy": "Дивани",
   "cat.narozniki": "Кутові дивани",

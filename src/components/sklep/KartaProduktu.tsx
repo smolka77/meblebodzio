@@ -12,6 +12,14 @@ import { hasColorPriceRange } from "@/lib/infoTkanin";
 import { arrangementPhotoUrl } from "@/lib/zdjeciaProduktu";
 import { ProductAverageRating } from "@/components/sklep/GwiazdkiOceny";
 import { collapseRepeatedProductName } from "@/lib/etykietaProduktu";
+import { productAvailability } from "@/lib/atrybutyProduktu";
+import { isPurchasable } from "@/lib/stanMagazynu";
+
+const AVAILABILITY_DOT = {
+  ready: "bg-emerald-600",
+  fast: "bg-amber-500",
+  made: "bg-ink/35",
+} as const;
 
 function CardPhotoStack({
   image,
@@ -57,11 +65,18 @@ function CardPhotoStack({
 export function ProductCard({
   product,
   variant = "shop",
+  cta,
 }: {
   product: Product;
   variant?: "editorial" | "shop";
+  /** Przycisk pod ceną, np. „Zobacz warianty” — w sekcjach sprzedażowych. */
+  cta?: string;
 }) {
   const onSale = hasSalePrice(product);
+  const availability = productAvailability(product);
+  const purchasable = isPurchasable(product);
+  const swatches = (product.colors ?? []).slice(0, 5);
+  const moreSwatches = Math.max(0, (product.colors ?? []).length - swatches.length);
   const listPrice = startingPrice(product);
   const fromPrice =
     hasSizePriceRange(product) ||
@@ -141,6 +156,39 @@ export function ProductCard({
         <p className="mt-1 text-[14px] font-semibold text-ink">
           {formatPrice(installment)} x 20 rat 0%
         </p>
+        <p className="mt-2 flex flex-wrap items-center gap-x-2 gap-y-0.5 text-[13px] font-semibold text-ink">
+          <span
+            aria-hidden
+            className={`h-2 w-2 shrink-0 rounded-full ${purchasable ? AVAILABILITY_DOT[availability.tone] : "bg-ink/20"}`}
+          />
+          {purchasable ? availability.label : "Chwilowo niedostępny"}
+          {purchasable && availability.detail ? (
+            <span className="font-normal text-meta">· {availability.detail}</span>
+          ) : null}
+        </p>
+        {swatches.length > 1 ? (
+          <ul className="mt-2.5 flex items-center gap-1.5" aria-label="Dostępne kolory">
+            {swatches.map((color) => (
+              <li
+                key={color.id}
+                title={color.name}
+                className="h-4 w-4 rounded-full ring-1 ring-black/15"
+                style={{ backgroundColor: color.hex }}
+              />
+            ))}
+            {moreSwatches > 0 ? (
+              <li className="text-[12px] text-meta">+{moreSwatches}</li>
+            ) : null}
+          </ul>
+        ) : null}
+        {cta ? (
+          <Link
+            href={`/produkt/${product.slug}`}
+            className="mt-4 grid h-11 place-items-center rounded-full border border-ink text-[14.5px] font-semibold text-ink transition hover:bg-ink hover:text-white"
+          >
+            {cta}
+          </Link>
+        ) : null}
       </div>
     </article>
   );

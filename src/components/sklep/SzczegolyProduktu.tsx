@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import { ChevronDown, Heart, Minus, Plus } from "lucide-react";
 import type { Product, ProductColor, ProductSize } from "@/lib/typy";
@@ -11,7 +11,7 @@ import { SizeSelector } from "./WyborRozmiaru";
 import { OptionSelector } from "./WyborWariantu";
 import { useShop } from "@/kontekst/KontekstSklepu";
 import { useLanguage } from "@/kontekst/KontekstJezyka";
-import { storePolicies } from "@/lib/zasadySklepu";
+import { freeShippingText, freeShippingThresholdOf, storePolicies } from "@/lib/zasadySklepu";
 import { formatDiscountPercent, hasSalePrice, saleSavings } from "@/lib/ceny";
 import { shouldShowOmnibusLowest } from "@/lib/cenaOmnibus";
 import { priceWithOptions, productSizes } from "@/lib/rozmiary";
@@ -33,6 +33,9 @@ import { isPurchasable, remainingWarehouseQty, warehouseQty } from "@/lib/stanMa
 import { ProductAverageRating } from "@/components/sklep/GwiazdkiOceny";
 import { PayUInstallmentsMini } from "@/components/sklep/WidgetRatyPayU";
 import { productKindLabel, collapseRepeatedProductName } from "@/lib/etykietaProduktu";
+import { assemblyInfo } from "@/lib/atrybutyProduktu";
+import { PreviewInRoomButton } from "@/components/sklep/PrzyciskPodgladu";
+import { DeliveryAssemblyPanel } from "@/components/sklep/DostawaIMontaz";
 
 function quoteContactHref(
   product: Product,
@@ -107,7 +110,8 @@ export function ProductDetail({
 }) {
   const onSale = hasSalePrice(product);
   const { t, locale } = useLanguage();
-  const { saveConfiguration, removeConfiguration, savedConfigs, cart } = useShop();
+  const { saveConfiguration, removeConfiguration, savedConfigs, cart, checkoutSettings } =
+    useShop();
   const [quantity, setQuantity] = useState(1);
   const savedConfig = savedConfigs.find(
     (item) =>
@@ -156,8 +160,38 @@ export function ProductDetail({
     setQuantity((q) => Math.min(q, Math.max(1, remaining)));
   }, [remaining]);
 
+  // Na telefonie, gdy przycisk „Dodaj do koszyka” znika z ekranu, zostaje przypięty pasek z ceną.
+  const ctaRef = useRef<HTMLDivElement>(null);
+  const detailRef = useRef<HTMLDivElement>(null);
+  const [stuck, setStuck] = useState(false);
+  useEffect(() => {
+    const el = ctaRef.current;
+    if (!el) return;
+    let frame = 0;
+    const update = () => {
+      frame = 0;
+      setStuck(el.getBoundingClientRect().bottom < 0);
+    };
+    const schedule = () => {
+      if (!frame) frame = window.requestAnimationFrame(update);
+    };
+    update();
+    window.addEventListener("scroll", schedule, { passive: true });
+    window.addEventListener("resize", schedule);
+    return () => {
+      if (frame) window.cancelAnimationFrame(frame);
+      window.removeEventListener("scroll", schedule);
+      window.removeEventListener("resize", schedule);
+    };
+  }, []);
+  useEffect(() => {
+    document.body.classList.toggle("has-sticky-cta", stuck);
+    return () => document.body.classList.remove("has-sticky-cta");
+  }, [stuck]);
+  const needsColor = (product.colors ?? []).length > 0 && !selectedColor;
+
   return (
-    <div className="lg:sticky lg:top-40">
+    <div ref={detailRef} className="lg:sticky lg:top-40">
       {showTags && (
         <div className="mb-3 flex flex-nowrap items-center gap-2 overflow-x-auto [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
           {product.shipping24h && (
@@ -302,7 +336,7 @@ export function ProductDetail({
       </div>
       ) : null}
 
-      <div className="mt-6 flex items-center gap-3">
+      <div ref={ctaRef} className="mt-6 flex items-center gap-3">
         <div className="flex h-12 items-center rounded-full border border-taupe/40 bg-white">
           <button
             type="button"
@@ -366,6 +400,16 @@ export function ProductDetail({
       ) : remaining === 0 ? (
         <p className="mt-3 text-sm text-sand">{t("cart.stockLimit")}</p>
       ) : null}
+
+      <PreviewInRoomButton product={product} color={selectedColor} />
+
+      <DeliveryAssemblyPanel
+        deliveryLabel={schedule.deliveryLabel}
+        costLabel={deliveryCostLabel}
+        express={schedule.express}
+        assembly={assemblyInfo(product)}
+        freeShipping={freeShippingText(freeShippingThresholdOf(checkoutSettings))}
+      />
 
       <div className="mt-7">
         {maker ? (
@@ -439,6 +483,39 @@ export function ProductDetail({
           {t("product.askQuote")}
         </Link>
       </p>
+
+      <div
+        aria-hidden={!stuck}
+        className={`fixed inset-x-0 bottom-0 z-40 border-t border-line bg-white/95 px-4 py-3 shadow-[0_-8px_24px_-12px_rgba(0,0,0,0.2)] backdrop-blur transition-transform duration-300 lg:hidden ${
+          stuck ? "translate-y-0" : "translate-y-full"
+        }`}
+      >
+        <div className="mx-auto flex max-w-xl items-center gap-3">
+          <div className="min-w-0 flex-1">
+            <p className="truncate text-[13px] text-meta">{displayName}</p>
+            <p className="text-[18px] leading-tight font-semibold">{formatPrice(unitPrice)}</p>
+          </div>
+          {needsColor ? (
+            <button
+              type="button"
+              tabIndex={stuck ? 0 : -1}
+              onClick={() => detailRef.current?.scrollIntoView({ behavior: "smooth", block: "start" })}
+              className="h-12 shrink-0 rounded-full bg-charcoal px-6 text-[13px] font-semibold text-cream"
+            >
+              {productUsesCovers(product) ? t("product.pickCoverFirst") : t("product.pickColorFirst")}
+            </button>
+          ) : (
+            <AddToCartButton
+              product={product}
+              color={selectedColor}
+              size={selectedSize}
+              options={selectedOptions}
+              quantity={quantity}
+              className="h-12 shrink-0 rounded-full bg-charcoal px-6 text-[13px] font-semibold text-cream disabled:cursor-not-allowed disabled:opacity-50"
+            />
+          )}
+        </div>
+      </div>
     </div>
   );
 }

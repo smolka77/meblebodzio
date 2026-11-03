@@ -108,6 +108,24 @@ export function getDefaultBlogPosts(): BlogPost[] {
         "Lustro naprzeciw okna i jednolita paleta barw to proste triki, które realnie powiększają wnętrze.",
       ],
     },
+    {
+      id: "blog-7",
+      slug: "jak-wybrac-materac",
+      title: "Jak wybrać materac do pozycji, w której śpisz",
+      excerpt:
+        "Twardość, rozmiar i rodzaj wypełnienia — krótki przewodnik, który pomoże dobrać materac do pozycji snu i wagi ciała.",
+      category: "Poradnik",
+      date: "2026-09-02",
+      readTime: "6 min",
+      image: "/wzor/bedroom2.jpg",
+      content: [
+        "Dobry materac to połowa udanej nocy. Zanim porównasz modele, ustal trzy rzeczy: w jakiej pozycji śpisz, ile ważysz i czy dzielisz łóżko z partnerem.",
+        "Śpisz na boku? Wybierz materac średnio miękki lub średnio twardy, który pozwoli ramieniu i biodru zapaść się w piankę, a kręgosłup zachowa prostą linię. Na plecach najlepiej sprawdza się średnia twardość z wyraźnym podparciem odcinka lędźwiowego. Na brzuchu — raczej twardszy materac, żeby biodra nie zapadały się zbyt głęboko.",
+        "Waga ma znaczenie. Osoby lżejsze zwykle potrzebują miększego materaca, bo twardy nie zdąży się dopasować. Osoby cięższe powinny wybierać modele wyższe i twardsze, z pianką o większej gęstości lub sprężynami kieszeniowymi.",
+        "Para o różnych potrzebach? Rozważ materac dwustronny z miększą i twardszą stroną albo dwa osobne materace w jednej ramie. Sprężyny kieszeniowe ograniczają przenoszenie ruchu, więc partner nie poczuje, że się obracasz.",
+        "Na koniec rozmiar: materac powinien być co najmniej 20 cm dłuższy od Twojego wzrostu. Przed zakupem sprawdź wymiary ramy łóżka — na karcie łóżka dobierzesz materac w tym samym rozmiarze.",
+      ],
+    },
   ];
 }
 

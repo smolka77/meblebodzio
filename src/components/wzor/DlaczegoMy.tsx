@@ -1,0 +1,68 @@
+import Link from "next/link";
+import { StoreImage } from "@/components/sklep/ObrazSklepu";
+import { WHY_US, type WhyIcon } from "@/lib/glownaTresc";
+import * as I from "./ikony";
+
+const ICONS: Record<WhyIcon, (props: { className?: string }) => React.ReactNode> = {
+  flag: I.Flag,
+  pencil: I.Pencil,
+  factory: I.Factory,
+  grid: I.Grid,
+  shield: I.Shield,
+  truck: I.Truck,
+};
+
+export function DlaczegoMy() {
+  return (
+    <section className="bg-forest py-16 text-white lg:py-24">
+      <div className="pw">
+        <div className="grid items-center gap-10 lg:grid-cols-[0.9fr_1.1fr] lg:gap-16">
+          <div className="relative">
+            <div className="relative aspect-[5/4] overflow-hidden rounded-md">
+              <StoreImage
+                src={WHY_US.image}
+                alt={WHY_US.imageAlt}
+                fill
+                sizes="(min-width: 1024px) 45vw, 100vw"
+              />
+            </div>
+            <div className="absolute -bottom-6 right-5 grid h-[116px] w-[116px] rotate-[-8deg] place-items-center rounded-full bg-accent text-center text-[12.5px] leading-tight font-medium text-white shadow-lg lg:-right-6">
+              Projekt
+              <br />i jakość
+              <br />
+              <b className="text-[15px]">z Polski</b>
+            </div>
+          </div>
+          <div>
+            <p className="text-[13px] font-medium text-sage">{WHY_US.eyebrow}</p>
+            <h2 className="font-display mt-3 text-[30px] leading-[1.05] tracking-[-0.035em] sm:text-[40px]">
+              {WHY_US.title}
+            </h2>
+            <p className="mt-5 max-w-xl text-[16px] leading-relaxed text-white/85">{WHY_US.text}</p>
+            <ul className="mt-9 grid grid-cols-2 gap-x-5 gap-y-7 sm:grid-cols-3">
+              {WHY_US.items.map((item) => {
+                const Icon = ICONS[item.icon];
+                return (
+                  <li key={item.label} className="border-t border-white/20 pt-4">
+                    <Icon className="h-5 w-5 text-sage" />
+                    <div className="mt-3 text-[30px] leading-none font-semibold tracking-[-0.04em]">
+                      {item.value}
+                    </div>
+                    <div className="mt-1.5 text-[14px] font-medium">{item.label}</div>
+                    <div className="mt-0.5 text-[12.5px] text-white/65">{item.text}</div>
+                  </li>
+                );
+              })}
+            </ul>
+            <Link
+              href="/o-nas"
+              className="mt-10 inline-flex h-12 items-center rounded-full bg-white px-7 text-[15px] font-semibold text-forest transition hover:bg-paper"
+            >
+              Poznaj naszą historię
+            </Link>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}

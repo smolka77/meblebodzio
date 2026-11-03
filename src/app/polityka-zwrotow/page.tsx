@@ -8,7 +8,7 @@ import { stronaMeta } from "@/lib/seo";
 export const metadata = stronaMeta({
   title: "Polityka zwrotów",
   description:
-    "14 dni na odstąpienie od umowy, adres zwrotu, koszty odesłania i zwrot środków na to samo konto PayU.",
+    `${storePolicies.returnsDays} dni na odstąpienie od umowy, adres zwrotu, koszty odesłania i zwrot środków na to samo konto PayU.`,
   path: "/polityka-zwrotow",
 });
 
@@ -16,7 +16,7 @@ export default function ReturnsPolicyPage() {
   const sections = [
     {
       id: "termin",
-      title: "Termin 14 dni",
+      title: `Termin ${storePolicies.returnsDays} dni`,
       content: (
         <>
           <P>
@@ -24,6 +24,13 @@ export default function ReturnsPolicyPage() {
             umowy zawartej na odległość w terminie {storePolicies.returnsDays} dni
             bez podawania przyczyny i bez ponoszenia kosztów innych niż przewidziane
             ustawą (w szczególności bezpośrednie koszty zwrotu rzeczy).
+          </P>
+          <P>
+            Ustawowy termin odstąpienia wynosi {storePolicies.statutoryReturnsDays}{" "}
+            dni. Sprzedawca dobrowolnie wydłuża go do {storePolicies.returnsDays} dni —
+            to dodatkowa korzyść ponad wymóg ustawy. Zwrot płatności i odesłanie
+            rzeczy po odstąpieniu następują w ustawowych terminach ({storePolicies.refundDays}{" "}
+            dni).
           </P>
           <P>
             Termin liczy się od dnia, w którym Klient lub wskazana przez niego osoba
@@ -58,7 +65,7 @@ export default function ReturnsPolicyPage() {
           <P>
             Aby zachować termin, wystarczy wysłać oświadczenie przed jego upływem.
             Rzecz należy odesłać lub przekazać Sprzedawcy niezwłocznie, nie później
-            niż w ciągu 14 dni od dnia odstąpienia.
+            niż w ciągu {storePolicies.refundDays} dni od dnia odstąpienia.
           </P>
         </>
       ),
@@ -109,7 +116,7 @@ export default function ReturnsPolicyPage() {
         <>
           <P>
             Zwrotu wszystkich otrzymanych płatności dokonujemy niezwłocznie, nie
-            później niż w ciągu 14 dni od dnia otrzymania oświadczenia o odstąpieniu.
+            później niż w ciągu {storePolicies.refundDays} dni od dnia otrzymania oświadczenia o odstąpieniu.
             Możemy wstrzymać się ze zwrotem do chwili otrzymania rzeczy lub dowodu jej
             odesłania — w zależności od tego, które zdarzenie nastąpi wcześniej.
           </P>
@@ -152,13 +159,13 @@ export default function ReturnsPolicyPage() {
       content: (
         <>
           <P>
-            Poniższe pouczenie odpowiada załącznikowi nr 1 do ustawy o prawach
-            konsumenta.
+            Poniższe pouczenie opiera się na załączniku nr 1 do ustawy o prawach
+            konsumenta, z wydłużonym do {storePolicies.returnsDays} dni terminem odstąpienia.
           </P>
           <P>
-            Mają Państwo prawo odstąpić od niniejszej umowy w terminie 14 dni bez
+            Mają Państwo prawo odstąpić od niniejszej umowy w terminie {storePolicies.returnsDays} dni bez
             podania jakiejkolwiek przyczyny. Termin do odstąpienia od umowy wygasa
-            po upływie 14 dni od dnia, w którym weszli Państwo w posiadanie rzeczy
+            po upływie {storePolicies.returnsDays} dni od dnia, w którym weszli Państwo w posiadanie rzeczy
             lub w którym osoba trzecia inna niż przewoźnik i wskazana przez Państwa
             weszła w posiadanie rzeczy.
           </P>
@@ -181,7 +188,7 @@ export default function ReturnsPolicyPage() {
             wyjątkiem dodatkowych kosztów wynikających z wybranego przez Państwa
             sposobu dostarczenia innego niż najtańszy zwykły sposób dostarczenia
             oferowany przez nas), niezwłocznie, a w każdym przypadku nie później niż
-            14 dni od dnia, w którym zostaliśmy poinformowani o Państwa decyzji o
+            {storePolicies.refundDays} dni od dnia, w którym zostaliśmy poinformowani o Państwa decyzji o
             wykonaniu prawa odstąpienia od niniejszej umowy. Zwrotu płatności
             dokonamy przy użyciu takich samych sposobów płatności, jakie zostały
             przez Państwa użyte w pierwotnej transakcji, chyba że wyraźnie zgodzili
@@ -195,9 +202,9 @@ export default function ReturnsPolicyPage() {
           </P>
           <P>
             Proszę odesłać lub przekazać nam rzecz na adres: {company.returnsAddress},
-            niezwłocznie, a w każdym razie nie później niż 14 dni od dnia, w którym
+            niezwłocznie, a w każdym razie nie później niż {storePolicies.refundDays} dni od dnia, w którym
             poinformowali nas Państwo o odstąpieniu od niniejszej umowy. Termin jest
-            zachowany, jeżeli odeślą Państwo rzecz przed upływem terminu 14 dni.
+            zachowany, jeżeli odeślą Państwo rzecz przed upływem terminu {storePolicies.refundDays} dni.
           </P>
           <P>
             Będą Państwo musieli ponieść bezpośrednie koszty zwrotu rzeczy. Koszty
@@ -216,7 +223,7 @@ export default function ReturnsPolicyPage() {
       title: "Reklamacje a zwrot",
       content: (
         <P>
-          Odstąpienie od umowy (zwrot w 14 dni) jest niezależne od reklamacji z
+          Odstąpienie od umowy (zwrot w {storePolicies.returnsDays} dni) jest niezależne od reklamacji z
           tytułu niezgodności towaru z umową oraz od gwarancji sprzedawcy (
           {storePolicies.warrantyLabel}). Reklamacje: {company.emailDisplay},{" "}
           {company.fullAddress}. Szczegóły w{" "}
@@ -237,7 +244,7 @@ export default function ReturnsPolicyPage() {
     <PageShell
       eyebrow="Dokument prawny"
       title="Polityka zwrotów"
-      description="14 dni na odstąpienie, adres zwrotu, koszty odesłania mebla i zwrot środków na to samo konto PayU."
+      description={`${storePolicies.returnsDays} dni na odstąpienie, adres zwrotu, koszty odesłania mebla i zwrot środków na to samo konto PayU.`}
     >
       <LegalDocument updated={legalUpdated} sections={sections} />
     </PageShell>

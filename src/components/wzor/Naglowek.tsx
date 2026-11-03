@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useState } from "react";
 import { useShop } from "@/kontekst/KontekstSklepu";
 import { HeaderSearch } from "@/components/uklad/SzukajkaNaglowka";
+import { freeShippingText, freeShippingThresholdOf, storePolicies } from "@/lib/zasadySklepu";
 import { ShopNav } from "./PasekNawigacji";
 import * as I from "./ikony";
 
@@ -14,13 +15,17 @@ const W = ({ children, className = "" }: { children: React.ReactNode; className?
 export function Header() {
   const [open, setOpen] = useState(false);
   const [searchOpen, setSearchOpen] = useState(false);
-  const { cartCount } = useShop();
+  const { cartCount, checkoutSettings } = useShop();
+  const freeShipping = freeShippingText(freeShippingThresholdOf(checkoutSettings));
 
   return (
     <header className="sticky top-0 z-40 border-b border-line bg-white">
       <div className="bg-forest text-[12.5px] text-white/85">
         <W className="flex h-[calc(2.25rem*1.3)] items-center justify-between">
-          <span>Darmowa dostawa od 999 zł · 30 dni na zwrot</span>
+          <span>
+            {freeShipping ? `${freeShipping} · ` : ""}
+            {storePolicies.returnsLabel}
+          </span>
           <span className="hidden gap-6 md:flex">
             <Link href="/konto" className="ulink">Status zamówienia</Link>
             <Link href="/faq" className="ulink">Pomoc</Link>

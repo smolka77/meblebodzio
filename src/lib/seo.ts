@@ -330,7 +330,11 @@ export function jsonLdWitryna(opts?: { description?: string }) {
   };
 }
 
-export function jsonLdProdukt(product: Product) {
+export function jsonLdProdukt(
+  product: Product,
+  options?: { freeShippingFrom?: number }
+) {
+  const freeFrom = options?.freeShippingFrom ?? storePolicies.freeShippingFrom;
   const url = absUrl(`/produkt/${product.slug}`);
   const images = [
     ...getProductImageUrls(product),
@@ -391,7 +395,10 @@ export function jsonLdProdukt(product: Product) {
         "@type": "OfferShippingDetails",
         shippingRate: {
           "@type": "MonetaryAmount",
-          value: storePolicies.standardDeliveryFrom,
+          value:
+            freeFrom > 0 && product.price >= freeFrom
+              ? 0
+              : storePolicies.standardDeliveryFrom,
           currency: "PLN",
         },
         shippingDestination: {

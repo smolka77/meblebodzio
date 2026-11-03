@@ -11,7 +11,7 @@
       {
         "id": "zam-2",
         "question": "Czy mogę zmienić lub anulować zamówienie?",
-        "answer": "Zmiana lub anulowanie po stronie sklepu (np. inny kolor, rezygnacja przed produkcją) jest możliwa, jeśli produkcja jeszcze się nie rozpoczęła — zazwyczaj w ciągu 24 godzin od złożenia zamówienia. Napisz na kontakt@wrohaus.pl albo przez formularz kontaktowy i podaj numer zamówienia. To nie jest to samo co ustawowe odstąpienie od umowy: konsument może odstąpić w ciągu 14 dni od otrzymania mebla — szczegóły w Polityce zwrotów."
+        "answer": "Zmiana lub anulowanie po stronie sklepu (np. inny kolor, rezygnacja przed produkcją) jest możliwa, jeśli produkcja jeszcze się nie rozpoczęła — zazwyczaj w ciągu 24 godzin od złożenia zamówienia. Napisz na kontakt@wrohaus.pl albo przez formularz kontaktowy i podaj numer zamówienia. To nie jest to samo co ustawowe odstąpienie od umowy: konsument może odstąpić w ciągu 30 dni od otrzymania mebla — szczegóły w Polityce zwrotów."
       },
       {
         "id": "zam-3",
@@ -27,7 +27,7 @@
       {
         "id": "dos-1",
         "question": "Ile kosztuje dostawa?",
-        "answer": "Dostawa standardowa kosztuje od 249 zł. Koszt zależy od gabarytu produktu i lokalizacji — wyświetlamy go przed finalizacją zamówienia. Możesz też wybrać odbiór z magazynu bez opłaty za transport (Pn–Pt: 6:00–14:00, po umówieniu)."
+        "answer": "Dostawa standardowa kosztuje od 249 zł. Przy zamówieniach od 999 zł dostawa standardowa jest bezpłatna. Koszt zależy od gabarytu produktu i lokalizacji — wyświetlamy go przed finalizacją zamówienia. Możesz też wybrać odbiór z magazynu bez opłaty za transport (Pn–Pt: 6:00–14:00, po umówieniu)."
       },
       {
         "id": "dos-2",
@@ -48,7 +48,7 @@
       {
         "id": "zwr-1",
         "question": "Ile mam czasu na zwrot?",
-        "answer": "Konsument ma 14 dni na odstąpienie od umowy od otrzymania mebla — bez podawania przyczyny. Możesz rozpakować i sprawdzić mebel tak jak w sklepie stacjonarnym. Nie wymagamy oryginalnego opakowania. Jeśli korzystasz z mebla poza tym zakresem, możemy rozliczyć zmniejszenie wartości. Meble na wymiar (art. 38 pkt 3) mogą być wyłączone. Szczegóły: Polityka zwrotów."
+        "answer": "Konsument ma 30 dni na odstąpienie od umowy od otrzymania mebla (ustawowe 14 dni wydłużamy do 30) — bez podawania przyczyny. Możesz rozpakować i sprawdzić mebel tak jak w sklepie stacjonarnym. Nie wymagamy oryginalnego opakowania. Jeśli korzystasz z mebla poza tym zakresem, możemy rozliczyć zmniejszenie wartości. Meble na wymiar (art. 38 pkt 3) mogą być wyłączone. Szczegóły: Polityka zwrotów."
       },
       {
         "id": "zwr-2",

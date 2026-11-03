@@ -7,6 +7,7 @@ import { SeoFields } from "@/components/panel/PolaSeo";
 import { EmailTemplatesPanel } from "@/components/panel/SzablonyMaile";
 import type { Product, ProductCategory, ShopSettings } from "@/lib/typy";
 import { categoryLabels, productCategories } from "@/lib/dane";
+import { storePolicies } from "@/lib/zasadySklepu";
 import {
   SEO_DEFAULT_DESCRIPTION,
   SEO_DEFAULT_KEYWORDS,
@@ -272,6 +273,11 @@ export function AdminSettings() {
                   }
                   className={inputClass}
                 />
+                <p className="mt-1.5 text-xs leading-relaxed text-sand">
+                  Próg liczy się od wartości koszyka po rabacie i obowiązuje w koszyku oraz przy
+                  składaniu zamówienia. Pasek u góry, strona dostawy, regulamin i karta produktu
+                  pokazują go automatycznie — po zmianie sprawdź jeszcze odpowiedź o dostawie w FAQ.
+                </p>
               </div>
               <div>
                 <label className="text-xs text-sand uppercase">Nazwa odbiorcy przelewu</label>
@@ -315,12 +321,17 @@ export function AdminSettings() {
                 <label className="text-xs text-sand uppercase">Dni na zwrot</label>
                 <input
                   type="number"
-                  value={settings.returnsDays}
-                  onChange={(e) =>
-                    setSettings({ ...settings, returnsDays: Number(e.target.value) })
-                  }
-                  className={inputClass}
+                  value={storePolicies.returnsDays}
+                  readOnly
+                  disabled
+                  className={`${inputClass} cursor-not-allowed opacity-60`}
                 />
+                <p className="mt-1.5 text-xs leading-relaxed text-sand">
+                  Termin wynika z polityk sklepu (ustawowe {storePolicies.statutoryReturnsDays} dni
+                  wydłużone do {storePolicies.returnsDays}) i jest wpisany w regulaminie oraz polityce
+                  zwrotów. Zmienisz go w pliku <code>src/lib/zasadySklepu.ts</code> razem z tymi
+                  dokumentami.
+                </p>
               </div>
             </div>
           </section>

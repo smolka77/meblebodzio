@@ -12,7 +12,7 @@ import { storePolicies } from "@/lib/zasadySklepu";
 import { stronaMeta } from "@/lib/seo";
 
 export const metadata = stronaMeta({
-  title: "Gwarancja 2 lata",
+  title: `Gwarancja ${storePolicies.warrantyYearsText}`,
   description: `${storePolicies.warrantyLabel} na meble i wyposażenie domu. Co obejmuje, jak zgłosić reklamację i jak długo trwa naprawa.`,
   path: "/gwarancja",
 });
@@ -65,7 +65,7 @@ export default function WarrantyPage() {
           <div className="flex flex-col items-center text-center">
             <Shield className="h-12 w-12 text-sand" strokeWidth={1} />
             <p className="mt-6 font-serif text-7xl text-charcoal md:text-8xl">
-              {storePolicies.warrantyYears} lata
+              {storePolicies.warrantyYearsText}
             </p>
             <p className="mt-2 text-[11px] tracking-[0.3em] text-sand uppercase">
               Gwarancji sprzedawcy

@@ -24,18 +24,6 @@ export function BandDoradcy() {
             {ADVISOR_BAND.cta.label}
           </Link>
         </div>
-        <svg
-          aria-hidden
-          viewBox="0 0 200 200"
-          className="pointer-events-none absolute -top-10 -right-10 h-72 w-72 text-white/50 sm:h-96 sm:w-96"
-          fill="none"
-          stroke="currentColor"
-          strokeWidth="1"
-        >
-          <circle cx="100" cy="100" r="96" />
-          <circle cx="100" cy="100" r="68" />
-          <circle cx="100" cy="100" r="40" />
-        </svg>
       </div>
     </section>
   );

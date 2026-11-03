@@ -19,7 +19,7 @@ export function Header() {
   const freeShipping = freeShippingText(freeShippingThresholdOf(checkoutSettings));
 
   return (
-    <header className="sticky top-0 z-40 border-b border-line bg-white">
+    <header data-sklep className="sticky top-0 z-40 border-b border-line bg-white">
       <div className="bg-forest text-[12.5px] text-white/85">
         <W className="flex h-[calc(2.25rem*1.3)] items-center justify-between">
           <span>

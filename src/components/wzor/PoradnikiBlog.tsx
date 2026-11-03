@@ -24,7 +24,7 @@ export function PoradnikiBlog({ posts }: { posts: BlogPost[] }) {
     <section className="pw py-16 lg:py-24">
       <div className="mb-8 flex items-end justify-between gap-4 lg:mb-10">
         <div>
-          <p className="text-[13px] font-medium text-meta">Poradniki</p>
+          <p className="text-[14px] font-medium text-meta">Poradniki</p>
           <h2 className="font-display mt-1.5 text-[28px] leading-tight sm:text-[36px]">
             Dziennik dobrych wnętrz
           </h2>
@@ -50,7 +50,7 @@ export function PoradnikiBlog({ posts }: { posts: BlogPost[] }) {
                   className="transition duration-700 group-hover:scale-[1.04]"
                 />
               </div>
-              <div className="mt-4 flex gap-2 text-[13px] text-meta">
+              <div className="mt-4 flex gap-2 text-[14px] text-meta">
                 <span className="font-medium text-ink">{post.category}</span>·
                 <span>{post.readTime} czytania</span>
               </div>

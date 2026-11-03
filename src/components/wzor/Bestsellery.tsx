@@ -36,7 +36,7 @@ export function Bestsellery({ products }: { products: Product[] }) {
     <section className="pw pt-16 lg:pt-24" id="bestsellery">
       <div className="mb-6 flex items-end justify-between gap-4">
         <div>
-          <p className="text-[13px] font-medium text-meta">Najchętniej wybierane</p>
+          <p className="text-[14px] font-medium text-meta">Najchętniej wybierane</p>
           <h2 className="font-display mt-1.5 text-[28px] leading-tight sm:text-[36px]">
             Tu są nasze bestsellery
           </h2>

@@ -17,7 +17,7 @@ export function SekcjaKolekcji({ products }: { products: Product[] }) {
     <section className="pw pt-16 lg:pt-24">
       <div className="mb-8 flex items-end justify-between gap-4 lg:mb-10">
         <div>
-          <p className="text-[13px] font-medium text-meta">Kolekcje</p>
+          <p className="text-[14px] font-medium text-meta">Kolekcje</p>
           <h2 className="font-display mt-1.5 text-[28px] leading-tight sm:text-[36px]">
             Gotowe zestawy: Terra, Aurora i Nest
           </h2>
@@ -42,7 +42,7 @@ export function SekcjaKolekcji({ products }: { products: Product[] }) {
                   sizes="(min-width: 768px) 33vw, 100vw"
                   className="transition duration-[900ms] ease-out group-hover:scale-[1.04]"
                 />
-                <span className="absolute top-4 left-4 rounded-full bg-white px-3 py-1.5 text-[12px] font-semibold tracking-wide uppercase">
+                <span className="absolute top-4 left-4 rounded-full bg-white px-3 py-1.5 text-[13px] font-semibold tracking-wide uppercase">
                   Kolekcja
                 </span>
               </div>
@@ -52,7 +52,7 @@ export function SekcjaKolekcji({ products }: { products: Product[] }) {
                   od {formatPrice(product!.price)}
                 </span>
               </div>
-              <p className="mt-1.5 text-[13.5px] font-medium text-accent">{tagline}</p>
+              <p className="mt-1.5 text-[14.5px] font-medium text-accent">{tagline}</p>
               <p className="mt-2 text-[15px] leading-relaxed text-meta">{description}</p>
               <span className="mt-4 inline-flex items-center gap-2 text-[14.5px] font-semibold">
                 <span className="ulink">Zobacz kolekcję</span>

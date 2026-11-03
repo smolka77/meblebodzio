@@ -60,7 +60,7 @@ export function HeroGlowny({ counts }: { counts: Record<string, number> }) {
           <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-black/10 lg:bg-gradient-to-r lg:from-black/60 lg:via-black/20 lg:to-transparent" />
 
           <div className="absolute inset-x-0 bottom-0 flex flex-col justify-end p-6 pb-16 sm:p-10 sm:pb-16 lg:inset-y-0 lg:max-w-[720px] lg:justify-center lg:p-16 lg:pb-16">
-            <span className="w-fit rounded-full bg-white/15 px-3.5 py-1.5 text-[12.5px] font-medium text-white backdrop-blur-sm">
+            <span className="w-fit rounded-full bg-white/15 px-3.5 py-1.5 text-[14px] font-medium text-white backdrop-blur-sm">
               {HERO.eyebrow}
             </span>
             <h1 className="font-display mt-5 text-[38px] leading-[1.02] tracking-[-0.04em] text-white sm:text-[54px] xl:text-[66px]">
@@ -104,7 +104,7 @@ export function HeroGlowny({ counts }: { counts: Record<string, number> }) {
             </div>
             <Link
               href={active.href}
-              className="hidden items-center gap-2 rounded-md bg-white px-4 py-2.5 text-[13.5px] shadow-sm transition hover:bg-paper sm:flex"
+              className="hidden items-center gap-2 rounded-md bg-white px-4 py-2.5 text-[14.5px] shadow-sm transition hover:bg-paper sm:flex"
             >
               <span className="font-medium">{active.caption}</span>
               <span className="text-meta">· {produktyLabel(counts[active.category] ?? 0)}</span>
@@ -130,7 +130,7 @@ export function HeroGlowny({ counts }: { counts: Record<string, number> }) {
                 </span>
                 <div>
                   <div className="text-[14.5px] font-semibold">{item.title}</div>
-                  <div className="text-[12.5px] text-meta">{item.text}</div>
+                  <div className="text-[14px] text-meta">{item.text}</div>
                 </div>
               </li>
             );

@@ -84,7 +84,7 @@ export function ColorFabricOverlay({
       aria-label={`${t("product.fabricConfigurator")} — ${name}`}
     >
       <div
-        className="relative flex h-[96dvh] w-full max-w-5xl flex-col overflow-hidden rounded-t-2xl bg-cream shadow-2xl sm:h-auto sm:max-h-[min(calc(90dvh_/_var(--ui-zoom)),820px)] sm:rounded-2xl lg:flex-row"
+        className="relative flex h-[96dvh] w-full max-w-5xl flex-col overflow-hidden rounded-t-2xl bg-cream shadow-2xl sm:h-auto sm:max-h-[min(90dvh,820px)] sm:rounded-2xl lg:flex-row"
         onClick={(e) => e.stopPropagation()}
       >
         <button
@@ -98,7 +98,7 @@ export function ColorFabricOverlay({
 
         {/* Preview — compact on phone so the description has room; full column on desktop */}
         <div className="relative shrink-0 lg:w-[52%] lg:self-stretch">
-          <div className="relative h-[min(32dvh,240px)] w-full overflow-hidden bg-cream-light sm:h-auto sm:aspect-[5/6] sm:max-h-[min(calc(48dvh_/_var(--ui-zoom)),520px)] lg:h-full lg:max-h-none lg:min-h-[min(calc(90dvh_/_var(--ui-zoom)),820px)] lg:aspect-auto">
+          <div className="relative h-[min(32dvh,240px)] w-full overflow-hidden bg-cream-light sm:h-auto sm:aspect-[5/6] sm:max-h-[min(48dvh,520px)] lg:h-full lg:max-h-none lg:min-h-[min(90dvh,820px)] lg:aspect-auto">
             <FabricCloseup
               src={closeup}
               hex={preview.hex}

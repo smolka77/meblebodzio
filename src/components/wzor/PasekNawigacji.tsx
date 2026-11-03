@@ -350,7 +350,7 @@ export function ShopNav({
                   {mobileGroup === item.label
                     ? item.groups.map((grupa) => (
                         <div key={grupa.title} className="pb-3">
-                          <p className="px-1 pb-1 text-[13px] font-semibold text-black/50">{grupa.title}</p>
+                          <p className="px-1 pb-1 text-[14px] font-semibold text-black/50">{grupa.title}</p>
                           {grupa.cards.map((card) => (
                             <Link
                               key={`${grupa.title}-${card.label}`}

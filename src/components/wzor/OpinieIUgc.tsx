@@ -32,7 +32,7 @@ export function OpinieIUgc({
       <div className="pw">
         <div className="grid gap-10 lg:grid-cols-[300px_1fr] lg:gap-16">
           <div>
-            <p className="text-[13px] font-medium text-meta">Opinie klientów</p>
+            <p className="text-[14px] font-medium text-meta">Opinie klientów</p>
             <div className="mt-2 flex items-baseline gap-3">
               <span className="font-display text-[56px] leading-none tracking-[-0.05em]">
                 {REVIEW_SUMMARY.average}
@@ -48,7 +48,7 @@ export function OpinieIUgc({
             </p>
             <ul className="mt-6 space-y-2" aria-label="Rozkład ocen">
               {REVIEW_SUMMARY.distribution.map((row) => (
-                <li key={row.stars} className="flex items-center gap-3 text-[13px]">
+                <li key={row.stars} className="flex items-center gap-3 text-[14px]">
                   <span className="w-3 text-right tabular-nums">{row.stars}</span>
                   <span className="h-2 flex-1 overflow-hidden rounded-full bg-paper">
                     <span
@@ -70,17 +70,17 @@ export function OpinieIUgc({
               >
                 <div className="flex items-center justify-between gap-2">
                   <Stars count={review.rating} className="h-3.5 w-3.5" />
-                  <span className="text-[12px] text-meta">{review.product}</span>
+                  <span className="text-[13px] text-meta">{review.product}</span>
                 </div>
                 <blockquote className="mt-3 flex-1 text-[15px] leading-relaxed">
                   „{review.text}”
                 </blockquote>
-                <div className="mt-4 flex items-center justify-between gap-2 text-[13px]">
+                <div className="mt-4 flex items-center justify-between gap-2 text-[14px]">
                   <span>
                     <b className="font-semibold">{review.author}</b>{" "}
                     <span className="text-meta">· {review.city}</span>
                   </span>
-                  <span className="inline-flex items-center gap-1 text-[12px] text-emerald-800">
+                  <span className="inline-flex items-center gap-1 text-[13px] text-emerald-800">
                     <I.Check className="h-3.5 w-3.5" />
                     Zweryfikowany zakup
                   </span>
@@ -94,7 +94,7 @@ export function OpinieIUgc({
           <div className="mt-14 lg:mt-20">
             <div className="mb-6 flex items-end justify-between gap-4">
               <div>
-                <p className="text-[13px] font-medium text-meta">Wasze wnętrza</p>
+                <p className="text-[14px] font-medium text-meta">Wasze wnętrza</p>
                 <h3 className="font-display mt-1.5 text-[24px] leading-tight sm:text-[30px]">
                   Zobacz, jak mieszkają nasi klienci
                 </h3>
@@ -127,10 +127,10 @@ export function OpinieIUgc({
                     />
                     <div className="absolute inset-x-0 bottom-0 h-2/5 bg-gradient-to-t from-black/65 to-transparent" />
                     <div className="absolute right-2.5 bottom-2.5 left-2.5 text-white">
-                      <div className="text-[12px] text-white/85">
+                      <div className="text-[13px] text-white/85">
                         {author} · {city}
                       </div>
-                      <div className="mt-1 flex items-center justify-between gap-2 rounded bg-white px-2.5 py-1.5 text-[12px] font-semibold text-ink">
+                      <div className="mt-1 flex items-center justify-between gap-2 rounded bg-white px-2.5 py-1.5 text-[13px] font-semibold text-ink">
                         <span className="truncate">{product!.name}</span>
                         <span className="shrink-0">{formatPrice(product!.price)}</span>
                       </div>

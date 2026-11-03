@@ -19,8 +19,8 @@ export function Header() {
   const freeShipping = freeShippingText(freeShippingThresholdOf(checkoutSettings));
 
   return (
-    <header data-sklep className="sticky top-0 z-40 border-b border-line bg-white">
-      <div className="bg-forest text-[12.5px] text-white/85">
+    <header className="sticky top-0 z-40 border-b border-line bg-white">
+      <div className="bg-forest text-[14px] text-white/85">
         <W className="flex h-[calc(2.25rem*1.3)] items-center justify-between">
           <span>
             {freeShipping ? `${freeShipping} · ` : ""}
@@ -45,13 +45,13 @@ export function Header() {
           <button className="p-1.5 lg:hidden" aria-label="Szukaj" type="button" onClick={() => setSearchOpen((v) => !v)}>
             <I.Search className="h-6 w-6" />
           </button>
-          <Link href="/konto" className="hidden flex-col items-center gap-1 px-2 text-[13px] font-semibold transition hover:text-accent sm:flex">
+          <Link href="/konto" className="hidden flex-col items-center gap-1 px-2 text-[15px] font-semibold transition hover:text-accent sm:flex">
             <I.User className="h-[26px] w-[26px]" />Konto
           </Link>
-          <Link href="/konto" className="hidden flex-col items-center gap-1 px-2 text-[13px] font-semibold transition hover:text-accent sm:flex">
+          <Link href="/konto" className="hidden flex-col items-center gap-1 px-2 text-[15px] font-semibold transition hover:text-accent sm:flex">
             <I.Heart className="h-[26px] w-[26px]" />Ulubione
           </Link>
-          <Link href="/koszyk" className="relative flex flex-col items-center gap-1 px-2 text-[13px] font-semibold transition hover:text-accent" aria-label="Koszyk">
+          <Link href="/koszyk" className="relative flex flex-col items-center gap-1 px-2 text-[15px] font-semibold transition hover:text-accent" aria-label="Koszyk">
             <I.Bag className="h-[26px] w-[26px]" />
             <span className="hidden sm:block">Koszyk</span>
             {cartCount > 0 && (

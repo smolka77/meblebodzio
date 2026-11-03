@@ -113,7 +113,7 @@ export function ProductCard({
           />
         </Link>
         {badge && (
-          <span className="absolute top-3 left-3 rounded-full border border-ink/80 bg-white px-2.5 py-1 text-[12px] leading-none font-medium text-ink">
+          <span className="absolute top-3 left-3 rounded-full border border-ink/80 bg-white px-2.5 py-1 text-[13px] leading-none font-medium text-ink">
             {badge}
           </span>
         )}
@@ -126,7 +126,7 @@ export function ProductCard({
           {displayName}
         </Link>
         {product.description ? (
-          <p className="mt-1 line-clamp-2 text-[13.5px] leading-snug text-ink">
+          <p className="mt-1 line-clamp-2 text-[14.5px] leading-snug text-ink">
             {product.description}
           </p>
         ) : null}
@@ -136,7 +136,7 @@ export function ProductCard({
           count={product.reviewCount}
           size={15}
           color="#f5c518"
-          className="mt-2 flex flex-nowrap items-center gap-1.5 text-[13.5px] text-ink"
+          className="mt-2 flex flex-nowrap items-center gap-1.5 text-[14.5px] text-ink"
         />
         <div className="mt-1.5 flex items-baseline gap-2">
           <span className="text-[26px] leading-none font-bold tracking-[-0.03em] text-ink">
@@ -149,14 +149,14 @@ export function ProductCard({
           ) : null}
         </div>
         {showOmnibus ? (
-          <p className="mt-1 text-[12px] leading-snug text-ink/80">
+          <p className="mt-1 text-[13px] leading-snug text-ink/80">
             Najniższa cena z 30 dni przed obniżką {formatPrice(product.lowestPrice30Days!)}
           </p>
         ) : null}
         <p className="mt-1 text-[14px] font-semibold text-ink">
           {formatPrice(installment)} x 20 rat 0%
         </p>
-        <p className="mt-2 flex flex-wrap items-center gap-x-2 gap-y-0.5 text-[13px] font-semibold text-ink">
+        <p className="mt-2 flex flex-wrap items-center gap-x-2 gap-y-0.5 text-[14px] font-semibold text-ink">
           <span
             aria-hidden
             className={`h-2 w-2 shrink-0 rounded-full ${purchasable ? AVAILABILITY_DOT[availability.tone] : "bg-ink/20"}`}
@@ -177,7 +177,7 @@ export function ProductCard({
               />
             ))}
             {moreSwatches > 0 ? (
-              <li className="text-[12px] text-meta">+{moreSwatches}</li>
+              <li className="text-[13px] text-meta">+{moreSwatches}</li>
             ) : null}
           </ul>
         ) : null}

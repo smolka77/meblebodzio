@@ -341,7 +341,7 @@ export function PodgladWPokoju({
                 setPlace((p) => ({ ...p, w: clamp(p.w * (event.deltaY < 0 ? 1.05 : 0.95), 8, 100) }))
               }
               className="relative mx-auto touch-none overflow-hidden rounded-md bg-black"
-              style={{ aspectRatio: ratio, width: `min(100%, calc(${(66 * ratio).toFixed(2)}vh / var(--ui-zoom, 1)))` }}
+              style={{ aspectRatio: ratio, width: `min(100%, ${(66 * ratio).toFixed(2)}vh)` }}
             >
               {bg.kind === "photo" ? (
                 // eslint-disable-next-line @next/next/no-img-element

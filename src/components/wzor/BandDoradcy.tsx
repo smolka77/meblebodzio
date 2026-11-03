@@ -8,7 +8,7 @@ export function BandDoradcy() {
       <div className="relative overflow-hidden rounded-md bg-paper px-6 py-10 sm:px-12 sm:py-14 lg:px-16">
         <div className="relative z-10 grid items-center gap-8 lg:grid-cols-[1fr_auto]">
           <div className="max-w-2xl">
-            <p className="flex items-center gap-2 text-[13px] font-medium text-accent">
+            <p className="flex items-center gap-2 text-[14px] font-medium text-accent">
               <I.Sparkle className="h-4 w-4" />
               {ADVISOR_BAND.eyebrow}
             </p>

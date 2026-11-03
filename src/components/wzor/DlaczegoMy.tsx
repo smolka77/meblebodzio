@@ -26,7 +26,7 @@ export function DlaczegoMy() {
                 sizes="(min-width: 1024px) 45vw, 100vw"
               />
             </div>
-            <div className="absolute -bottom-6 right-5 grid h-[116px] w-[116px] rotate-[-8deg] place-items-center rounded-full bg-accent text-center text-[12.5px] leading-tight font-medium text-white shadow-lg lg:-right-6">
+            <div className="absolute -bottom-6 right-5 grid h-[116px] w-[116px] rotate-[-8deg] place-items-center rounded-full bg-accent text-center text-[14px] leading-tight font-medium text-white shadow-lg lg:-right-6">
               Projekt
               <br />i jakość
               <br />
@@ -34,7 +34,7 @@ export function DlaczegoMy() {
             </div>
           </div>
           <div>
-            <p className="text-[13px] font-medium text-sage">{WHY_US.eyebrow}</p>
+            <p className="text-[14px] font-medium text-sage">{WHY_US.eyebrow}</p>
             <h2 className="font-display mt-3 text-[30px] leading-[1.05] tracking-[-0.035em] sm:text-[40px]">
               {WHY_US.title}
             </h2>
@@ -49,7 +49,7 @@ export function DlaczegoMy() {
                       {item.value}
                     </div>
                     <div className="mt-1.5 text-[14px] font-medium">{item.label}</div>
-                    <div className="mt-0.5 text-[12.5px] text-white/65">{item.text}</div>
+                    <div className="mt-0.5 text-[14px] text-white/65">{item.text}</div>
                   </li>
                 );
               })}

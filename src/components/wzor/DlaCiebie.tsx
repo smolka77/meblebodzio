@@ -42,7 +42,7 @@ export function DlaCiebie({ products }: { products: Product[] }) {
     <section className="pw pt-16 lg:pt-24" aria-label="Wybrane dla Ciebie">
       <div className="mb-8 flex items-end justify-between gap-4">
         <div>
-          <p className="flex items-center gap-1.5 text-[13px] font-medium text-accent">
+          <p className="flex items-center gap-1.5 text-[14px] font-medium text-accent">
             <I.Sparkle className="h-4 w-4" />
             Dopasowane do Ciebie
           </p>
@@ -56,7 +56,7 @@ export function DlaCiebie({ products }: { products: Product[] }) {
         <button
           type="button"
           onClick={clearProfile}
-          className="ulink hidden shrink-0 text-[13.5px] font-medium sm:block"
+          className="ulink hidden shrink-0 text-[14.5px] font-medium sm:block"
         >
           Wyczyść historię
         </button>
@@ -86,8 +86,8 @@ export function DlaCiebie({ products }: { products: Product[] }) {
                       className="transition duration-500 group-hover:scale-[1.05]"
                     />
                   </div>
-                  <div className="mt-2 truncate text-[13.5px] font-medium">{product.name}</div>
-                  <div className="text-[13px] text-meta">{formatPrice(product.price)}</div>
+                  <div className="mt-2 truncate text-[14.5px] font-medium">{product.name}</div>
+                  <div className="text-[14px] text-meta">{formatPrice(product.price)}</div>
                 </Link>
               </li>
             ))}

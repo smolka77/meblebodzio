@@ -58,7 +58,7 @@ export function Footer(_props?: { hideAbout?: boolean }) {
         <div className="absolute top-0 right-0 hidden h-full w-[38%] bg-gradient-to-r from-forest-2 via-forest-2/40 to-transparent lg:block" />
         <W className="relative py-14 lg:py-20">
           <div className="max-w-[720px]">
-            <span className="inline-flex h-8 items-center gap-2 rounded-full bg-accent px-3.5 text-[13px] font-semibold text-white">−10% na start</span>
+            <span className="inline-flex h-8 items-center gap-2 rounded-full bg-accent px-3.5 text-[14px] font-semibold text-white">−10% na start</span>
             <h3 className="font-display mt-5 text-[34px] leading-[1.02] tracking-[-0.04em] sm:text-[48px] xl:text-[56px]">Dołącz do nas i zgarnij −10% na pierwsze zakupy</h3>
             <p className="mt-4 max-w-lg text-[16px] text-white/80">Raz w tygodniu: nowe kolekcje, inspiracje i promocje tylko dla subskrybentów. Bez spamu.</p>
             {done ? (
@@ -71,7 +71,7 @@ export function Footer(_props?: { hideAbout?: boolean }) {
                 <button className="h-14 rounded-full bg-accent px-8 text-[16px] font-semibold text-white transition hover:bg-accent-dark">Odbierz rabat</button>
               </form>
             )}
-            <div className="mt-3 text-[12.5px] text-white/60">Zapisując się, akceptujesz politykę prywatności. Wypiszesz się jednym kliknięciem.</div>
+            <div className="mt-3 text-[14px] text-white/60">Zapisując się, akceptujesz politykę prywatności. Wypiszesz się jednym kliknięciem.</div>
           </div>
         </W>
       </div>
@@ -83,7 +83,7 @@ export function Footer(_props?: { hideAbout?: boolean }) {
               <span className="grid h-12 w-12 shrink-0 place-items-center rounded-full bg-white/10"><Icon className="h-5 w-5" /></span>
               <div>
                 <div className="text-[16px] font-semibold">{String(t)}</div>
-                <div className="text-[13px] text-white/70">{String(s)}</div>
+                <div className="text-[14px] text-white/70">{String(s)}</div>
               </div>
             </div>
           );
@@ -95,7 +95,7 @@ export function Footer(_props?: { hideAbout?: boolean }) {
           <p className="mt-3 text-white/70">Meble projektowane we Wrocławiu i produkowane w Polsce. Dostarczamy z wniesieniem w całym kraju.</p>
           <div className="mt-5 flex gap-2.5">
             {["IG", "FB", "PIN", "YT", "TT"].map((x) => (
-              <span key={x} className="grid h-10 w-10 place-items-center rounded-full border border-white/25 text-[11.5px] font-semibold">{x}</span>
+              <span key={x} className="grid h-10 w-10 place-items-center rounded-full border border-white/25 text-[12.5px] font-semibold">{x}</span>
             ))}
           </div>
         </div>
@@ -110,7 +110,7 @@ export function Footer(_props?: { hideAbout?: boolean }) {
           </div>
         ))}
       </W>
-      <W className="flex flex-col justify-between gap-4 border-t border-white/15 py-6 text-[12.5px] lg:flex-row lg:items-center">
+      <W className="flex flex-col justify-between gap-4 border-t border-white/15 py-6 text-[14px] lg:flex-row lg:items-center">
         <div className="flex flex-wrap items-center gap-2">
           <span className="mr-1 text-white/60">Płatności:</span>
           {["BLIK", "Visa", "Mastercard", "Przelewy24", "PayPo", "Raty 0%"].map((x) => (

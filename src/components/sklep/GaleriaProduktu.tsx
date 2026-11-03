@@ -426,7 +426,7 @@ function ProductPhotoLightbox({
       />
       <div
         ref={stageRef}
-        className="relative z-10 mx-auto h-[calc(78dvh/var(--ui-zoom))] w-[min(calc(96vw/var(--ui-zoom)),1400px)] touch-none overflow-hidden sm:h-[calc(84dvh/var(--ui-zoom))]"
+        className="relative z-10 mx-auto h-[78dvh] w-[min(96vw,1400px)] touch-none overflow-hidden sm:h-[84dvh]"
         onClick={(e) => e.stopPropagation()}
         onPointerDown={(e) => e.stopPropagation()}
       >

@@ -9,7 +9,7 @@ export function KafleKategorii({ counts }: { counts: Record<string, number> }) {
     <section className="pw pt-16 lg:pt-24">
       <div className="mb-8 flex items-end justify-between gap-4 lg:mb-10">
         <div>
-          <p className="text-[13px] font-medium text-meta">Kategorie</p>
+          <p className="text-[14px] font-medium text-meta">Kategorie</p>
           <h2 className="font-display mt-1.5 text-[28px] leading-tight sm:text-[36px]">
             Wybierz, co chcesz urządzić
           </h2>
@@ -48,7 +48,7 @@ export function KafleKategorii({ counts }: { counts: Record<string, number> }) {
                     <div className="text-[18px] leading-tight font-semibold tracking-[-0.02em] sm:text-[22px]">
                       {tile.label}
                     </div>
-                    <div className="mt-0.5 text-[12.5px] text-white/80 sm:text-[13.5px]">
+                    <div className="mt-0.5 text-[14px] text-white/80 sm:text-[14.5px]">
                       {produktyLabel(total)}
                     </div>
                   </div>

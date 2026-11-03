@@ -6,9 +6,9 @@ export function DlaczegoMy() {
   return (
     <section className="bg-forest py-16 text-white lg:py-24">
       <div className="pw">
-        <div className="grid items-center gap-10 lg:grid-cols-[0.7fr_1.3fr] lg:gap-16">
+        <div className="grid items-center gap-10 lg:grid-cols-[0.9fr_1.1fr] lg:gap-16">
           <div className="relative">
-            <div className="relative aspect-[4/3] overflow-hidden rounded-md">
+            <div className="relative aspect-[16/10] overflow-hidden rounded-md">
               <StoreImage
                 src={WHY_US.image}
                 alt={WHY_US.imageAlt}
@@ -29,10 +29,10 @@ export function DlaczegoMy() {
               {WHY_US.title}
             </h2>
             <p className="mt-5 max-w-xl text-[16px] leading-relaxed text-white/85">{WHY_US.text}</p>
-            <ul className="mt-9 grid grid-cols-2 gap-x-8 gap-y-12 sm:grid-cols-3">
+            <ul className="mt-9 grid grid-cols-2 gap-x-5 gap-y-0 sm:grid-cols-3">
               {WHY_US.items.map((item) => {
                 return (
-                  <li key={item.label} className="border-t border-white/20 pt-7">
+                  <li key={item.label} className="border-t border-white/20 py-7">
                     <div className="text-[30px] leading-none font-semibold tracking-[-0.04em]">
                       {item.value}
                     </div>
